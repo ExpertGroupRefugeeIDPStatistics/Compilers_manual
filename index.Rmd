@@ -1,9 +1,158 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "Compilers-Manual-EGRIS"
+author: "Expert Group on Refugee and IDP Statistics (EGRIS)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+International Coordination
+==========================
 
+Mainstreaming Displacement Statistics
+------------------------------------------
+
+### Introduction {#introduction .ListParagraph}
+
+11. The numbers of refugees, asylum seekers and internally displaced
+    persons (IDPs) have increased rapidly in recent years. Moreover,
+    almost every country in the world is affected by forced displacement
+    either as a source, point of transit, or host of refugees, asylum
+    seekers or IDPs, making forced displacement a global phenomenon.
+    However, developing countries are disproportionately affected by
+    forced displacement, and there is a growing consensus that greater
+    international cooperation is required to assist host countries and
+    affected host communities.
+
+12. This manual is concerned with forced displacement, people who are
+    forcibly displaced from their homes either by disaster or by
+    conflict. These displaced people include those who cross an
+    international border (refugees and related populations covered by
+    the IRRS), and those who remain in the country from which they were
+    displaced (Internally Displaced Persons covered by IRIS). Recent
+    global estimates suggest that the majority of displaced people are
+    displaced within the borders of their own countries (IDMC 2019).
+
+13. The scale of the problem is growing, although it is difficult to
+    obtain a global estimate for all types of displaced people as the
+    mandates of the various international agencies providing estimates
+    do not cover the universe of displaced people. The Institute of
+    Migration tells us that "*by the end of 2017, 68.5 million
+    individuals were forcibly displaced worldwide due to persecution,
+    conflict, generalized violence and human rights violations. This is
+    almost double the number of forcibly displaced people recorded in
+    1997*[^1]*.* The IoM goes on to say that "*By the end of 2017, the
+    world was hosting 25.4 million refugees. During 2017 alone, some 2.7
+    million people became newly displaced to another country, double the
+    amount in 2016".*
+
+14. Using another more recent source for internal displacements, rather
+    than for refugees seeking protection in another country, the
+    Internal Displacement Monitoring Centre estimated that in 2018
+    "*there were 28 million new internal displacements associated with
+    conflict and disasters across 148 countries and territories were
+    recorded in 2018, with nine countries each accounting for more than
+    a million".* It should be noted that there were more displacements
+    associated with natural disasters (17.2 million), than with conflict
+    (10.8 million).
+
+15. Forced displacement has gained prominence on the international
+    agenda. The New York Declaration for Refugees and Migrants, adopted
+    by the United Nations General Assembly on 19 September 2016,
+    recognizes the unprecedented level of human mobility and
+    acknowledges the shared responsibility to manage large movements of
+    refugees and migrants through international cooperation (United
+    Nations, 2016). It also reaffirms the intention of Member States to
+    realize the full potential of the 2030 Agenda for Sustainable
+    Development for refugees and migrants. Specifically, under the
+    Sustainable Development Goal 10 to reduce inequality within and
+    between countries, a key target is "to facilitate the orderly, safe,
+    regular and responsible migration and mobility of people, including
+    through the implementation of planned and well-managed migration
+    policies." The New York Declaration for Refugees and Migrants
+    explicitly recognizes the needs of refugees, IDPs and migrants in
+    the pursuit of this target.
+
+16. With the growing prominence of forced displacement internationally,
+    there is increasing interest at national and international levels in
+    statistics on refugees, asylum seekers, IDPs and refugee related
+    populations, including complete, accurate, timely and
+    internationally comparable estimates of the numbers of people
+    displaced. Estimates of these populations are increasingly relevant
+    for official statistics, which need to take account of forcibly
+    displaced populations in a consistent manner. Incomplete or
+    inadequate statistics on displaced populations undermine the
+    estimation of population stocks, which in turn affects other
+    statistics, particularly those measured in per capita terms.
+
+17. Much of the available data on refugees and IDPs is not generated as
+    official statistics produced by the statistical systems of national
+    governments but arise from operational data that is collected by a
+    variety of actors in response to a national emergency. This is data
+    collected for the purpose of supporting displaced people, rather
+    than for statistical purposes. Displacement contexts can pose
+    specific challenges to NSOs, as collecting data during conflict or
+    disaster can be challenging and impose obstacles which go beyond the
+    usual planning for a new statistical series.
+
+18. Given this, particular attention should be paid to coordination
+    between the various partners operating in a country and national
+    authorities. In emergency situations some humanitarian data is
+    processed by international partners to become international
+    estimates and, these estimates need to conform with the standards
+    set for official statistics in order to be recognised as
+    international statistics. Therefore, at the international level, a
+    distinction should also be made between global estimates such as
+    those published by the Internal Displacement Monitoring Centre,
+    which draw on various statistics and data sources, and any
+    international statistics which are produced in line with
+    recommendations in the IRRS/IRIS, in accordance the quality
+    standards set for UN and other international agencies , or published
+    by any future custodian of IDP and refugee statistics.
+
+19. The Inter-Agency and Expert Group on SDG Indicators accepted the
+    proposal of EGRIS members to recommend disaggregation by forced
+    displacement categories for 12 priority SDG indicators, as well as
+    further broken down by age and sex whenever possible.[^2] In order
+    to ensure availability of minimum quality statistics on refugees and
+    IDPs, it is recommended that national statistics providers include
+    statistics on these priority indicators in the reporting plans for
+    the 2030 Agenda.
+
+Coordination of International Partners
+-------------------------------------------
+
+20. Some statistical series, particularly those used for monitoring the
+    achievement of the SDGs, have been allocated an international
+    custodian agency[^3], usually a UN agency. This custodian agency,
+    promotes adherence to international statistical principles for the
+    thematic area under its control; it collects and publishes national
+    official statistics and potentially anonymised micro-data; and
+    provides technical support and capacity-building to NSOs and/or
+    other national bodies responsible for the production of official
+    statistics as part of the NSS.
+
+21. While UNHCR is generally accepted as the custodian agency for
+    refugee statistics, the IRIS does not make recommendations on a
+    specific custodian, although it outlines the role and
+    responsibilities of any future custodian. It envisages that a
+    custodian for IDP statistics could be appointed in the future to
+    compiling international IDP statistics through a questionnaire,
+    follow-up, validation, global publication and re-assessment of data
+    collection processes.
+
+22. International coordination is important to prevent duplication, fill
+    existing gaps, and to develop national capacity.
+
+###### Phase References and Links
+
+-   Principles Governing International Statistical Activities:
+    <https://unstats.un.org/unsd/accsub-public/principles_stat_activities.htm>
+
+UN Quality standards for international statistics:
+<https://unstats.un.org/unsd/unsystem/Documents-March2017/UNSystem-2017-3-QAF.pdf>
+
+[^1]: https://publications.iom.int/system/files/pdf/gmdacbulletins.pdf
+
+[^2]: [[https://unstats.un.org/sdgs/iaeg-sdgs/disaggregation/]{.underline}](https://unstats.un.org/sdgs/iaeg-sdgs/disaggregation/)
+
+[^3]: https://unstats.un.org/sdgs/iaeg-sdgs/tier-classification/

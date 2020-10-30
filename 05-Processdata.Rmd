@@ -1,0 +1,344 @@
+Process data
+============
+
+"This phase describes the cleaning of data and their preparation for
+analysis. It is made up of sub-processes that check, clean, and
+transform input data, so that they can be analysed and disseminated as
+statistical outputs. It may be repeated several times if necessary. For
+statistical outputs produced regularly, this phase occurs in each
+iteration. The sub-processes in this phase can apply to data from both
+statistical and non-statistical sources (with the possible exception of
+sub-process 5.6 (Calculate weights), which is usually specific to survey
+data)". (UNECE, 2013)
+
+369. This section of the Compilers' Manual will cover using the data
+    from various sources and will in particular focus on processes for
+    integrating and cleaning data from all four data sources.
+
+370. This is the main step for preparing data for analysis. It is the
+    step for describing the data and determining the type of variable;
+    Numeric or string, length of the variable to cover the categories.
+    Moreover, we need to check, clean and code the data, and check the
+    consistency between variables. Then after this data is created to
+    calculate the weights, if the data is derived from a survey. The
+    steps would include;
+
+Integrate data
+-------------------
+
+371. **In developing variables for use in the analysis of data, it will
+    often prove necessary to recode and classify raw data in order to
+    derive the variables which are required for analysis. Or to merge
+    data from other relevant data sources. Data Integration is discussed
+    in detail in Phase 2,** Data Source D: Integrated Data**. Readers
+    should refer to this section for more information.**
+
+Classify and Code
+---------------------
+
+372. Classification and coding should be carried in accordance with the
+    classifications and variable descriptions described in Phase 2.2.
+    *Design variable descriptions*.
+
+#### Example: Classifying and Recoding Administrative Data - German Federal Statistical Office
+
+373. This example describes recoding data to produce statistics on
+    refugees in accordance to the IRRS. Since 2017 the German Federal
+    Statistical Office compiles statistics on foreigners seeking
+    humanitarian protection based on the Central Register on Foreigners
+    (CRF). In light of the unprecedented inflow of asylum seekers
+    between 2014 and 2016, the Federal Statistical Office explored the
+    feasibility of complementing existing statistics on the inflow of
+    asylum seekers with figures about the stock of foreigners living in
+    Germany for humanitarian reasons. The approach relies mainly on
+    administrative residence permit data obtained from the CRF. In
+    general, administrative residence status data allows for taking a
+    comprehensive view on humanitarian immigration that not only
+    includes foreigners with a granted protection status, but also those
+    with an asylum application still pending, as well as foreigners who
+    remain in the host country after having been denied protection.
+    Thereby, administrative data allows for producing official
+    statistics that follow the International Recommendations for Refugee
+    Statistics (IRRS) that were adopted by the United Nations
+    Statistical Commission in March 2018.
+
+374. A necessary first step is to understand the scope of the
+    administrative data at hand. In Germany, the CRF is the central
+    database for all authorities responsible for administrative
+    procedures concerning foreigners. It contains basic personal
+    information on foreigners from EU member countries; additional
+    information on legal residence status for foreigners from Non-EU
+    countries; and even more detailed information (e.g. on educational
+    background and language skills) on foreigners seeking asylum in
+    Germany. Most importantly for classifying refugees and people in
+    refugee like situations, the CRF centrally collects all information
+    concerning foreigners' legal residence status (e.g. current
+    residence permit) that is locally produced by immigration offices.
+    As an important limitation, the register only covers foreigners.
+    Once a person receives German citizenship, s/he is immediately
+    deleted from the register. Hence, second generation and former
+    refugees who acquired German citizenship cannot be identified with
+    the data at hand.
+
+375. In many countries, including Germany, residence and asylum law is
+    excessively complex. When classifying foreigners seeking protection,
+    numerous types of residence permits, and a wide range of additional
+    legal statuses must be considered. Accordingly, filtering and
+    structuring the relevant legal information that reliably identify
+    the target population is key in compiling statistics on refugees and
+    people in refugee like situations from administrative data. The data
+    usually does not come in a form that is ready for use for
+    statistical purposes. Before foreigners seeking protection can be
+    identified in the data, the various variables related to the legal
+    residence status must be consolidated. In this process the relevant
+    legal status for each person in the register is determined. For
+    instance, consider a Croatian citizen who fled persecution during
+    the war for independence from Yugoslavia in the early 1990s.
+    Further, imagine this person receives a permanent humanitarian
+    residence permit in Germany. Even three decades later, this
+    residence permit is still valid and recorded in the register.
+    However, it is no longer relevant for this person, since Croatia
+    became a member of the European Union in 2013 and meanwhile Croatian
+    citizens enjoy the right of free movement in Germany.
+
+Figure 5.1: Statistics on foreigners seeking protection
+
+![A screenshot of a cell phone Description automatically
+generated](media/image1.png){width="6.230555555555555in"
+height="2.099229002624672in"}
+
+376. Building upon the consolidated legal residence status, the target
+    population can be classified. People seeking humanitarian protection
+    constitute a sub-group of the foreign population who specifically
+    refer to humanitarian reasons for their current stay in Germany.
+    This population in turn consists of three distinct sub-groups that
+    are distinguished by whether their request for humanitarian
+    protection is yet unsettled, granted or denied.
+
+377. A foreigner's purpose of residence is inferred from his/her legal
+    residence status. One necessary precondition for identifying
+    foreigners with a granted protection status is that residence
+    permits reveal the underlying purpose of residence. In Germany,
+    information on the purpose of residence can be deduced from a
+    foreigner's current residence permit since in 2005 the German
+    Residence Act became effective. Since then residence permits
+    distinguish between residence either for educational purposes, for
+    the purpose of economic activity, for family reasons or based on
+    humanitarian grounds. Residence permits based on humanitarian
+    grounds can either be temporary or permanent.
+
+378. Besides foreigners already holding a humanitarian residence permit,
+    asylum-seekers residing in Germany who intend acquiring a
+    humanitarian residence permit also belong to the stock of foreigners
+    seeking protection. Foreigners with an unsettled protection status
+    have either expressed a request for asylum towards German
+    authorities (e.g. police or immigration office) or they already
+    filed an asylum application at the Federal Office for Migration and
+    Refugees.
+
+379. Foreigners whose asylum applications were denied but who still
+    reside in Germany constitute the third final sub-group of foreigners
+    whose request for humanitarian protection has been denied. The
+    sub-group of foreigners with a denied protection status also
+    includes foreigners who previously held a temporary humanitarian
+    residence permit that was either not prolonged, renounced or
+    withdrawn. All foreigners belonging to this category are legally
+    obliged to leave the country. However, in many cases this obligation
+    cannot be enforced due to practical (e.g. missing passports) or
+    legal (e.g. family ties) reasons leading to prolonged durations of
+    stay in this status.
+
+Figure 5.2: Statistics on foreigners seeking protection
+
+![A screenshot of a cell phone Description automatically
+generated](media/image2.png){width="6.450295275590551in"
+height="3.9381944444444446in"}
+
+380. By including granted and unsettled cases, the outlined concept
+    follows the IRRS. However, the definition of foreigners seeking
+    protection deviates from the IRRS in one aspect: The group of
+    foreigners with a denied protection status does not include persons
+    who entered on tourist, student or work visa but who have
+    nonetheless fled persecution, war or violence in their home
+    countries (IRRS 2018: pp. 26-29). This group cannot be identified in
+    the administrative data at hand.
+
+381. Also see, **UNECE-Eurostat Work Session on Migration Statistics
+    October 2018**:
+    <https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.10/2018/mtg1/DEU_Asylum_ENG.pdf>
+
+Review and validate
+-----------------------
+
+382. This would include reviewing the data and assessing its quality,
+    including checking for consistency, outliers and missing values (see
+    also Phase 6.2 paragraph 462).
+
+#### Example: HoloClean project
+
+383. "HoloClean is a statistical inference engine to impute, clean, and
+    enrich data. As a weakly supervised machine learning system,
+    HoloClean leverages available quality rules, value correlations,
+    reference data, and multiple other signals to build a probabilistic
+    model that accurately captures the data generation process and uses
+    the model in a variety of data curation tasks. HoloClean allows data
+    practitioners and scientists to save the enormous time they spend in
+    building piecemeal cleaning solutions, and instead, effectively
+    communicate their domain knowledge in a declarative way to enable
+    accurate analytics, predictions, and insights from noisy,
+    incomplete, and erroneous data." Further information is to be found
+    at this [Link](http://www.holoclean.io/).
+
+#### Example: JIPS guidance on data processing: [ ]{.underline}
+
+384. This guidance includes the following topics. 1) Why processing the
+    raw data is so important, 2) Checklist for processing the data, 3)
+    Before you start, 4) Preparing the dataset, 5) Cleaning common
+    errors, 6) Checking for unexpected values, and 6) Preparing
+    variables for analysis. The link to this guidance is : [
+    ]{.underline}
+    <https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf>
+
+#### Example: **Data quality problems in administrative registers after a mass influx of asylum seekers - Federal Statistical Office of Germany**
+
+385. Reviewing data quality after a mass influx of asylum seekers
+    requires special attention. Data quality issues in administrative
+    data occur in particular during periods of mass influx when
+    administrative procedures are overburdened with the large numbers of
+    incoming asylum-seekers. When the increase in asylum applications is
+    sudden and unexpected, it is difficult to scale-up existing
+    administrative capacities for registration and refugee status
+    determination. As a result, data quality in administrative registers
+    is often poorest when the demand for data on refugees is highest.
+    Reviewing and validating the available data becomes a crucial task
+    for statisticians in those times, since they must judge whether data
+    quality is sufficient for the production of official statistics.
+    When using administrative data in immediate response to a mass
+    influx, statisticians should look out for;
+
+386. **Delayed registrations:** In response to humanitarian crises,
+    organizing shelter and covering basic needs is a host country's
+    first priority. Refugee status determination comes afterwards.
+    During periods of mass influx, asylum seekers may face prolonged
+    waiting periods for officially lodging their asylum applications.
+    Where asylum seekers are properly registered only after having
+    lodged their asylum application, administrative registers will cover
+    the newly arrived only with considerable time lack.
+
+387. **Incomplete and false registrations:** Intending to assist
+    overburdened immigration authorities, governments improvise and
+    deviate from traditional workflows during periods of mass influx.
+    Registration is then often no longer carried out by trained
+    personnel in immigration offices but mobile registration units with
+    the support of the armed forces and the police register asylum
+    seekers in temporary accommodations or even in improvised reception
+    facilities on the road. Considering that untrained staff registers
+    displaced people who often lack official documents, incomplete and
+    false registrations are hardly surprising.
+
+388. **Multiple registrations:** When asylum seekers are distributed
+    within the host country for accommodation, small differences in
+    spelling or translations often cause double registration. Language
+    barriers are especially problematic when translations between
+    different alphabets are involved e.g. between the Arabic, Cyrillic
+    and Latin alphabet. While taking and comparing fingerprint scans
+    would solve most of the problem, the infrastructure is not always in
+    place. Once entered in the register, duplicate entries are difficult
+    to identify with certainty and can thus be expected to bias results
+    for a prolonged period.
+
+Derive new variables and units
+----------------------------------
+
+389. This sub-process derives data for variables and units that are not
+    explicitly provided in the collection but are needed to be estimated
+    or derived to deliver the required outputs specified in Phase 2
+    Build.
+
+-   Computing variables to measure the characteristics of IDPs and
+    refugees and refugee related populations. Some examples of this,
+    depending on user demands are:
+
+    1.  Female headed household
+
+    2.  Family type/household composition
+
+    3.  Employment or labour market activity rate
+
+    4.  Total consumption
+
+    5.  Regional classifications
+
+    6.  Unaccompanied minors
+
+    7.  Returned to place of habitual residence
+
+    8.  Having overcome key displacement-related vulnerabilities (IDPs)
+
+    9.  Measures of integration (refugees)
+
+    10. Durable solutions progress measure
+
+    11. Refugee/IDP status
+
+    12. Total household consumption/income
+
+390. Computing a variable for measuring progress towards a durable
+    solution and identifying those who have overcome key
+    displacement-related vulnerabilities is discussed in the IRIS, 2020.
+    A set of indicators and related questions will be developed based on
+    the 10 identified sub-criteria for overcoming key displacement
+    related vulnerabilities (IRIS, Table 4.3) as well as sub-criteria
+    related to the three remaining criteria for measuring progress
+    towards durable solutions (see IRIS Chapter 4).
+
+391. The methodology for developing these indicators and a progress
+    variable will be added to this Manual in future editions, once more
+    data becomes available and the methodology agreed.
+
+392. Computing variables for measuring integration and the satisfaction
+    of immediate and on-going needs of refugees and refugee related
+    populations are set out at length in IRRS, 2018 Chapter 5. Further
+    discussion of the indicators used to measure European refugee
+    integration can be found at link
+    <https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf>.
+
+393. Both the IRRS in Chapter 5, and IRIS in Chapter 4 Section B,
+    discuss the use of the SDGs indicators for measuring the
+    satisfaction of basic and immediate needs of displaced people, and
+    measuring their progress towards integration or durable solutions.
+    In constructing these indicators the following link to UNSD's SDG
+    metadata repository provides details of constructing the indicators
+    concerned, **[SDG Metadata
+    Repository](https://unstats.un.org/sdgs/metadata/).**
+
+Calculate weights for data derived from probability samples
+----------------------------------------------------------------
+
+394. This step involves Calculating weights for displaced populations
+    obtained from household surveys based on probability samples to
+    derive an estimate for the population (including hidden households,
+    frame problems etc.).
+
+395. Utilise contents from tool sponsored by UNHCR and developed by
+    Stats4SD
+    [**https://stats4sd.org/resources/resource-bank/**](https://stats4sd.org/resources/resource-bank/)
+
+###### Phase references and links
+
+-   HoloClean*:* A Machine Learning System for Data Repair and
+    Predictions on Structured Data.  It is a statistical inference
+    engine to impute, clean, and enrich data. As a weakly supervised
+    machine learning system, HoloClean leverages available quality
+    rules, value correlations, reference data, and multiple other
+    signals to build a probabilistic model that accurately captures the
+    data generation process, and uses the model in a variety of data
+    curation tasks. HoloClean allows data practitioners and scientists
+    to save the enormous time they spend in building piecemeal cleaning
+    solutions, and instead, effectively communicate their domain
+    knowledge in a declarative way to enable accurate analytics,
+    predictions, and insights from noisy, incomplete, and erroneous
+    data. Link [http://www.holoclean.io](http://www.holoclean.io/)
+
+-   The link to JIPS Guidance on Data Processing is : [ ]{.underline}
+    <https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf>

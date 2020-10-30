@@ -1,0 +1,636 @@
+Data collection phase
+=====================
+
+'This phase collects or gathers all necessary information (data and
+metadata), using different collection modes (including extractions from
+statistical, administrative and other non-statistical registers and
+databases), and loads them into the appropriate environment for further
+processing. Whilst it can include validation of data set formats, it
+does not include any transformations of the data themselves, as these
+are all done in the \"Process\" phase. For statistical outputs produced
+regularly, this phase occurs in each iteration[^1]' (UNECE, 2013).
+
+318. This section includes advice on collecting all four data source
+    types (censuses, surveys, administrative data and integrated data).
+    It includes the process of making sample selections from the frames
+    developed in *Phase* *2.4.A. Design Frame* and the training
+    components of field data collections using the instruments designed
+    in Phase 2 in A. Census, B, Surveys and C. Administrative Data,
+    *2.3.A. Design collection*.
+
+    **Introduction**
+
+319. Data collection can include multiple different methodologies. This
+    includes census, surveys, administrative data and for data
+    integrated from several sources (See Phase *2D* *2.3.D. Design
+    Collection*). This section focuses on surveys, administrative data
+    collections are described in several of the examples in Part II of
+    this manual - Case Studies (see Bosnia and Herzegovina, Norway,
+    Turkey and Ukraine)
+
+Create frame and select sample for surveys
+----------------------------------------------
+
+320. This is covered in Phase 2, *2.4.A. Design Frame.*
+
+Set up collection
+---------------------
+
+321. Setting up data collection in situations involving refugees and
+    internally displaced persons (IDPs) poses additional hurdles that
+    one has to consider and try to meet before and during the data
+    collection phase. The case studies for South Sudan and Yemen
+    describes some of the difficulties involved in collecting data in
+    dangerous environments (see Part II of this Manual*;* *South Sudan
+    High Frequency Survey* and *Yemen IDP Example.*
+
+322. The data collection phase encompasses the preparation for the
+    actual field work activities. Set up of data collection can be
+    divided in three main activities. These include: the survey
+    instrument preparation, recruitment and training of field staff and
+    actual data collection.
+
+#### Ensuring Collaboration by Households 
+
+323. The most important way to ensure collaboration by the households is
+    to establish a good with local communities about the purpose and
+    conduct of the survey. Efforts may be needed at the national, local
+    and particularly at the community level. The survey should use
+    polite, diligent, well trained interviewers and to ensure that the
+    household is contacted and a time convenient for the interview
+    arranged. Some additional measures may be needed. There are no fixed
+    prescriptions that will work everywhere, but experience from various
+    countries should be observed and evaluated.
+
+324. **Use of Mass Media**. In general, the use of mass media is a waste
+    of money because the mass media reach many people whom the survey
+    does not. However, if mass media coverage can be obtained free it
+    can be useful. Even if it is limited to a short newspaper story or
+    some radio or TV briefs at the start of the survey, it can boost the
+    field teams\' morale and self-confidence at this critical time.
+    (Occasionally Interviewers keep the old newspapers throughout the
+    entire survey period, to show the households that they are official
+    and serious.)
+
+325. **Targeted Publicity**. This may include letters to the households
+    and leaflets (preferably in colour, with graphs or other
+    illustrations) that explain the purpose of the survey and the
+    sampling methodology in simple terms.
+
+326. **Material Incentives**. Sometimes a gift or payment is given to
+    the households in return for their collaboration. There is some
+    controversy about the quality and quantity of the material
+    incentives that should be used to foster the household\'s
+    collaboration. Some consider incentives to be standard procedure for
+    all surveys. Other statistical agencies are reluctant to even
+    consider the idea of rewarding the households in any way, to prevent
+    households from becoming increasingly demanding and affecting all
+    the household surveys conducted in the country. A relatively
+    inexpensive alternative, likely to be cost-effective and be accepted
+    in all countries, consists of giving away small presents for the
+    interviewed households. Ideally, the giveaways should have little or
+    no intrinsic value. This both ensures that they do not affect the
+    household welfare measurement and reduces the accounting controls
+    required.
+
+327. **Community Level.** Publicity and motivation at the local
+    community level are especially important in rural areas. Local
+    authorities should be contacted and convinced of the usefulness of
+    the survey. After this meeting the Interviewers can contact the
+    selected households to introduce themselves and to make appointments
+    for interviews. As an example, when doing a pilot survey in an IDP
+    camp in Darfur, Al-Fasher, the field teams failed to approach the
+    traditional leaders. This almost compromised the fieldwork
+    operation. The problem was exacerbated as local IDPs were not
+    approached or recruited to join the fieldwork team although this may
+    have raised some problems over confidentiality, roles for local
+    people in field operations may be advantageous in gaining local
+    support .
+
+#### Survey Instrument Preparation
+
+328. The survey data collection phase requires the preparation of the
+    survey instrument and the design of the questionnaire to be
+    administered to respondents (see also *Phase 3* *Build a system for
+    collection of data and production of statistics*). There are two
+    methods of administering household survey questionnaires: Paper and
+    Pencil Interviewing (PAPI) and electronic data capture. PAPI uses
+    paper questionnaires for interviews and the data can be recorded in
+    two ways: i) data entered in a central location, and ii) data
+    entered in the field, known as Computer Assisted Field Entry (CAFE).
+    CAFE is preferable because it facilitates electronic data checks
+    while data collection is ongoing, which could improve data quality.
+    Data checks are performed during fieldwork, thus allowing for the
+    possibility of correcting the data while Interviewers and
+    respondents are still available. If any errors are flagged during
+    field entry, the Interviewer can return to the household the next
+    day to revise and/or make necessary corrections.
+
+329. Electronic data capture can be done in a variety of ways: 1)
+    Computer Assisted Personal Interview (CAPI), which uses tablets; 2)
+    Computer Assisted Web Interview (CAWI), which is typically conducted
+    via email and might not be feasible for certain populations because
+    it is self-administered; and 3) Computer Assisted Telephone
+    Interview (CATI) in which the data is collected over the phone and
+    therefore has a time constraint.
+
+330. CAPI is increasingly becoming the survey instrument of choice as it
+    allows for faster data collection and better-quality data, by
+    allowing for immediate in situ data validity checks. The decision to
+    use CAPI will depend on the capabilities of the organization that
+    collects the data and the interests of the organization that
+    finances the data collection. Such capabilities are measured in
+    terms of: (a) technical ability, i.e. skilled data programmers and
+    Interviewers; (b) the communications system and infrastructure;
+    and (c) the ease of access to the equipment, given the procurement
+    procedures.
+
+331. Field work using either paper questionnaires and CAFE; or tablets
+    and CAPI face constraints while in the field, and this can be
+    particularly problematic in situations of disaster or displacement.
+
+    1.  First, without access to electricity, it will be difficult to
+        operate the data entry computer. Options to resolve this problem
+        include providing each team with a set of solar panels,
+        high-performance batteries, or other electronic equipment. In
+        addition to the electronic equipment, the teams have to
+        transport the computer itself, the printer and a sufficient
+        supply of paper, diskettes, and so forth. The advantage is that
+        this will allow proven field and data entry procedures to be
+        used with only minor modification. The modifications that are
+        being made relate mostly to reducing the amount of paper used in
+        the supervision and data management process, in order to reduce
+        the weight that has to be carried around. The main disadvantages
+        of this approach to mobile data entry are the risk of something
+        going wrong with such an elaborate setup and the weight the
+        teams will have to carry.
+
+    2.  Second, if there is no electricity, recharging the batteries for
+        the tablets used for CAPI collection can be affected. A supply
+        of extra batteries should be provided to each team, however in
+        situations where this cannot be easily or safely done PAPI
+        methods may be preferable
+
+    3.  Finally, the lack of Wi-Fi access can have serious adverse
+        effects on the data collection whether CAFÉ or CAPI is used.
+        Sending data for central processing over the internet can help
+        speed up overall completion of the survey implementation. If
+        CAFÉ is used, the Data Entry Operator can send data to
+        headquarters as soon as all the checks have been completed. If
+        CAPI is used, it may, depending on the software used, require
+        internet connectivity to implement the questionnaire. With
+        either method, having WIFI connections allows the teams to stay
+        in the field for longer periods of time without having to go to
+        headquarters to deliver data.
+
+#### Piloting Field Procedures 
+
+332. The pilot test for field procedures is less to determine whether
+    they can work in general than to fine tune the details of how they
+    are implemented in the specific country. Most problems found during
+    the field test fall into three classes:
+
+    4.  **Refining Logistics**. In spite of careful planning, some
+        problems regarding the supply of one survey materials is always
+        found.
+
+    5.  **Debugging the Data Entry Programme.** The functioning of the
+        data entry program has to be tested. Despite extensive testing
+        problems arise when data from numerous real households are
+        entered. Additional consistency checks are likely to be required
+        that were unforeseen by the survey Data Managers. These will
+        become obvious after the first few days or hours of field work,
+        early field tests are particularly useful.
+
+    6.  **Statistical Quality Control of the Data**. Concurrent data
+        entry makes it possible to conduct some preliminary statistical
+        analysis of the data collected as the survey progresses. From an
+        analytical standpoint, the data from just a portion of the field
+        work has no statistical significance unless the total sample is
+        exceptionally large, but it often can provide interesting
+        insights into the quality of the field work. For instance, after
+        the first period of field work, the frequency distribution of
+        the last digit of the ages recorded in years may show too large
+        a proportion of \"zeroes\" and \"fives\" (demographers always
+        expect this to happen, but it should always be checked). The
+        early detection of this problem allows for corrective
+        re-training and can also give the data entry program credibility
+        in the eyes of the field teams.
+
+333. Regular supervision that includes practical suggestions to
+    practical problems can be helpful in maintaining motivation, morale
+    and professional standards. As discussed in the section on the
+    Supervisor\'s duties, supervision should be extensive in any survey
+    to ensure quality data collection.
+
+#### Recruiting and Training of Field Staff 
+
+334. Prior to data collection, the training plan for both the field
+    staff and the management staff should be laid out. Normally this
+    will include training in the techniques required to collect the data
+    required or to compile the data. In addition, if an instrument will
+    be used in the field, then specific training runs of deploying the
+    instrument are necessary.
+
+335. Hiring good field workers is often difficult. Because it is often
+    difficult to assess all the required qualities in a short job
+    interview, more field staff should be hired than will be required,
+    usually 15 to 25 percent more. All the hires are trained. During the
+    training period the candidates\' work characteristics and ability to
+    establish rapport with interviewees is displayed and can be assessed
+    more accurately. Then, after the training period, a final selection
+    is made.
+
+336. Good training contributes greatly to the quality of the data
+    collection effort. Training is one of the hardest aspects of field
+    work to convince people to do well. Training is expensive, takes
+    time away from actual collection of data, and is often viewed as an
+    unnecessarily complicated task. The most common complaint is that
+    the Interviewers already know how to interview and there is little
+    need for additional training.
+
+337. Having Interviewers who are previously trained in how to interview
+    can be an advantage. Interviewing techniques are difficult to
+    learn - how to interact with the respondents, how to convince
+    reluctant respondents to participate and actually complete the
+    interview, how to get the attention of the respondents when they
+    have so many other things to do - and are useful in almost all
+    survey situations, regardless of the contents of the questionnaire.
+
+338. However, initially the Interviewers do not know the reasons for
+    this particular survey, the contents of this questionnaire, the
+    analyses that are envisioned for the data or the policy impacts that
+    these data could influence. It is extremely important that enough
+    time is given to training on the specifics of the survey so that all
+    Interviewers understand the purpose of the survey and all of the
+    concepts in the same way. This is particularly important for NSOs
+    conducting surveys about displacement for the first time, as many of
+    the concepts and definitions are new.
+
+#### Training for interviewing displaced people
+
+339. Many of the concepts in the IRRS and IRIS will be new to
+    statistical offices and their staff. All staff involved in any
+    survey or data collection involving displaced people must be trained
+    in these concepts and understand them. Of particular importance is
+    training data collection staff on refugee and IDP concepts such as
+    habitual residence, usual residence, migration concepts, refugee
+    categories, meaning of displacement, meaning of refugee and IDP, and
+    reasons for displacement and migration.
+
+340. Many displaced people are difficult to find, as their place of
+    residence is often not fixed or is impermanent. They may be in
+    shelters, camps, temporary accommodation or lodging with other
+    households. Because of this, they may fail the interviewers usual
+    understanding of 'usual members of the household' and can be treated
+    as visitors and excluded from household rosters. These exclusions
+    mean that they fail the test of probability sampling, that every
+    person has a known chance of selection in the survey. Data
+    collection staff must be carefully trained in recording all members
+    of the household -- e.g. temporary members who may be displaced.
+
+341. Training in the interviewing of vulnerable persons such as children
+    and disabled people. People who have been displaced have suffered
+    trauma and any interview may ask people to relive painful
+    experiences. A UNHCR commissioned survey of IDPs in Georgia in 2014
+    asking about their intentions was described as an emotional
+    process[^2].
+
+Box 4.1: Interviewing Vulnerable IDPs in Georgia
+
+
+
+#### Training Manuals 
+
+342. The main written materials used for training field teams
+    (Supervisors, Interviewers, and Data Entry Operators) are the
+    questionnaires and the field manuals. It is recommended to produce
+    many more manuals than needed for training because apart from their
+    obvious use as a support for field operations the manuals are also
+    valuable tools for the survey analysts.
+
+343. The basic contents of each kind of manual is described in much more
+    detail in Part 3 of this Manual*;* *Training Needs Plan. *
+
+Run Data Collection
+-----------------------
+
+344. This section discusses the main features of preparation for field
+    work, other than designing the questionnaire or drawing the sample.
+    Many of the data quality control mechanisms rely extensively on the
+    preparation for the field work. Survey preparation is thus very
+    important and should be given due time and attention. Often there is
+    the temptation to skimp on preparation in order to move to the field
+    too rapidly. This temptation should be avoided.
+
+345. The survey\'s success relies on its staff. Here are some basic
+    requirements that staff should have given their role in the data
+    collection activities:
+
+-   **The Survey Manager** should be a social scientist or statistician
+    with a grasp of the goals to be achieved by the survey. Often this
+    person will have a graduate degree in statistics, economics, or
+    demography. At a minimum the Survey Manager should have a lower
+    university degree.
+
+-   **The Data Manager** can be a systems analyst or senior programmer
+    with prior experience in statistical data management.
+
+-   **The Field Manager** should have substantial managerial skills and
+    experience in conducting household surveys in the country. All
+    members of the core staff (not just the Data Manager) should be
+    familiar enough with personal computers to use word processing
+    software and spreadsheets.
+
+-   **The Supervisors** should have completed secondary education.
+    Experience in motivating people and managing resources; and the
+    ability to foster teamwork are more important than credentials.
+
+-   **The Interviewers** should also have a good secondary education,
+    but they do not need to have pursued further studies. In fact, that
+    may be a disadvantage, as graduates tend to be more likely to
+    abandon the survey halfway through if they are offered a better or
+    more interesting job.
+
+-   Similarly, experience with computers is not an essential requisite
+    for the **Data Entry Operators,** but it is helpful if they have
+    keyboard skills. It is not difficult to learn to enter data and it
+    is not necessary to understand how a program works in order to use
+    it successfully. It is better, in fact, if the Data Entry Operators
+    are interested in the survey rather than in computers; that way,
+    when they note incorrect answers, they are more likely to use the
+    same terms as the questionnaire instead of explaining the error in
+    computer terms.
+
+346. It may also be desirable that team members, especially
+    Interviewers, be fluent in two or more languages, and in when
+    interviewing displaced people interviewers must be fluent in the
+    languages and dialects that they are likely to encounter. Moreover,
+    it is best if the Interviewers in each team have complementary
+    language skills so that between them, so they can conduct all (or
+    nearly all) the interviews themselves. [^3]
+
+347. Unless specific cultural or religious conditions dictate, there
+    seems to be no *a priori* reason for preferring male to female
+    Interviewers or vice versa. However, this should be adapted to the
+    cultural context, e.g. the NSO in Sudan aims to use male
+    interviewers among the nomads, interviewers with military background
+    when addressing military personnel, female interviewers when
+    interviewing women on pregnancy, birth, breastfeeding etc. There is
+    also some anecdotal evidence, that households are less likely to
+    refuse women interviewers. Prior experience in the country may show
+    that it is culturally more acceptable for female respondents to
+    admit female interviewers to their homes when the men were absent.
+    Even when male interviewers are used, anecdotal reports from several
+    countries suggest that females may find it easier to establish
+    rapport for the modules with sensitive content.
+
+348. In some surveys, questions may be gendered with sensitive questions
+    for males and females, an interviewer should be selected of the same
+    gender to enable the interview to obtain the answers needed with as
+    little social embarrassment as possible, and in privacy.
+
+#### Team and fieldwork logistics in hazardous environments
+
+349. Collecting survey data in hazardous or conflict environments is
+    marked by specific situations that may be hard to plan for. Parts of
+    a country may be inaccessible due to the presence of terrorist
+    groups or violent clashes between various power factions may occur
+    throughout the territory. In addition to conflict situations, the
+    weather phenomena may cause severe droughts or severe floods that
+    exacerbate pre-existing vulnerabilities in the population. Both
+    conflict and weather conditions have led to large‐scale internal
+    displacement throughout the world.
+
+350. Countries with conflict are often data deprived. Specifically,
+    years of civil war or ongoing conflict will erode the statistical
+    infrastructure and capacity, leading to the lack of key macro‐ and
+    micro‐economic indicators. The last full population census, needed
+    to develop the sample frame, may be long out of date. In addition,
+    risks to the safety of field staff may require spending as little
+    time in enumeration areas as possible. While organizations operating
+    within the country may implement a range of smaller surveys, these
+    cannot meet the data needs for all policy interventions.
+
+351. Several techniques have been developed to consider the special
+    circumstances of trying to collect data in hazardous or conflict
+    situations. To address security concerns, the Somalia High Frequency
+    Survey adapted logistical arrangements, sampling strategy, and
+    questionnaire design to limit time on the ground. In logistical
+    arrangements, a detailed and timely security assessment ensured that
+    the enumeration areas to‐be‐visited were safe on the day of
+    fieldwork.[^4] The fieldwork protocol was designed such that teams
+    would spend as little time as possible in any given region and draw
+    little attention, ensuring enumerator and respondent safety.
+    Concerning sampling strategy, it was not feasible to conduct a full
+    listing of all households in an enumeration area, as this was too
+    time‐intensive and may have raised suspicion. Instead, a
+    micro‐listing approach was used, which required enumeration areas to
+    be segmented into smaller enumeration blocks using satellite
+    imagery. Enumeration blocks are small enough for enumerators to list
+    and select households immediately before conducting the interview.
+
+352. Other techniques include enlisting the assistance of local
+    community groups in conflict areas to assist in the collection of
+    the data. Using local community groups who have the trust of the
+    group of interest can bridge the communication gap between the data
+    collection effort and the conflict area groups. When using this
+    technique, it is important that the local community groups are
+    contacted early in the survey design process and allowed to
+    participate in the preparation of the survey. It is important that
+    communities in the conflict areas feel that their concerns have been
+    addressed.
+
+353. A sufficient initial stock and a steady supply of survey materials
+    and inputs should be ensured for all field teams throughout the
+    whole survey period. The list of materials includes obvious items
+    such as questionnaires/tablets, pencils, and erasers, less obvious
+    ones such as USB keys, clipboards, and briefcases, and a myriad of
+    country-specific items ranging from raincoats to camping stoves.
+
+354. The elements that have proven hardest to manage in all countries
+    are fuel, oil, and everything related to car maintenance. Probably
+    the best solution is to provide a cash revolving fund and make the
+    Supervisor accountable for it. This may be hard to do in more
+    bureaucratic organisations.
+
+#### Conducting the interview
+
+355. In each interview the Interviewer will go through all pertinent
+    modules in the order they appear in the questionnaire. Interviews
+    should be conducted with direct respondents as often as possible.
+    For those respondents who are too young - children under 10 years of
+    age - the adult who is most responsible for the children should
+    respond on their behalf. Proxies will also be used for respondents
+    who are temporarily absent or who are unable to respond for
+    themselves due to illness or disability.
+
+356. This practice enhances data quality in several ways. First, since
+    the person best qualified to answer each part of the questionnaire
+    is interviewed, inaccurate responses are avoided. Second, the whole
+    survey, which can take considerable time in each household, is
+    broken into a series of more manageable mini-interviews. Respondent
+    fatigue is thus minimized. Third, since the mini-interviews are
+    scheduled according to the respondents' convenience, the refusal
+    rate is also minimized. However mini-interviews can also introduce
+    logistical problems for both interviewers and respondents, and the
+    context should be taken into account, particularly in hazardous
+    environments where travel needs to be minimised.
+
+357. The actual length of the interview varies widely from one household
+    to another and between countries. The difference between countries
+    depends on the length of the questionnaires used. Within countries,
+    interview time varies depending on the number of people in the
+    household. However, given that Interviewers generally need to visit
+    each household several times, it is more useful to evaluate
+    interview time (and consequently Interviewer productivity) in terms
+    of \"households per week\" or \"households per day\" rather in
+    \"hours per household.\"
+
+358. Field work with simultaneous data entry offers several powerful
+    advantages. First and perhaps most important, it raises data
+    quality. Simultaneous data entry, whether CAFÉ or CAPI makes it
+    possible to correct mistakes while Interviewers are still in the
+    household or at least in the area.
+
+359. Secondly, simultaneous data entry can also shorten the time needed
+    for data entry, and speed up the editing and analysis steps after
+    the final interview. Thus, the goal of the timely availability of
+    the data is accomplished.
+
+360. There are a few disadvantages to this type of field organization.
+    For one thing, the field workers need to be highly competent.
+    Moreover, this strategy may also increase the survey costs.
+
+#### Developing Supervision Forms 
+
+361. Three of the tasks of the team Supervisors should be supported by
+    written documents, known as supervision forms. These are (1)
+    Interviewer evaluation, (2) questionnaire verification, and (3)
+    check-up interviews. The forms are intended to give these tasks
+    formal definition, as opposed to loosely defined responsibilities
+    left to the Supervisor\'s personal initiative, and to make it
+    possible to supervise the Supervisors themselves (e.g., make
+    supervision tasks verifiable by the survey core staff).
+
+#### Scheduling Field Work 
+
+362. The task assignment of each team should be done concurrently with
+    the first stage of sample selection. The clusters are distributed
+    among the field teams and the order in which each team will visit
+    the clusters assigned to it is decided at random. The schedule of
+    each team should then be made explicit, to indicate what each team
+    will be supposed to be doing each week of the survey year.
+
+363. Designing the actual schedule is very country-specific, as it is
+    usually developed around national holidays and other significant
+    dates, with the goal of either excluding or including them in the
+    work period. In Muslim countries, for instance, the Ramadan month is
+    particularly interesting to observe because of the differences in
+    the household consumption patterns; Ramadan, however, is not a good
+    month to train Interviewers or to initiate the survey.
+
+#### Composition of Survey Staff 
+
+364. The key headquarters staff includes the Survey Manager, Data
+    Manager, and Field Manager. These are the minimum requirements.
+    Sometimes it is useful to employ a secretary and a bookkeeper. The
+    need for a bookkeeper will be greater where financing is being
+    provided by more than one agency or where substantial procurement
+    will take place.
+
+365. The core staff should be organized to work together as a team, with
+    the Survey Manager being the only head during the entire preparation
+    stage instead of having individuals respond to separate divisions in
+    the data collection agency. This is especially important - and
+    sometimes hard to achieve - in large national statistical agencies
+    that are organized under the traditional departmental structure with
+    a census department, a household survey department, a data
+    processing department, and so forth.
+
+366. Each of the field teams is headed by a Supervisor and usually
+    includes three to four Interviewers, a driver with a car, and a Data
+    Entry Operator if CAPI is not used. This standard setup is used for
+    most surveys. In some countries local conditions have dictated
+    changes in the composition of the field teams:
+
+367. When a team must work mainly in large urban areas, an additional
+    Interviewer may sometimes be added. This allows for additional
+    interviews to take place at a low marginal cost.
+
+368. Cultural constraints in certain countries may require that an adult
+    must be interviewed by someone of the same sex. Since it would
+    likewise not be appropriate for a female to travel alone with
+    several men, each team may need to have two female and two male
+    Interviewers. In some cases, a relative of the female Interviewer(s)
+    may need to travel with the team.
+
+#### Duties of Survey Team Members 
+
+369. The composition of a typical survey team is described in detail in
+    Part 3 of this Manual. See - *Training Needs Plan.*
+
+###### Phase Links and Examples of Training Manuals and Data Collection Advice
+
+-   **Training Manual for Civil Registration Functionaries in India,
+    > 2012** (Hindi and English);
+    > <http://www.censusindia.gov.in/2011-Documents/CRS_Report/CRS_mannual_Hindi_English.pdf>
+    > .
+
+-   2020 Census Complete Count Committee - Training Manual, United
+    > States of America*:*
+    > <http://azmag.gov/Portals/0/Documents/MagContent/CCC-Training-Manual.pdf?ver=2018-04-25-145518-867>
+
+-   ### JIPS data collection advice. **Implementing Data Collection -** **Operational Plan for Data Collection. This document outlines an operational plan for the data collection phase of the household survey during a profiling exercise. This document helps plan out how the fieldwork will actually be conducted. It includes the operational structure showing how the implementing/data collection partners fit in, the roles and responsibilities for the various actors involved and the work plan for the next steps.** <https://jet.jips.org/phase/implementing-data-collection/>
+
+-   **UNHCR Needs Assessment Handbook**. The Handbook is structured in
+    two parts. The first, which is recommended for all audiences defines
+    need assessments and their different types; describes coordination
+    modalities; outlines the roles and responsibilities of different
+    actors in refugee situations, IDP situations, and mixed situations;
+    provides an overview of the steps to conduct needs assessments and
+    the principles that should guide them; and explains the relationship
+    between needs assessments and other information systems. The second
+    part of the Handbook provides detailed practical guidance on how to
+    conduct needs assessments in the field. It can be used as a
+    reference text, with readers referring to specific steps and
+    sections as needed based on their role in the operation or the needs
+    assessment, and the type of situation.
+    <http://needsassessment.unhcr.org/>
+
+-   Johannes Hoogeveen, Emil Tesliuc, Renos Vakis with Stefan Dercon, A
+    Guide to the Analysis of Risk, Vulnerability and Vulnerable Groups;
+    <http://siteresources.worldbank.org/INTSRM/Publications/20316319/RVA.pdf>
+
+-   World Bank. *Informing Durable Solutions for Internal Displacement
+    in Nigeria, Somalia, South Sudan, and Sudan: Volume C:* Technical
+    Aspects.
+    <http://documents.worldbank.org/curated/en/142811557466057440/pdf/Volume-C-Technical-Aspects.pdf>
+    see also
+    https://link.springer.com/chapter/10.1007/978-3-030-25120-8\_11
+
+    -   Several data limitations prevent an accurate assessment of
+        socioeconomic conditions among displaced people and hosts, which
+        hinders efforts to design targeted policy interventions. This
+        report addresses a key survey methodology question in the
+        displacement context. In response to under- reporting of
+        consumption patterns (in particular, food consumption), the
+        study proposes the adoption of behavioral nudges in survey
+        design. To mitigate potentially spurious responses, including
+        'honesty primes' in the consumption module of the survey's
+        questionnaire has led to more accurate reporting. The report
+        also proposes clustering approaches to derive typologies of
+        IDPs, to inform the required specificity of programs, and to
+        find durable solutions**. **
+
+[^1]: ^Ibid\ paragraph\ 65^
+
+[^2]: Intentions Survey on Durable Solutions: Voices of Internally
+    Displaced Persons in Georgia, UNHCR and Institute of Social Studies
+    and Analysis (ISSA)
+
+    https://www.refworld.org/pdfid/55e575924.pdf
+
+[^3]: ^If\ interpreters\ are\ needed,\ they\ are\ usually\ other\ members\ of\ the\ household\ or\ community\ members\ acquainted\ with\ the\ respondent.\ Though\ both\ the\ presence\ of\ a\ third\ party\ and\ the\ fact\ that\ the\ interpreter\ is\ acquainted\ with\ the\ respondent\ violate\ some\ of\ the\ basic\ rules\ of\ interviewing,\ this\ may\ be\ the\ only\ possible\ option\ for\ some\ interviews.\ Interviewers\ should\ be\ aware\ -\ and\ be\ trained\ to\ avoid\ -\ a\ still\ more\ serious\ problem\ posed\ by\ a\ local\ interpreter,\ which\ is\ a\ tendency\ to\ answer\ for\ the\ respondent.^
+
+[^4]: ^Utz\ Pape\ and\ Philip\ Wollburg.\ "Estimation\ of\ Poverty\ in\ Somalia\ Using\ Innovative\ Methodologies."\ World\ Bank\ Policy\ Research\ Working\ Paper\ 8735,\ February\ 2019.^

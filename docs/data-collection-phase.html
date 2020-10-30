@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Data collection phase | Compilers-Manual-EGRIS</title>
+  <meta name="description" content="Chapter 5 Data collection phase | Compilers-Manual-EGRIS" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Data collection phase | Compilers-Manual-EGRIS" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Data collection phase | Compilers-Manual-EGRIS" />
+  
+  
+  
+
+<meta name="author" content="Expert Group on Refugee and IDP Statistics (EGRIS)" />
+
+
+<meta name="date" content="2020-10-30" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="build-a-system-for-collection-of-data-and-production-of-statistics.html"/>
+<link rel="next" href="process-data.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Compilers' Manual - Expert Group on Refugee and IDP Statistics (EGRIS)</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> International Coordination</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#mainstreaming-displacement-statistics"><i class="fa fa-check"></i><b>1.1</b> Mainstreaming Displacement Statistics</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#introduction"><i class="fa fa-check"></i><b>1.1.1</b> Introduction</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#coordination-of-international-partners"><i class="fa fa-check"></i><b>1.2</b> Coordination of International Partners</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="specify-needs.html"><a href="specify-needs.html"><i class="fa fa-check"></i><b>2</b> Specify needs</a><ul>
+<li class="chapter" data-level="2.1" data-path="specify-needs.html"><a href="specify-needs.html#identify-the-needs-of-users-and-potential-users"><i class="fa fa-check"></i><b>2.1</b> Identify the Needs of Users and Potential Users</a></li>
+<li class="chapter" data-level="2.2" data-path="specify-needs.html"><a href="specify-needs.html#consult-and-confirm-needs"><i class="fa fa-check"></i><b>2.2</b> Consult and Confirm Needs</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="specify-needs.html"><a href="specify-needs.html#establishing-a-sector-statistics-committee-for-displacement-statistics"><i class="fa fa-check"></i><b>2.2.1</b> Establishing a Sector Statistics Committee for Displacement Statistics</a></li>
+<li class="chapter" data-level="2.2.2" data-path="specify-needs.html"><a href="specify-needs.html#using-operational-data-from-humanitarian-agencies-for-official-statistics"><i class="fa fa-check"></i><b>2.2.2</b> Using operational data from humanitarian agencies for official statistics</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="specify-needs.html"><a href="specify-needs.html#establish-output-objectives"><i class="fa fa-check"></i><b>2.3</b> Establish Output Objectives</a></li>
+<li class="chapter" data-level="2.4" data-path="specify-needs.html"><a href="specify-needs.html#identify-concepts"><i class="fa fa-check"></i><b>2.4</b> Identify Concepts</a></li>
+<li class="chapter" data-level="2.5" data-path="specify-needs.html"><a href="specify-needs.html#check-data-availability"><i class="fa fa-check"></i><b>2.5</b> Check Data Availability</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="design.html"><a href="design.html"><i class="fa fa-check"></i><b>3</b> Design</a><ul>
+<li class="chapter" data-level="3.1" data-path="design.html"><a href="design.html#design-outputs"><i class="fa fa-check"></i><b>3.1</b> Design Outputs</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="design.html"><a href="design.html#refugee-statistics-outputs"><i class="fa fa-check"></i><b>3.1.1</b> Refugee statistics outputs</a></li>
+<li class="chapter" data-level="3.1.2" data-path="design.html"><a href="design.html#idp-statistics-outputs"><i class="fa fa-check"></i><b>3.1.2</b> IDP statistics outputs</a></li>
+<li class="chapter" data-level="3.1.3" data-path="design.html"><a href="design.html#examples-of-outputs-illustrated-in-part-ii"><i class="fa fa-check"></i><b>3.1.3</b> Examples of Outputs Illustrated in PART II</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="design.html"><a href="design.html#design-variable-descriptions"><i class="fa fa-check"></i><b>3.2</b> Design variable descriptions</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="design.html"><a href="design.html#variables-for-refugee-statistics"><i class="fa fa-check"></i><b>3.2.1</b> Variables for refugee statistics</a></li>
+<li class="chapter" data-level="3.2.2" data-path="design.html"><a href="design.html#variables-for-idp-statistics"><i class="fa fa-check"></i><b>3.2.2</b> Variables for IDP statistics</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="design.html"><a href="design.html#data-source-a-censuses-of-population-and-housing"><i class="fa fa-check"></i><b>3.3</b> Data Source A: Censuses of Population and Housing</a></li>
+<li class="chapter" data-level="3.4" data-path="design.html"><a href="design.html#design-collection"><i class="fa fa-check"></i><b>3.4</b> Design collection</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="design.html"><a href="design.html#a.1.-egris-recommendations"><i class="fa fa-check"></i><b>3.4.1</b> EGRIS recommendations</a></li>
+<li class="chapter" data-level="3.4.2" data-path="design.html"><a href="design.html#a.2.-unece-recommendations-for-the-2020-census-round"><i class="fa fa-check"></i><b>3.4.2</b> UNECE Recommendations for the 2020 Census Round</a></li>
+<li class="chapter" data-level="3.4.3" data-path="design.html"><a href="design.html#a.3.-country-examples-of-census-questions-for-identifying-refugees-and-idps"><i class="fa fa-check"></i><b>3.4.3</b> Country Examples of Census Questions for Identifying Refugees and IDPs</a></li>
+<li class="chapter" data-level="3.4.4" data-path="design.html"><a href="design.html#a.4.-hybrid-census-techniques"><i class="fa fa-check"></i><b>3.4.4</b> Hybrid census techniques</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="design.html"><a href="design.html#design-frame"><i class="fa fa-check"></i><b>3.5</b> Design Frame</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="design.html"><a href="design.html#a.-dynamic-population-mapping"><i class="fa fa-check"></i><b>3.5.1</b> Dynamic population mapping</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="design.html"><a href="design.html#design-processing-and-analysis"><i class="fa fa-check"></i><b>3.6</b> Design Processing and Analysis</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="design.html"><a href="design.html#a.1.-quality-assessment-the-post-enumeration-survey"><i class="fa fa-check"></i><b>3.6.1</b> Quality Assessment – the Post Enumeration Survey</a></li>
+<li class="chapter" data-level="3.6.2" data-path="design.html"><a href="design.html#a.2.-pes-design"><i class="fa fa-check"></i><b>3.6.2</b> PES Design</a></li>
+<li class="chapter" data-level="3.6.3" data-path="design.html"><a href="design.html#a.3.-pes-analysis"><i class="fa fa-check"></i><b>3.6.3</b> PES Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="design.html"><a href="design.html#data-source-b-sample-surveys"><i class="fa fa-check"></i><b>3.7</b> Data Source B: Sample Surveys</a></li>
+<li class="chapter" data-level="3.8" data-path="design.html"><a href="design.html#design-collection-1"><i class="fa fa-check"></i><b>3.8</b> Design Collection</a><ul>
+<li class="chapter" data-level="3.8.1" data-path="design.html"><a href="design.html#b.1.-refugee-questionnaires-and-methodology"><i class="fa fa-check"></i><b>3.8.1</b> Refugee questionnaires and methodology</a></li>
+<li class="chapter" data-level="3.8.2" data-path="design.html"><a href="design.html#b.2.-idp-survey-questionnaires"><i class="fa fa-check"></i><b>3.8.2</b> IDP Survey questionnaires</a></li>
+<li class="chapter" data-level="3.8.3" data-path="design.html"><a href="design.html#b.3.-country-examples-of-questionnaires-found-in-part-ii"><i class="fa fa-check"></i><b>3.8.3</b> Country Examples of Questionnaires found in PART II</a></li>
+</ul></li>
+<li class="chapter" data-level="3.9" data-path="design.html"><a href="design.html#design-frame-1"><i class="fa fa-check"></i><b>3.9</b> Design Frame</a><ul>
+<li class="chapter" data-level="3.9.1" data-path="design.html"><a href="design.html#b.1.-sampling-frames"><i class="fa fa-check"></i><b>3.9.1</b> Sampling Frames</a></li>
+<li class="chapter" data-level="3.9.2" data-path="design.html"><a href="design.html#section-2"><i class="fa fa-check"></i><b>3.9.2</b> </a></li>
+<li class="chapter" data-level="3.9.3" data-path="design.html"><a href="design.html#b.2.-challenges-in-defining-the-target-population-and-constructing-a-sampling-frame-and-sample-size"><i class="fa fa-check"></i><b>3.9.3</b> Challenges in defining the target population and constructing a sampling frame and sample size</a></li>
+</ul></li>
+<li class="chapter" data-level="3.10" data-path="design.html"><a href="design.html#data-source-c-administrative-data-including-population-registers"><i class="fa fa-check"></i><b>3.10</b> Data Source C: Administrative Data Including Population Registers</a></li>
+<li class="chapter" data-level="3.11" data-path="design.html"><a href="design.html#design-collection-2"><i class="fa fa-check"></i><b>3.11</b> Design Collection</a><ul>
+<li class="chapter" data-level="3.11.1" data-path="design.html"><a href="design.html#c.1.-population-registers"><i class="fa fa-check"></i><b>3.11.1</b> Population Registers</a></li>
+<li class="chapter" data-level="3.11.2" data-path="design.html"><a href="design.html#c.2.-refugee-and-idp-registers"><i class="fa fa-check"></i><b>3.11.2</b> Refugee and IDP Registers</a></li>
+</ul></li>
+<li class="chapter" data-level="3.12" data-path="design.html"><a href="design.html#data-source-d-integrated-data-combining-data-from-different-sources"><i class="fa fa-check"></i><b>3.12</b> Data Source D: Integrated Data, Combining Data from Different Sources</a></li>
+<li class="chapter" data-level="3.13" data-path="design.html"><a href="design.html#design-collection-3"><i class="fa fa-check"></i><b>3.13</b> Design Collection</a><ul>
+<li class="chapter" data-level="3.13.1" data-path="design.html"><a href="design.html#d.1.-output-objectives-of-data-integration"><i class="fa fa-check"></i><b>3.13.1</b> Output objectives of data integration</a></li>
+<li class="chapter" data-level="3.13.2" data-path="design.html"><a href="design.html#d.2.-data-availability-accessibility-and-other-requirements"><i class="fa fa-check"></i><b>3.13.2</b> Data availability, accessibility and other requirements</a></li>
+<li class="chapter" data-level="3.13.3" data-path="design.html"><a href="design.html#d.3.-possible-sources-of-data-for-integration"><i class="fa fa-check"></i><b>3.13.3</b> Possible sources of data for integration</a></li>
+<li class="chapter" data-level="3.13.4" data-path="design.html"><a href="design.html#d.4.-overview-on-linking-several-data-sources"><i class="fa fa-check"></i><b>3.13.4</b> Overview on linking several data sources</a></li>
+<li class="chapter" data-level="3.13.5" data-path="design.html"><a href="design.html#section-4"><i class="fa fa-check"></i><b>3.13.5</b> </a></li>
+</ul></li>
+<li class="chapter" data-level="3.14" data-path="design.html"><a href="design.html#d.-design-processing-and-analysis"><i class="fa fa-check"></i><b>3.14</b> 2.5.D. Design, processing and analysis</a><ul>
+<li class="chapter" data-level="3.14.1" data-path="design.html"><a href="design.html#d.1.-data-editing-and-imputation"><i class="fa fa-check"></i><b>3.14.1</b> Data editing and imputation</a></li>
+<li class="chapter" data-level="3.14.2" data-path="design.html"><a href="design.html#d.2.-creation-of-joint-statistical-micro-data"><i class="fa fa-check"></i><b>3.14.2</b> Creation of joint statistical micro data</a></li>
+<li class="chapter" data-level="3.14.3" data-path="design.html"><a href="design.html#d.3.-alignment-of-populations-and-measurements"><i class="fa fa-check"></i><b>3.14.3</b> Alignment of populations and measurements</a></li>
+<li class="chapter" data-level="3.14.4" data-path="design.html"><a href="design.html#d.4.-multisource-estimation-at-aggregated-level"><i class="fa fa-check"></i><b>3.14.4</b> Multisource estimation at aggregated level</a></li>
+<li class="chapter" data-level="3.14.5" data-path="design.html"><a href="design.html#d.5.-examples-of-good-practices"><i class="fa fa-check"></i><b>3.14.5</b> Examples of good practices</a></li>
+</ul></li>
+<li class="chapter" data-level="3.15" data-path="design.html"><a href="design.html#design-production-systems-and-workflow"><i class="fa fa-check"></i><b>3.15</b> Design production systems and workflow</a><ul>
+<li class="chapter" data-level="3.15.1" data-path="index.html"><a href="index.html#introduction"><i class="fa fa-check"></i><b>3.15.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.15.2" data-path="design.html"><a href="design.html#the-statistical-production-environment"><i class="fa fa-check"></i><b>3.15.2</b> The statistical production environment</a></li>
+<li class="chapter" data-level="3.15.3" data-path="design.html"><a href="design.html#the-statistical-database-environment"><i class="fa fa-check"></i><b>3.15.3</b> The statistical database environment</a></li>
+<li class="chapter" data-level="3.15.4" data-path="design.html"><a href="design.html#statistical-dissemination-process"><i class="fa fa-check"></i><b>3.15.4</b> Statistical dissemination process</a></li>
+<li class="chapter" data-level="3.15.5" data-path="design.html"><a href="design.html#indicator-system-for-measuring-the-design-production-systems-and-workflow"><i class="fa fa-check"></i><b>3.15.5</b> Indicator system for measuring the design production systems and workflow</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html"><i class="fa fa-check"></i><b>4</b> Build a system for collection of data and production of statistics</a><ul>
+<li class="chapter" data-level="4.1" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#build-collection-instrument"><i class="fa fa-check"></i><b>4.1</b> Build collection instrument</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#development-of-questionnaires"><i class="fa fa-check"></i><b>4.1.1</b> Development of questionnaires</a></li>
+<li class="chapter" data-level="4.1.2" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#development-of-the-collection-methodology"><i class="fa fa-check"></i><b>4.1.2</b> Development of the collection methodology</a></li>
+<li class="chapter" data-level="4.1.3" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#development-of-training-plan-evaluation-and-selection-of-human-resources"><i class="fa fa-check"></i><b>4.1.3</b> Development of training plan, evaluation and selection of human resources</a></li>
+<li class="chapter" data-level="4.1.4" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#development-of-collaboration-agreements"><i class="fa fa-check"></i><b>4.1.4</b> Development of collaboration agreements</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#test-production-system"><i class="fa fa-check"></i><b>4.2</b> Test production system</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-collection-phase.html"><a href="data-collection-phase.html"><i class="fa fa-check"></i><b>5</b> Data collection phase</a><ul>
+<li class="chapter" data-level="5.1" data-path="data-collection-phase.html"><a href="data-collection-phase.html#create-frame-and-select-sample-for-surveys"><i class="fa fa-check"></i><b>5.1</b> Create frame and select sample for surveys</a></li>
+<li class="chapter" data-level="5.2" data-path="data-collection-phase.html"><a href="data-collection-phase.html#set-up-collection"><i class="fa fa-check"></i><b>5.2</b> Set up collection</a></li>
+<li class="chapter" data-level="5.3" data-path="data-collection-phase.html"><a href="data-collection-phase.html#run-data-collection"><i class="fa fa-check"></i><b>5.3</b> Run Data Collection</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="process-data.html"><a href="process-data.html"><i class="fa fa-check"></i><b>6</b> Process data</a><ul>
+<li class="chapter" data-level="6.1" data-path="process-data.html"><a href="process-data.html#integrate-data"><i class="fa fa-check"></i><b>6.1</b> Integrate data</a></li>
+<li class="chapter" data-level="6.2" data-path="process-data.html"><a href="process-data.html#classify-and-code"><i class="fa fa-check"></i><b>6.2</b> Classify and Code</a></li>
+<li class="chapter" data-level="6.3" data-path="process-data.html"><a href="process-data.html#review-and-validate"><i class="fa fa-check"></i><b>6.3</b> Review and validate</a></li>
+<li class="chapter" data-level="6.4" data-path="process-data.html"><a href="process-data.html#derive-new-variables-and-units"><i class="fa fa-check"></i><b>6.4</b> Derive new variables and units</a></li>
+<li class="chapter" data-level="6.5" data-path="process-data.html"><a href="process-data.html#calculate-weights-for-data-derived-from-probability-samples"><i class="fa fa-check"></i><b>6.5</b> Calculate weights for data derived from probability samples</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="analyse-data.html"><a href="analyse-data.html"><i class="fa fa-check"></i><b>7</b> Analyse Data</a><ul>
+<li class="chapter" data-level="7.1" data-path="analyse-data.html"><a href="analyse-data.html#prepare-draft-outputs"><i class="fa fa-check"></i><b>7.1</b> Prepare draft outputs</a><ul>
+<li class="chapter" data-level="7.1.1" data-path="analyse-data.html"><a href="analyse-data.html#basic-tabulations---estimates-of-counts-and-proportions-of-stocks-and-flows"><i class="fa fa-check"></i><b>7.1.1</b> Basic tabulations - estimates of counts and proportions of stocks and flows</a></li>
+<li class="chapter" data-level="7.1.2" data-path="analyse-data.html"><a href="analyse-data.html#basic-indicators-statistics-proportions-and-estimates"><i class="fa fa-check"></i><b>7.1.2</b> Basic indicators (statistics, proportions and estimates)</a></li>
+<li class="chapter" data-level="7.1.3" data-path="analyse-data.html"><a href="analyse-data.html#sdg-indicators-recommended-for-refugees-and-idps"><i class="fa fa-check"></i><b>7.1.3</b> SDG indicators recommended for refugees and IDPs</a></li>
+<li class="chapter" data-level="7.1.4" data-path="analyse-data.html"><a href="analyse-data.html#more-complex-analysis-and-commentary"><i class="fa fa-check"></i><b>7.1.4</b> More complex analysis and commentary</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="analyse-data.html"><a href="analyse-data.html#validate-outputs"><i class="fa fa-check"></i><b>7.2</b> Validate outputs</a><ul>
+<li class="chapter" data-level="7.2.1" data-path="design.html"><a href="design.html#section"><i class="fa fa-check"></i><b>7.2.1</b> </a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="analyse-data.html"><a href="analyse-data.html#interpret-and-explain-outputs"><i class="fa fa-check"></i><b>7.3</b> Interpret and explain outputs</a></li>
+<li class="chapter" data-level="7.4" data-path="analyse-data.html"><a href="analyse-data.html#apply-disclosure-control"><i class="fa fa-check"></i><b>7.4</b> Apply disclosure control</a></li>
+<li class="chapter" data-level="7.5" data-path="analyse-data.html"><a href="analyse-data.html#finalise-outputs"><i class="fa fa-check"></i><b>7.5</b> Finalise outputs</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="dissemination.html"><a href="dissemination.html"><i class="fa fa-check"></i><b>8</b> Dissemination</a><ul>
+<li class="chapter" data-level="8.1" data-path="dissemination.html"><a href="dissemination.html#update-output-systems"><i class="fa fa-check"></i><b>8.1</b> Update output systems</a><ul>
+<li class="chapter" data-level="8.1.1" data-path="dissemination.html"><a href="dissemination.html#existing-output-systems-portals-and-platforms"><i class="fa fa-check"></i><b>8.1.1</b> Existing output systems (portals and platforms)</a></li>
+<li class="chapter" data-level="8.1.2" data-path="dissemination.html"><a href="dissemination.html#new-output-system"><i class="fa fa-check"></i><b>8.1.2</b> New Output system</a></li>
+<li class="chapter" data-level="8.1.3" data-path="dissemination.html"><a href="dissemination.html#data-portals-guidelines"><i class="fa fa-check"></i><b>8.1.3</b> Data Portals – guidelines</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="dissemination.html"><a href="dissemination.html#produce-dissemination-products"><i class="fa fa-check"></i><b>8.2</b> Produce dissemination products</a><ul>
+<li class="chapter" data-level="8.2.1" data-path="dissemination.html"><a href="dissemination.html#dissemination-products-what"><i class="fa fa-check"></i><b>8.2.1</b> Dissemination products (“what”)</a></li>
+<li class="chapter" data-level="8.2.2" data-path="design.html"><a href="design.html#section"><i class="fa fa-check"></i><b>8.2.2</b> </a></li>
+<li class="chapter" data-level="8.2.3" data-path="dissemination.html"><a href="dissemination.html#users-recipients-of-the-dissemination-products-for-whom"><i class="fa fa-check"></i><b>8.2.3</b> Users / recipients of the dissemination products (“for whom”)</a></li>
+<li class="chapter" data-level="8.2.4" data-path="dissemination.html"><a href="dissemination.html#process-ensuring-proper-creation-of-the-dissemination-products-and-best-practices-guidelines-how"><i class="fa fa-check"></i><b>8.2.4</b> Process ensuring proper creation of the dissemination products and best practices, guidelines (“how”)</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="dissemination.html"><a href="dissemination.html#manage-release-of-dissemination-products"><i class="fa fa-check"></i><b>8.3</b> Manage release of dissemination products</a></li>
+<li class="chapter" data-level="8.4" data-path="dissemination.html"><a href="dissemination.html#promote-dissemination-products"><i class="fa fa-check"></i><b>8.4</b> Promote dissemination products</a><ul>
+<li class="chapter" data-level="8.4.1" data-path="dissemination.html"><a href="dissemination.html#conferences-public-debates-fairs"><i class="fa fa-check"></i><b>8.4.1</b> Conferences, public debates, fairs</a></li>
+<li class="chapter" data-level="8.4.2" data-path="dissemination.html"><a href="dissemination.html#social-media"><i class="fa fa-check"></i><b>8.4.2</b> Social media</a></li>
+<li class="chapter" data-level="8.4.3" data-path="dissemination.html"><a href="dissemination.html#other-forms-of-dissemination---visualisation-tools-mobile-apps-gis-portals"><i class="fa fa-check"></i><b>8.4.3</b> Other forms of dissemination - visualisation tools, mobile apps, GIS portals</a></li>
+</ul></li>
+<li class="chapter" data-level="8.5" data-path="dissemination.html"><a href="dissemination.html#manage-user-support"><i class="fa fa-check"></i><b>8.5</b> Manage user support</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Compilers-Manual-EGRIS</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-collection-phase" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> Data collection phase</h1>
+<p>‘This phase collects or gathers all necessary information (data and
+metadata), using different collection modes (including extractions from
+statistical, administrative and other non-statistical registers and
+databases), and loads them into the appropriate environment for further
+processing. Whilst it can include validation of data set formats, it
+does not include any transformations of the data themselves, as these
+are all done in the "Process" phase. For statistical outputs produced
+regularly, this phase occurs in each iteration<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a>’ (UNECE, 2013).</p>
+<ol start="318" style="list-style-type: decimal">
+<li>This section includes advice on collecting all four data source
+types (censuses, surveys, administrative data and integrated data).
+It includes the process of making sample selections from the frames
+developed in <em>Phase</em> <em>2.4.A. Design Frame</em> and the training
+components of field data collections using the instruments designed
+in Phase 2 in A. Census, B, Surveys and C. Administrative Data,
+<em>2.3.A. Design collection</em>.</li>
+</ol>
+<pre><code>**Introduction**</code></pre>
+<ol start="319" style="list-style-type: decimal">
+<li>Data collection can include multiple different methodologies. This
+includes census, surveys, administrative data and for data
+integrated from several sources (See Phase <em>2D</em> <em>2.3.D. Design
+Collection</em>). This section focuses on surveys, administrative data
+collections are described in several of the examples in Part II of
+this manual - Case Studies (see Bosnia and Herzegovina, Norway,
+Turkey and Ukraine)</li>
+</ol>
+<div id="create-frame-and-select-sample-for-surveys" class="section level2">
+<h2><span class="header-section-number">5.1</span> Create frame and select sample for surveys</h2>
+<ol start="320" style="list-style-type: decimal">
+<li>This is covered in Phase 2, <em>2.4.A. Design Frame.</em></li>
+</ol>
+</div>
+<div id="set-up-collection" class="section level2">
+<h2><span class="header-section-number">5.2</span> Set up collection</h2>
+<ol start="321" style="list-style-type: decimal">
+<li><p>Setting up data collection in situations involving refugees and
+internally displaced persons (IDPs) poses additional hurdles that
+one has to consider and try to meet before and during the data
+collection phase. The case studies for South Sudan and Yemen
+describes some of the difficulties involved in collecting data in
+dangerous environments (see Part II of this Manual<em>;</em> <em>South Sudan
+High Frequency Survey</em> and <em>Yemen IDP Example.</em></p></li>
+<li><p>The data collection phase encompasses the preparation for the
+actual field work activities. Set up of data collection can be
+divided in three main activities. These include: the survey
+instrument preparation, recruitment and training of field staff and
+actual data collection.</p></li>
+</ol>
+<div id="ensuring-collaboration-by-households" class="section level4">
+<h4><span class="header-section-number">5.2.0.1</span> Ensuring Collaboration by Households</h4>
+<ol start="323" style="list-style-type: decimal">
+<li><p>The most important way to ensure collaboration by the households is
+to establish a good with local communities about the purpose and
+conduct of the survey. Efforts may be needed at the national, local
+and particularly at the community level. The survey should use
+polite, diligent, well trained interviewers and to ensure that the
+household is contacted and a time convenient for the interview
+arranged. Some additional measures may be needed. There are no fixed
+prescriptions that will work everywhere, but experience from various
+countries should be observed and evaluated.</p></li>
+<li><p><strong>Use of Mass Media</strong>. In general, the use of mass media is a waste
+of money because the mass media reach many people whom the survey
+does not. However, if mass media coverage can be obtained free it
+can be useful. Even if it is limited to a short newspaper story or
+some radio or TV briefs at the start of the survey, it can boost the
+field teams' morale and self-confidence at this critical time.
+(Occasionally Interviewers keep the old newspapers throughout the
+entire survey period, to show the households that they are official
+and serious.)</p></li>
+<li><p><strong>Targeted Publicity</strong>. This may include letters to the households
+and leaflets (preferably in colour, with graphs or other
+illustrations) that explain the purpose of the survey and the
+sampling methodology in simple terms.</p></li>
+<li><p><strong>Material Incentives</strong>. Sometimes a gift or payment is given to
+the households in return for their collaboration. There is some
+controversy about the quality and quantity of the material
+incentives that should be used to foster the household's
+collaboration. Some consider incentives to be standard procedure for
+all surveys. Other statistical agencies are reluctant to even
+consider the idea of rewarding the households in any way, to prevent
+households from becoming increasingly demanding and affecting all
+the household surveys conducted in the country. A relatively
+inexpensive alternative, likely to be cost-effective and be accepted
+in all countries, consists of giving away small presents for the
+interviewed households. Ideally, the giveaways should have little or
+no intrinsic value. This both ensures that they do not affect the
+household welfare measurement and reduces the accounting controls
+required.</p></li>
+<li><p><strong>Community Level.</strong> Publicity and motivation at the local
+community level are especially important in rural areas. Local
+authorities should be contacted and convinced of the usefulness of
+the survey. After this meeting the Interviewers can contact the
+selected households to introduce themselves and to make appointments
+for interviews. As an example, when doing a pilot survey in an IDP
+camp in Darfur, Al-Fasher, the field teams failed to approach the
+traditional leaders. This almost compromised the fieldwork
+operation. The problem was exacerbated as local IDPs were not
+approached or recruited to join the fieldwork team although this may
+have raised some problems over confidentiality, roles for local
+people in field operations may be advantageous in gaining local
+support .</p></li>
+</ol>
+</div>
+<div id="survey-instrument-preparation" class="section level4">
+<h4><span class="header-section-number">5.2.0.2</span> Survey Instrument Preparation</h4>
+<ol start="328" style="list-style-type: decimal">
+<li><p>The survey data collection phase requires the preparation of the
+survey instrument and the design of the questionnaire to be
+administered to respondents (see also <em>Phase 3</em> <em>Build a system for
+collection of data and production of statistics</em>). There are two
+methods of administering household survey questionnaires: Paper and
+Pencil Interviewing (PAPI) and electronic data capture. PAPI uses
+paper questionnaires for interviews and the data can be recorded in
+two ways: i) data entered in a central location, and ii) data
+entered in the field, known as Computer Assisted Field Entry (CAFE).
+CAFE is preferable because it facilitates electronic data checks
+while data collection is ongoing, which could improve data quality.
+Data checks are performed during fieldwork, thus allowing for the
+possibility of correcting the data while Interviewers and
+respondents are still available. If any errors are flagged during
+field entry, the Interviewer can return to the household the next
+day to revise and/or make necessary corrections.</p></li>
+<li><p>Electronic data capture can be done in a variety of ways: 1)
+Computer Assisted Personal Interview (CAPI), which uses tablets; 2)
+Computer Assisted Web Interview (CAWI), which is typically conducted
+via email and might not be feasible for certain populations because
+it is self-administered; and 3) Computer Assisted Telephone
+Interview (CATI) in which the data is collected over the phone and
+therefore has a time constraint.</p></li>
+<li><p>CAPI is increasingly becoming the survey instrument of choice as it
+allows for faster data collection and better-quality data, by
+allowing for immediate in situ data validity checks. The decision to
+use CAPI will depend on the capabilities of the organization that
+collects the data and the interests of the organization that
+finances the data collection. Such capabilities are measured in
+terms of: (a) technical ability, i.e. skilled data programmers and
+Interviewers; (b) the communications system and infrastructure;
+and (c) the ease of access to the equipment, given the procurement
+procedures.</p></li>
+<li><p>Field work using either paper questionnaires and CAFE; or tablets
+and CAPI face constraints while in the field, and this can be
+particularly problematic in situations of disaster or displacement.</p></li>
+</ol>
+<pre><code>1.  First, without access to electricity, it will be difficult to
+    operate the data entry computer. Options to resolve this problem
+    include providing each team with a set of solar panels,
+    high-performance batteries, or other electronic equipment. In
+    addition to the electronic equipment, the teams have to
+    transport the computer itself, the printer and a sufficient
+    supply of paper, diskettes, and so forth. The advantage is that
+    this will allow proven field and data entry procedures to be
+    used with only minor modification. The modifications that are
+    being made relate mostly to reducing the amount of paper used in
+    the supervision and data management process, in order to reduce
+    the weight that has to be carried around. The main disadvantages
+    of this approach to mobile data entry are the risk of something
+    going wrong with such an elaborate setup and the weight the
+    teams will have to carry.
+
+2.  Second, if there is no electricity, recharging the batteries for
+    the tablets used for CAPI collection can be affected. A supply
+    of extra batteries should be provided to each team, however in
+    situations where this cannot be easily or safely done PAPI
+    methods may be preferable
+
+3.  Finally, the lack of Wi-Fi access can have serious adverse
+    effects on the data collection whether CAFÉ or CAPI is used.
+    Sending data for central processing over the internet can help
+    speed up overall completion of the survey implementation. If
+    CAFÉ is used, the Data Entry Operator can send data to
+    headquarters as soon as all the checks have been completed. If
+    CAPI is used, it may, depending on the software used, require
+    internet connectivity to implement the questionnaire. With
+    either method, having WIFI connections allows the teams to stay
+    in the field for longer periods of time without having to go to
+    headquarters to deliver data.</code></pre>
+</div>
+<div id="piloting-field-procedures" class="section level4">
+<h4><span class="header-section-number">5.2.0.3</span> Piloting Field Procedures</h4>
+<ol start="332" style="list-style-type: decimal">
+<li>The pilot test for field procedures is less to determine whether
+they can work in general than to fine tune the details of how they
+are implemented in the specific country. Most problems found during
+the field test fall into three classes:</li>
+</ol>
+<pre><code>4.  **Refining Logistics**. In spite of careful planning, some
+    problems regarding the supply of one survey materials is always
+    found.
+
+5.  **Debugging the Data Entry Programme.** The functioning of the
+    data entry program has to be tested. Despite extensive testing
+    problems arise when data from numerous real households are
+    entered. Additional consistency checks are likely to be required
+    that were unforeseen by the survey Data Managers. These will
+    become obvious after the first few days or hours of field work,
+    early field tests are particularly useful.
+
+6.  **Statistical Quality Control of the Data**. Concurrent data
+    entry makes it possible to conduct some preliminary statistical
+    analysis of the data collected as the survey progresses. From an
+    analytical standpoint, the data from just a portion of the field
+    work has no statistical significance unless the total sample is
+    exceptionally large, but it often can provide interesting
+    insights into the quality of the field work. For instance, after
+    the first period of field work, the frequency distribution of
+    the last digit of the ages recorded in years may show too large
+    a proportion of \&quot;zeroes\&quot; and \&quot;fives\&quot; (demographers always
+    expect this to happen, but it should always be checked). The
+    early detection of this problem allows for corrective
+    re-training and can also give the data entry program credibility
+    in the eyes of the field teams.</code></pre>
+<ol start="333" style="list-style-type: decimal">
+<li>Regular supervision that includes practical suggestions to
+practical problems can be helpful in maintaining motivation, morale
+and professional standards. As discussed in the section on the
+Supervisor's duties, supervision should be extensive in any survey
+to ensure quality data collection.</li>
+</ol>
+</div>
+<div id="recruiting-and-training-of-field-staff" class="section level4">
+<h4><span class="header-section-number">5.2.0.4</span> Recruiting and Training of Field Staff</h4>
+<ol start="334" style="list-style-type: decimal">
+<li><p>Prior to data collection, the training plan for both the field
+staff and the management staff should be laid out. Normally this
+will include training in the techniques required to collect the data
+required or to compile the data. In addition, if an instrument will
+be used in the field, then specific training runs of deploying the
+instrument are necessary.</p></li>
+<li><p>Hiring good field workers is often difficult. Because it is often
+difficult to assess all the required qualities in a short job
+interview, more field staff should be hired than will be required,
+usually 15 to 25 percent more. All the hires are trained. During the
+training period the candidates' work characteristics and ability to
+establish rapport with interviewees is displayed and can be assessed
+more accurately. Then, after the training period, a final selection
+is made.</p></li>
+<li><p>Good training contributes greatly to the quality of the data
+collection effort. Training is one of the hardest aspects of field
+work to convince people to do well. Training is expensive, takes
+time away from actual collection of data, and is often viewed as an
+unnecessarily complicated task. The most common complaint is that
+the Interviewers already know how to interview and there is little
+need for additional training.</p></li>
+<li><p>Having Interviewers who are previously trained in how to interview
+can be an advantage. Interviewing techniques are difficult to
+learn - how to interact with the respondents, how to convince
+reluctant respondents to participate and actually complete the
+interview, how to get the attention of the respondents when they
+have so many other things to do - and are useful in almost all
+survey situations, regardless of the contents of the questionnaire.</p></li>
+<li><p>However, initially the Interviewers do not know the reasons for
+this particular survey, the contents of this questionnaire, the
+analyses that are envisioned for the data or the policy impacts that
+these data could influence. It is extremely important that enough
+time is given to training on the specifics of the survey so that all
+Interviewers understand the purpose of the survey and all of the
+concepts in the same way. This is particularly important for NSOs
+conducting surveys about displacement for the first time, as many of
+the concepts and definitions are new.</p></li>
+</ol>
+</div>
+<div id="training-for-interviewing-displaced-people" class="section level4">
+<h4><span class="header-section-number">5.2.0.5</span> Training for interviewing displaced people</h4>
+<ol start="339" style="list-style-type: decimal">
+<li><p>Many of the concepts in the IRRS and IRIS will be new to
+statistical offices and their staff. All staff involved in any
+survey or data collection involving displaced people must be trained
+in these concepts and understand them. Of particular importance is
+training data collection staff on refugee and IDP concepts such as
+habitual residence, usual residence, migration concepts, refugee
+categories, meaning of displacement, meaning of refugee and IDP, and
+reasons for displacement and migration.</p></li>
+<li><p>Many displaced people are difficult to find, as their place of
+residence is often not fixed or is impermanent. They may be in
+shelters, camps, temporary accommodation or lodging with other
+households. Because of this, they may fail the interviewers usual
+understanding of ‘usual members of the household’ and can be treated
+as visitors and excluded from household rosters. These exclusions
+mean that they fail the test of probability sampling, that every
+person has a known chance of selection in the survey. Data
+collection staff must be carefully trained in recording all members
+of the household – e.g. temporary members who may be displaced.</p></li>
+<li><p>Training in the interviewing of vulnerable persons such as children
+and disabled people. People who have been displaced have suffered
+trauma and any interview may ask people to relive painful
+experiences. A UNHCR commissioned survey of IDPs in Georgia in 2014
+asking about their intentions was described as an emotional
+process<a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a>.</p></li>
+</ol>
+<p>Box 4.1: Interviewing Vulnerable IDPs in Georgia</p>
+</div>
+<div id="training-manuals" class="section level4">
+<h4><span class="header-section-number">5.2.0.6</span> Training Manuals</h4>
+<ol start="342" style="list-style-type: decimal">
+<li><p>The main written materials used for training field teams
+(Supervisors, Interviewers, and Data Entry Operators) are the
+questionnaires and the field manuals. It is recommended to produce
+many more manuals than needed for training because apart from their
+obvious use as a support for field operations the manuals are also
+valuable tools for the survey analysts.</p></li>
+<li><p>The basic contents of each kind of manual is described in much more
+detail in Part 3 of this Manual<em>;</em> <em>Training Needs Plan. </em></p></li>
+</ol>
+</div>
+</div>
+<div id="run-data-collection" class="section level2">
+<h2><span class="header-section-number">5.3</span> Run Data Collection</h2>
+<ol start="344" style="list-style-type: decimal">
+<li><p>This section discusses the main features of preparation for field
+work, other than designing the questionnaire or drawing the sample.
+Many of the data quality control mechanisms rely extensively on the
+preparation for the field work. Survey preparation is thus very
+important and should be given due time and attention. Often there is
+the temptation to skimp on preparation in order to move to the field
+too rapidly. This temptation should be avoided.</p></li>
+<li><p>The survey's success relies on its staff. Here are some basic
+requirements that staff should have given their role in the data
+collection activities:</p></li>
+</ol>
+<ul>
+<li><p><strong>The Survey Manager</strong> should be a social scientist or statistician
+with a grasp of the goals to be achieved by the survey. Often this
+person will have a graduate degree in statistics, economics, or
+demography. At a minimum the Survey Manager should have a lower
+university degree.</p></li>
+<li><p><strong>The Data Manager</strong> can be a systems analyst or senior programmer
+with prior experience in statistical data management.</p></li>
+<li><p><strong>The Field Manager</strong> should have substantial managerial skills and
+experience in conducting household surveys in the country. All
+members of the core staff (not just the Data Manager) should be
+familiar enough with personal computers to use word processing
+software and spreadsheets.</p></li>
+<li><p><strong>The Supervisors</strong> should have completed secondary education.
+Experience in motivating people and managing resources; and the
+ability to foster teamwork are more important than credentials.</p></li>
+<li><p><strong>The Interviewers</strong> should also have a good secondary education,
+but they do not need to have pursued further studies. In fact, that
+may be a disadvantage, as graduates tend to be more likely to
+abandon the survey halfway through if they are offered a better or
+more interesting job.</p></li>
+<li><p>Similarly, experience with computers is not an essential requisite
+for the <strong>Data Entry Operators,</strong> but it is helpful if they have
+keyboard skills. It is not difficult to learn to enter data and it
+is not necessary to understand how a program works in order to use
+it successfully. It is better, in fact, if the Data Entry Operators
+are interested in the survey rather than in computers; that way,
+when they note incorrect answers, they are more likely to use the
+same terms as the questionnaire instead of explaining the error in
+computer terms.</p></li>
+</ul>
+<ol start="346" style="list-style-type: decimal">
+<li><p>It may also be desirable that team members, especially
+Interviewers, be fluent in two or more languages, and in when
+interviewing displaced people interviewers must be fluent in the
+languages and dialects that they are likely to encounter. Moreover,
+it is best if the Interviewers in each team have complementary
+language skills so that between them, so they can conduct all (or
+nearly all) the interviews themselves. <a href="#fn35" class="footnote-ref" id="fnref35"><sup>35</sup></a></p></li>
+<li><p>Unless specific cultural or religious conditions dictate, there
+seems to be no <em>a priori</em> reason for preferring male to female
+Interviewers or vice versa. However, this should be adapted to the
+cultural context, e.g. the NSO in Sudan aims to use male
+interviewers among the nomads, interviewers with military background
+when addressing military personnel, female interviewers when
+interviewing women on pregnancy, birth, breastfeeding etc. There is
+also some anecdotal evidence, that households are less likely to
+refuse women interviewers. Prior experience in the country may show
+that it is culturally more acceptable for female respondents to
+admit female interviewers to their homes when the men were absent.
+Even when male interviewers are used, anecdotal reports from several
+countries suggest that females may find it easier to establish
+rapport for the modules with sensitive content.</p></li>
+<li><p>In some surveys, questions may be gendered with sensitive questions
+for males and females, an interviewer should be selected of the same
+gender to enable the interview to obtain the answers needed with as
+little social embarrassment as possible, and in privacy.</p></li>
+</ol>
+<div id="team-and-fieldwork-logistics-in-hazardous-environments" class="section level4">
+<h4><span class="header-section-number">5.3.0.1</span> Team and fieldwork logistics in hazardous environments</h4>
+<ol start="349" style="list-style-type: decimal">
+<li><p>Collecting survey data in hazardous or conflict environments is
+marked by specific situations that may be hard to plan for. Parts of
+a country may be inaccessible due to the presence of terrorist
+groups or violent clashes between various power factions may occur
+throughout the territory. In addition to conflict situations, the
+weather phenomena may cause severe droughts or severe floods that
+exacerbate pre-existing vulnerabilities in the population. Both
+conflict and weather conditions have led to large‐scale internal
+displacement throughout the world.</p></li>
+<li><p>Countries with conflict are often data deprived. Specifically,
+years of civil war or ongoing conflict will erode the statistical
+infrastructure and capacity, leading to the lack of key macro‐ and
+micro‐economic indicators. The last full population census, needed
+to develop the sample frame, may be long out of date. In addition,
+risks to the safety of field staff may require spending as little
+time in enumeration areas as possible. While organizations operating
+within the country may implement a range of smaller surveys, these
+cannot meet the data needs for all policy interventions.</p></li>
+<li><p>Several techniques have been developed to consider the special
+circumstances of trying to collect data in hazardous or conflict
+situations. To address security concerns, the Somalia High Frequency
+Survey adapted logistical arrangements, sampling strategy, and
+questionnaire design to limit time on the ground. In logistical
+arrangements, a detailed and timely security assessment ensured that
+the enumeration areas to‐be‐visited were safe on the day of
+fieldwork.<a href="#fn36" class="footnote-ref" id="fnref36"><sup>36</sup></a> The fieldwork protocol was designed such that teams
+would spend as little time as possible in any given region and draw
+little attention, ensuring enumerator and respondent safety.
+Concerning sampling strategy, it was not feasible to conduct a full
+listing of all households in an enumeration area, as this was too
+time‐intensive and may have raised suspicion. Instead, a
+micro‐listing approach was used, which required enumeration areas to
+be segmented into smaller enumeration blocks using satellite
+imagery. Enumeration blocks are small enough for enumerators to list
+and select households immediately before conducting the interview.</p></li>
+<li><p>Other techniques include enlisting the assistance of local
+community groups in conflict areas to assist in the collection of
+the data. Using local community groups who have the trust of the
+group of interest can bridge the communication gap between the data
+collection effort and the conflict area groups. When using this
+technique, it is important that the local community groups are
+contacted early in the survey design process and allowed to
+participate in the preparation of the survey. It is important that
+communities in the conflict areas feel that their concerns have been
+addressed.</p></li>
+<li><p>A sufficient initial stock and a steady supply of survey materials
+and inputs should be ensured for all field teams throughout the
+whole survey period. The list of materials includes obvious items
+such as questionnaires/tablets, pencils, and erasers, less obvious
+ones such as USB keys, clipboards, and briefcases, and a myriad of
+country-specific items ranging from raincoats to camping stoves.</p></li>
+<li><p>The elements that have proven hardest to manage in all countries
+are fuel, oil, and everything related to car maintenance. Probably
+the best solution is to provide a cash revolving fund and make the
+Supervisor accountable for it. This may be hard to do in more
+bureaucratic organisations.</p></li>
+</ol>
+</div>
+<div id="conducting-the-interview" class="section level4">
+<h4><span class="header-section-number">5.3.0.2</span> Conducting the interview</h4>
+<ol start="355" style="list-style-type: decimal">
+<li><p>In each interview the Interviewer will go through all pertinent
+modules in the order they appear in the questionnaire. Interviews
+should be conducted with direct respondents as often as possible.
+For those respondents who are too young - children under 10 years of
+age - the adult who is most responsible for the children should
+respond on their behalf. Proxies will also be used for respondents
+who are temporarily absent or who are unable to respond for
+themselves due to illness or disability.</p></li>
+<li><p>This practice enhances data quality in several ways. First, since
+the person best qualified to answer each part of the questionnaire
+is interviewed, inaccurate responses are avoided. Second, the whole
+survey, which can take considerable time in each household, is
+broken into a series of more manageable mini-interviews. Respondent
+fatigue is thus minimized. Third, since the mini-interviews are
+scheduled according to the respondents’ convenience, the refusal
+rate is also minimized. However mini-interviews can also introduce
+logistical problems for both interviewers and respondents, and the
+context should be taken into account, particularly in hazardous
+environments where travel needs to be minimised.</p></li>
+<li><p>The actual length of the interview varies widely from one household
+to another and between countries. The difference between countries
+depends on the length of the questionnaires used. Within countries,
+interview time varies depending on the number of people in the
+household. However, given that Interviewers generally need to visit
+each household several times, it is more useful to evaluate
+interview time (and consequently Interviewer productivity) in terms
+of "households per week" or "households per day" rather in
+"hours per household."</p></li>
+<li><p>Field work with simultaneous data entry offers several powerful
+advantages. First and perhaps most important, it raises data
+quality. Simultaneous data entry, whether CAFÉ or CAPI makes it
+possible to correct mistakes while Interviewers are still in the
+household or at least in the area.</p></li>
+<li><p>Secondly, simultaneous data entry can also shorten the time needed
+for data entry, and speed up the editing and analysis steps after
+the final interview. Thus, the goal of the timely availability of
+the data is accomplished.</p></li>
+<li><p>There are a few disadvantages to this type of field organization.
+For one thing, the field workers need to be highly competent.
+Moreover, this strategy may also increase the survey costs.</p></li>
+</ol>
+</div>
+<div id="developing-supervision-forms" class="section level4">
+<h4><span class="header-section-number">5.3.0.3</span> Developing Supervision Forms</h4>
+<ol start="361" style="list-style-type: decimal">
+<li>Three of the tasks of the team Supervisors should be supported by
+written documents, known as supervision forms. These are (1)
+Interviewer evaluation, (2) questionnaire verification, and (3)
+check-up interviews. The forms are intended to give these tasks
+formal definition, as opposed to loosely defined responsibilities
+left to the Supervisor's personal initiative, and to make it
+possible to supervise the Supervisors themselves (e.g., make
+supervision tasks verifiable by the survey core staff).</li>
+</ol>
+</div>
+<div id="scheduling-field-work" class="section level4">
+<h4><span class="header-section-number">5.3.0.4</span> Scheduling Field Work</h4>
+<ol start="362" style="list-style-type: decimal">
+<li><p>The task assignment of each team should be done concurrently with
+the first stage of sample selection. The clusters are distributed
+among the field teams and the order in which each team will visit
+the clusters assigned to it is decided at random. The schedule of
+each team should then be made explicit, to indicate what each team
+will be supposed to be doing each week of the survey year.</p></li>
+<li><p>Designing the actual schedule is very country-specific, as it is
+usually developed around national holidays and other significant
+dates, with the goal of either excluding or including them in the
+work period. In Muslim countries, for instance, the Ramadan month is
+particularly interesting to observe because of the differences in
+the household consumption patterns; Ramadan, however, is not a good
+month to train Interviewers or to initiate the survey.</p></li>
+</ol>
+</div>
+<div id="composition-of-survey-staff" class="section level4">
+<h4><span class="header-section-number">5.3.0.5</span> Composition of Survey Staff</h4>
+<ol start="364" style="list-style-type: decimal">
+<li><p>The key headquarters staff includes the Survey Manager, Data
+Manager, and Field Manager. These are the minimum requirements.
+Sometimes it is useful to employ a secretary and a bookkeeper. The
+need for a bookkeeper will be greater where financing is being
+provided by more than one agency or where substantial procurement
+will take place.</p></li>
+<li><p>The core staff should be organized to work together as a team, with
+the Survey Manager being the only head during the entire preparation
+stage instead of having individuals respond to separate divisions in
+the data collection agency. This is especially important - and
+sometimes hard to achieve - in large national statistical agencies
+that are organized under the traditional departmental structure with
+a census department, a household survey department, a data
+processing department, and so forth.</p></li>
+<li><p>Each of the field teams is headed by a Supervisor and usually
+includes three to four Interviewers, a driver with a car, and a Data
+Entry Operator if CAPI is not used. This standard setup is used for
+most surveys. In some countries local conditions have dictated
+changes in the composition of the field teams:</p></li>
+<li><p>When a team must work mainly in large urban areas, an additional
+Interviewer may sometimes be added. This allows for additional
+interviews to take place at a low marginal cost.</p></li>
+<li><p>Cultural constraints in certain countries may require that an adult
+must be interviewed by someone of the same sex. Since it would
+likewise not be appropriate for a female to travel alone with
+several men, each team may need to have two female and two male
+Interviewers. In some cases, a relative of the female Interviewer(s)
+may need to travel with the team.</p></li>
+</ol>
+</div>
+<div id="duties-of-survey-team-members" class="section level4">
+<h4><span class="header-section-number">5.3.0.6</span> Duties of Survey Team Members</h4>
+<ol start="369" style="list-style-type: decimal">
+<li>The composition of a typical survey team is described in detail in
+Part 3 of this Manual. See - <em>Training Needs Plan.</em></li>
+</ol>
+<div id="phase-links-and-examples-of-training-manuals-and-data-collection-advice" class="section level6">
+<h6><span class="header-section-number">5.3.0.6.0.1</span> Phase Links and Examples of Training Manuals and Data Collection Advice</h6>
+<ul>
+<li><p><strong>Training Manual for Civil Registration Functionaries in India,
+&gt; 2012</strong> (Hindi and English);
+&gt; <a href="http://www.censusindia.gov.in/2011-Documents/CRS_Report/CRS_mannual_Hindi_English.pdf" class="uri">http://www.censusindia.gov.in/2011-Documents/CRS_Report/CRS_mannual_Hindi_English.pdf</a>
+&gt; .</p></li>
+<li><p>2020 Census Complete Count Committee - Training Manual, United
+&gt; States of America<em>:</em>
+&gt; <a href="http://azmag.gov/Portals/0/Documents/MagContent/CCC-Training-Manual.pdf?ver=2018-04-25-145518-867" class="uri">http://azmag.gov/Portals/0/Documents/MagContent/CCC-Training-Manual.pdf?ver=2018-04-25-145518-867</a></p></li>
+<li><h3 id="jips-data-collection-advice.-implementing-data-collection---operational-plan-for-data-collection.-this-document-outlines-an-operational-plan-for-the-data-collection-phase-of-the-household-survey-during-a-profiling-exercise.-this-document-helps-plan-out-how-the-fieldwork-will-actually-be-conducted.-it-includes-the-operational-structure-showing-how-the-implementingdata-collection-partners-fit-in-the-roles-and-responsibilities-for-the-various-actors-involved-and-the-work-plan-for-the-next-steps.-httpsjet.jips.orgphaseimplementing-data-collection"><span class="header-section-number">5.3.0.6.0.1</span> JIPS data collection advice. <strong>Implementing Data Collection -</strong> <strong>Operational Plan for Data Collection. This document outlines an operational plan for the data collection phase of the household survey during a profiling exercise. This document helps plan out how the fieldwork will actually be conducted. It includes the operational structure showing how the implementing/data collection partners fit in, the roles and responsibilities for the various actors involved and the work plan for the next steps.</strong> <a href="https://jet.jips.org/phase/implementing-data-collection/" class="uri">https://jet.jips.org/phase/implementing-data-collection/</a></h3></li>
+<li><p><strong>UNHCR Needs Assessment Handbook</strong>. The Handbook is structured in
+two parts. The first, which is recommended for all audiences defines
+need assessments and their different types; describes coordination
+modalities; outlines the roles and responsibilities of different
+actors in refugee situations, IDP situations, and mixed situations;
+provides an overview of the steps to conduct needs assessments and
+the principles that should guide them; and explains the relationship
+between needs assessments and other information systems. The second
+part of the Handbook provides detailed practical guidance on how to
+conduct needs assessments in the field. It can be used as a
+reference text, with readers referring to specific steps and
+sections as needed based on their role in the operation or the needs
+assessment, and the type of situation.
+<a href="http://needsassessment.unhcr.org/" class="uri">http://needsassessment.unhcr.org/</a></p></li>
+<li><p>Johannes Hoogeveen, Emil Tesliuc, Renos Vakis with Stefan Dercon, A
+Guide to the Analysis of Risk, Vulnerability and Vulnerable Groups;
+<a href="http://siteresources.worldbank.org/INTSRM/Publications/20316319/RVA.pdf" class="uri">http://siteresources.worldbank.org/INTSRM/Publications/20316319/RVA.pdf</a></p></li>
+<li><p>World Bank. <em>Informing Durable Solutions for Internal Displacement
+in Nigeria, Somalia, South Sudan, and Sudan: Volume C:</em> Technical
+Aspects.
+<a href="http://documents.worldbank.org/curated/en/142811557466057440/pdf/Volume-C-Technical-Aspects.pdf" class="uri">http://documents.worldbank.org/curated/en/142811557466057440/pdf/Volume-C-Technical-Aspects.pdf</a>
+see also
+<a href="https://link.springer.com/chapter/10.1007/978-3-030-25120-8\_11" class="uri">https://link.springer.com/chapter/10.1007/978-3-030-25120-8\_11</a></p>
+<ul>
+<li>Several data limitations prevent an accurate assessment of
+socioeconomic conditions among displaced people and hosts, which
+hinders efforts to design targeted policy interventions. This
+report addresses a key survey methodology question in the
+displacement context. In response to under- reporting of
+consumption patterns (in particular, food consumption), the
+study proposes the adoption of behavioral nudges in survey
+design. To mitigate potentially spurious responses, including
+‘honesty primes’ in the consumption module of the survey’s
+questionnaire has led to more accurate reporting. The report
+also proposes clustering approaches to derive typologies of
+IDPs, to inform the required specificity of programs, and to
+find durable solutions<strong>. </strong></li>
+</ul></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="33">
+<li id="fn33"><p><sup>Ibid para 94</sup><a href="data-collection-phase.html#fnref33" class="footnote-back">↩︎</a></p></li>
+<li id="fn34"><p>Source IRRS:
+<a href="https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281" class="uri">https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281</a>
+- page 125.<a href="data-collection-phase.html#fnref34" class="footnote-back">↩︎</a></p></li>
+<li id="fn35"><p>Output system is considered as a dissemination system (data
+portal, platform, database etc.) which is offered to external/end
+users of the statistical information/products.<a href="data-collection-phase.html#fnref35" class="footnote-back">↩︎</a></p></li>
+<li id="fn36"><p><a href="https://unstats.un.org/unsd/dnss/gp/fundprinciples.aspx" class="uri">https://unstats.un.org/unsd/dnss/gp/fundprinciples.aspx</a><a href="data-collection-phase.html#fnref36" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="build-a-system-for-collection-of-data-and-production-of-statistics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="process-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/edit/master/04-Datacollectionphase.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/blob/master/04-Datacollectionphase.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

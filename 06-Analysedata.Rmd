@@ -1,0 +1,1154 @@
+Analyse Data
+============
+
+'"n this phase, statistical outputs are produced, examined in detail and
+made ready for dissemination. It includes preparing statistical content
+(including commentary, technical notes, etc.), and ensuring outputs are
+\"fit for purpose\" prior to dissemination to customers. This phase also
+includes the sub-processes and activities that enable statistical
+analysts to understand the statistics produced. For statistical outputs
+produced regularly, this phase occurs in every iteration. The
+\"Analyse\" phase and sub-processes are generic for all statistical
+outputs, regardless of how the data were sourced[^1]". (UNECE, 2013)
+
+396. This section of the Compilers' Manual provides detailed guidance on
+    the analysis required to produce the outputs specified in Phase 2.1
+    Design Outputs (see paragraph 611). The outputs for displacement
+    statistics can be divided into four categories;
+
+    1.  Basic tabulations - estimates of counts and proportions of
+        stocks and flows
+
+    2.  Basic indicators (statistics, proportions and estimates)
+
+    3.  SDG indicators recommended for refugees and IDPs
+
+    4.  More complex analysis and commentary which might include an
+        analysis of the integration of displaced people into host
+        communities, the progress made towards overcoming key
+        displacement-related vulnerabilities, and other key policy
+        issues.
+
+397. Taking point iv, the more complex analysis, the different
+    indicators specified to measure aspects of displacement and
+    integration are based on the indicator libraries of the *Integrated
+    Household Survey Framework and the Durable Solution project*, as
+    well as the recommended indicators included in the IRRS and IRIS.
+    They include linkages to SDGs and form part of the reporting of the
+    progress towards meeting the SDGs. In addition, analysis will
+    measure progress towards durable solutions for IDPs, and of the
+    integration for refugees into their host communities. It will also
+    include the assessment of the end of IDP status for some members of
+    the IDP stocks.
+
+398. The analysis process includes two steps:
+
+    5.  Utilizes the analytical framework specified in Phase 2.1
+        "Design" to produce the statistical outputs required,
+
+    6.  Interpretation, commentary and checking the outputs.
+
+399. In essence, it covers the steps required to convert data into a
+    variety of useable products for the users and potential users of
+    statistics. Producing these products to the quality standards
+    designated for official statistics is the ultimate goal of the
+    statistical production process.
+
+400. The text below reminds readers of the recommendations on outputs
+    discussed in earlier phases of this Manual, and links these
+    recommendations to some recent examples, some of which are cited in
+    Part II - Case Studies and Examples section of this manual.
+
+Prepare draft outputs
+--------------------------
+
+401. Much of the analysis phase will be pre-defined by selections made
+    and priorities chosen at the Design phase discussed in Phase 2. This
+    section sets out the basic outputs recommended in the earlier
+    phases.
+
+### Basic tabulations - estimates of counts and proportions of stocks and flows  {#basic-tabulations---estimates-of-counts-and-proportions-of-stocks-and-flows .ListParagraph}
+
+402. Phase 2 Design defines stocks and flows. A stock corresponds to an
+    already-defined category of individuals and refers to a set of
+    characteristics. A stock refers to the total number of individuals
+    who have a specific set of characteristics, at a specific moment in
+    time. These characteristics, put together, define the status of
+    these individuals.
+
+403. For example, IDPs have a specific set of characteristics, which
+    make them fit into this category. This is mainly the forced nature
+    of their displacement, its origin being the habitual place of
+    residence of the concerned persons or groups, the movement remaining
+    within internationally recognised borders and the individuals having
+    not yet found a durable solution to their displacement.
+
+404. In contrast a refugee has been forcibly displaced by reason of a
+    well-founded fear of being persecuted for reasons of race, religion,
+    nationality, membership of a particular social group, or political
+    opinion and is *"outside the country of his or her nationality, has
+    crossed an internationally recognised border, and is unable to,
+    owing to such a fear, is unwilling to avail himself of the
+    protection of that country"*[^2] in need of international
+    protection. The statistical categories recommended go beyond these
+    definitions, in order to classify those with a refugee or IDP
+    background and second-generation populations for statistical
+    analysis (see relevant Chapters 3 in both IRRS, 2018 and IRIS,
+    2020).
+
+405. Flows affect this stock over time, either by making it increase
+    ("in-flows") or decrease ("out-flows"). This in-flow corresponds to
+    the number of individuals who acquire the characteristics of those
+    in scope of the stock during a specified time period. For out-flows,
+    it is the number of people who cease to be refugees or IDPs, e.g. by
+    changes in status, death, birth or out-migration.
+
+406. There can also be in-flows and out-flows between the sub-stocks,
+    for example an asylum seeker who is granted refugee status is an
+    outflow from the sub-stock of 'Asylum seekers', and an inflow into
+    'Persons with determined status' (see IRRS, Figure 3.1). Therefore,
+    there can be several stocks and flows, corresponding to the various
+    classifications of populations being analysed. If the stocks are
+    interconnected, i.e. if a person or group move from one status to
+    another, the flows can also be interconnected; the out-flow from one
+    stock can be the in-flow into another stock.
+
+407. **The basic tabulations of refugee and refugee related stocks and
+    flows** are set out in Phase 2 *2.1.1. Refugee statistics outputs*
+    in Table 2.1 Basic Refugee Stock Tabulations and Table 2.2 Basic
+    Refugee Flow Tabulations.
+
+408. **The basic tabulations of IDPs and IDP related stocks and flows**
+    are set out in Phase 2 *2.1.2. IDP statistics outputs* in Table
+    2.5 - Basic IDP Flow Tabulations, which covers both outflows and
+    inflows to the IDP and IDP-related stock, and Table 2.6 IDP Stock
+    Tabulations.
+
+409. These stock tabulations include both i) IDPs, ii) IDP-Related and
+    iii). Those Who Have Overcome Key Displacement-Related
+    Vulnerabilities. Some analysis will be required to identify the
+    stock of the third category, and to estimate the flows of those who
+    have been removed from the IDP stock because they *have overcome key
+    displacement-related vulnerabilities.* Analysis will be needed to
+    derive the variable in the databases which enables the analyst to
+    identify those who have overcome those vulnerabilities, and to
+    remove them statistically from stock. This is identification process
+    described below in *section* *0,* but it should be noted that the
+    full methodology for determining IDPs to be removed from stock is in
+    its early stages. A more developed methodology will be added to
+    future editions of this manual.
+
+#### Refugee Example of reclassifying data to meet IRRS recommendations -- German Federal Statistics Office
+
+410. 'In light of the mass influx between 2014 and 2016, the Federal
+    Statistical Office of Germany explored the feasibility of
+    complementing existing statistics on the inflow of refugees derived
+    from asylum applications with information on the stock of foreigners
+    living in Germany for humanitarian reasons. The concept was designed
+    to take a comprehensive approach by not only including foreigners
+    with a granted protection status but also foreigners with an asylum
+    application still pending as well as foreigners who still remain in
+    Germany after having been refused protection. Thereby, the approach
+    follows the International Recommendations for Refugee Statistics
+    that were recently adopted by the United Nations Statistical
+    Commission. The concept relies on residence permit data obtained
+    from the Central Register of Foreigners. This data allows
+    identifying foreigners currently applying as well as foreigners
+    having been granted or denied humanitarian protection. At the end of
+    2016, about 1.6 million foreigners were identified as seeking
+    humanitarian protection in Germany. That represents about 2 percent
+    of the resident population and about 16 % of all resident
+    foreigners. During to the recent surge in humanitarian immigration
+    to Germany between 2014 and 2016, the stock has more than
+    doubled'[^3].
+
+411. Examples of the tabulations produced can be found in the link to
+    the Asylum in Europe website[^4]
+    <https://www.asylumineurope.org/reports/country/germany/statistics>
+
+#### Refugee Example of basic stock tabulation -- Statistics Norway
+
+412. An example of a basic stock tabulation is an example from
+    Statistics Norway published in 2019. It provides a stock estimate
+    together with a percentage change estimate for the net flow. An
+    example of output is provided below, the first is taken from
+    Statistics Norway (2019). Norway presents stock figures of '*persons
+    with a refugee background*' with their reason for immigration, at
+    the time they immigrated, and this departs from the IRRS as it does
+    not present the stock by current refugee status.
+
+Box 6.1: Norway refugee variables
+
+Table 6.1 Statistics Norway Refugee Stock Tabulation
+
++-------------+-------------+-------------+-------------+-------------+
+|             | **2019**    | Change in   | 2019        | 2019        |
+|             |             | per cent.   |             |             |
+|             |             | 2018-2019   |             |             |
++-------------+-------------+-------------+-------------+-------------+
+|             |             |             | Persons     | Persons     |
+|             |             |             | with        | with        |
+|             |             |             | refugee     | refugee     |
+|             |             |             | background  |             |
+|             |             |             | in per cent | background  |
+|             |             |             | of all      |             |
+|             |             |             | immigrants  | in per cent |
+|             |             |             |             | of          |
+|             |             |             |             |             |
+|             |             |             |             | total       |
+|             |             |             |             | population  |
++-------------+-------------+-------------+-------------+-------------+
+| Total       | 233 794     | 2.5         | 30.6        | 4.4         |
++-------------+-------------+-------------+-------------+-------------+
+|             |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Principal   | 170 087     | 2.1         | 22.2        | 3.2         |
+| applicants  |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Asylum      | 114 028     | 0.9         | 14.9        | 2.1         |
+| seekers     |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Resettlemen | 38 147      | 7.4         | 5.0         | 0.7         |
+| t           |             |             |             |             |
+| refugees    |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Other       | 9 696       | -1.0        | 1.3         | 0.2         |
+| refugees    |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Unspecified | 8 216       | -1.0        | 1.1         | 0.2         |
++-------------+-------------+-------------+-------------+-------------+
+|             |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| By family   | 63 707      | 3.5         | 8.3         | 1.2         |
+| connection  |             |             |             |             |
+| to refugee  |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Family      | 17 294      | 2.1         | 2.3         | 0.3         |
+| enlargement |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Family      | 46 366      | 4.0         | 6.1         | 0.9         |
+| reunificati |             |             |             |             |
+| on          |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Family      | 47          | 0.0         | 0.0         | 0.0         |
+| unspecified |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Source:     |             |             |             |             |
+| Statistics  |             |             |             |             |
+| Norway      |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+
+413. There are several other tables published by Statistics Norway for
+    refugees,
+
+    7.  Persons with refugee background, by years of residence and
+        country background
+
+    8.  Persons with refugee background. Norwegian and foreign citizens,
+        by sex (C)
+
+    9.  Persons with refugee background, by age and groups of country
+        background
+
+    10. Persons with refugee background, by duration of residence in
+        Norway and groups of country background
+
+    11. Persons with refugee background, by citizenship, sex and groups
+        of country background
+
+        <https://www.ssb.no/en/befolkning/statistikker/flyktninger#relatert-tabell-1>
+
+#### Refugee example UNHCR Kenya
+
+414. This is an example of UNHCR refugee supported statistics in a
+    Statistical Summary as of 31-Aug-19 of Refugees and Asylum Seekers
+    in Kenya. It is an example of the production of rapid statistical
+    outputs from administrative data.
+    <https://www.unhcr.org/ke/wp-content/uploads/sites/2/2019/09/Kenya-Statistics-Package-31-August-2019.pdf>
+
+415. The [2019 Economic Survey of
+    Kenya](https://africaopendata.org/dataset/kenya-economic-survey-2019/resource/5b9357a4-6227-4fbf-9e10-ae7043a41ce3)
+    published by the Kenya Bureau of Statistics provides official
+    refugee official statistics on behalf of the Government.
+
+    ![](media/image1.tiff){width="6.700935039370079in"
+    height="3.791318897637795in"}
+
+#### IDP Example Georgia
+
+416. Part II of this Manual provides an example of IDP tabulations
+    derived from the General Population Census of 2014 in Georgia. The
+    data can be accessed in the Census-related publications:
+    <http://census.ge/en/publication>
+
+417. The tables produced estimate;
+
+    12. IDP\'s by age and sex (by Age, Urban/Rural and Sex); and
+
+    13. IDP\'s by place of usual residence and place of residence before
+        acquiring the IDP status (by Place of usual residence, Sex and
+        place of residence before acquiring the IDP status).
+
+#### IDP Example Colombia
+
+418. Official statistics on displacement due to internal armed conflict
+    in Colombia are published in Spanish in the website of the National
+    Information Network of the Victims\` Unit
+    (https://www.unidadvictimas.gov.co/es/registro-unico-de-victimas-ruv/37394).
+    The website is open to the public and does not require any
+    credentials.
+
+419. The statistics related to the Effective Enjoyment of Rights are
+    shared currently to the relevant government agencies in charge of
+    social assistance in order to target access to aid and social
+    programs. In this case, the dataset of the vulnerability assessment
+    is shared via web through a secure site.
+
+420. The following reports, regarding displacement are available at the
+    website:
+
+    14. Number of IDPs disaggregated per time of expulsion, time of
+        > reception, time of declaration, with information presented
+        > yearly and accumulated for the period before 1985.
+
+    15. Number of IDPs disaggregated per differential approach into the
+        > variables of ethnicity, sex, age and disability.
+
+    16. Open data with numbers of IDPs mixing the above variables.
+
+### Basic indicators (statistics, proportions and estimates) {#basic-indicators-statistics-proportions-and-estimates .ListParagraph}
+
+421. Once the various stocks have been defined in the Design phase and
+    the data collected, cleaned and input into databases, the variables
+    and categories can be developed in the database ready for analysis.
+    This requires a clear definition of the indicators and metrics to be
+    used in the analysis
+
+422. **The relevant Refugee Indicator** tables in Phase 2 are Table 2.3:
+    Refugee Stock Indicators, Table 2.4: Refugee Flow Indicators both
+    found at paragraphs 62 and 63 of this Manual.
+
+423. **The relevant IDP Indicator** tables in Phase 2 is *Table 2.8: Key
+    stock indicators of IDP, IDP-related, and those who have overcome
+    key displacement related vulnerabilities.* These indicators include
+    the length of time the IDP was displaced; the location of the IDPs
+    and if they have returned to their habitual places of residence,
+    been resettled or are in locations of displacement; and proportions
+    of women and children among the IDPs.
+
+### SDG indicators recommended for refugees and IDPs  {#sdg-indicators-recommended-for-refugees-and-idps .ListParagraph}
+
+424. In the years leading up to 2030, the SDGs will play an important
+    role in policy discussions. During the 2020 Comprehensive Review of
+    the SDG indicator framework, a specific indicator on refugees was
+    included in the framework, but there is no specification for other
+    forcibly displaced populations, including IDPs. However, the issue
+    cuts across many SDGs, and multiple indicators can be disaggregated
+    by migratory status and, more specifically, by displacement status.
+    When SDG indicators are collected as part of statistics on forced
+    displacement it is recommended that countries use the SDG framework
+    and metadata in developing the statistics.
+
+Table 6.2: Recommended SDG Indicators to be disaggregated by forced
+displacement by priority policy areas (IRIS Table 4.1)
+
+  **Policy Area 1: Basic needs and living conditions**        
+  ----------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  2.2.1                                                       Prevalence of stunting (height for age \< - 2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age
+  3.1.2                                                       Proportion of births attended by skilled health personnel
+  6.1.1                                                       Proportion of population using safely managed drinking water services
+  11.1.1                                                      Proportion of urban population living in slums, informal settlements or inadequate housing
+  **Policy Area 2: Livelihoods and economic self-reliance**   
+  1.2.1                                                       Proportion of population living below the national poverty line, by sex and age
+  4.1.1                                                       Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex
+  7.1.1                                                       Proportion of population with access to electricity
+  8.3.1                                                       Proportion of informal employment in non‑agriculture employment, by sex
+  8.5.2                                                       Unemployment rate, by sex, age and persons with disabilities
+  **Policy Area 3: Civil, political and legal rights**        
+  1.4.2                                                       Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure
+  16.1.4                                                      Proportion of population that feel safe walking alone around the area they live
+  16.9.1                                                      Proportion of children under 5 years of age whose births have been registered with a civil authority, by age
+
+425. The Inter-Agency and Expert Group on SDG Indicators accepted the
+    proposal of EGRIS members to recommend disaggregation by forced
+    displacement categories for 12 priority SDG indicators, as well as
+    further broken down by age and sex whenever possible.[^5] In order
+    to ensure availability of minimum quality statistics on refugees and
+    IDPs, it is recommended that national statistics providers include
+    statistics on these priority indicators in the reporting plans for
+    the 2030 Agenda. However, governments should not feel limited to
+    this priority list, and data collection on additional indicators is
+    encouraged.
+
+426. A second initiative, the Expert Group meeting on Improving
+    Migration Data in the Context of the 2030 Agenda,[^6] has identified
+    another 12 indicators which they recommend be disaggregated by
+    migratory status. Both selected lists of SDG indicators are a useful
+    resource for identifying indicators to measure the characteristics
+    of IDPs within the criteria set forth by the IASC Framework.
+
+427. Matching the collected data with the defined metrics and
+    indicators, stocks and flows, can be done in various ways, depending
+    on the data collection method used. Stock data can be populated
+    based on questions asked within surveys and census, that aim to
+    directly determine if and how many people match the selected
+    characteristics for each type of stock (e.g. a survey with a
+    question such as "have you been forced to leave your place of
+    residence in the last x months/years?"), or using data obtained from
+    registers of IDPs or refugees (see Phase 2).
+
+### More complex analysis and commentary {#more-complex-analysis-and-commentary .ListParagraph}
+
+428. This might include an analysis of the integration of displaced
+    people into host communities, the progress made towards overcoming
+    key displacement-related vulnerabilities, and other key policy
+    issues. The body of literature available is extensive, and guidance
+    can be obtained in the IRRS, 2018 and the IRIS, 2020.
+
+#### IRRS Recommendations {#irrs-recommendations .ListParagraph}
+
+429. From a legal perspective, durable solutions for refugees occur when
+    refugees can once again enjoy the protection of a state, either
+    through voluntary repatriation to their country of origin,
+    integration in their host country, or resettlement to a third
+    country. However, given the protracted nature of many conflicts,
+    repatriation is not an immediate prospect for most refugees, and
+    resettlement and naturalization are solutions for only a small
+    minority. In reality, the majority of refugees aspire to, or enjoy,
+    de facto integration in their host countries. Rather than a one-off
+    event, the integration of refugees involves an incremental process.
+    The IRRS focuses on the satisfaction of refugees' immediate and
+    ongoing needs, their access to rights and on their integration.
+    Living conditions can serve as a proxy for the satisfaction of these
+    needs, and as data about peoples' living conditions have been
+    routinely collected across the world for over 25 years, the results
+    for the general population are already widely available. The
+    satisfaction of basic needs, and the acquisition of rights is the
+    first step in the integration of refugees.
+
+430. Refugees have particular challenges compared to general migrants.
+    Due to the forced nature of their migration and the traumatic
+    experiences frequently associated with it, they often suffer from
+    psychological distress and disabilities. Moreover, unlike labour
+    migrants who tend to settle where their skills can be used more
+    productively than in their home country, refugees may settle in
+    areas with limited or no employment or other livelihood
+    opportunities.
+
+431. The IRRS presents recommendations for indicators that can be used
+    to measure satisfaction of needs, access to rights and the
+    integration of refugees with their host country or original country
+    communities. The recommendations are grouped into three levels of
+    indicators: priority, second level, and third level indicators.
+    Table 5.1 of the IRRS presents the proposed indicators organized by
+    the dimension of need and integration that it measures, specifically
+    the following: (a) legal; (b) civil-political; (c) demographic and
+    migration; (d) education; (e) economic; (f) social inclusion;
+    and (g) health. In addition, several core classificatory variables
+    are also recommended for the production of comparative analyses.
+
+432. These classificatory variables are cross-referenced to those
+    tabulations recommended earlier in Phase 2.1. These include country
+    of birth, age, sex, reason for migrating, legal status, citizenship
+    and length of time in the host country. Length of residence in the
+    host country is especially important for statistics on integration
+    because integration is a temporal process that begins when the
+    refugee arrives in the host country. The pace of integration is
+    usually different for refugee and refugee related groups compared
+    with general migrants.
+
+433. The characteristics of age and sex are used to disaggregate
+    indicators of refugee living conditions and integration. For
+    instance, using the sex variable to look at the difference in
+    employment status between male and female refugees can highlight
+    gender differences for that indicator. Classificatory variables are
+    described in detail *in* *Table 2.9: Variables for refugee
+    statistics*. As far as possible the proposed indicators correspond
+    with those of the SDGs. Where they correspond, the equivalent SDG
+    indicators have been noted in IRRS Table 5.1, the correspondence is
+    often not direct. Guidance is given on the composition of the
+    proposed indicators. Additionally, metadata for the SDG indicators
+    are published by the United Nations Statistical Division on their
+    website.[^7] The last column of Table 5.1 gives the closest SDG
+    indicator equivalence, it is not proposed that all these indicators
+    are used.
+
+434. The Indicators of integration and the satisfaction of immediate and
+    ongoing needs of refugees and refugee related populations are:
+
+    17. Legal indicators
+
+    18. Civil-political indicators
+
+    19. Demographic and migration indicators
+
+    20. Education indicators
+
+    21. Economic indicators
+
+    22. Social inclusion indicators
+
+    23. Health indicators
+
+#### IRIS Recommendations {#iris-recommendations .ListParagraph}
+
+435. In 2015, an interagency process was established to operationalise
+    the Inter-Agency Standing Committee (IASC) Framework. Under the
+    leadership of the Mandate of the UN Special Rapporteur on the Human
+    Rights of IDPs, a group of development, humanitarian and
+    peacebuilding actors started work on developing and testing
+    indicators and guidance for comprehensive durable solutions analysis
+    in internal displacement situations and to measure progress over
+    time. The work, coordinated by the Joint IDP Profiling Service,
+    resulted in a library of standardised indicators and guidance for
+    the operationalization of the eight IASC[^8] criteria.
+
+436. For a statistical approach for measuring progress towards durable
+    solutions and whether key-displacement related vulnerabilities have
+    been overcome. Two measures are proposed:
+
+    24. The durable solutions progress measure designed to show the
+        change in the share of IDPs who have overcome vulnerabilities
+        linked to the criteria of the IASC Framework on Durable
+        Solutions for IDPs over time. Therefore, this measure will be
+        able to show whether progress is being made in overcoming the
+        different vulnerabilities, and cumulatively, the progress made
+        towards the achievement of durable solutions.
+
+    25. The composite measure designed to specify whether all key
+        displacement-related vulnerabilities have been overcome and
+        thus, whether or not persons with displacement-related
+        protection needs and vulnerabilities can be taken out of the
+        total IDP stock.
+
+437. For the purpose of statistically measuring durable solutions
+    progress, displacement-related vulnerabilities, sub-criteria were
+    specified for each of the eight IASC criteria as is shown in Table
+    6.3 Criteria and sub-criteria included in the composite measure
+    (IRIS, Table 4.3) below. The first four criteria of the IASC
+    Framework are relevant in all contexts and should therefore always
+    be included. The last four should be considered and can be included
+    if deemed relevant for the specific displacement context. Therefore,
+    all eight criteria are included in recommendations to measure
+    progress towards durable solutions (see IRIS, paragraph 146).
+    Regarding the development of the composite measure for overcoming
+    key displacement-related vulnerabilities, a smaller set of criteria
+    are chosen, including the four deemed to always be relevant in
+    displacement contexts. Given the prevalence of challenges linked to
+    lack of documentation in many displacement settings, it is also
+    recommended to include the fifth criteria on access to personal and
+    other documentation in any statistical measure that can result in
+    taking IDPs out of the stock. This measure therefore prioritises
+    five of the eight criteria (see IRIS, paragraph 164).
+
+438. For each sub-criterion, there are many different indicators which
+    can be chosen, although a final list has not yet been agreed. The
+    indicators selected in each national context should, as far as
+    possible, be aligned with already tested and standardized
+    indicators. The Durable Solutions indicator library provides a
+    thorough overview of potential options (see Durable Solutions
+    Library[^9]). Where relevant, they should also mirror the SDG
+    indicators recommended to be disaggregated by different categories
+    of displacement. Indicators selected should be carefully chosen to
+    ensure they are relevant for all three sub-stocks of the displaced
+    population: IDPs in locations of displacement, IDPs in locations of
+    return and IDPs in other settlement locations.
+
+439. A preliminary proposal of indicators for the sub-criteria has been
+    developed by the EGRIS' IDP subgroup (see IRIS for discussion of
+    indicator selection), taking into consideration the above listed
+    aspects. The aim of this work was to provide a short, manageable
+    list of one or two indicators per sub-criteria. However, given the
+    limited availability of data, particularly for the sub-criteria
+    which experts determined to be displacement-specific, it is too
+    preliminary to recommend a final list of indicators for each
+    sub-criterion at this stage. Further testing is required to detail
+    out this proposal. As this work progresses, information will be
+    added to future editions of the Compilers' Manual, including
+    implications for target setting based on different types of
+    indicators (see IRIS, paragraph 166). Once finalized an updated
+    version of these Recommendations could be considered. In the
+    meantime, countries and international organisations should use the
+    durable solutions indicator library as a reference and starting
+    point for indicator selection and should as far as possible follow
+    principles described (see IRIS, paragraphs 135-137).
+
+Table 6.3 Criteria and sub-criteria included in the composite measure
+(IRIS, Table 4.3)
+
+  ----------------------------------------------- ---- -------------------------------------------
+  Criteria                                             Sub-criteria
+  1\. Safety and security                         1    1.1 Victims of violence
+                                                  2    1.2 Freedom of movement
+  2\. Adequate standard of living                 3    2.1 Food security
+                                                  4    2.2 Shelter and housing
+                                                  5    2.3 Medical services
+                                                  6    2.4 Education
+  3\. Access to livelihoods                       7    3.1 Employment and livelihoods
+                                                  8    3.2 Economic security
+  4\. Restoration of housing, land and property   9    4.1 Property restitution and compensation
+  5\. Access to documentation                     10   5.1 Documentation
+  ----------------------------------------------- ---- -------------------------------------------
+
+440. The targets for each sub-criterion should be defined. A comparative
+    approach against the general/national population is recommended. If
+    determined relevant by the national context a sub-set thereof can be
+    used for this purpose.
+
+441. The two measures on progress and the composite measure, should be
+    used for the production of official statistics on internal
+    displacement.
+
+    26. The durable solutions progress measure designed to show the
+        change in the share of IDPs who have overcome vulnerabilities
+        linked to the criteria of the IASC Framework on Durable
+        Solutions for IDPs over time; and
+
+    27. The composite measure designed to specify whether all key
+        displacement-related vulnerabilities have been overcome and
+        thus, whether or not persons with displacement-related
+        protection needs and vulnerabilities can be taken out of the
+        total IDP stock.
+
+442. Over time, as new data are collected and more testing conducted in
+    different national contexts, the recommended progress and composite
+    measures can be further refined, including a list of agreed
+    indicators and other relevant guidance. This will be included in
+    future versions of this manual.
+
+#### Example Colombia 
+
+443. The example in Part II paragraph 573 of this manual onwards
+    describes the *Use of administrative records to assess displacement
+    related vulnerabilities in Colombia.* The Socio Economic
+    Re-establishment Index is used to determine the extent of their
+    vulnerability, and are assessed as no longer having vulnerabilities
+    once the SRI is equal to one.
+
+Box 6.2: Colombia Social Re-establishment Index
+
+#### Example Sudan Darfur: Measuring Progress Towards Durable Solutions
+
+444. The Government of Sudan and the international community are working
+    together to jointly support durable solutions for Darfur's
+    internally displaced people. The commitment is rooted in the Doha
+    Document for Peace in Darfur (DDPD) from 2011, signed by the
+    Government of Sudan, other major parties to the conflict and the
+    international community, and which sets out the framework for peace
+    in Darfur.
+
+445. A durable solutions process was piloted in El Fasher in North
+    Darfur. To reach durable solutions and end displacement, long-term
+    planning based on agreed and jointly-owned comprehensive data is
+    needed. To establish an agreed evidence base, a collaborative
+    profiling approach was adopted that brought actors together to
+    ensure trust and ownership of the results of the profiling exercise.
+    An important aspect of this durable solutions profiling is that it
+    places IDPs centre-stage alongside the two other major
+    stakeholders---the Government of Sudan and the international
+    community---permitting the profiling results and recommendations to
+    be owned and signed off by all parties.
+
+446. The durable solutions profiling exercise in El Fasher specifically
+    aims to:
+
+    28. Provide a comprehensive profile of IDPs residing in Abu Shouk
+        and El Salaam IDP camps.
+
+    29. Develop a better understanding of IDPs' vulnerabilities, coping
+        mechanisms, capacities and provide insight into IDPs'
+        perceptions and their future settlement intentions.
+
+    30. Provide a jointly agreed upon data set to help inform durable
+        solutions programming responses.
+
+    31. Pilot a profiling exercise of displacement and joint durable
+        solutions planning that could be replicated in other Sudan
+        contexts with displaced populations.
+
+447. The profiling exercise adopted the Inter-Agency Standing Committee
+    (IASC) Framework on Durable Solutions for Internally Displaced
+    Persons as an analytical framework. The profiling was designed to
+    take into account the displaced persons' perspectives on durable
+    solutions including preferred settlement options and places a strong
+    emphasis on understanding the rationale behind these preferences. It
+    is also concerned with understanding the progress IDP communities
+    have made across the IASC durable solutions criteria and applied an
+    area-based comparative approach.
+
+448. This comparative analysis was used to understand whether hardships
+    are a result of IDPs' displacement or development challenges shared
+    with non-displaced communities in El Fasher. Finally, it included a
+    macrolevel urban analysis. The profiling exercise used mixed
+    methods: mapping and enumeration, a household survey, and key
+    informant interviews. The profiling applied a gender lens and
+    questions for further analysis, which were included in the report
+    narrative when significant gender related differences were
+    identified. The repost gives details of the indicators used as part
+    of the profiling exercise. Link
+    <https://www.jips.org/jips-news/selecting-core-durable-solutions-indicators-sudan/>
+
+#### Example Norway Refugee Labour Market Analysis
+
+449. Statistics Norway publishes a report every year describing the
+    labour market situation for the refugee workforce population (15-66
+    years old) settled in Norway under its Refugee and the Labour Market
+    technical series. The report is based on the register-based
+    employment statistics of Norway.
+
+450. It is important to understand the necessity of producing such
+    statistical analysis from Statistics Norway's perspective. The
+    participation of the refugees in the labour market is an imperative
+    to understand the underlying driving forces for the refugee
+    integration in the host countries' labour market. The result of the
+    analysis is pivotal in designing effective policy responses to
+    integrate the refugees, asylum seekers in the host communities in
+    Norway. The outcome of the analysis will aid the Norwegian policy
+    makers as well as the programme planners with a solid baseline /
+    starting point to assess the impact of an intended policy or
+    programme and at the same time will pave the way for further
+    improvement in the policy.
+
+Box 6.3: Analysis of refugees in the labour market, Statistics Norway
+
+#### Nepal Example -- mobile phone tracking of population displacement
+
+451. Using alternative data sources from mobile phone records Flowminder
+    and Ncell collaborated with UN OCHA and other disaster relief
+    agencies to estimate the number of people displaced. See Part II of
+    this Manual *Nepal*.
+
+#### South Sudan Example: Poverty Assessment
+
++-----------------------------------------------------------------------+
+| 452. South Sudan's National Bureau of Statistics and the World Bank   |
+|     conducted the fourth wave of the High Frequency Survey and the    |
+|     Crisis Recovery Survey to monitor welfare and perceptions of      |
+|     citizens in accessible urban areas and IDP camps across South     |
+|     Sudan. The HFS and CRS data contains information on security,     |
+|     economic conditions, education, employment, access to services,   |
+|     and perceptions. The data combines detailed household             |
+|     questionnaire information with displacement-specific information  |
+|     including drivers of displacement, access to resettlement         |
+|     mechanisms, and return intentions. It also includes comprehensive |
+|     information on assets and consumption, to allow estimation of     |
+|     poverty based on the Rapid Consumption methodology as detailed in |
+|     Pape and Mistiaen (2015).                                         |
+|                                                                       |
+| 453. More information can be found in Part II of this Manual *South   |
+|     Sudan Example:* Poverty Assessment and the 2017 South Sudan       |
+|     Poverty Assessment Report can be found at                         |
+|     <https://microdata.worldbank.org/index.php/catalog/3392/related-m |
+| aterials>.                                                            |
+|                                                                       |
+| #### Yemen Displacement Tracer matrix Example {#yemen-displacement-tr |
+| acer-matrix-example}                                                  |
+|                                                                       |
+| 454. The statistical series was started as a result of the dramatic   |
+|     increase of displacement in Yemen due to the outbreak of conflict |
+|     in March 2015. In order to better inform the humanitarian         |
+|     community about the location and needs of the displaced           |
+|     populations. The data was collected using the IOM's Displacement  |
+|     Tracer Matrix                                                     |
+|     (<https://displacement.iom.int/content/methodological-framework-u |
+| sed-displacement-tracking-matrix-operations-quantifying>).            |
+|                                                                       |
+| 455. The data collection will seek to identify the local demographic  |
+|     profile, displacement dynamics, and to answer the following       |
+|     questions;                                                        |
+|                                                                       |
+|     32. Who and how many people face moderate and severe humanitarian |
+|         needs?                                                        |
+|                                                                       |
+|     33. Where are these people located?                               |
+|                                                                       |
+|     34. What do their survival and livelihood problems consist of?    |
+|                                                                       |
+|     35. How are the needs expected to evolve in the future, based on  |
+|         ongoing/planned responses and other likely events?            |
+|                                                                       |
+| 456. For reports see [Yemen Area Assessment Round 37 March            |
+|     2019](https://displacement.iom.int/system/tdf/reports/Yemen%20Are |
+| a%20Assessment%20Round%2037.pdf?file=1&type=node&id=5295)             |
+|     and <https://displacement.iom.int/Yemen>.                         |
+|                                                                       |
+| 457. For more information see Part II of this Manual *Yemen IDP       |
+|     Example.*                                                         |
++-----------------------------------------------------------------------+
+
+###### References and Further Examples
+
+458. For more information on the Durable Solutions library, please see:
+    <https://www.jips.org/tools-and-guidance/durable-solutions-indicators-guide/>.
+    For results of the work see:
+    <http://inform-durablesolutions-idp.org/>
+
+459. European Commission, '**Using EU Indicators of Immigrant
+    Integration, Final Report for Directorate-General for Home
+    Affairs'**. This report on the further development and use of EU
+    immigrant integration indicators in policy debates is prepared at
+    the request of the European Commission by the European Services
+    Network (ESN) and the Migration Policy Group (MPG). Link
+    <https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf>.
+
+Validate outputs
+---------------------
+
+460. This sub-process is where statisticians validate the quality of the
+    outputs produced, in accordance with a general quality framework
+    (developed in Phase 2) and with expectations based on local
+    knowledge. This sub-process also includes activities involved with
+    the gathering of intelligence, with the cumulative effect of
+    building up a body of knowledge about a specific statistical domain.
+    This knowledge is then applied to the current collection, in the
+    current environment, to identify any divergence from expectations
+    and to allow informed analyses. Validation activities can include
+    checking the population coverage in the sample group and looking for
+    content errors.
+
+461. An example is Population Census coverage that can involve two or
+    three major problems such as under representation, over
+    representation, and selection bias in the study design. The most
+    common problem is under-representation of the population in the
+    sample group or due to selection bias in the research design.
+    Generally, an aggregate undercount of 3 to 6% is considered
+    acceptable, but some population groups tend to be disproportionately
+    affected, e.g. very young children, young mobile men and
+    undocumented migrants. Over-coverage also happens, especially if
+    local authorities, with an interest in exaggerating their
+    populations, are able to influence the data collection.
+
+462. Content errors might involve non-response bias and response bias
+    for some of the key variables in the data collection phase.
+    Individual data are often provided by an informant who is either the
+    head of household or another responsible adult household member.
+    These proxy respondents may not know all the details regarding each
+    member of the households, or sometimes may not want to share the
+    facts. The household members themselves may be unsure or
+    misunderstand the question. They may even hide or distort
+    information on purpose (see also under-reporting of
+    consumption[^10]. As a result, data quality may be poor, despite
+    excellent coverage. Therefore, it is necessary to detect those
+    errors in the in the analysis phase and select the right analysis
+    techniques to eradicate or minimise the content error.
+
+463. There are several methods for quality assessment. Content errors
+    can often be detected through internal consistency analysis by
+    crosschecking the data across different datasets. Furthermore, the
+    analyst can resort to the following mechanisms to validate the
+    findings:
+
+-   Comparing the statistics with previous cycles (if applicable and
+    > available),
+
+-   Checking that the associated metadata and paradata (process
+    > metadata) are present and in line with the expectations,
+
+-   Checking the statistics for consistency against other relevant data
+    > (both internal and external), comparing with other national
+    > sources, operational and global data,
+
+-   Investigating inconsistencies in the statistics,
+
+-   Agreeing with the accepted threshold level in applying the quality
+    > standards and validation processes
+
+-   Performing macro editing, and
+
+-   Validating the statistics against expectations and domain
+    > intelligence.
+
+464. The main criteria are: is the data understandable, usable for
+    analysis and fit for purpose, particularly the purpose that was
+    articulated in the Design phase. Does it respond to the questions
+    that were set initially?
+
+465. Comparators are important, either from another dataset relating to
+    a similar group or population, or to the same group/population
+    across different time periods. Particularly important is coherence
+    when comparing datasets are those obtained via different methods
+    (e.g. surveys versus registration). Although the figures obtained
+    via different methods will not always match, they need to show clear
+    relative trends, to allow comparability. The availability of good
+    metadata for both datasets will enable judgments to be made about
+    the reasons for differences and for a judgement to be made about the
+    quality of the data.
+
+466. The ***analytical framework*** should include ***commentary and
+    notes***, to allow proper understanding of how the data was obtained
+    and treated, in order to support the accessibility and credibility
+    of the results. This commentary should be accompanied by clear
+    explanatory metadata pertaining to how the data were collected,
+    processed and analysed (see Phase 7 on metadata)
+
+467. Complement the estimates with ***contextual updates***, to inform
+    the reader and to allow for better understanding of trends. If
+    numbers go up, does this correspond to greater coverage, or to an
+    increase in violence, attacks or incidence of disasters. Try to
+    explain what the likely correlates are.
+
+468. ***Triangulation***: use operational data for comparison,
+    particularly for flow data, as operational data is more likely to
+    capture micro-movements, spontaneous movements, short-term
+    displacements. It is necessary to make sure the trends match between
+    the various datasets without any major deviation. If the variation
+    between two stocks is not significant, but operational data
+    identifies a high number of smaller, shorter term movements (e.g. in
+    the case of preventative evacuations leading to quick returns, or
+    mass movements leading to cross border returns), then this should
+    allow official statistics to verify/correct their flow data.
+
+469. Linking to cross border data, ***interoperability***: if movements
+    lead to significant cross-border flight or returns, the datasets on
+    both sides of the border should correspond with each other to ensure
+    validity. Refugee data could be compared to third country nationals,
+    refugees, migrants in other countries, to validate estimates and
+    trends. Example: the stocks of IDPs in South Sudan only increase
+    marginally between two data collection periods; however, the number
+    of South Sudanese nationals in the Central African Republic increase
+    exponentially, then the likelihood is that people were displaced
+    over the border. Operational flow data from displacement event
+    should reflect that significant variation, even if the stocks do
+    not.
+
+470. Even if variations in operational flow data from incidents do not
+    match variations in stocks, the differences between the different
+    stock types should be proportional. However, an increase in the
+    number of displacements does not mean that a similar same increase
+    will appear in stocks, as those displacements could relate to the
+    same people being displaced on multiple occasions. For example, if
+    the numbers of IDPs in an area decreases, the numbers corresponding
+    to that decrease should be reflected in another stock, e.g. there
+    are 10,000 less IDPs in Borno State in Nigeria, because there are
+    10,000 more Nigerian refugees in Cameroon.
+
+###### Examples and References 
+
+#### Example of using several data sources to validate data: The Welfare of Syrian Refugees: 
+
+471. **This joint publication** of UNHCR and World Bank on the welfare
+    of Syrian Refugees (2016) aimed to increase the understanding and
+    ultimately improve the well-being of Syrian refugees. Due to the
+    overwhelming humanitarian response, there was an abundance of data
+    on the vulnerability, well-being and access to basic services
+    aspects of the Syrian refugees. These data had not yet been fully
+    explored and utilised for analytical, policy, and planning purposes
+    at that time. The report used different sources of data to
+    understand the vulnerability and poverty conditions among the Syrian
+    refugees.
+
+472. <https://www.worldbank.org/en/topic/poverty/publication/the-welfare-of-syrian-refugees-evidence-from-jordan-and-lebanon>
+
+Box 6.4: Welfare of Syrian refuges using multiple datasets to resolve
+inconsistencies in consumption data
+
+###  {#section .ListParagraph}
+
+Interpret and explain outputs
+---------------------------------
+
+473. This sub-process calls upon the in-depth expertise of statisticians
+    to understand, interpret and explain the statistics produced by
+    assessing how well the findings reflect their initial expectations.
+    This involves viewing the statistics from all perspectives using
+    different tools and media, and also carrying out in-depth
+    statistical analyses.
+
+474. The analyst should check to see if the data respond to the question
+    that were initially set and do the outputs match what was determined
+    in the Design phase? A basic analysis might ask the following
+    questions:
+
+    36. What are the variations from one reporting period to another?
+
+    37. Are those variations attributed to contextual or methodological
+        considerations or both? (i.e. more to do with displacement
+        trends or to do with the data collection and treatment methods)
+
+    38. Are the variations consistent across the entire context in scope
+        of the analysis? Are there different trends within that scope?
+        How can these be explained?
+
+    39. How are stocks and flows affected by the changes? Has one
+        indicator changed more than others, i.e. have flows
+        increased/decreased significantly whereas stocks have changed
+        more marginally?
+
+    40. Which flows have changed the most, and what does this tell us?
+        E.g. has the number of IDPs increased/decreased much more in
+        comparison with cross-border flight and refugee numbers abroad?
+
+    41. Have methodologies changed? If so, why? How does this impact the
+        accuracy and comparability of the analysis?
+
+    42. Do the variations in numbers correspond to contextual changes
+        that can explain them?
+
+    43. Which groups, as highlighted by the sex and age disaggregated
+        data (SADD) and other forms of disaggregation, are the most
+        impacted? Why? Has that changed since the last reporting period?
+
+    44. Do the official statistics vary significantly in relation to
+        other datasets produced by other sources, particularly
+        operational actors? If so, why?
+
+    45. Do the variations correlate with specific actions taken to
+        prevent or solve situations of displacement/provision of
+        assistance/interventions/any form of state operation?
+
+#### Example of Interpretation of outputs using multiple datasets: Humanitarian Shelter
+
+475. "The State of Humanitarian Shelter and Settlements" report by
+    Global Shelter Cluster (GSC) report provided an in-depth review of
+    the evidence base of the shelter and settlements sector, and the
+    sector's data collection practices. One of the main difficulties
+    encountered when attempting to measure shelter adequacy is obtaining
+    accurate data across various contexts. This is due partly to the
+    multi-sectoral nature of the criteria, and the wide range of
+    environments in which humanitarian agencies work, as well as to
+    variations between shelter designs, materials and costs. In
+    addition, different adequacy indicators may sometimes conflict with
+    each other. Most shelter actors therefore agree that a
+    one-size-fits-all definition of adequacy is almost impossible.
+
+476. To compare and analyse the data, GSC created a sub-set of
+    information in order to gather data for disasters, conflicts and
+    crises between 2013 and 2018 for which a Shelter Cluster (SC)
+    response or SC-like response had been activated. The methodology is
+    explained in detail in Part 3 of this report
+    [https://www.sheltercluster.org/sites/default/files/The State of
+    Humanitarian Shelter and Settlements
+    2018.pdf](https://www.sheltercluster.org/sites/default/files/The%20State%20of%20Humanitarian%20Shelter%20and%20Settlements%202018.pdf)
+
+Box 6.5: Example of interpreting outputs from multiple data sources in
+'The State of the Humanitarian Shelters Settlements 2018' report
+
+Apply disclosure control
+-----------------------------
+
+477. At the Design phase, the outputs should be designed with a clear
+    understanding of the required information needed from those outputs
+    to respond to the agreed questions. This should dictate how much
+    information is necessary to collect, and what falls outside of that
+    scope.
+
+478. Due consideration should be given to privacy in accordance with
+    national and international law, and to any type of information that
+    could lead to the respondents being identified or suffering from
+    discrimination as a result of their participation or responses in a
+    survey/census should not be disclosed.
+
+479. Disclosure should also include considerations of interoperability:
+    how datasets on different population types talk to each other, their
+    ability to share information on those populations, or even on
+    specific individuals, their characteristics and their needs. This
+    can enable possibilities for combining datasets to improve coverage
+    and quality (see section on *Data Source D: Integrated Data*). This
+    can also help prevent duplication of data. A data protection policy
+    should be in place from the start, and Phase 2D discusses the *a.
+    Legal environment and data protection legislation* and the other
+    capacity requirements for this.
+
+480. Data integration may be possible where the data being collected by
+    various government databases relates to individuals, groups or
+    populations who are registered in one or more government databases.
+    Inter-agency data sharing protocols can enable this and also help to
+    prevent duplication. As the various service needs of the concerned
+    populations are likely to be addressed by different entities within
+    the government (or even by entities outside of it), data sharing
+    between those entities will ensure greater capacity for analysis.
+
+481. There are technical computer languages that allow data sharing more
+    effectively, such as tagging, e.g. using HXL, allowing the data
+    outputs to be identifiable by various data sharing platforms, and
+    for the various elements of the datasets to be identified and shared
+    individually as well.
+
+482. For an example of how anonymisation is done by different
+    governments and the decision rules that are applied to enforce it.
+    See Canadian Example of a secure data enclaves and data use offering
+    higher levels of security, IRRS, Box 6.4.
+
+Finalise outputs
+---------------------
+
+483. Final outputs and datasets must come packaged with all the fields
+    or variables fully explained, with good metadata. The metadata
+    should explain anything that might have affected the accuracy or
+    quality of the data. Data treatments, weighting and any other
+    transformations such as derived variables should be fully documented
+    and made available to users.
+
+484. It is crucial to account for any caveats/limitations that may
+    affect the data and therefore prevent analysis, as well as
+    comparability. An example of a caveat would be to specify the
+    geographical coverage of the datasets. This should include coverage
+    problems which have resulted from difficulty of access in particular
+    locations. All caveats must be detailed: specific to each collection
+    method, highlighting any potential difference in the collection
+    exercises at different times, obstacles met preventing the data to
+    be collected according to the parameters set in the Design phase,
+    and include calculations of the sampling errors which apply to key
+    estimates.
+
+485. The outputs should also specify what quality assurance and quality
+    control mechanisms were applied, and the findings of the quality
+    assessments should be made available to users.
+
+[^1]: Ibid para 84
+
+[^2]: 1951 Convention(Article 1). See paragraph 28 of IRRS
+
+[^3]: **United Nations Economic Commission for Europe **
+
+    Conference of European Statisticians, Work Session on Migration
+    Statistics**,** Geneva, Switzerland, 24-26 October 2018. Item 6 of
+    the provisional agenda Asylum seekers and refugees **Foreigners
+    seeking humanitarian protection** Measuring the stock of foreigners
+    seeking humanitarian protection in Germany Note by German Federal
+    Statistical Office. Link accessed 9 December 2019:
+
+    <https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.10/2018/mtg1/DEU_Asylum_ENG.pdf>
+
+[^4]: The Asylum Information Database (AIDA) is a database managed by
+    the European Council on Refugees and Exiles (ECRE), containing
+    information on asylum procedures, reception conditions, detention
+    and content of international protection across 23 countries. This
+    includes 20 European Union (EU) Member States (Austria, Belgium,
+    Bulgaria, Cyprus, Germany, Spain, France, Greece, Croatia, Hungary,
+    Ireland, Italy, Malta, Netherlands, Poland, Portugal, Romania,
+    Sweden, Slovenia, United Kingdom) and 3 non-EU countries
+    (Switzerland,  Serbia, Turkey).
+
+    The overall goal of the database is to contribute to the improvement
+    of asylum policies and practices in Europe and the situation of
+    asylum seekers by providing all relevant actors with appropriate
+    tools and information to support their advocacy and litigation
+    efforts, both at the national and European level. These objectives
+    are carried out by AIDA through the following activities:
+
+[^5]: [[https://unstats.un.org/sdgs/iaeg-sdgs/disaggregation/]{.underline}](https://unstats.un.org/sdgs/iaeg-sdgs/disaggregation/)
+
+[^6]: For more information, see
+    [[https://unstats.un.org/unsd/demographic-social/meetings/2017/new-york\--egm-migration-data]{.underline}](https://unstats.un.org/unsd/demographic-social/meetings/2017/new-york--egm-migration-data)
+
+[^7]: See: https://unstats.un.org/sdgs/iaeg-sdgs/metadata-compilation/
+
+[^8]: Inter-Agency Standing Committee "Framework on Durable Solutions
+    for internally displaced persons", April 2010. Available at:
+    <https://goo.gl/BydBcF>
+
+[^9]: https://inform-durablesolutions-idp.org
+
+[^10]: <https://link.springer.com/chapter/10.1007/978-3-030-25120-8_11#Fn3>.
+    This chapter is a summary of Kaplan, Pape, and Walsh (2018,
+    forthcoming), "Eliciting Accurate Responses to Consumption Questions
+    Among IDPs in South Sudan Using "Honesty Primes", Policy Research
+    Working Paper Series. See also open source ebook The World Bank and
+    Johannes Hoogeveen, Utz Pape Editors. *Data Collection in Fragile
+    States Innovations from Africa and Beyond
+    https://link.springer.com/content/pdf/10.1007%2F978-3-030-25120-8.pdf*
+    and Johannes Hoogeveen, Emil Tesliuc, Renos Vakis with Stefan
+    Dercon, A Guide to the Analysis of Risk, Vulnerability and
+    Vulnerable Groups;
+    <http://siteresources.worldbank.org/INTSRM/Publications/20316319/RVA.pdf>

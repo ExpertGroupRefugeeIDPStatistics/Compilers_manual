@@ -1,0 +1,361 @@
+Build a system for collection of data and production of statistics
+==================================================================
+
+"This phase builds and tests the production solution to the point where
+it is ready for use in the \"live\" environment. The outputs of the
+\"Design\" phase direct the selection of reusable processes,
+instruments, information, and services that are assembled and configured
+in this phase to create the complete operational environment to run the
+process. New services are built by exception, created in response to
+gaps in the existing catalogue of services sourced from within the
+organisation and externally. These new services are constructed to be
+broadly reusable within the statistical production architecture" (UNECE,
+2013)
+
+293. Each type of data source has a defined scope, and the build phase
+    must present recommendations to achieve their objectives as
+    efficiently and comprehensively as possible. This phase deals with
+    the steps needed to build or update the statistical systems that
+    capture, in the most efficient way, the data required for producing
+    accurate statistics on Refugee and IDP populations. This phase can
+    be structured in 7 steps:
+
+    3.1 Build collection instruments
+
+    3.2 Enhance or build process components
+
+    3.3 Build or enhance dissemination components
+
+    3.4 Configure workflows
+
+    3.5 Test production systems
+
+    3.6 Test statistical business process
+
+    3.7 Finalise production systems
+
+294. This part of the Compilers' Manual will only cover those parts of
+    the Build Phase which apply specifically to refugee or IDP
+    statistics. Descriptions of generic activities can be found
+    elsewhere.
+
+Build collection instrument
+--------------------------------
+
+"The collection instrument is generated or built based on the design
+specifications created during the \"Design\" phase. Collection
+instruments may be from surveys, or from data extraction routines used
+to gather data from existing statistical or administrative data sets.
+This sub-process also includes preparing and testing the contents and
+functioning of that instrument (e.g. testing the questions in a
+questionnaire). It is recommended to consider the direct connection of
+collection instruments to the statistical metadata system, so that
+metadata can be more easily captured in the collection phase. Connection
+of metadata and data at the point of capture can save work in later
+phases. Capturing the metrics of data collection (paradata) is also an
+important consideration in this sub-process." (UNECE,2013)
+
+295. The internationally recommended variables, tabulations and analyses
+    of Refugee and IDP Statistics are described in the previous Phase 2.
+    The statistical requirements of any country will have been discussed
+    with users or potential users in order to modify the international
+    standards to meet national requirements and circumstances (see Phase
+    1).
+
+### Development of questionnaires {#development-of-questionnaires .ListParagraph}
+
+296. The development of questionnaires for surveys and censuses should
+    follow an easy to follow format, which optimises the sequence of the
+    questions and the selection of collection tools which meet national
+    needs and circumstances. The design and development of the
+    questionnaire should follow the best practice experience and
+    international recommendations wherever possible
+
+297. Paper questionnaire design must be driven by a planning process
+    based upon dialogue between the NSO and the users and potential
+    users of the results. The information to be collected must respond
+    to user needs both at national and international levels and
+    therefore user consultation, or in the case of new statistics
+    potential users, is crucial in this regard. The recommendations of
+    the IRIS and IRRS should be followed.
+
+### Development of the collection methodology {#development-of-the-collection-methodology .ListParagraph}
+
+298. In undertaking a survey, the statistician in the build phase is
+    faced with a decision about the use of paper or electronic format.
+    The advantages and disadvantages of these are briefly discussed, but
+    as the decision is not relevant specifically to displaced
+    populations, except in so far as technological equipment may face
+    particular challenges in areas affected by disaster or conflict.
+
+    **Questionnaire with face-to-face interview (PAPI) **
+
+299. The face-to-face interview methods used paper questionnaire in most
+    countries historically. However, as a result of advances in
+    technology, new ways of enumerating populations have been
+    introduced. The traditional method of enumerating the population
+    with face-to-face interviews can now be applied with the use of
+    handheld electronic devices or the telephone to automatically
+    capture data during the interview. These approaches can either
+    substitute or complement the traditional face-to-face, pen-and paper
+    interviews (PAPI) and can also be used in a variety of combinations
+    (multi-mode method).
+
+300. Advantages of the PAPI method: This is the most common method,
+    especially in developing countries and in population groups with
+    significant illiteracy rates. Data obtained from this method are
+    potentially more complete and accurate because of the interaction
+    between the enumerator and the respondent, and the opportunity to
+    clarify some of the questions and probe for more adequate answers;
+
+301. Disadvantages of the PAPI method: The data collection phase of the
+    survey may take longer (or require a larger interviewing force)
+    compared to other modes of collection, because in-person
+    interviewers typically operate alone with much less supervision and
+    control, whereas CAP has some built controls. There may be greater
+    interviewer variance in in-person interviews and there are also
+    greater opportunities for interviewer falsification of some
+    questionnaire items or for entire interviews.
+
+    **Computer-assisted personal interviewing (CAPI) **
+
+302. In computer-assisted personal interviewing (CAPI), the enumerator
+    obtains information from one or more household members through an
+    interview using an electronic questionnaire (CAPI software
+    application) loaded on a tablet or other handheld electronic device
+    (e.g. PDAs and laptops). The enumerator asks the respondent
+    questions in a face-to-face interview and the responses are recorded
+    by the enumerator directly into the electronic device. Following the
+    interview, the data are sent to a central computing network
+    electronically via internet or other means of data transfer.
+
+303. Advantages of the CAPI method:
+
+    1.  Cost savings in data processing;
+
+    2.  Improved quality of data mainly due to the possibility of having
+        electronic checks, managed skip patterns are managed and the
+        possibility of tailoring questions.
+
+    3.  Shorter timelines for completion of data processing;
+
+    4.  Improve monitoring of fieldwork and enables more efficient
+        management of interviewers, i.e. use of CAPI allows for a
+        detailed analysis of the time duration for completing the
+        questionnaire, as well as updating enumerators' assignments and
+        checking of the completed questionnaires by the supervisors.
+
+304. Disadvantages of the CAPI method: When considering the CAPI method,
+    the cost of providing all interviewers with the electronic device
+    used to administer the questionnaire must be incorporated into the
+    project budget.
+
+    5.  Each interviewer must have her or his own tablet computer for
+        data collection, which can represent a substantial initial
+        investment.
+
+    6.  Cost of access to server hardware, software, server maintenance
+        and technical support.
+
+    7.  Development of parameters for monitoring and controlling data
+        collection (paradata)
+
+305. While converting a paper questionnaire into an electronic format,
+    the following aspects should be kept in mind:
+
+    8.  The wording and structure of some questions may need to be
+        changed to make it easier for the enumerators to work quickly
+        and accurately on the device;
+
+    9.  Features which can be added: data validation, edits, and
+        preloaded answers;
+
+    10. Questionnaire designers should consider how to take advantage of
+        the added features of an electronic questionnaire, particularly
+        the ability to: preload existing data; implement consistency
+        checks, range checks, and edits; take GPS coordinates; and offer
+        on-screen help features.
+
+### Development of training plan, evaluation and selection of human resources {#development-of-training-plan-evaluation-and-selection-of-human-resources .ListParagraph}
+
+306. This part includes the development of materials for data collection
+    (reference material for enumerators, logistics, logistics
+    management), preparation of the technical document for the
+    recruitment of external staff (including quantities), development of
+    the human resource allocation plan (based on workload, distances,
+    isolation, language spoken, gender, security, etc.).
+
+307. Enumerators and their supervisors should be conversant with
+    languages or dialects of the area in which they will be working, and
+    in the case of displaced persons there should be provision for
+    interviewers who are fluent in the languages and dialects from the
+    displaced persons place of origin. If this is not taken account of
+    then any field operations may be impacted by poor response rates,
+    and inability to collect good quality data.
+
+308. Many field staff are short-term temporary staff and maybe have
+    limited experience or training in statistical data collection
+    activities. The training should be delivered as close as possible to
+    the time at which it is to be used in fieldwork. The training must
+    follow a cascade principle: field work coordinator and supervisors
+    must be trained by NSO staff and enumerators must be trained by
+    supervisors.
+
+309. It is important to be give staff training to understand the
+    following, and above all to be motivated to collect good quality
+    data:
+
+    11. The importance of their duties,
+
+    12. Confidentiality issues, particularly when dealing with
+        vulnerable respondents,
+
+    13. The definitions and concepts used in statistics about
+        displacement which may be unfamiliar to many experienced field
+        staff (place of habitual residence, classification categories
+        etc,)
+
+    14. The way they are expected to undertake those duties,
+
+    15. Administrative issues,
+
+    16. Definitions, mapping and other concepts,
+
+    17. Quality assurance.
+
+### Development of collaboration agreements {#development-of-collaboration-agreements .ListParagraph}
+
+310. **A communication plan** must be developed in advance in order to
+    explain the purpose of the survey to the respondents. The aim of a
+    communication and publicity program is to support the operation of
+    the survey and obtain a high-quality result through the following
+    measures:
+
+-   Organizing a recruitment campaign for field staff, and in particular
+    members of displaced groups to join the field force.
+
+-   Getting information about the reactions to the survey plans and
+    activities from displaced people
+
+-   Organizing an awareness campaign to:
+
+    -   Maximize awareness of when the survey will be carried out,
+
+    -   Promote awareness of procedures and ways to get assistance with
+        the survey topics,
+
+    -   Address any issues that need clarification, and in particular
+        addressing the needs of displaced people,
+
+-   Contacting organisations and community groups relevant to displaced
+    people in order to get the full cooperation of respondents, and in
+    particular building trust in the data collection activities and the
+    uses of the data.
+
+-   Encourage respondents to cooperate to the best of their ability, and
+    to ensure the salience of the topics to the displaced people to be
+    interviewed.
+
+311. **Ethical aspects and vulnerable respondents**. Interviewing
+    Refugees or IDPs presents sensitivities, as any IDP or Refugee who
+    identifies themselves as such could face threats from doing so or be
+    stigmatised. The displaced population has special needs or
+    conditions of interview, and the 'no-harm' principles and UN ethical
+    standards on data collection and data protection must be applied.
+    All enumerators, coordinators, data managers, and anyone involved in
+    the development of the official statistics must be aware and follows
+    such principles. (See e.g. [IOM data protection
+    manual](https://publications.iom.int/books/iom-data-protection-manual),
+    [IOM Data protection initiative](https://www.iom.int/press-room),
+    [Handbook on Data Protection in Humanitarian
+    Action)](https://www.icrc.org/en/publication/handbook-data-protection-humanitarian-action).
+
+Test production system
+---------------------------
+
+312. This section includes information on how to test the production
+    system and the statistical business process is relevant when
+    building new statistics whatever the covered statistical field. For
+    example, providing list of the objectives as well as the types of
+    tests to be used and best practices, even if it is generic, can be
+    useful for compilers'.
+
+313. **Test collection tools** on a number of units before the pilot
+    survey. In a survey the collection tools consist of questionnaires
+    and /or electronic data collection devices. This should be tested on
+    a small number of units to make sure that the questions are well
+    formulated, coherent and well sequenced. If using CAPI the
+    collection program should be tested, and any bugs identified before
+    the pilot survey. Some points to consider are:
+
+    18. How the respondents interpret the questions and are required to
+        think to come up with an answer.
+
+    19. Clarity of the questions.
+
+    20. The processing capacity of the technology (long questionnaires
+        may require a lot processor capacity and internal memory of the
+        device used, especially as the interview often needs to run
+        applications for maps and interview administration
+        simultaneously).
+
+    21. Need to adapt the questions to the country context (i.e. taking
+        into account ethno-cultural characteristics and potentially
+        sensitive topics for vulnerable groups).
+
+    22. Sending out the final version of the questionnaire to the
+        experts and line agencies/ministries for further recommendations
+        and their comments.
+
+314. Technical issues which can limit the efficiency of the data
+    collection process or cause errors, these include;
+
+    23. Size of screen (may affect the ability of the enumerator to
+        record responses correctly);
+
+    24. Length of battery life (considering daily workload of the field
+        staff particularly in challenging environments with poor access
+        to electricity);
+
+    25. Processing capacity;
+
+    26. Storage capacity.
+
+315. Testing of the data transferring tools for transferring information
+    from the data collection instruments to secure storage in databases.
+    The transmission of the data must make use of secure channels, using
+    IT encryption and state-of-the-art data security standards. This is
+    particularly important when dealing with vulnerable respondents
+    where data security breaches may impact on their safety and
+    security.
+
+316. **Testing of data treatment tools:** The data processing involves a
+    series of steps to convert the responses to the electronic
+    questionnaire from their raw format to a high-quality user-friendly
+    database with a comprehensive set of variables for the analysis. The
+    processing tools consist mainly of data capture and editing software
+    including the SCPRO developed by US Census, SPSS, and of course
+    Excel. After collecting and entering data, several test operations
+    are performed to remove errors in the files, to check the data to
+    assess whether or not errors are of sufficient magnitude to impact
+    on the results, to ensure consistency, code open questions, create
+    variables useful for the analysis of data. and, finally, systematize
+    and document variables to facilitate their use for analytical
+    purposes.
+
+317. **Testing of dissemination tools:** All information gains value
+    through its use. This is to test the media that will be used to
+    ensure the dissemination of data. This may be a program designed to
+    make the case of Cameroon accessible to the database or to the data
+    file, such as ANADOC. Other media to be tested may be the
+    capabilities and quality of the CD-room and USB key, the mock-ups of
+    the leaflets and brochures as well as the report formats.
+
+###### Phase references and links
+
+-   Reference on protecting respondents and their data; [IOM data
+    protection
+    manual](https://publications.iom.int/books/iom-data-protection-manual),
+    [IOM Data protection initiative](https://www.iom.int/press-room),
+    [Handbook on Data Protection in Humanitarian
+    Action)](https://www.icrc.org/en/publication/handbook-data-protection-humanitarian-action)

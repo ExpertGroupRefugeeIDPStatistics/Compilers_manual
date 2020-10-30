@@ -1,0 +1,1144 @@
+Dissemination
+=============
+
+> "This phase manages the release of the statistical products to
+> customers. It includes all activities associated with assembling and
+> releasing a range of static and dynamic products via a range of
+> channels. These activities support customers to access and use the
+> outputs released by the statistical organisation[^1]." (UNECE, 2013)
+
+486. Dissemination is a phase in the statistical process, in which the
+    data collected, and outputs compiled by national statistical offices
+    (NSOs) and other relevant national authorities are released to the
+    public. It features as a step in the GSBPM
+
+487. The responsibility for disseminating refugee and IDPs statistics
+    varies from country to country and the dissemination practices
+    differ significantly in their methods and effectiveness. In many
+    countries, immigration authorities or other government ministries,
+    departments or agencies (e.g. Ministry of Interiors) provide the NSO
+    and UNHCR with the relevant data for compilation, validation and
+    analysis. After validation, the NSO and/or relevant authorities
+    disseminate the statistics, sometimes in parallel. In other
+    countries, refugee data are collected directly by UNHCR, who also
+    disseminate them.[^2] A more harmonized approach is needed to the
+    dissemination of refugee and IDP statistics.
+
+488. The phase is composed of five sub-processes, that are briefly
+    described below. Then on the subsequent pages, each section is
+    discussed at length. The sub-process sections include general advice
+    and specific examples of refugee and IDPs applications. The 5
+    sub-processes are:
+
+    **7.1 Update of output systems**[^3]
+
+489. This sub-process manages the update of an existing system where
+    data and metadata are stored ready for dissemination purposes,
+    including: a) formatting data and metadata ready to be put into
+    output systems; b) loading data and metadata into output systems; c)
+    ensuring data are linked to the relevant metadata.
+
+    **7.2 Production of dissemination products**
+
+490. This sub-process describes the various forms available for
+    dissemination products, including: a) online data (e.g. databases
+    with predefined datasets presenting aggregated data), b) analytical
+    publications/reports, c) user-friendly leaflets, booklets, flyers,
+    posters; d) digital publications; and e) public-use micro-data sets
+    and downloadable files. This section of the Manual also provides
+    examples of publication guidelines to facilitate the production
+    process.
+
+    **7.3 Management of the release of products**
+
+491. As highlighted in the IRRS and IRIS documents, dissemination
+    \"should be guided by a number of principles including those
+    established in the *Fundamental Principles of Official
+    Statistics*[^4], such as objectivity, impartiality, confidentiality,
+    privacy, timeliness and accessibility\".
+
+492. This section discusses the characteristics of an effective data
+    dissemination system. It aims to ensure that all the elements for
+    the statistical release are in place, including managing the timing
+    of the release, briefings for specific groups such as the press, as
+    well as the arrangements for any pre-release embargoes. It also
+    covers the provision of products to subscribers and managing access
+    to confidential data by authorised user groups, such as researchers
+    and the error correction and notification policy.
+
+    **7.4 Promotion of dissemination products**
+
+493. This sub-process includes the activities that are naturally
+    associated with the data dissemination such as data publishing, and
+    also activities related to the promotion of the dissemination
+    products. This active promotion of the statistical products helps to
+    reach the widest possible audience. It includes the use of different
+    communication tools to facilitate the sharing of statistical
+    information to users.
+
+    **7.5 Management of user support**
+
+494. This sub-process explains how the dissemination of statistical
+    products requires proper management of the user support. User
+    queries and requests for other services such as microdata access
+    should be recorded, and responses to these requests should be
+    provided within agreed deadlines. These queries and requests should
+    be regularly reviewed to provide an input to the overarching quality
+    management process, as they can indicate new or changing user needs.
+
+Update output systems
+--------------------------
+
+495. As formatting, loading and linking of metadata should take place in
+    earlier phases, this sub-process focuses on final checks that all of
+    the necessary elements are in place ready for dissemination.
+    Therefore, this upload of the data and metadata should pay attention
+    to the following principles:
+
+    1.  ***Manual or automated update process***: in order to streamline
+        the update, it is advisable to automate this process. The update
+        process should be defined in the design phase and executed as
+        well as governed in this phase.
+
+    2.  **Checking Technical requirements of the update:** Technical
+        requirements for data exchange between systems like application
+        programming interface (API), data exchange format (like SDMX),
+        authentication/access rights and control, etc. should be defined
+        in the design phase, and implemented and tested in the Build
+        phase. Checking takes place in this sub-process to avoid
+        potential errors, and prevent delays in the update of the output
+        system.
+
+    3.  ***Monitoring of the upload process and verification of its
+        correctness:*** If the update is done automatically, it is
+        important to control and verify the results of this process
+        (e.g. check for errors in the data, metadata, proper layout,
+        descriptions). Therefore, it is necessary to assign this
+        responsibility to a person who works with the selected output
+        system.
+
+    4.  **Detection and diagnostics of potential loading issues
+        (consistency of data, no loading errors etc.):** As the
+        electronic transfer might face interruptions, it is important to
+        control this process and also to perform manual checks. As
+        above, this checking should be assigned to a responsible person.
+
+    5.  **Ensure Security:** In order to ensure the secure transfer of
+        data between different systems, security rules should be
+        established. The application of the rules can come from the
+        output system 'owner' or sender to the recipient output
+        system/database. In all cases, the minimum security settings
+        should be defined, e.g. transfer of the data from the source to
+        the destination system, output database should be encrypted and
+        protected, and the security "health checks" should be part of
+        the monitoring process.
+
+496. As highlighted in the IRRS document, it is important to use a
+    single portal/platform and single access point for disseminating all
+    national refugee and IDP statistics. This approach can minimise
+    confusion for users who consult various non-integrated portals often
+    with conflicting results.
+
+497. The decision on whether to use an existing dissemination hub or to
+    develop a new one should be taken by national/regional or
+    international statistical agencies while developing dissemination
+    tools. However, it is recommended that statistical agencies take
+    expert advice and access available information before choosing the
+    system that best meets their dissemination needs.
+
+### Existing output systems (portals and platforms) {#existing-output-systems-portals-and-platforms .ListParagraph}
+
+#### Example 7.1 Eurostat Census Hub:
+
+498. The Census Hub is an easy-to-use tool that allows users to access
+    census data. It can quickly produce customised tabulations; users
+    specify the tables that they need, and the tool extracts the
+    necessary data from the databases held by the NSOs. Data from the
+    national databases are then compiled by the Census Hub, with output
+    either displayed on screen or in spreadsheet-readable files.
+
+Link:
+[**https://ec.europa.eu/eurostat/web/population-and-housing-census/census-data/2011-census**](https://ec.europa.eu/eurostat/web/population-and-housing-census/census-data/2011-census)
+
+#### Example 7.2 **CROS Portal** (Portal on Collaboration in Research and Methodology for Official Statistics:
+
+499. The CROS Portal is dedicated to the collaboration between
+    researchers and Official Statisticians in Europe and beyond. It
+    provides a working space and tools for dissemination and information
+    exchange for statistical projects and methodological topics. The
+    services provided include hosting of statistical communities,
+    repositories of useful documents, research results, project
+    deliverables, and discussion fora.
+
+Link:
+[**https://ec.europa.eu/eurostat/cros/**](https://ec.europa.eu/eurostat/cros/)
+
+#### Example 7.3 African Development Bank's Open Data Platform: 
+
+500. As part of its Africa Information Highway (AIH), the African
+    Development Bank (AfDB) provides an Open Data Platform (ODP) to all
+    African countries. The key role of these portals is to facilitate
+    statistical data access across Africa.
+
+501. The ODP integrates many functionalities that allows countries to:
+
+    6.  ***Upload and update databases on the system, ***
+
+    7.  ***Create dynamic dashboards based on uploaded data,***
+
+    8.  ***Share data with partners in different format (CSV, SDMX,
+        ODATA, etc.).***
+
+502. The portal also gives countries the opportunity to integrate data
+    from NSOs and line ministries within the NSS. In the context of
+    refugees and IDPs, the ODP could play a key role in facilitating
+    access to this data in African countries already using the platform
+    for their dissemination. This is already done for SDG data and
+    macro-economic data, the refugees and IDP data could be easily
+    integrated to the African countries' ODP.
+
+503. Recently, African countries have populated SDG hubs, having
+    installed them as part of the ODP and also developed 'National
+    Summary Data Pages'. In this respect, a module could easily be added
+    to the platform for disseminating refugees and IDP data.
+
+504. The links (below) show examples for Mauritius and Kenya,
+    respectively.
+
+> <http://dataportal.opendataforafrica.org/>
+>
+> <http://mauritius.opendataforafrica.org/konedhd>
+>
+> <http://nso.kenya.opendataforafrica.org/dsssevf/national-summary-data-page-nsdp>
+
+#### Other Examples of portals/platforms for the dissemination of statistics:
+
+i.  ***EU Open Data Portal*** gives access to open data published by EU
+    institutions and bodies (<https://data.europa.eu/euodp/en/home>),
+
+ii. ***Knowledge Centre on Migration and Demography***, provides a
+    single point of entry for information relevant to EU policies on
+    migration and related fields
+    (<https://bluehub.jrc.ec.europa.eu/portal/>)
+
+iii. ***World Bank -- DataBank*** -- an analysis and visualisation tool
+    that contains collections of time series data on a variety of
+    topics. Users can create their own queries; generate tables, charts,
+    and maps; and easily save, embed, and share them
+    (<https://databank.worldbank.org/data/home.aspx>)
+
+iv. ***OECD data portal*** gives access to charts, maps, tables and
+    related publications (<https://data.oecd.org/>)
+
+v.  ***International Organization for Migration -- Migration Data
+    Portal***, aims to serve as an access point to information about
+    migration data
+    (<https://gmdac.iom.int/data-analysis-migration-data-portal>
+
+vi. ***Devinfo*** tracks and disseminates key socio-economic development
+    indicators ([www.devinfo.org](http://www.devinfo.org) ),
+
+vii. ***NADA*** makes it possible to archive technical documents,
+    metadata and microdata from surveys and censuses
+    (<http://www.ihsn.org/software/nada>)
+
+viii. ***REDATAM***-- facilitates the processing, analysis and
+    dissemination of Statistics and Census
+    (<https://redatam.org/redatam/en/index.html>)
+
+#### Examples of national data portals -- IRELAND and CANADA:
+
+i.  Ireland: <https://data.gov.ie/>
+
+ii. Canada: <https://open.canada.ca/en/open-data>
+
+### New Output system {#new-output-system .ListParagraph}
+
+505. An alternative to using one of these existing systems is the
+    creation of a new portal exclusively dedicated to **\'Refugee and
+    IDP statistics -- Open Data Portal\'.** In which case a choice must
+    be made as to which organisation will create and maintain such a
+    portal and what content will be offered.
+
+506. The following options could be considered:
+
+    9.  **Copy and centralise all content from various sources and
+        present a full spectrum of \'Refugee and IDP statistics\'.**
+        This option would require deep integration and data exchange
+        between various stakeholders and therefore could be considered
+        only as a long-term solution.
+
+    10. **Create a centralised "dictionary" of all the \'Refugee and IDP
+        statistics'.** This solution could be considered as a
+        "quick-win" and would aim to be a centralised place with links
+        to all relevant materials and dissemination products (portals,
+        various products like databases, publications, leaflets, social
+        media, etc...) from all engaged national agencies, and
+        international bodies. Such a portal can act as a single point of
+        access for collected data. However, the portal\'s structure can
+        be decentralised, which means the data remains on the data
+        provider\'s website and the provider is responsible for its
+        quality and availability. All the respective metadata are also
+        stored on the source portals and are managed by data providers.
+
+507. In both scenarios it is important to consider the importance of
+    international comparisons and standards.
+
+### Data Portals -- guidelines[^5] {#data-portals-guidelines .ListParagraph}
+
+508. There is a growing use of data portals among the NSOs (and regional
+    and international agencies) for data dissemination. This is a
+    positive development which allows for greater data availability and
+    accessibility. It is recommended that statistical agencies take
+    expert advice and access available information to support the
+    selection of the system that meets their dissemination needs.
+
+509. Links to examples of relevant guidelines include:
+
+-   [*The Handbook on Major Statistical Data Management Platforms* by
+    UNECA](https://nsdsguidelines.paris21.org/printpdf/node/798) *is an
+    important resource for NSOs and can provide guidance during the
+    decision-making process to help NSOs select the appropriate platform
+    for managing and disseminating statistical data to their users.*
+    <https://nsdsguidelines.paris21.org/printpdf/node/798>
+
+-   *[World Bank's technical assessment of open data platforms for
+    NSOs](http://documents.worldbank.org/curated/en/744241468334210686/pdf/928100WP0Techn0Box385378B000PUBLIC0.pdf).*
+    *This research report is intended to provide a better understanding
+    and assessment of the technical issues related to data dissemination
+    tools that NSOs use (or could use) to distribute data to the public
+    under an open data initiative. The report defines a list of key
+    criteria and evaluates relevant technology products according to
+    those criteria.*
+    <http://documents.worldbank.org/curated/en/744241468334210686/pdf/928100WP0Techn0Box385378B000PUBLIC0.pdf>
+    [ ]{.underline}
+
+-   [*Making Data Portals work for SDGs: A view on deployment, design
+    and
+    technology.*](https://paris21.org/sites/default/files/Paper_on_Data_Portals%20wcover_WEB.pdf)
+    *This paper offers lessons on how the deployment, design and
+    technology considerations can be improved as NSOs enter the
+    implementation and monitoring phase of the SDGs -- which will lead
+    to a further push for data portals. The paper finds that while there
+    have been many good intentions to make these portals available to
+    countries, when it comes to actual implementation the outcomes are
+    rather mixed. One particular problem is the set-up of multiple data
+    portals with overlapping functionalities and their lack of
+    integration -- particularly in the most aid-dependent countries.
+    This results in (i) a duplication of workload for already
+    resource-constrained NSOs who have to maintain several portals and
+    update information manually, (ii) confusion for users who consult
+    the various portals with often conflicting results, and (iii)
+    overall high costs for demonstrably low usage of these portals.*
+
+    <https://paris21.org/sites/default/files/Paper_on_Data_Portals%20wcover_WEB.pdf>
+
+Produce dissemination products
+-----------------------------------
+
+510. This sub-process focuses on the production of the dissemination
+    products, which should be designed in earlier sub-processes (i.e.
+    Phase *2.1. Design Outputs*), however, it is presented here as a
+    useful set of examples and best practices.
+
+511. This sub-process focuses on three main aspects:
+
+<!-- -->
+
+i.  **"what**" will be produced: selecting from the options for
+    dissemination products, e.g. downloadable files, analytical reports,
+    interactive graphics, maps, public-use microdata sets;
+
+ii. **"for whom"**, matching products to the types of users and their
+    needs;
+
+iii. **"how"** it will be produced, following standards and guidelines
+    in order to produce quality assured products
+
+### Dissemination products ("what") {#dissemination-products-what .ListParagraph}
+
+512. The following Dissemination products are among the most widely
+    used:
+
+-   **Datasets** - multi-dimensional tables used to store the base data
+    > and more appropriate for use by statistical and other experts via
+    > special applications. For dissemination purposes the data
+    > presented in the datasets should be aggregated to a level that is
+    > safe to share and accompanied by relevant metadata.
+
+-   **Predefined tables** - used to provide easy access to the main
+    > statistical indicators. They are generally based on datasets and
+    > are derived from them. They are predefined, non-modifiable and
+    > present a limited number of dimensions.
+
+<!-- -->
+
+-   **Statistics explained articles** - contain statistical data and
+    > explanations, but also direct links to all kinds of relevant
+    > background information which may be useful to understand the
+    > statistics.
+
+-   User-friendly **leaflets, booklets, flyers, posters.**
+
+-   **Statistical reports -** presenting a selection of data on specific
+    > topics, including descriptive statistics that provide a general
+    > picture of the findings.
+
+-   **Digital publications** -- composed of short texts, dynamic
+    > infographics, maps, videos, graphs, photos, etc.
+
+-   **Visualisations**, including **maps and infographs** -
+    > visualisation tools, which are easily understandable, interactive
+    > and storytelling.
+
+-   **Public-use micro-data sets and downloadable files** -- that
+    > consist of sets of records containing information on individuals,
+    > households or business entities. The files are created to allow
+    > the general public to become familiar with statistical microdata.
+    > The files are prepared in such a way that individual entities
+    > cannot be identified, but with a consequent loss in information
+    > value.
+
+####  Examples of databases and predefined tables:
+
+i.  UNHCR: <http://popstats.unhcr.org/en/time_series>
+
+ii. Eurostat database -- Asylum and managed migration:
+    <https://ec.europa.eu/eurostat/web/asylum-and-managed-migration/data/database>
+
+iii. <https://ec.europa.eu/eurostat/web/asylum-and-managed-migration/data/main-tables>
+
+iv. Eurostat Metadata -- Asylum and managed migration:
+    <https://ec.europa.eu/eurostat/cache/metadata/en/migr_asyapp_esms.htm>
+
+#### Examples of Statistics Explained articles:
+
+513. Statistics explained articles (Eurostat):
+    <https://ec.europa.eu/eurostat/statistics-explained/index.php/Main_Page>
+
+#### Examples of statistical reports:
+
+514. The following reports are produced by the IoM using operational
+    data.
+
+<!-- -->
+
+i.  Overview reports that cover all the data collected during the
+    specified timeframe. These include descriptive statistics providing
+    a general picture of the findings. There is no specific geographic
+    subset of focus or analysis theme. The example is for **Turkey**
+    - [Flow Monitoring Surveys Analysis (April 2019]{.underline})
+    <https://migration.iom.int/reports/turkey-%E2%80%94%C2%A0flow-monitoring-surveys-analysis-april-2019?close=true>
+
+ii. ***Thematic reports**:* focus on a specific research question,
+    analysis theme (e.g. health, education or livelihoods, etc.) or
+    population subset. This example is for [West and Central Africa -
+    Youth and Mobility: Children and Youth on the Move Across West and
+    Central Africa in 2018]{.underline} (April 2019).
+
+    <https://migration.iom.int/reports/west-and-central-africa-%E2%80%94-youth-andmobility-children-and-youth-move-across-west-and-central?close=true>
+
+iii. ***Sub regional reports**: similar to overview reports but focusing
+    on a specific geographic area. This example is [South Sudan -
+    Jonglei I Catalogue -Mobility Tracking Round 4.]{.underline}*
+
+    <https://displacement.iom.int/reports/south-sudan-%E2%80%94-jonglei-i-catalogue-%E2%80%94-mobility-tracking-round-4?close=true>
+
+iv. ***Brief report**:* shorter version of a narrative report
+    summarizing the key findings. This report is [Europe --- Migrant
+    Vulnerability to Human Trafficking and Exploitation
+    (November 2017)]{.underline}
+
+> <https://migration.iom.int/reports/europe-%E2%80%94-migrant-vulnerability-human-trafficking-and-exploitation-november-2017?close=true>
+
+515. A model Report will depend on the availability and
+    comprehensiveness of the data collected, however a structure
+    suitable for refugee and IDP statistics will likely include:
+
+-   **A Foreword**: usually written by an authority figure, presenting
+    the report and highlighting its relevance. This can be procured in
+    advance from the invited authority.
+
+-   **Introduction/Executive Summary**: including a background context,
+    justification for the exercise, description of the methodology, data
+    collection period, locations covered, reference population, if
+    applicable a description of the sampling and construction of
+    weights, who was collecting data, limitations and constrains.
+    Finally, the sections of the report should be presented and the main
+    findings or most relevant figures/charts.
+
+-   **Glossary**: if needed, it is recommended to include a glossary
+    defining key terms in the beginning of the document.
+
+-   **List of figures.**
+
+-   **Suggested content sections:**
+
+    **Demographics chapter**: providing the snapshot information of
+    observed population groups based on sex-age and geographic
+    disaggregation, household size; if available and applicable
+    comparing changes with previous periods, also in terms of
+    demographic balance (births and deaths). If available highlight
+    vulnerable population (children and youth, women in vulnerability,
+    disability, dismembered households).
+
+    **Sectoral /living conditions chapters** (e.g. Housing, Education,
+    Health, Employment): detailing the current living conditions of the
+    observed population.
+
+    **Mobility chapter**: focusing on the subset of the population that
+    has moved in the last 12 months. It should outline places of origin
+    and destination, habitual and current residence, as well as current
+    displacement status (IDP, refugee or neither), and previous status
+    if available.
+
+<!-- -->
+
+-   **Conclusion**
+
+-   **Annexes**
+
+####  Examples of EUROSTAT digital publications:
+
+-   Digital publications (Eurostat) on e.g. [\'The life of women and men
+    > in Europe -- a statistical portrait]{.underline}\':
+    > <https://ec.europa.eu/eurostat/cache/infographs/womenmen/>. More
+    > Eurostat hosted digital publications can be found
+    > [here](https://ec.europa.eu/eurostat/publications/digital-publications?p_p_id=101_INSTANCE_lw69MeCcUVQY&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_101_INSTANCE_lw69MeCcUVQY_delta=4&_101_INSTANCE_lw69MeCcUVQY_keywords=&_101_INSTANCE_lw69MeCcUVQY_advancedSearch=false&_101_INSTANCE_lw69MeCcUVQY_andOperator=true&p_r_p_564233524_resetCur=false&_101_INSTANCE_lw69MeCcUVQY_cur=1)
+    > and details of all Eurostat's publications can be accessed here;
+    > <https://ec.europa.eu/eurostat/publications/all-publications>
+
+####  *[Examples of creating/using visualisation tools]{.smallcaps}*: 
+
+-   Visualisation tools (UNHCR):
+
+-   <https://data2.unhcr.org/en/countries/>
+
+-   Visualisation tools (World Bank):
+
+-   <https://data.worldbank.org/indicator/sm.pop.refg>
+
+-   Visualisation tools (European Commission):
+
+-   <https://migrationdataportal.org/>
+
+-   Visualisation tools (Eurostat):
+
+-   [https://ec.europa.eu/eurostat/cache/RCI/myregion/ -
+    ?reg=RO31](https://ec.europa.eu/eurostat/cache/RCI/myregion/#?reg=RO31)
+
+-   <https://ec.europa.eu/eurostat/cache/infographs/economy/desktop/index.html>
+
+-   <https://ec.europa.eu/eurostat/cache/infographs/youth/index_en.html>
+
+-   <https://ec.europa.eu/eurostat/cache/infographs/youineu/index_en.html>
+
+9)  #### Examples of creating/using visualisation tools: Non-interactive:
+
+    <https://displacement.iom.int/reports/burundi-%E2%80%94-baseline-dashboard-march-2019?close=true>
+
+10) #### Examples of creating/using visualisation tools: Interactive: 
+
+    <https://app.powerbi.com/view?r=eyjrijoimjdhnjm1mgityzdkzs00ntawltkwodetyjm2n2e2otu5zdy5iiwidci6ije1odgynjjkltizzmitndninc1izdzllwjjztq5yzhlnje4niisimmiojh9>
+
+    11. **Overview maps**: maps covering data that would be aligned with
+        an overview report. Could be disseminated as an annex of the
+        narrative report, as a stand-alone product or compiled with
+        other maps in an atlas;
+        <https://displacement.iom.int/reports/tripoli-displacement-map-7-07-may-2019?close=true>
+
+    12. **Thematic maps:** similar to the thematic report, and focused
+        on a specific analysis theme or population subset;
+        <https://displacement.iom.int/reports/mozambique-%E2%80%94-tropical-cyclone-idai-map-temporary-relocation-sites-layout-1-april-2019?close=true>
+
+11) #### Examples of public-use micro-data sets:
+
+<!-- -->
+
+516. Micro-data sets (World Bank):
+
+> <http://microdata.worldbank.org/index.php/home>
+
+Micro-data sets (Eurostat):\
+<https://ec.europa.eu/eurostat/web/microdata/public-microdata>
+
+###  {#section .ListParagraph}
+
+### Users / recipients of the dissemination products ("for whom") {#users-recipients-of-the-dissemination-products-for-whom .ListParagraph}
+
+517. The production of dissemination products must be adapted to the
+    different users and their needs, particularly in the volume and
+    detail of information required. Thus, there might be a need to have
+    different user segments (as proposed below by the Task Force on
+    Value of Official Statistics).[^6] Such segmentation can serve as a
+    basis for constructing well-based production and communication of
+    statistics. These user groups include:
+
+    A. Users with a general interest
+
+    -   Citizens
+
+    -   Media and journalists
+
+    -   Students and teachers
+
+        B. Users with a pre-defined/structured interest
+
+    <!-- -->
+
+    -   International policies and monitoring frameworks
+
+    -   International organizations
+
+        C. Users with a specific subject/domain interest
+
+    <!-- -->
+
+    -   Decision makers
+
+    -   Policy makers and analysts
+
+    -   Marketing analysts
+
+    -   Experts in a specific field
+
+    -   Private businesses
+
+    -   NGOs and associations
+
+        D. Users with a reuse and reproduction interest
+
+    <!-- -->
+
+    -   Other producers of official statistics
+
+    -   Private or government organizations providing information
+        > services/products
+
+    -   Other providers of information services (e.g. App builders)
+
+        E. Users with a research interest
+
+    <!-- -->
+
+    -   Scientific community -- academics and researchers
+
+    -   Consultants and researchers in the government or private sector
+
+518. This categorisation and the dissemination targeting that it makes
+    possible was described as the "cornerstone" of NSDS
+    (Guidelines)[^7], and illustrated below (UNECA) to conceptually
+    define the various user communities and their demand for data.
+
+Figure 7.1:UNECA Information and Audience Model for ECA Data and
+Information and Knowledge products
+
+![](media/image1.png){width="6.723172572178478in"
+height="4.346513560804899in"}
+
+### Process ensuring proper creation of the dissemination products and best practices, guidelines ("how") {#process-ensuring-proper-creation-of-the-dissemination-products-and-best-practices-guidelines-how .ListParagraph}
+
+519. When releasing the dissemination products, the style and formatting
+    should be consistent and the quality of the product should be
+    assured. At a simple level, the creation of dissemination products
+    is composed of the following steps:
+
+    13. Preparing the product components (explanatory texts, tables,
+        charts, maps, quality statements etc.);
+
+    14. Assembling the components into products;
+
+    15. Editing the products and checking that they meet publication
+        standards.
+
+520. However, to ensure that quality standards are consistently met,
+    statistical agencies should develop general guidelines for their
+    publication products. Such publication guidelines are important for
+    the following reasons[^8]:
+
+    16. they improve the quality of the publications by making them more
+        user-friendly,
+
+    17. they set clear rules (that must be followed) and guidelines
+        (that serve to advise) to facilitate the internal production
+        process (and process of approval), by making it clear what the
+        publication or website should contain and how this content
+        should be structured and formatted.
+
+    18. Examples of publication guides and guidance on disseminating
+        results.
+
+521. Manuals produced by UNECE: \"Making Data Meaningful\" guide series-
+    Parts 1, 2, 3 and 4:
+    <https://www.unece.org/stats/documents/writing/>
+
+522. The **Making Data Meaningful** guides are intended as a practical
+    tool to help managers, statisticians and media relations officers in
+    statistical organizations to use text, tables, charts, maps and
+    other devices to bring statistics to life for non-statisticians.
+
+    Part 1: A guide to writing stories about numbers - providing
+    guidelines and examples on the use of effective writing techniques
+    to make data meaningful.
+
+    Part 2: A guide to presenting statistics - providing guidelines and
+    examples on preparing effective tables, charts and maps, and using
+    other forms of visualizations to make data meaningful. It also
+    offers advice on how to avoid bad or misleading visual
+    presentations.
+
+    Part 3: A guide to communicating with the media - helping producers
+    of statistics find the best way to get their message across and to
+    communicate effectively with the media. It contains suggestions,
+    guidelines and examples.
+
+    Part 4: A guide to improving statistical literacy - providing an
+    overview of current initiatives and defining strategies for
+    improving the statistical literacy of different user groups.
+
+#### Examples of guidelines for design and layout publications: 
+
+-   Graphical Style guide (Eurostat)\
+    <https://ec.europa.eu/eurostat/documents/4187653/7192088/STYLE_GUIDE_2016.pdf/dbdf7b92-5ac5-4313-ae80-296f52692e5c>
+
+-   Inter-institutional Style Guide:\
+    <http://publications.europa.eu/code/en/en-000100.htm>
+
+#### Examples of specific guidance on metadata, quality assurance:
+
+-   [ESS Reference Metadata Reporting
+    Standards](https://ec.europa.eu/eurostat/data/metadata/metadata-structure)
+    (Eurostat)\
+    [https://ec.europa.eu/eurostat/data/metadata/metadata-structure]{.underline}
+
+-   [Quality Assurance Framework of the European Statistical
+    System](https://ec.europa.eu/eurostat/documents/64157/4392716/ESS-QAF-V1-2final.pdf/bbf5970c-1adf-46c8-afc3-58ce177a0646)
+    (Eurostat)[**\
+    **https://ec.europa.eu/eurostat/documents/64157/4392716/ESS-QAF-V1-2final.pdf/bbf5970c-1adf-46c8-afc3-58ce177a0646]{.underline}
+
+-   [ESS handbook for quality
+    reports](https://ec.europa.eu/eurostat/documents/3859598/6651706/KS-GQ-15-003-EN-N.pdf)
+    (Eurostat)\
+    <https://ec.europa.eu/eurostat/documents/3859598/6651706/KS-GQ-15-003-EN-N.pdf>
+
+-   [Revised International Statistical Processes Assessment
+    Checklist](https://unstats.un.org/unsd/dnss/QAF_comments/ISPAC%20v3%20Nov%202009%20formated.PDF)
+    (UNSD)\
+    [https://unstats.un.org/unsd/dnss/QAF\_comments/ISPAC%20v3%20Nov%202009%20formated.PDF]{.underline}
+
+-   [Administrative Data Quality Assurance
+    Toolkit](https://www.statisticsauthority.gov.uk/archive/assessment/monitoring/administrative-data-and-official-statistics/quality-assurance-toolkit.pdf)
+    (UK Statistics Authority)\
+    <https://www.statisticsauthority.gov.uk/archive/assessment/monitoring/administrative-data-and-official-statistics/quality-assurance-toolkit.pdf>
+
+Manage release of dissemination products
+---------------------------------------------
+
+523. This sub-process should ensure that all elements for the release
+    are in place. It includes managing the timing of the release,
+    briefings for specific groups such as the press, as well as the
+    arrangements for any pre-release embargoes. It also includes the
+    provision of products to subscribers, and managing access to
+    confidential data by authorised user groups, such as researchers and
+    the error correction and notification policy.
+
+524. Dissemination of statistical data to the wider public follows
+    several dissemination principles set by dissemination polices. The
+    management of the release of dissemination products requires careful
+    planning and execution of the following aspects:
+
+    19. **Data release** -- the statistical organization must ensure
+        that all users have equitable and timely access to data that are
+        disseminated to the public; there must be a clear guide for the
+        users where they can find the data (on the respective
+        portal/website and via different mobile apps),
+
+    20. **Time of release and data extraction** -- the database should
+        always contain the latest version of data; there should be
+        regular intervals for the data\' updates; the statistical
+        organization should minimize the interval between the period to
+        which the data refer and the date when the product is released
+        to the public; in case of revisions to the data after an initial
+        release, the users must be notified about these changes in an
+        equitable and timely manner; whenever preliminary data are
+        released, they must be identified as preliminary; the ways that
+        users can extract the data should be clearly explained (e.g.
+        directly from the database or via \'bulk download\' facility),
+
+        For example: Eurostat dissemination policy for Asylum statistics
+        stares that updates are done twice a week on Tuesday and
+        Thursday, at 11:00 am
+
+    21. **Release calendar** should be available in advance of
+        publication, e.g. prior to the beginning of the calendar year
+        the statistical organization shall provide the users with a
+        schedule of when statistical products are expected to be
+        released during the upcoming year; such a calendar should be
+        available on the portal/website and revised in a timely manner.
+
+#### Examples  {#examples .ListParagraph}
+
+> **Eurostat** release calendars:
+> <https://ec.europa.eu/eurostat/news/release-calendar>
+>
+> **Statistics Norway:**
+> <https://www.ssb.no/en/omssb/lover-og-prinsipper/formidlingspolitikk/ssbs-statistikkalender>
+
+22. **Relations with media** - when communicating with the media, two
+    basic rules should be followed[^9]:
+
+    a.  Equal treatment (all media should have access to releases of the
+        new statistics at the same time),
+
+    b.  Release calendar (all media should be informed about coming
+        releases in advance in order to have some time for
+        planning/research)
+
+23. **Pre-release access/release of the statistical results under
+    embargo** -- this is the privileged pre-release access that should
+    be limited, controlled and publicised; such access should be well
+    described and published by the statistical organisation; the
+    respective document should set out how the organisation fulfils its
+    responsibilities in this respect and gives details of the conditions
+    of pre-release access.
+
+#### Examples  {#examples-1 .ListParagraph}
+
+> The '[*Protocol on impartial access to Eurostat data for
+> users'*](https://ec.europa.eu/eurostat/documents/10186/9268011/IMPARTIAL_ACCESS_2014_JAN-EN.PDF.pdf)
+> [^10]sets out how Eurostat fulfils its responsibilities in this
+> respect and gives details on the conditions of pre-release access.
+>
+> Eurostat signs specific Memorandum of Understanding (MoU) with the
+> policy Directorates-General of the European Commission to allow the
+> pre-release access to the statistical data.
+
+24. **Error correction and notification --** a process of correcting
+    > errors should be established; the respective instructions should
+    > note errors both in online and printed statistical data and
+    > include the central principles and the situations in which a
+    > correction is required; errors when detected are recognised and
+    > documented, and the respective corrections/revisions are duly,
+    > rapidly and clearly disseminated to users.
+
+> Luxembourg example - Error correction and data revision at STATEC:
+>
+> <https://statistiques.public.lu/en/actors/statec/policies/errors-revision/index.html>
+
+25. **Access to microdata -** access to microdata should be restricted;
+    e.g. for scientific purposes only; details and conditions on how to
+    apply for microdata should be clearly explained;
+
+#### Examples  {#examples-2 .ListParagraph}
+
+i.  Eurostat examples: Eurostat pages dedicated to microdata access:
+    <https://ec.europa.eu/eurostat/web/microdata/overview>
+
+ii. World Bank page:
+    <http://microdata.worldbank.org/index.php/terms-of-use>
+
+Figure 7.2: Microdata principles - UNFPOS etc.
+
++-----------------------------------------------------------------------+
+| **Managing access to confidential data by authorised user             |
+| groups**[^12]                                                         |
+|                                                                       |
+| The sixth United Nations Fundamental Principle of Official Statistics |
+| is very clear on statistical confidentiality. Any principles for      |
+| microdata access must be consistent with this Fundamental Principle.  |
+|                                                                       |
+| "Individual data collected by statistical agencies for statistical    |
+| compilation, whether or not they refer to natural or legal persons,   |
+| are to be strictly confidential and used exclusively for statistical  |
+| purposes."                                                            |
+|                                                                       |
+| The following principles should be used for managing the              |
+| confidentiality of microdata:                                         |
+|                                                                       |
+| Principle 1: It is appropriate for microdata collected for official   |
+| statistical purposes to be used for statistical analysis to support   |
+| research as long as confidentiality is protected.                     |
+|                                                                       |
+| Principle 2: Microdata should only be made available for statistical  |
+| purposes.                                                             |
+|                                                                       |
+| Principle 3: Provision of microdata should be consistent with legal   |
+| and other necessary arrangements that ensure that confidentiality of  |
+| the released microdata is protected.                                  |
+|                                                                       |
+| Principle 4: The procedures for researcher access to microdata, as    |
+| well as the uses and users of microdata, should be transparent and    |
+| publicly available.                                                   |
+|                                                                       |
+| ###### Links to guidelines and examples: {#links-to-guidelines-and-ex |
+| amples}                                                               |
+|                                                                       |
+| -   UN Guidelines and good practices for managing statistical         |
+|     confidentiality and microdata:                                    |
+|     <https://www.unece.org/fileadmin/DAM/stats/publications/Managing. |
+| statistical.confidentiality.and.microdata.access.pdf>                 |
+|                                                                       |
+| -   UN Principles and Guidelines for Managing Statistical             |
+|     Confidentiality and Microdata Access:                             |
+|     <https://unstats.un.org/unsd/statcom/doc07/BG-Microdata-E.pdf>    |
+|                                                                       |
+| -   Eurostat, Statistical confidentiality and personal data           |
+|     protection:                                                       |
+|     <https://ec.europa.eu/eurostat/web/microdata/statistical-confiden |
+| tiality-and-personal-data-protection>                                 |
+|                                                                       |
+| -   Eurostat, Statistical confidentiality:                            |
+|     <https://ec.europa.eu/eurostat/web/research-methodology/statistic |
+| al-confidentiality>                                                   |
++-----------------------------------------------------------------------+
+
+26. **Data re-use and copyright --** the statistical organization should
+    have a policy of encouraging free re-use of its data, both for
+    non-commercial and commercial purposes, provided that the respective
+    data source is clearly indicated,
+
+    Example**:** Eurostat page dedicated to copyright notice and free
+    re-use of data:
+    [*https://ec.europa.eu/eurostat/about/policies/copyright*](https://ec.europa.eu/eurostat/about/policies/copyright)
+
+#### Links to examples of dissemination polices, guidelines, best practices:
+
+-   Principles for the dissemination policy of official statistics
+    (UNSD): <https://unstats.un.org/unsd/dnss/docViewer.aspx?docID=2384>
+
+-   Dissemination policy (Eurostat):
+    <https://ec.europa.eu/eurostat/about/policies/dissemination>
+
+-   Principles of communication and dissemination (Statistics Norway):
+    <https://www.ssb.no/en/omssb/lover-og-prinsipper/formidlingspolitikk>
+
+<!-- -->
+
+-   JIPS guidance on data processing: [ ]{.underline}
+    > <https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf>
+
+Promote dissemination products
+-----------------------------------
+
+525. Dissemination consists not only of the activities that are assumed
+    with the data dissemination such as data publishing, but also
+    activities related to the promotion of the dissemination products.
+    Thus, this sub-process focusses on active promotion of the
+    statistical products to help them reach the widest possible
+    audience. It includes the use of different communication tools to
+    reach the biggest audience and best facilitate the process of
+    sharing statistical information with users:
+
+### Conferences, public debates, fairs {#conferences-public-debates-fairs .ListParagraph}
+
+526. Conferences, public debates and fairs are still very useful and
+    powerful channels of communication as the target audience (i.e.
+    users interested in a specific topic) is present in one place.
+    Through panels with speakers, meetings with subject matter experts,
+    distribution of promotion materials, the users have a unique
+    opportunity to acquire up-to-date information.
+
+527. The information on forthcoming conferences, public debates, and
+    fairs can be found on:
+
+-   UNHCR: <https://www.unhcr.org/conferences-and-meetings.html>
+
+-   European Commission:
+    <https://ec.europa.eu/migrant-integration/upcoming-events>
+
+-   Research and Consulting on Migration and Asylum Policy Worldwide:
+    <http://www.eurasylum.org/conferences/>
+
+### Social media {#social-media .ListParagraph}
+
+528. Social media can be a very useful tool in the dissemination and
+    discussion of official statistics, as it offers tailor-made
+    solutions to reaching individuals interested in official data. They
+    are mainly used to distribute information, to promote the use of
+    statistics and to increase statistical literacy. They can also be
+    used to reach new audiences and to improve user support, as well as
+    to receive user feedback and for marketing purposes.
+
+529. Categories of social media to be taken into consideration[^13]:
+
+    27. **Collaborative projects***,* **e.g. Wikipedia,** serve as an
+        online database, allowing users to pool knowledge and
+        information on particular topics to be viewed by other
+        interested parties.
+
+    28. **Blogs and microblogs, e.g. WordPress or Twitter**, are a type
+        of website or part of a website maintained by an individual with
+        regular entries of commentary, graphics or video. Many blogs
+        provide commentary or news on a particular subject; others
+        function as more personal online diaries.
+
+    29. **Content communities, e.g. YouTube or Flickr, Delicious,**
+        where users can upload, share, and view multimedia content such
+        as videos, pictures, music or presentations.
+
+    30. **Social networking sites, e.g. Facebook or LinkedIn,** are
+        online services, platforms or sites that focus on building and
+        reflecting social networks or social relations among people who
+        share interests or activities.
+
+#### Links to social media guidelines and examples:
+
+-   Social Media Guidelines:\
+    <https://ec.europa.eu/eurostat/documents/42577/43978/Social-Media-Guidelines-09-2011>
+
+-   Recommendations for Promoting, Measuring and Communicating the Value
+    of Official Statistics: <http://www.unece.org/index.php?id=51139>
+
+-   UNHCR Twitter: <https://twitter.com/Refugees>
+
+-   Eurostat Twitter: <https://twitter.com/EU_Eurostat> [ ]{.underline}
+
+-   UNHCR Facebook: <https://www.facebook.com/UNHCR/>
+
+-   Eurostat Facebook: <https://www.facebook.com/EurostatStatistics/>
+
+-   UNHCR YouTube channel:
+    <https://www.youtube.com/channel/UC2ZDAoIMGP3m9tAgnniNEYw>
+
+### Other forms of dissemination - visualisation tools, mobile apps, GIS portals {#other-forms-of-dissemination---visualisation-tools-mobile-apps-gis-portals .ListParagraph}
+
+530. **Data visualisation tools** present data in an attractive and
+    easy-understandable way for everyone to explore. **Mobile apps**
+    make it possible to access the data on mobile devises. **GIS
+    Portals** are specialised platforms to display geodata on maps and
+    provide tools to interact with the data.
+
+##### Links to examples of other dissemination tools: {#links-to-examples-of-other-dissemination-tools .ExampleHeading}
+
+-   Eurostat data visualisation tools and mobile apps:\
+    <https://ec.europa.eu/eurostat/help/first-visit/tools>
+
+-   Eurostat -- the Statistical Atlas:
+    <https://ec.europa.eu/eurostat/web/gisco/gisco-activities/statistical-atlas>
+
+-   Central Statistical Bureau of Latvia thematic maps:
+    [https://www.csb.gov.lv/en/statistics/search?product\_type\[map\_spacial\]=map\_spacial](https://www.csb.gov.lv/en/statistics/search?product_type%5bmap_spacial%5d=map_spacial)
+
+-   Tool for visualisation and dissemination of geospatial statistics in
+    Slovenia:
+    <https://www.efgs.info/information-base/case-study/dissemination/tool-for-visualisation-and-dissemination-of-geospatial-statistics-in-slovenia/>
+
+-   e-Learning Platform of the United Nations Statistics Division:
+    <https://elearning-cms.unstats.un.org/course>
+
+##### Links to the examples of communications strategies: {#links-to-the-examples-of-communications-strategies .ExampleHeading}
+
+-   UNHCR's communications strategy[:]{.underline}
+    <https://www.unhcr.org/excom/standcom/559644479/unhcrs-communications-strategy.html>
+
+-   NSDS Guidelines: [An example of advocacy and communication strategy
+    (Rwanda)](https://nsdsguidelines.paris21.org/node/808)
+
+-   Denmark: [Communication and dissemination strategy
+    2016-2020](https://www.dst.dk/Site/Dst/Udgivelser/GetPubFile.aspx?id=27490&sid=comdis2016-2020)
+
+Manage user support
+------------------------
+
+531. This sub-process ensures that user queries and requests for
+    services such as microdata access are recorded, and that responses
+    are provided within agreed deadlines. These queries and requests
+    should be regularly reviewed to provide an input to the overarching
+    quality management process, as they can indicate new or changing
+    user needs.
+
+532. Replies to user requests can also be used to populate a knowledge
+    database or a "Frequently Asked Questions" page that is made
+    publicly available, thus reducing the burden of replying to repeated
+    and/or similar requests from external users.
+
+533. User support provides assistance to all types of users: newcomers,
+    sporadic visitors, more experienced users, journalists. For those
+    who are visiting the portal/website for the first time a short
+    \'first-time help\' video can be offered, while for all users there
+    are replies to frequently asked questions. Additionally, the
+    statistical agency can propose more personal user support for those
+    who would like to submit questions in their national language.
+
+534. If data are not available from the portal/website at the level of
+    detail or in the format or layout the user requires, the respective
+    user support service may be able to provide customised data to meet
+    the user\'s specific requirements, e.g. tabulations not readily
+    available from Eurostat\'s online database can be requested via
+    their user support service.
+
+535. In some NSOs, statistics on refugees and IDPs may be a new product
+    for those responsible for user support so staff may need additional
+    training on dealing with the topic, particularly as it may be
+    perceived as controversial.
+
+536. Elements to be considered while establishing the user support
+    service:
+
+    i.  Providing assistance to all types of users: newcomers, sporadic
+        visitors or more experienced users. Example: Eurostat providing
+        training to different policy Directorates-General of the
+        European Commission on Asylum and managed migration statistics
+
+    ii. Creation of the first-visit tutorial -- for those who are
+        visiting the website for the first time, Example:
+        <https://ec.europa.eu/eurostat/help/first-visit>
+
+    iii. Creation of the section dedicated to replies to frequently
+        asked questions, Example:
+        <https://ec.europa.eu/eurostat/help/faq>
+
+    iv. Creation of the press centre for the use of journalists and
+        fact-checkers, Example:
+        <https://ec.europa.eu/eurostat/help/press-media-support>
+
+    v.  Creation of the multilingual user support giving the possibility
+        to submit the questions in several languages (optionally, where
+        relevant), Example:
+        <https://ec.europa.eu/eurostat/help/support>;
+
+Investigating new innovative solutions for user support -- e.g.
+developing a Live Chat (real time conversations) Virtual Assistant tool
+with users, Example: <https://www.stat.ee/news-release-2019-042>
+
+[^1]: ^Ibid\ para\ 94^
+
+[^2]: Source IRRS:
+    <https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281>
+    - page 125.
+
+[^3]: Output system is considered as a dissemination system (data
+    portal, platform, database etc.) which is offered to external/end
+    users of the statistical information/products.
+
+[^4]: <https://unstats.un.org/unsd/dnss/gp/fundprinciples.aspx>
+
+[^5]: Source: PARIS21 NSDS guidelines on data dissemination:
+    <https://nsdsguidelines.paris21.org/node/796>
+
+[^6]: <http://www.unece.org/fileadmin/DAM/stats/publications/2018/ECECESSTAT20182.pdf>
+    - page 8.
+
+[^7]: <https://nsdsguidelines.paris21.org/node/796>
+
+[^8]: Source:
+    <https://paris21.org/sites/default/files/datapresentation_norway.pdf>
+    - page 61.
+
+[^9]: Source:
+    <https://www.ssb.no/en/omssb/samarbeid/internasjonalt-utviklingssamarbeid/_attachment/117795?_ts=13f15ca60c0>
+    page 50.
+
+[^10]: <https://ec.europa.eu/eurostat/documents/10186/9268011/IMPARTIAL_ACCESS_2014_JAN-EN.PDF.pdf>
+
+[^11]: Source:
+    <https://www.unece.org/fileadmin/DAM/stats/publications/Managing.statistical.confidentiality.and.microdata.access.pdf>
+    - page 6.
+
+[^12]: Source:
+    <https://www.unece.org/fileadmin/DAM/stats/publications/Managing.statistical.confidentiality.and.microdata.access.pdf>
+    - page 6.
+
+[^13]: Source:
+    <https://ec.europa.eu/eurostat/documents/42577/43978/Social-Media-Guidelines-09-2011>
+    - page 2.

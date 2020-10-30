@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Compilers-Manual-EGRIS</title>
-  <meta name="description" content="Compilers-Manual-EGRIS" />
+  <title>Chapter 6 Process data | Compilers-Manual-EGRIS</title>
+  <meta name="description" content="Chapter 6 Process data | Compilers-Manual-EGRIS" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Compilers-Manual-EGRIS" />
+  <meta property="og:title" content="Chapter 6 Process data | Compilers-Manual-EGRIS" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Compilers-Manual-EGRIS" />
+  <meta name="twitter:title" content="Chapter 6 Process data | Compilers-Manual-EGRIS" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="specify-needs.html"/>
+<link rel="prev" href="data-collection-phase.html"/>
+<link rel="next" href="analyse-data.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -226,171 +226,352 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Compilers-Manual-EGRIS</h1>
-<p class="author"><em>Expert Group on Refugee and IDP Statistics (EGRIS)</em></p>
-<p class="date"><em>2020-10-30</em></p>
+<div id="process-data" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> Process data</h1>
+<p>“This phase describes the cleaning of data and their preparation for
+analysis. It is made up of sub-processes that check, clean, and
+transform input data, so that they can be analysed and disseminated as
+statistical outputs. It may be repeated several times if necessary. For
+statistical outputs produced regularly, this phase occurs in each
+iteration. The sub-processes in this phase can apply to data from both
+statistical and non-statistical sources (with the possible exception of
+sub-process 5.6 (Calculate weights), which is usually specific to survey
+data)”. (UNECE, 2013)</p>
+<ol start="369" style="list-style-type: decimal">
+<li><p>This section of the Compilers’ Manual will cover using the data
+from various sources and will in particular focus on processes for
+integrating and cleaning data from all four data sources.</p></li>
+<li><p>This is the main step for preparing data for analysis. It is the
+step for describing the data and determining the type of variable;
+Numeric or string, length of the variable to cover the categories.
+Moreover, we need to check, clean and code the data, and check the
+consistency between variables. Then after this data is created to
+calculate the weights, if the data is derived from a survey. The
+steps would include;</p></li>
+</ol>
+<div id="integrate-data" class="section level2">
+<h2><span class="header-section-number">6.1</span> Integrate data</h2>
+<ol start="371" style="list-style-type: decimal">
+<li><strong>In developing variables for use in the analysis of data, it will
+often prove necessary to recode and classify raw data in order to
+derive the variables which are required for analysis. Or to merge
+data from other relevant data sources. Data Integration is discussed
+in detail in Phase 2,</strong> Data Source D: Integrated Data<strong>. Readers
+should refer to this section for more information.</strong></li>
+</ol>
 </div>
-<div id="international-coordination" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> International Coordination</h1>
-<div id="mainstreaming-displacement-statistics" class="section level2">
-<h2><span class="header-section-number">1.1</span> Mainstreaming Displacement Statistics</h2>
-<div id="introduction" class="section level3 ListParagraph">
-<h3><span class="header-section-number">1.1.1</span> Introduction</h3>
-<ol start="11" style="list-style-type: decimal">
-<li><p>The numbers of refugees, asylum seekers and internally displaced
-persons (IDPs) have increased rapidly in recent years. Moreover,
-almost every country in the world is affected by forced displacement
-either as a source, point of transit, or host of refugees, asylum
-seekers or IDPs, making forced displacement a global phenomenon.
-However, developing countries are disproportionately affected by
-forced displacement, and there is a growing consensus that greater
-international cooperation is required to assist host countries and
-affected host communities.</p></li>
-<li><p>This manual is concerned with forced displacement, people who are
-forcibly displaced from their homes either by disaster or by
-conflict. These displaced people include those who cross an
-international border (refugees and related populations covered by
-the IRRS), and those who remain in the country from which they were
-displaced (Internally Displaced Persons covered by IRIS). Recent
-global estimates suggest that the majority of displaced people are
-displaced within the borders of their own countries (IDMC 2019).</p></li>
-<li><p>The scale of the problem is growing, although it is difficult to
-obtain a global estimate for all types of displaced people as the
-mandates of the various international agencies providing estimates
-do not cover the universe of displaced people. The Institute of
-Migration tells us that “<em>by the end of 2017, 68.5 million
-individuals were forcibly displaced worldwide due to persecution,
-conflict, generalized violence and human rights violations. This is
-almost double the number of forcibly displaced people recorded in
-1997</em><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a><em>.</em> The IoM goes on to say that”<em>By the end of 2017, the
-world was hosting 25.4 million refugees. During 2017 alone, some 2.7
-million people became newly displaced to another country, double the
-amount in 2016".</em></p></li>
-<li><p>Using another more recent source for internal displacements, rather
-than for refugees seeking protection in another country, the
-Internal Displacement Monitoring Centre estimated that in 2018
-"<em>there were 28 million new internal displacements associated with
-conflict and disasters across 148 countries and territories were
-recorded in 2018, with nine countries each accounting for more than
-a million".</em> It should be noted that there were more displacements
-associated with natural disasters (17.2 million), than with conflict
-(10.8 million).</p></li>
-<li><p>Forced displacement has gained prominence on the international
-agenda. The New York Declaration for Refugees and Migrants, adopted
-by the United Nations General Assembly on 19 September 2016,
-recognizes the unprecedented level of human mobility and
-acknowledges the shared responsibility to manage large movements of
-refugees and migrants through international cooperation (United
-Nations, 2016). It also reaffirms the intention of Member States to
-realize the full potential of the 2030 Agenda for Sustainable
-Development for refugees and migrants. Specifically, under the
-Sustainable Development Goal 10 to reduce inequality within and
-between countries, a key target is “to facilitate the orderly, safe,
-regular and responsible migration and mobility of people, including
-through the implementation of planned and well-managed migration
-policies.” The New York Declaration for Refugees and Migrants
-explicitly recognizes the needs of refugees, IDPs and migrants in
-the pursuit of this target.</p></li>
-<li><p>With the growing prominence of forced displacement internationally,
-there is increasing interest at national and international levels in
-statistics on refugees, asylum seekers, IDPs and refugee related
-populations, including complete, accurate, timely and
-internationally comparable estimates of the numbers of people
-displaced. Estimates of these populations are increasingly relevant
-for official statistics, which need to take account of forcibly
-displaced populations in a consistent manner. Incomplete or
-inadequate statistics on displaced populations undermine the
-estimation of population stocks, which in turn affects other
-statistics, particularly those measured in per capita terms.</p></li>
-<li><p>Much of the available data on refugees and IDPs is not generated as
-official statistics produced by the statistical systems of national
-governments but arise from operational data that is collected by a
-variety of actors in response to a national emergency. This is data
-collected for the purpose of supporting displaced people, rather
-than for statistical purposes. Displacement contexts can pose
-specific challenges to NSOs, as collecting data during conflict or
-disaster can be challenging and impose obstacles which go beyond the
-usual planning for a new statistical series.</p></li>
-<li><p>Given this, particular attention should be paid to coordination
-between the various partners operating in a country and national
-authorities. In emergency situations some humanitarian data is
-processed by international partners to become international
-estimates and, these estimates need to conform with the standards
-set for official statistics in order to be recognised as
-international statistics. Therefore, at the international level, a
-distinction should also be made between global estimates such as
-those published by the Internal Displacement Monitoring Centre,
-which draw on various statistics and data sources, and any
-international statistics which are produced in line with
-recommendations in the IRRS/IRIS, in accordance the quality
-standards set for UN and other international agencies , or published
-by any future custodian of IDP and refugee statistics.</p></li>
-<li><p>The Inter-Agency and Expert Group on SDG Indicators accepted the
-proposal of EGRIS members to recommend disaggregation by forced
-displacement categories for 12 priority SDG indicators, as well as
-further broken down by age and sex whenever possible.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> In order
-to ensure availability of minimum quality statistics on refugees and
-IDPs, it is recommended that national statistics providers include
-statistics on these priority indicators in the reporting plans for
-the 2030 Agenda.</p></li>
+<div id="classify-and-code" class="section level2">
+<h2><span class="header-section-number">6.2</span> Classify and Code</h2>
+<ol start="372" style="list-style-type: decimal">
+<li>Classification and coding should be carried in accordance with the
+classifications and variable descriptions described in Phase 2.2.
+<em>Design variable descriptions</em>.</li>
+</ol>
+<div id="example-classifying-and-recoding-administrative-data---german-federal-statistical-office" class="section level4">
+<h4><span class="header-section-number">6.2.0.1</span> Example: Classifying and Recoding Administrative Data - German Federal Statistical Office</h4>
+<ol start="373" style="list-style-type: decimal">
+<li><p>This example describes recoding data to produce statistics on
+refugees in accordance to the IRRS. Since 2017 the German Federal
+Statistical Office compiles statistics on foreigners seeking
+humanitarian protection based on the Central Register on Foreigners
+(CRF). In light of the unprecedented inflow of asylum seekers
+between 2014 and 2016, the Federal Statistical Office explored the
+feasibility of complementing existing statistics on the inflow of
+asylum seekers with figures about the stock of foreigners living in
+Germany for humanitarian reasons. The approach relies mainly on
+administrative residence permit data obtained from the CRF. In
+general, administrative residence status data allows for taking a
+comprehensive view on humanitarian immigration that not only
+includes foreigners with a granted protection status, but also those
+with an asylum application still pending, as well as foreigners who
+remain in the host country after having been denied protection.
+Thereby, administrative data allows for producing official
+statistics that follow the International Recommendations for Refugee
+Statistics (IRRS) that were adopted by the United Nations
+Statistical Commission in March 2018.</p></li>
+<li><p>A necessary first step is to understand the scope of the
+administrative data at hand. In Germany, the CRF is the central
+database for all authorities responsible for administrative
+procedures concerning foreigners. It contains basic personal
+information on foreigners from EU member countries; additional
+information on legal residence status for foreigners from Non-EU
+countries; and even more detailed information (e.g. on educational
+background and language skills) on foreigners seeking asylum in
+Germany. Most importantly for classifying refugees and people in
+refugee like situations, the CRF centrally collects all information
+concerning foreigners’ legal residence status (e.g. current
+residence permit) that is locally produced by immigration offices.
+As an important limitation, the register only covers foreigners.
+Once a person receives German citizenship, s/he is immediately
+deleted from the register. Hence, second generation and former
+refugees who acquired German citizenship cannot be identified with
+the data at hand.</p></li>
+<li><p>In many countries, including Germany, residence and asylum law is
+excessively complex. When classifying foreigners seeking protection,
+numerous types of residence permits, and a wide range of additional
+legal statuses must be considered. Accordingly, filtering and
+structuring the relevant legal information that reliably identify
+the target population is key in compiling statistics on refugees and
+people in refugee like situations from administrative data. The data
+usually does not come in a form that is ready for use for
+statistical purposes. Before foreigners seeking protection can be
+identified in the data, the various variables related to the legal
+residence status must be consolidated. In this process the relevant
+legal status for each person in the register is determined. For
+instance, consider a Croatian citizen who fled persecution during
+the war for independence from Yugoslavia in the early 1990s.
+Further, imagine this person receives a permanent humanitarian
+residence permit in Germany. Even three decades later, this
+residence permit is still valid and recorded in the register.
+However, it is no longer relevant for this person, since Croatia
+became a member of the European Union in 2013 and meanwhile Croatian
+citizens enjoy the right of free movement in Germany.</p></li>
+</ol>
+<p>Figure 5.1: Statistics on foreigners seeking protection</p>
+<div class="figure">
+<img src="media/image1.png" style="width:6.23056in;height:2.09923in" alt="" />
+<p class="caption">A screenshot of a cell phone Description automatically
+generated</p>
+</div>
+<ol start="376" style="list-style-type: decimal">
+<li><p>Building upon the consolidated legal residence status, the target
+population can be classified. People seeking humanitarian protection
+constitute a sub-group of the foreign population who specifically
+refer to humanitarian reasons for their current stay in Germany.
+This population in turn consists of three distinct sub-groups that
+are distinguished by whether their request for humanitarian
+protection is yet unsettled, granted or denied.</p></li>
+<li><p>A foreigner’s purpose of residence is inferred from his/her legal
+residence status. One necessary precondition for identifying
+foreigners with a granted protection status is that residence
+permits reveal the underlying purpose of residence. In Germany,
+information on the purpose of residence can be deduced from a
+foreigner’s current residence permit since in 2005 the German
+Residence Act became effective. Since then residence permits
+distinguish between residence either for educational purposes, for
+the purpose of economic activity, for family reasons or based on
+humanitarian grounds. Residence permits based on humanitarian
+grounds can either be temporary or permanent.</p></li>
+<li><p>Besides foreigners already holding a humanitarian residence permit,
+asylum-seekers residing in Germany who intend acquiring a
+humanitarian residence permit also belong to the stock of foreigners
+seeking protection. Foreigners with an unsettled protection status
+have either expressed a request for asylum towards German
+authorities (e.g. police or immigration office) or they already
+filed an asylum application at the Federal Office for Migration and
+Refugees.</p></li>
+<li><p>Foreigners whose asylum applications were denied but who still
+reside in Germany constitute the third final sub-group of foreigners
+whose request for humanitarian protection has been denied. The
+sub-group of foreigners with a denied protection status also
+includes foreigners who previously held a temporary humanitarian
+residence permit that was either not prolonged, renounced or
+withdrawn. All foreigners belonging to this category are legally
+obliged to leave the country. However, in many cases this obligation
+cannot be enforced due to practical (e.g. missing passports) or
+legal (e.g. family ties) reasons leading to prolonged durations of
+stay in this status.</p></li>
+</ol>
+<p>Figure 5.2: Statistics on foreigners seeking protection</p>
+<div class="figure">
+<img src="media/image2.png" style="width:6.4503in;height:3.93819in" alt="" />
+<p class="caption">A screenshot of a cell phone Description automatically
+generated</p>
+</div>
+<ol start="380" style="list-style-type: decimal">
+<li><p>By including granted and unsettled cases, the outlined concept
+follows the IRRS. However, the definition of foreigners seeking
+protection deviates from the IRRS in one aspect: The group of
+foreigners with a denied protection status does not include persons
+who entered on tourist, student or work visa but who have
+nonetheless fled persecution, war or violence in their home
+countries (IRRS 2018: pp. 26-29). This group cannot be identified in
+the administrative data at hand.</p></li>
+<li><p>Also see, <strong>UNECE-Eurostat Work Session on Migration Statistics
+October 2018</strong>:
+<a href="https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.10/2018/mtg1/DEU_Asylum_ENG.pdf" class="uri">https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.10/2018/mtg1/DEU_Asylum_ENG.pdf</a></p></li>
 </ol>
 </div>
 </div>
-<div id="coordination-of-international-partners" class="section level2">
-<h2><span class="header-section-number">1.2</span> Coordination of International Partners</h2>
-<ol start="20" style="list-style-type: decimal">
-<li><p>Some statistical series, particularly those used for monitoring the
-achievement of the SDGs, have been allocated an international
-custodian agency<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, usually a UN agency. This custodian agency,
-promotes adherence to international statistical principles for the
-thematic area under its control; it collects and publishes national
-official statistics and potentially anonymised micro-data; and
-provides technical support and capacity-building to NSOs and/or
-other national bodies responsible for the production of official
-statistics as part of the NSS.</p></li>
-<li><p>While UNHCR is generally accepted as the custodian agency for
-refugee statistics, the IRIS does not make recommendations on a
-specific custodian, although it outlines the role and
-responsibilities of any future custodian. It envisages that a
-custodian for IDP statistics could be appointed in the future to
-compiling international IDP statistics through a questionnaire,
-follow-up, validation, global publication and re-assessment of data
-collection processes.</p></li>
-<li><p>International coordination is important to prevent duplication, fill
-existing gaps, and to develop national capacity.</p></li>
+<div id="review-and-validate" class="section level2">
+<h2><span class="header-section-number">6.3</span> Review and validate</h2>
+<ol start="382" style="list-style-type: decimal">
+<li>This would include reviewing the data and assessing its quality,
+including checking for consistency, outliers and missing values (see
+also Phase 6.2 paragraph 462).</li>
 </ol>
-<div id="phase-references-and-links" class="section level6">
-<h6><span class="header-section-number">1.2.0.0.0.1</span> Phase References and Links</h6>
+<div id="example-holoclean-project" class="section level4">
+<h4><span class="header-section-number">6.3.0.1</span> Example: HoloClean project</h4>
+<ol start="383" style="list-style-type: decimal">
+<li>“HoloClean is a statistical inference engine to impute, clean, and
+enrich data. As a weakly supervised machine learning system,
+HoloClean leverages available quality rules, value correlations,
+reference data, and multiple other signals to build a probabilistic
+model that accurately captures the data generation process and uses
+the model in a variety of data curation tasks. HoloClean allows data
+practitioners and scientists to save the enormous time they spend in
+building piecemeal cleaning solutions, and instead, effectively
+communicate their domain knowledge in a declarative way to enable
+accurate analytics, predictions, and insights from noisy,
+incomplete, and erroneous data.” Further information is to be found
+at this <a href="http://www.holoclean.io/">Link</a>.</li>
+</ol>
+</div>
+<div id="example-jips-guidance-on-data-processing" class="section level4">
+<h4><span class="header-section-number">6.3.0.2</span> Example: JIPS guidance on data processing: <span class="underline"></span></h4>
+<ol start="384" style="list-style-type: decimal">
+<li>This guidance includes the following topics. 1) Why processing the
+raw data is so important, 2) Checklist for processing the data, 3)
+Before you start, 4) Preparing the dataset, 5) Cleaning common
+errors, 6) Checking for unexpected values, and 6) Preparing
+variables for analysis. The link to this guidance is : <span class="underline"></span>
+<a href="https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf" class="uri">https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf</a></li>
+</ol>
+</div>
+<div id="example-data-quality-problems-in-administrative-registers-after-a-mass-influx-of-asylum-seekers---federal-statistical-office-of-germany" class="section level4">
+<h4><span class="header-section-number">6.3.0.3</span> Example: <strong>Data quality problems in administrative registers after a mass influx of asylum seekers - Federal Statistical Office of Germany</strong></h4>
+<ol start="385" style="list-style-type: decimal">
+<li><p>Reviewing data quality after a mass influx of asylum seekers
+requires special attention. Data quality issues in administrative
+data occur in particular during periods of mass influx when
+administrative procedures are overburdened with the large numbers of
+incoming asylum-seekers. When the increase in asylum applications is
+sudden and unexpected, it is difficult to scale-up existing
+administrative capacities for registration and refugee status
+determination. As a result, data quality in administrative registers
+is often poorest when the demand for data on refugees is highest.
+Reviewing and validating the available data becomes a crucial task
+for statisticians in those times, since they must judge whether data
+quality is sufficient for the production of official statistics.
+When using administrative data in immediate response to a mass
+influx, statisticians should look out for;</p></li>
+<li><p><strong>Delayed registrations:</strong> In response to humanitarian crises,
+organizing shelter and covering basic needs is a host country’s
+first priority. Refugee status determination comes afterwards.
+During periods of mass influx, asylum seekers may face prolonged
+waiting periods for officially lodging their asylum applications.
+Where asylum seekers are properly registered only after having
+lodged their asylum application, administrative registers will cover
+the newly arrived only with considerable time lack.</p></li>
+<li><p><strong>Incomplete and false registrations:</strong> Intending to assist
+overburdened immigration authorities, governments improvise and
+deviate from traditional workflows during periods of mass influx.
+Registration is then often no longer carried out by trained
+personnel in immigration offices but mobile registration units with
+the support of the armed forces and the police register asylum
+seekers in temporary accommodations or even in improvised reception
+facilities on the road. Considering that untrained staff registers
+displaced people who often lack official documents, incomplete and
+false registrations are hardly surprising.</p></li>
+<li><p><strong>Multiple registrations:</strong> When asylum seekers are distributed
+within the host country for accommodation, small differences in
+spelling or translations often cause double registration. Language
+barriers are especially problematic when translations between
+different alphabets are involved e.g. between the Arabic, Cyrillic
+and Latin alphabet. While taking and comparing fingerprint scans
+would solve most of the problem, the infrastructure is not always in
+place. Once entered in the register, duplicate entries are difficult
+to identify with certainty and can thus be expected to bias results
+for a prolonged period.</p></li>
+</ol>
+</div>
+</div>
+<div id="derive-new-variables-and-units" class="section level2">
+<h2><span class="header-section-number">6.4</span> Derive new variables and units</h2>
+<ol start="389" style="list-style-type: decimal">
+<li>This sub-process derives data for variables and units that are not
+explicitly provided in the collection but are needed to be estimated
+or derived to deliver the required outputs specified in Phase 2
+Build.</li>
+</ol>
 <ul>
-<li>Principles Governing International Statistical Activities:
-<a href="https://unstats.un.org/unsd/accsub-public/principles_stat_activities.htm" class="uri">https://unstats.un.org/unsd/accsub-public/principles_stat_activities.htm</a></li>
+<li><p>Computing variables to measure the characteristics of IDPs and
+refugees and refugee related populations. Some examples of this,
+depending on user demands are:</p>
+<ol style="list-style-type: decimal">
+<li><p>Female headed household</p></li>
+<li><p>Family type/household composition</p></li>
+<li><p>Employment or labour market activity rate</p></li>
+<li><p>Total consumption</p></li>
+<li><p>Regional classifications</p></li>
+<li><p>Unaccompanied minors</p></li>
+<li><p>Returned to place of habitual residence</p></li>
+<li><p>Having overcome key displacement-related vulnerabilities (IDPs)</p></li>
+<li><p>Measures of integration (refugees)</p></li>
+<li><p>Durable solutions progress measure</p></li>
+<li><p>Refugee/IDP status</p></li>
+<li><p>Total household consumption/income</p></li>
+</ol></li>
 </ul>
-<p>UN Quality standards for international statistics:
-<a href="https://unstats.un.org/unsd/unsystem/Documents-March2017/UNSystem-2017-3-QAF.pdf" class="uri">https://unstats.un.org/unsd/unsystem/Documents-March2017/UNSystem-2017-3-QAF.pdf</a></p>
+<ol start="390" style="list-style-type: decimal">
+<li><p>Computing a variable for measuring progress towards a durable
+solution and identifying those who have overcome key
+displacement-related vulnerabilities is discussed in the IRIS, 2020.
+A set of indicators and related questions will be developed based on
+the 10 identified sub-criteria for overcoming key displacement
+related vulnerabilities (IRIS, Table 4.3) as well as sub-criteria
+related to the three remaining criteria for measuring progress
+towards durable solutions (see IRIS Chapter 4).</p></li>
+<li><p>The methodology for developing these indicators and a progress
+variable will be added to this Manual in future editions, once more
+data becomes available and the methodology agreed.</p></li>
+<li><p>Computing variables for measuring integration and the satisfaction
+of immediate and on-going needs of refugees and refugee related
+populations are set out at length in IRRS, 2018 Chapter 5. Further
+discussion of the indicators used to measure European refugee
+integration can be found at link
+<a href="https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf" class="uri">https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf</a>.</p></li>
+<li><p>Both the IRRS in Chapter 5, and IRIS in Chapter 4 Section B,
+discuss the use of the SDGs indicators for measuring the
+satisfaction of basic and immediate needs of displaced people, and
+measuring their progress towards integration or durable solutions.
+In constructing these indicators the following link to UNSD’s SDG
+metadata repository provides details of constructing the indicators
+concerned, <strong><a href="https://unstats.un.org/sdgs/metadata/">SDG Metadata
+Repository</a>.</strong></p></li>
+</ol>
+</div>
+<div id="calculate-weights-for-data-derived-from-probability-samples" class="section level2">
+<h2><span class="header-section-number">6.5</span> Calculate weights for data derived from probability samples</h2>
+<ol start="394" style="list-style-type: decimal">
+<li><p>This step involves Calculating weights for displaced populations
+obtained from household surveys based on probability samples to
+derive an estimate for the population (including hidden households,
+frame problems etc.).</p></li>
+<li><p>Utilise contents from tool sponsored by UNHCR and developed by
+Stats4SD
+<a href="https://stats4sd.org/resources/resource-bank/"><strong>https://stats4sd.org/resources/resource-bank/</strong></a></p></li>
+</ol>
+<div id="phase-references-and-links-3" class="section level6">
+<h6><span class="header-section-number">6.5.0.0.0.1</span> Phase references and links</h6>
+<ul>
+<li><p>HoloClean<em>:</em> A Machine Learning System for Data Repair and
+Predictions on Structured Data.  It is a statistical inference
+engine to impute, clean, and enrich data. As a weakly supervised
+machine learning system, HoloClean leverages available quality
+rules, value correlations, reference data, and multiple other
+signals to build a probabilistic model that accurately captures the
+data generation process, and uses the model in a variety of data
+curation tasks. HoloClean allows data practitioners and scientists
+to save the enormous time they spend in building piecemeal cleaning
+solutions, and instead, effectively communicate their domain
+knowledge in a declarative way to enable accurate analytics,
+predictions, and insights from noisy, incomplete, and erroneous
+data. Link <a href="http://www.holoclean.io/">http://www.holoclean.io</a></p></li>
+<li><p>The link to JIPS Guidance on Data Processing is : <span class="underline"></span>
+<a href="https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf" class="uri">https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf</a></p></li>
+</ul>
 
 </div>
 </div>
-</div>
-<div class="footnotes">
-<hr />
-<ol start="1">
-<li id="fn1"><p><sup>Ibid para 94</sup><a href="index.html#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p>Source IRRS:
-<a href="https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281" class="uri">https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281</a>
-- page 125.<a href="index.html#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p>Output system is considered as a dissemination system (data
-portal, platform, database etc.) which is offered to external/end
-users of the statistical information/products.<a href="index.html#fnref3" class="footnote-back">↩︎</a></p></li>
-</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="specify-needs.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="data-collection-phase.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="analyse-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -421,7 +602,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/edit/master/index.Rmd",
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/edit/master/05-Processdata.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -429,7 +610,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/blob/master/index.Rmd",
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/blob/master/05-Processdata.Rmd",
 "text": null
 },
 "download": null,

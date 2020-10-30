@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 7 Analyse Data | Compilers-Manual-EGRIS</title>
+  <meta name="description" content="Chapter 7 Analyse Data | Compilers-Manual-EGRIS" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 7 Analyse Data | Compilers-Manual-EGRIS" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 7 Analyse Data | Compilers-Manual-EGRIS" />
+  
+  
+  
+
+<meta name="author" content="Expert Group on Refugee and IDP Statistics (EGRIS)" />
+
+
+<meta name="date" content="2020-10-30" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="process-data.html"/>
+<link rel="next" href="dissemination.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Compilers' Manual - Expert Group on Refugee and IDP Statistics (EGRIS)</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> International Coordination</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#mainstreaming-displacement-statistics"><i class="fa fa-check"></i><b>1.1</b> Mainstreaming Displacement Statistics</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#introduction"><i class="fa fa-check"></i><b>1.1.1</b> Introduction</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#coordination-of-international-partners"><i class="fa fa-check"></i><b>1.2</b> Coordination of International Partners</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="specify-needs.html"><a href="specify-needs.html"><i class="fa fa-check"></i><b>2</b> Specify needs</a><ul>
+<li class="chapter" data-level="2.1" data-path="specify-needs.html"><a href="specify-needs.html#identify-the-needs-of-users-and-potential-users"><i class="fa fa-check"></i><b>2.1</b> Identify the Needs of Users and Potential Users</a></li>
+<li class="chapter" data-level="2.2" data-path="specify-needs.html"><a href="specify-needs.html#consult-and-confirm-needs"><i class="fa fa-check"></i><b>2.2</b> Consult and Confirm Needs</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="specify-needs.html"><a href="specify-needs.html#establishing-a-sector-statistics-committee-for-displacement-statistics"><i class="fa fa-check"></i><b>2.2.1</b> Establishing a Sector Statistics Committee for Displacement Statistics</a></li>
+<li class="chapter" data-level="2.2.2" data-path="specify-needs.html"><a href="specify-needs.html#using-operational-data-from-humanitarian-agencies-for-official-statistics"><i class="fa fa-check"></i><b>2.2.2</b> Using operational data from humanitarian agencies for official statistics</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="specify-needs.html"><a href="specify-needs.html#establish-output-objectives"><i class="fa fa-check"></i><b>2.3</b> Establish Output Objectives</a></li>
+<li class="chapter" data-level="2.4" data-path="specify-needs.html"><a href="specify-needs.html#identify-concepts"><i class="fa fa-check"></i><b>2.4</b> Identify Concepts</a></li>
+<li class="chapter" data-level="2.5" data-path="specify-needs.html"><a href="specify-needs.html#check-data-availability"><i class="fa fa-check"></i><b>2.5</b> Check Data Availability</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="design.html"><a href="design.html"><i class="fa fa-check"></i><b>3</b> Design</a><ul>
+<li class="chapter" data-level="3.1" data-path="design.html"><a href="design.html#design-outputs"><i class="fa fa-check"></i><b>3.1</b> Design Outputs</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="design.html"><a href="design.html#refugee-statistics-outputs"><i class="fa fa-check"></i><b>3.1.1</b> Refugee statistics outputs</a></li>
+<li class="chapter" data-level="3.1.2" data-path="design.html"><a href="design.html#idp-statistics-outputs"><i class="fa fa-check"></i><b>3.1.2</b> IDP statistics outputs</a></li>
+<li class="chapter" data-level="3.1.3" data-path="design.html"><a href="design.html#examples-of-outputs-illustrated-in-part-ii"><i class="fa fa-check"></i><b>3.1.3</b> Examples of Outputs Illustrated in PART II</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="design.html"><a href="design.html#design-variable-descriptions"><i class="fa fa-check"></i><b>3.2</b> Design variable descriptions</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="design.html"><a href="design.html#variables-for-refugee-statistics"><i class="fa fa-check"></i><b>3.2.1</b> Variables for refugee statistics</a></li>
+<li class="chapter" data-level="3.2.2" data-path="design.html"><a href="design.html#variables-for-idp-statistics"><i class="fa fa-check"></i><b>3.2.2</b> Variables for IDP statistics</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="design.html"><a href="design.html#data-source-a-censuses-of-population-and-housing"><i class="fa fa-check"></i><b>3.3</b> Data Source A: Censuses of Population and Housing</a></li>
+<li class="chapter" data-level="3.4" data-path="design.html"><a href="design.html#design-collection"><i class="fa fa-check"></i><b>3.4</b> Design collection</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="design.html"><a href="design.html#a.1.-egris-recommendations"><i class="fa fa-check"></i><b>3.4.1</b> EGRIS recommendations</a></li>
+<li class="chapter" data-level="3.4.2" data-path="design.html"><a href="design.html#a.2.-unece-recommendations-for-the-2020-census-round"><i class="fa fa-check"></i><b>3.4.2</b> UNECE Recommendations for the 2020 Census Round</a></li>
+<li class="chapter" data-level="3.4.3" data-path="design.html"><a href="design.html#a.3.-country-examples-of-census-questions-for-identifying-refugees-and-idps"><i class="fa fa-check"></i><b>3.4.3</b> Country Examples of Census Questions for Identifying Refugees and IDPs</a></li>
+<li class="chapter" data-level="3.4.4" data-path="design.html"><a href="design.html#a.4.-hybrid-census-techniques"><i class="fa fa-check"></i><b>3.4.4</b> Hybrid census techniques</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="design.html"><a href="design.html#design-frame"><i class="fa fa-check"></i><b>3.5</b> Design Frame</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="design.html"><a href="design.html#a.-dynamic-population-mapping"><i class="fa fa-check"></i><b>3.5.1</b> Dynamic population mapping</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="design.html"><a href="design.html#design-processing-and-analysis"><i class="fa fa-check"></i><b>3.6</b> Design Processing and Analysis</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="design.html"><a href="design.html#a.1.-quality-assessment-the-post-enumeration-survey"><i class="fa fa-check"></i><b>3.6.1</b> Quality Assessment – the Post Enumeration Survey</a></li>
+<li class="chapter" data-level="3.6.2" data-path="design.html"><a href="design.html#a.2.-pes-design"><i class="fa fa-check"></i><b>3.6.2</b> PES Design</a></li>
+<li class="chapter" data-level="3.6.3" data-path="design.html"><a href="design.html#a.3.-pes-analysis"><i class="fa fa-check"></i><b>3.6.3</b> PES Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="design.html"><a href="design.html#data-source-b-sample-surveys"><i class="fa fa-check"></i><b>3.7</b> Data Source B: Sample Surveys</a></li>
+<li class="chapter" data-level="3.8" data-path="design.html"><a href="design.html#design-collection-1"><i class="fa fa-check"></i><b>3.8</b> Design Collection</a><ul>
+<li class="chapter" data-level="3.8.1" data-path="design.html"><a href="design.html#b.1.-refugee-questionnaires-and-methodology"><i class="fa fa-check"></i><b>3.8.1</b> Refugee questionnaires and methodology</a></li>
+<li class="chapter" data-level="3.8.2" data-path="design.html"><a href="design.html#b.2.-idp-survey-questionnaires"><i class="fa fa-check"></i><b>3.8.2</b> IDP Survey questionnaires</a></li>
+<li class="chapter" data-level="3.8.3" data-path="design.html"><a href="design.html#b.3.-country-examples-of-questionnaires-found-in-part-ii"><i class="fa fa-check"></i><b>3.8.3</b> Country Examples of Questionnaires found in PART II</a></li>
+</ul></li>
+<li class="chapter" data-level="3.9" data-path="design.html"><a href="design.html#design-frame-1"><i class="fa fa-check"></i><b>3.9</b> Design Frame</a><ul>
+<li class="chapter" data-level="3.9.1" data-path="design.html"><a href="design.html#b.1.-sampling-frames"><i class="fa fa-check"></i><b>3.9.1</b> Sampling Frames</a></li>
+<li class="chapter" data-level="3.9.2" data-path="design.html"><a href="design.html#section-2"><i class="fa fa-check"></i><b>3.9.2</b> </a></li>
+<li class="chapter" data-level="3.9.3" data-path="design.html"><a href="design.html#b.2.-challenges-in-defining-the-target-population-and-constructing-a-sampling-frame-and-sample-size"><i class="fa fa-check"></i><b>3.9.3</b> Challenges in defining the target population and constructing a sampling frame and sample size</a></li>
+</ul></li>
+<li class="chapter" data-level="3.10" data-path="design.html"><a href="design.html#data-source-c-administrative-data-including-population-registers"><i class="fa fa-check"></i><b>3.10</b> Data Source C: Administrative Data Including Population Registers</a></li>
+<li class="chapter" data-level="3.11" data-path="design.html"><a href="design.html#design-collection-2"><i class="fa fa-check"></i><b>3.11</b> Design Collection</a><ul>
+<li class="chapter" data-level="3.11.1" data-path="design.html"><a href="design.html#c.1.-population-registers"><i class="fa fa-check"></i><b>3.11.1</b> Population Registers</a></li>
+<li class="chapter" data-level="3.11.2" data-path="design.html"><a href="design.html#c.2.-refugee-and-idp-registers"><i class="fa fa-check"></i><b>3.11.2</b> Refugee and IDP Registers</a></li>
+</ul></li>
+<li class="chapter" data-level="3.12" data-path="design.html"><a href="design.html#data-source-d-integrated-data-combining-data-from-different-sources"><i class="fa fa-check"></i><b>3.12</b> Data Source D: Integrated Data, Combining Data from Different Sources</a></li>
+<li class="chapter" data-level="3.13" data-path="design.html"><a href="design.html#design-collection-3"><i class="fa fa-check"></i><b>3.13</b> Design Collection</a><ul>
+<li class="chapter" data-level="3.13.1" data-path="design.html"><a href="design.html#d.1.-output-objectives-of-data-integration"><i class="fa fa-check"></i><b>3.13.1</b> Output objectives of data integration</a></li>
+<li class="chapter" data-level="3.13.2" data-path="design.html"><a href="design.html#d.2.-data-availability-accessibility-and-other-requirements"><i class="fa fa-check"></i><b>3.13.2</b> Data availability, accessibility and other requirements</a></li>
+<li class="chapter" data-level="3.13.3" data-path="design.html"><a href="design.html#d.3.-possible-sources-of-data-for-integration"><i class="fa fa-check"></i><b>3.13.3</b> Possible sources of data for integration</a></li>
+<li class="chapter" data-level="3.13.4" data-path="design.html"><a href="design.html#d.4.-overview-on-linking-several-data-sources"><i class="fa fa-check"></i><b>3.13.4</b> Overview on linking several data sources</a></li>
+<li class="chapter" data-level="3.13.5" data-path="design.html"><a href="design.html#section-4"><i class="fa fa-check"></i><b>3.13.5</b> </a></li>
+</ul></li>
+<li class="chapter" data-level="3.14" data-path="design.html"><a href="design.html#d.-design-processing-and-analysis"><i class="fa fa-check"></i><b>3.14</b> 2.5.D. Design, processing and analysis</a><ul>
+<li class="chapter" data-level="3.14.1" data-path="design.html"><a href="design.html#d.1.-data-editing-and-imputation"><i class="fa fa-check"></i><b>3.14.1</b> Data editing and imputation</a></li>
+<li class="chapter" data-level="3.14.2" data-path="design.html"><a href="design.html#d.2.-creation-of-joint-statistical-micro-data"><i class="fa fa-check"></i><b>3.14.2</b> Creation of joint statistical micro data</a></li>
+<li class="chapter" data-level="3.14.3" data-path="design.html"><a href="design.html#d.3.-alignment-of-populations-and-measurements"><i class="fa fa-check"></i><b>3.14.3</b> Alignment of populations and measurements</a></li>
+<li class="chapter" data-level="3.14.4" data-path="design.html"><a href="design.html#d.4.-multisource-estimation-at-aggregated-level"><i class="fa fa-check"></i><b>3.14.4</b> Multisource estimation at aggregated level</a></li>
+<li class="chapter" data-level="3.14.5" data-path="design.html"><a href="design.html#d.5.-examples-of-good-practices"><i class="fa fa-check"></i><b>3.14.5</b> Examples of good practices</a></li>
+</ul></li>
+<li class="chapter" data-level="3.15" data-path="design.html"><a href="design.html#design-production-systems-and-workflow"><i class="fa fa-check"></i><b>3.15</b> Design production systems and workflow</a><ul>
+<li class="chapter" data-level="3.15.1" data-path="index.html"><a href="index.html#introduction"><i class="fa fa-check"></i><b>3.15.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.15.2" data-path="design.html"><a href="design.html#the-statistical-production-environment"><i class="fa fa-check"></i><b>3.15.2</b> The statistical production environment</a></li>
+<li class="chapter" data-level="3.15.3" data-path="design.html"><a href="design.html#the-statistical-database-environment"><i class="fa fa-check"></i><b>3.15.3</b> The statistical database environment</a></li>
+<li class="chapter" data-level="3.15.4" data-path="design.html"><a href="design.html#statistical-dissemination-process"><i class="fa fa-check"></i><b>3.15.4</b> Statistical dissemination process</a></li>
+<li class="chapter" data-level="3.15.5" data-path="design.html"><a href="design.html#indicator-system-for-measuring-the-design-production-systems-and-workflow"><i class="fa fa-check"></i><b>3.15.5</b> Indicator system for measuring the design production systems and workflow</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html"><i class="fa fa-check"></i><b>4</b> Build a system for collection of data and production of statistics</a><ul>
+<li class="chapter" data-level="4.1" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#build-collection-instrument"><i class="fa fa-check"></i><b>4.1</b> Build collection instrument</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#development-of-questionnaires"><i class="fa fa-check"></i><b>4.1.1</b> Development of questionnaires</a></li>
+<li class="chapter" data-level="4.1.2" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#development-of-the-collection-methodology"><i class="fa fa-check"></i><b>4.1.2</b> Development of the collection methodology</a></li>
+<li class="chapter" data-level="4.1.3" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#development-of-training-plan-evaluation-and-selection-of-human-resources"><i class="fa fa-check"></i><b>4.1.3</b> Development of training plan, evaluation and selection of human resources</a></li>
+<li class="chapter" data-level="4.1.4" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#development-of-collaboration-agreements"><i class="fa fa-check"></i><b>4.1.4</b> Development of collaboration agreements</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="build-a-system-for-collection-of-data-and-production-of-statistics.html"><a href="build-a-system-for-collection-of-data-and-production-of-statistics.html#test-production-system"><i class="fa fa-check"></i><b>4.2</b> Test production system</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-collection-phase.html"><a href="data-collection-phase.html"><i class="fa fa-check"></i><b>5</b> Data collection phase</a><ul>
+<li class="chapter" data-level="5.1" data-path="data-collection-phase.html"><a href="data-collection-phase.html#create-frame-and-select-sample-for-surveys"><i class="fa fa-check"></i><b>5.1</b> Create frame and select sample for surveys</a></li>
+<li class="chapter" data-level="5.2" data-path="data-collection-phase.html"><a href="data-collection-phase.html#set-up-collection"><i class="fa fa-check"></i><b>5.2</b> Set up collection</a></li>
+<li class="chapter" data-level="5.3" data-path="data-collection-phase.html"><a href="data-collection-phase.html#run-data-collection"><i class="fa fa-check"></i><b>5.3</b> Run Data Collection</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="process-data.html"><a href="process-data.html"><i class="fa fa-check"></i><b>6</b> Process data</a><ul>
+<li class="chapter" data-level="6.1" data-path="process-data.html"><a href="process-data.html#integrate-data"><i class="fa fa-check"></i><b>6.1</b> Integrate data</a></li>
+<li class="chapter" data-level="6.2" data-path="process-data.html"><a href="process-data.html#classify-and-code"><i class="fa fa-check"></i><b>6.2</b> Classify and Code</a></li>
+<li class="chapter" data-level="6.3" data-path="process-data.html"><a href="process-data.html#review-and-validate"><i class="fa fa-check"></i><b>6.3</b> Review and validate</a></li>
+<li class="chapter" data-level="6.4" data-path="process-data.html"><a href="process-data.html#derive-new-variables-and-units"><i class="fa fa-check"></i><b>6.4</b> Derive new variables and units</a></li>
+<li class="chapter" data-level="6.5" data-path="process-data.html"><a href="process-data.html#calculate-weights-for-data-derived-from-probability-samples"><i class="fa fa-check"></i><b>6.5</b> Calculate weights for data derived from probability samples</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="analyse-data.html"><a href="analyse-data.html"><i class="fa fa-check"></i><b>7</b> Analyse Data</a><ul>
+<li class="chapter" data-level="7.1" data-path="analyse-data.html"><a href="analyse-data.html#prepare-draft-outputs"><i class="fa fa-check"></i><b>7.1</b> Prepare draft outputs</a><ul>
+<li class="chapter" data-level="7.1.1" data-path="analyse-data.html"><a href="analyse-data.html#basic-tabulations---estimates-of-counts-and-proportions-of-stocks-and-flows"><i class="fa fa-check"></i><b>7.1.1</b> Basic tabulations - estimates of counts and proportions of stocks and flows</a></li>
+<li class="chapter" data-level="7.1.2" data-path="analyse-data.html"><a href="analyse-data.html#basic-indicators-statistics-proportions-and-estimates"><i class="fa fa-check"></i><b>7.1.2</b> Basic indicators (statistics, proportions and estimates)</a></li>
+<li class="chapter" data-level="7.1.3" data-path="analyse-data.html"><a href="analyse-data.html#sdg-indicators-recommended-for-refugees-and-idps"><i class="fa fa-check"></i><b>7.1.3</b> SDG indicators recommended for refugees and IDPs</a></li>
+<li class="chapter" data-level="7.1.4" data-path="analyse-data.html"><a href="analyse-data.html#more-complex-analysis-and-commentary"><i class="fa fa-check"></i><b>7.1.4</b> More complex analysis and commentary</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="analyse-data.html"><a href="analyse-data.html#validate-outputs"><i class="fa fa-check"></i><b>7.2</b> Validate outputs</a><ul>
+<li class="chapter" data-level="7.2.1" data-path="design.html"><a href="design.html#section"><i class="fa fa-check"></i><b>7.2.1</b> </a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="analyse-data.html"><a href="analyse-data.html#interpret-and-explain-outputs"><i class="fa fa-check"></i><b>7.3</b> Interpret and explain outputs</a></li>
+<li class="chapter" data-level="7.4" data-path="analyse-data.html"><a href="analyse-data.html#apply-disclosure-control"><i class="fa fa-check"></i><b>7.4</b> Apply disclosure control</a></li>
+<li class="chapter" data-level="7.5" data-path="analyse-data.html"><a href="analyse-data.html#finalise-outputs"><i class="fa fa-check"></i><b>7.5</b> Finalise outputs</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="dissemination.html"><a href="dissemination.html"><i class="fa fa-check"></i><b>8</b> Dissemination</a><ul>
+<li class="chapter" data-level="8.1" data-path="dissemination.html"><a href="dissemination.html#update-output-systems"><i class="fa fa-check"></i><b>8.1</b> Update output systems</a><ul>
+<li class="chapter" data-level="8.1.1" data-path="dissemination.html"><a href="dissemination.html#existing-output-systems-portals-and-platforms"><i class="fa fa-check"></i><b>8.1.1</b> Existing output systems (portals and platforms)</a></li>
+<li class="chapter" data-level="8.1.2" data-path="dissemination.html"><a href="dissemination.html#new-output-system"><i class="fa fa-check"></i><b>8.1.2</b> New Output system</a></li>
+<li class="chapter" data-level="8.1.3" data-path="dissemination.html"><a href="dissemination.html#data-portals-guidelines"><i class="fa fa-check"></i><b>8.1.3</b> Data Portals – guidelines</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="dissemination.html"><a href="dissemination.html#produce-dissemination-products"><i class="fa fa-check"></i><b>8.2</b> Produce dissemination products</a><ul>
+<li class="chapter" data-level="8.2.1" data-path="dissemination.html"><a href="dissemination.html#dissemination-products-what"><i class="fa fa-check"></i><b>8.2.1</b> Dissemination products (“what”)</a></li>
+<li class="chapter" data-level="8.2.2" data-path="design.html"><a href="design.html#section"><i class="fa fa-check"></i><b>8.2.2</b> </a></li>
+<li class="chapter" data-level="8.2.3" data-path="dissemination.html"><a href="dissemination.html#users-recipients-of-the-dissemination-products-for-whom"><i class="fa fa-check"></i><b>8.2.3</b> Users / recipients of the dissemination products (“for whom”)</a></li>
+<li class="chapter" data-level="8.2.4" data-path="dissemination.html"><a href="dissemination.html#process-ensuring-proper-creation-of-the-dissemination-products-and-best-practices-guidelines-how"><i class="fa fa-check"></i><b>8.2.4</b> Process ensuring proper creation of the dissemination products and best practices, guidelines (“how”)</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="dissemination.html"><a href="dissemination.html#manage-release-of-dissemination-products"><i class="fa fa-check"></i><b>8.3</b> Manage release of dissemination products</a></li>
+<li class="chapter" data-level="8.4" data-path="dissemination.html"><a href="dissemination.html#promote-dissemination-products"><i class="fa fa-check"></i><b>8.4</b> Promote dissemination products</a><ul>
+<li class="chapter" data-level="8.4.1" data-path="dissemination.html"><a href="dissemination.html#conferences-public-debates-fairs"><i class="fa fa-check"></i><b>8.4.1</b> Conferences, public debates, fairs</a></li>
+<li class="chapter" data-level="8.4.2" data-path="dissemination.html"><a href="dissemination.html#social-media"><i class="fa fa-check"></i><b>8.4.2</b> Social media</a></li>
+<li class="chapter" data-level="8.4.3" data-path="dissemination.html"><a href="dissemination.html#other-forms-of-dissemination---visualisation-tools-mobile-apps-gis-portals"><i class="fa fa-check"></i><b>8.4.3</b> Other forms of dissemination - visualisation tools, mobile apps, GIS portals</a></li>
+</ul></li>
+<li class="chapter" data-level="8.5" data-path="dissemination.html"><a href="dissemination.html#manage-user-support"><i class="fa fa-check"></i><b>8.5</b> Manage user support</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Compilers-Manual-EGRIS</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="analyse-data" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> Analyse Data</h1>
+<p>’“n this phase, statistical outputs are produced, examined in detail and
+made ready for dissemination. It includes preparing statistical content
+(including commentary, technical notes, etc.), and ensuring outputs are
+"fit for purpose" prior to dissemination to customers. This phase also
+includes the sub-processes and activities that enable statistical
+analysts to understand the statistics produced. For statistical outputs
+produced regularly, this phase occurs in every iteration. The
+"Analyse" phase and sub-processes are generic for all statistical
+outputs, regardless of how the data were sourced<a href="#fn37" class="footnote-ref" id="fnref37"><sup>37</sup></a>”. (UNECE, 2013)</p>
+<ol start="396" style="list-style-type: decimal">
+<li>This section of the Compilers’ Manual provides detailed guidance on
+the analysis required to produce the outputs specified in Phase 2.1
+Design Outputs (see paragraph 611). The outputs for displacement
+statistics can be divided into four categories;</li>
+</ol>
+<pre><code>1.  Basic tabulations - estimates of counts and proportions of
+    stocks and flows
+
+2.  Basic indicators (statistics, proportions and estimates)
+
+3.  SDG indicators recommended for refugees and IDPs
+
+4.  More complex analysis and commentary which might include an
+    analysis of the integration of displaced people into host
+    communities, the progress made towards overcoming key
+    displacement-related vulnerabilities, and other key policy
+    issues.</code></pre>
+<ol start="397" style="list-style-type: decimal">
+<li><p>Taking point iv, the more complex analysis, the different
+indicators specified to measure aspects of displacement and
+integration are based on the indicator libraries of the <em>Integrated
+Household Survey Framework and the Durable Solution project</em>, as
+well as the recommended indicators included in the IRRS and IRIS.
+They include linkages to SDGs and form part of the reporting of the
+progress towards meeting the SDGs. In addition, analysis will
+measure progress towards durable solutions for IDPs, and of the
+integration for refugees into their host communities. It will also
+include the assessment of the end of IDP status for some members of
+the IDP stocks.</p></li>
+<li><p>The analysis process includes two steps:</p></li>
+</ol>
+<pre><code>5.  Utilizes the analytical framework specified in Phase 2.1
+    &quot;Design&quot; to produce the statistical outputs required,
+
+6.  Interpretation, commentary and checking the outputs.</code></pre>
+<ol start="399" style="list-style-type: decimal">
+<li><p>In essence, it covers the steps required to convert data into a
+variety of useable products for the users and potential users of
+statistics. Producing these products to the quality standards
+designated for official statistics is the ultimate goal of the
+statistical production process.</p></li>
+<li><p>The text below reminds readers of the recommendations on outputs
+discussed in earlier phases of this Manual, and links these
+recommendations to some recent examples, some of which are cited in
+Part II - Case Studies and Examples section of this manual.</p></li>
+</ol>
+<div id="prepare-draft-outputs" class="section level2">
+<h2><span class="header-section-number">7.1</span> Prepare draft outputs</h2>
+<ol start="401" style="list-style-type: decimal">
+<li>Much of the analysis phase will be pre-defined by selections made
+and priorities chosen at the Design phase discussed in Phase 2. This
+section sets out the basic outputs recommended in the earlier
+phases.</li>
+</ol>
+<div id="basic-tabulations---estimates-of-counts-and-proportions-of-stocks-and-flows" class="section level3 ListParagraph">
+<h3><span class="header-section-number">7.1.1</span> Basic tabulations - estimates of counts and proportions of stocks and flows</h3>
+<ol start="402" style="list-style-type: decimal">
+<li><p>Phase 2 Design defines stocks and flows. A stock corresponds to an
+already-defined category of individuals and refers to a set of
+characteristics. A stock refers to the total number of individuals
+who have a specific set of characteristics, at a specific moment in
+time. These characteristics, put together, define the status of
+these individuals.</p></li>
+<li><p>For example, IDPs have a specific set of characteristics, which
+make them fit into this category. This is mainly the forced nature
+of their displacement, its origin being the habitual place of
+residence of the concerned persons or groups, the movement remaining
+within internationally recognised borders and the individuals having
+not yet found a durable solution to their displacement.</p></li>
+<li><p>In contrast a refugee has been forcibly displaced by reason of a
+well-founded fear of being persecuted for reasons of race, religion,
+nationality, membership of a particular social group, or political
+opinion and is <em>“outside the country of his or her nationality, has
+crossed an internationally recognised border, and is unable to,
+owing to such a fear, is unwilling to avail himself of the
+protection of that country”</em><a href="#fn38" class="footnote-ref" id="fnref38"><sup>38</sup></a> in need of international
+protection. The statistical categories recommended go beyond these
+definitions, in order to classify those with a refugee or IDP
+background and second-generation populations for statistical
+analysis (see relevant Chapters 3 in both IRRS, 2018 and IRIS,
+2020).</p></li>
+<li><p>Flows affect this stock over time, either by making it increase
+(“in-flows”) or decrease (“out-flows”). This in-flow corresponds to
+the number of individuals who acquire the characteristics of those
+in scope of the stock during a specified time period. For out-flows,
+it is the number of people who cease to be refugees or IDPs, e.g. by
+changes in status, death, birth or out-migration.</p></li>
+<li><p>There can also be in-flows and out-flows between the sub-stocks,
+for example an asylum seeker who is granted refugee status is an
+outflow from the sub-stock of ‘Asylum seekers’, and an inflow into
+‘Persons with determined status’ (see IRRS, Figure 3.1). Therefore,
+there can be several stocks and flows, corresponding to the various
+classifications of populations being analysed. If the stocks are
+interconnected, i.e. if a person or group move from one status to
+another, the flows can also be interconnected; the out-flow from one
+stock can be the in-flow into another stock.</p></li>
+<li><p><strong>The basic tabulations of refugee and refugee related stocks and
+flows</strong> are set out in Phase 2 <em>2.1.1. Refugee statistics outputs</em>
+in Table 2.1 Basic Refugee Stock Tabulations and Table 2.2 Basic
+Refugee Flow Tabulations.</p></li>
+<li><p><strong>The basic tabulations of IDPs and IDP related stocks and flows</strong>
+are set out in Phase 2 <em>2.1.2. IDP statistics outputs</em> in Table
+2.5 - Basic IDP Flow Tabulations, which covers both outflows and
+inflows to the IDP and IDP-related stock, and Table 2.6 IDP Stock
+Tabulations.</p></li>
+<li><p>These stock tabulations include both i) IDPs, ii) IDP-Related and
+iii). Those Who Have Overcome Key Displacement-Related
+Vulnerabilities. Some analysis will be required to identify the
+stock of the third category, and to estimate the flows of those who
+have been removed from the IDP stock because they <em>have overcome key
+displacement-related vulnerabilities.</em> Analysis will be needed to
+derive the variable in the databases which enables the analyst to
+identify those who have overcome those vulnerabilities, and to
+remove them statistically from stock. This is identification process
+described below in <em>section</em> <em>0,</em> but it should be noted that the
+full methodology for determining IDPs to be removed from stock is in
+its early stages. A more developed methodology will be added to
+future editions of this manual.</p></li>
+</ol>
+<div id="refugee-example-of-reclassifying-data-to-meet-irrs-recommendations-german-federal-statistics-office" class="section level4">
+<h4><span class="header-section-number">7.1.1.1</span> Refugee Example of reclassifying data to meet IRRS recommendations – German Federal Statistics Office</h4>
+<ol start="410" style="list-style-type: decimal">
+<li><p>‘In light of the mass influx between 2014 and 2016, the Federal
+Statistical Office of Germany explored the feasibility of
+complementing existing statistics on the inflow of refugees derived
+from asylum applications with information on the stock of foreigners
+living in Germany for humanitarian reasons. The concept was designed
+to take a comprehensive approach by not only including foreigners
+with a granted protection status but also foreigners with an asylum
+application still pending as well as foreigners who still remain in
+Germany after having been refused protection. Thereby, the approach
+follows the International Recommendations for Refugee Statistics
+that were recently adopted by the United Nations Statistical
+Commission. The concept relies on residence permit data obtained
+from the Central Register of Foreigners. This data allows
+identifying foreigners currently applying as well as foreigners
+having been granted or denied humanitarian protection. At the end of
+2016, about 1.6 million foreigners were identified as seeking
+humanitarian protection in Germany. That represents about 2 percent
+of the resident population and about 16 % of all resident
+foreigners. During to the recent surge in humanitarian immigration
+to Germany between 2014 and 2016, the stock has more than
+doubled’<a href="#fn39" class="footnote-ref" id="fnref39"><sup>39</sup></a>.</p></li>
+<li><p>Examples of the tabulations produced can be found in the link to
+the Asylum in Europe website<a href="#fn40" class="footnote-ref" id="fnref40"><sup>40</sup></a>
+<a href="https://www.asylumineurope.org/reports/country/germany/statistics" class="uri">https://www.asylumineurope.org/reports/country/germany/statistics</a></p></li>
+</ol>
+</div>
+<div id="refugee-example-of-basic-stock-tabulation-statistics-norway" class="section level4">
+<h4><span class="header-section-number">7.1.1.2</span> Refugee Example of basic stock tabulation – Statistics Norway</h4>
+<ol start="412" style="list-style-type: decimal">
+<li>An example of a basic stock tabulation is an example from
+Statistics Norway published in 2019. It provides a stock estimate
+together with a percentage change estimate for the net flow. An
+example of output is provided below, the first is taken from
+Statistics Norway (2019). Norway presents stock figures of ‘<em>persons
+with a refugee background</em>’ with their reason for immigration, at
+the time they immigrated, and this departs from the IRRS as it does
+not present the stock by current refugee status.</li>
+</ol>
+<p>Box 6.1: Norway refugee variables</p>
+<p>Table 6.1 Statistics Norway Refugee Stock Tabulation</p>
+<table style="width:97%;">
+<colgroup>
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td> </td>
+<td><strong>2019</strong></td>
+<td>Change in
+per cent.
+2018-2019</td>
+<td>2019</td>
+<td>2019</td>
+</tr>
+<tr class="even">
+<td> </td>
+<td></td>
+<td></td>
+<td>Persons
+with
+refugee
+background
+in per cent
+of all
+immigrants</td>
+<td><p>Persons
+with
+refugee</p>
+<p>background</p>
+<p>in per cent
+of</p>
+<p>total
+population</p></td>
+</tr>
+<tr class="odd">
+<td>Total</td>
+<td>233 794</td>
+<td>2.5</td>
+<td>30.6</td>
+<td>4.4</td>
+</tr>
+<tr class="even">
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td>Principal
+applicants</td>
+<td>170 087</td>
+<td>2.1</td>
+<td>22.2</td>
+<td>3.2</td>
+</tr>
+<tr class="even">
+<td>Asylum
+seekers</td>
+<td>114 028</td>
+<td>0.9</td>
+<td>14.9</td>
+<td>2.1</td>
+</tr>
+<tr class="odd">
+<td>Resettlemen
+t
+refugees</td>
+<td>38 147</td>
+<td>7.4</td>
+<td>5.0</td>
+<td>0.7</td>
+</tr>
+<tr class="even">
+<td>Other
+refugees</td>
+<td>9 696</td>
+<td>-1.0</td>
+<td>1.3</td>
+<td>0.2</td>
+</tr>
+<tr class="odd">
+<td>Unspecified</td>
+<td>8 216</td>
+<td>-1.0</td>
+<td>1.1</td>
+<td>0.2</td>
+</tr>
+<tr class="even">
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr class="odd">
+<td>By family
+connection
+to refugee</td>
+<td>63 707</td>
+<td>3.5</td>
+<td>8.3</td>
+<td>1.2</td>
+</tr>
+<tr class="even">
+<td>Family
+enlargement</td>
+<td>17 294</td>
+<td>2.1</td>
+<td>2.3</td>
+<td>0.3</td>
+</tr>
+<tr class="odd">
+<td>Family
+reunificati
+on</td>
+<td>46 366</td>
+<td>4.0</td>
+<td>6.1</td>
+<td>0.9</td>
+</tr>
+<tr class="even">
+<td>Family
+unspecified</td>
+<td>47</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr class="odd">
+<td>Source:
+Statistics
+Norway</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol start="413" style="list-style-type: decimal">
+<li>There are several other tables published by Statistics Norway for
+refugees,</li>
+</ol>
+<pre><code>7.  Persons with refugee background, by years of residence and
+    country background
+
+8.  Persons with refugee background. Norwegian and foreign citizens,
+    by sex (C)
+
+9.  Persons with refugee background, by age and groups of country
+    background
+
+10. Persons with refugee background, by duration of residence in
+    Norway and groups of country background
+
+11. Persons with refugee background, by citizenship, sex and groups
+    of country background
+
+    &lt;https://www.ssb.no/en/befolkning/statistikker/flyktninger#relatert-tabell-1&gt;</code></pre>
+</div>
+<div id="refugee-example-unhcr-kenya" class="section level4">
+<h4><span class="header-section-number">7.1.1.3</span> Refugee example UNHCR Kenya</h4>
+<ol start="414" style="list-style-type: decimal">
+<li><p>This is an example of UNHCR refugee supported statistics in a
+Statistical Summary as of 31-Aug-19 of Refugees and Asylum Seekers
+in Kenya. It is an example of the production of rapid statistical
+outputs from administrative data.
+<a href="https://www.unhcr.org/ke/wp-content/uploads/sites/2/2019/09/Kenya-Statistics-Package-31-August-2019.pdf" class="uri">https://www.unhcr.org/ke/wp-content/uploads/sites/2/2019/09/Kenya-Statistics-Package-31-August-2019.pdf</a></p></li>
+<li><p>The <a href="https://africaopendata.org/dataset/kenya-economic-survey-2019/resource/5b9357a4-6227-4fbf-9e10-ae7043a41ce3">2019 Economic Survey of
+Kenya</a>
+published by the Kenya Bureau of Statistics provides official
+refugee official statistics on behalf of the Government.</p></li>
+</ol>
+<pre><code>![](media/image1.tiff){width=&quot;6.700935039370079in&quot;
+height=&quot;3.791318897637795in&quot;}</code></pre>
+</div>
+<div id="idp-example-georgia" class="section level4">
+<h4><span class="header-section-number">7.1.1.4</span> IDP Example Georgia</h4>
+<ol start="416" style="list-style-type: decimal">
+<li><p>Part II of this Manual provides an example of IDP tabulations
+derived from the General Population Census of 2014 in Georgia. The
+data can be accessed in the Census-related publications:
+<a href="http://census.ge/en/publication" class="uri">http://census.ge/en/publication</a></p></li>
+<li><p>The tables produced estimate;</p></li>
+</ol>
+<pre><code>12. IDP\&#39;s by age and sex (by Age, Urban/Rural and Sex); and
+
+13. IDP\&#39;s by place of usual residence and place of residence before
+    acquiring the IDP status (by Place of usual residence, Sex and
+    place of residence before acquiring the IDP status).</code></pre>
+</div>
+<div id="idp-example-colombia" class="section level4">
+<h4><span class="header-section-number">7.1.1.5</span> IDP Example Colombia</h4>
+<ol start="418" style="list-style-type: decimal">
+<li><p>Official statistics on displacement due to internal armed conflict
+in Colombia are published in Spanish in the website of the National
+Information Network of the Victims` Unit
+(<a href="https://www.unidadvictimas.gov.co/es/registro-unico-de-victimas-ruv/37394" class="uri">https://www.unidadvictimas.gov.co/es/registro-unico-de-victimas-ruv/37394</a>).
+The website is open to the public and does not require any
+credentials.</p></li>
+<li><p>The statistics related to the Effective Enjoyment of Rights are
+shared currently to the relevant government agencies in charge of
+social assistance in order to target access to aid and social
+programs. In this case, the dataset of the vulnerability assessment
+is shared via web through a secure site.</p></li>
+<li><p>The following reports, regarding displacement are available at the
+website:</p></li>
+</ol>
+<pre><code>14. Number of IDPs disaggregated per time of expulsion, time of
+    &gt; reception, time of declaration, with information presented
+    &gt; yearly and accumulated for the period before 1985.
+
+15. Number of IDPs disaggregated per differential approach into the
+    &gt; variables of ethnicity, sex, age and disability.
+
+16. Open data with numbers of IDPs mixing the above variables.</code></pre>
+</div>
+</div>
+<div id="basic-indicators-statistics-proportions-and-estimates" class="section level3 ListParagraph">
+<h3><span class="header-section-number">7.1.2</span> Basic indicators (statistics, proportions and estimates)</h3>
+<ol start="421" style="list-style-type: decimal">
+<li><p>Once the various stocks have been defined in the Design phase and
+the data collected, cleaned and input into databases, the variables
+and categories can be developed in the database ready for analysis.
+This requires a clear definition of the indicators and metrics to be
+used in the analysis</p></li>
+<li><p><strong>The relevant Refugee Indicator</strong> tables in Phase 2 are Table 2.3:
+Refugee Stock Indicators, Table 2.4: Refugee Flow Indicators both
+found at paragraphs 62 and 63 of this Manual.</p></li>
+<li><p><strong>The relevant IDP Indicator</strong> tables in Phase 2 is <em>Table 2.8: Key
+stock indicators of IDP, IDP-related, and those who have overcome
+key displacement related vulnerabilities.</em> These indicators include
+the length of time the IDP was displaced; the location of the IDPs
+and if they have returned to their habitual places of residence,
+been resettled or are in locations of displacement; and proportions
+of women and children among the IDPs.</p></li>
+</ol>
+</div>
+<div id="sdg-indicators-recommended-for-refugees-and-idps" class="section level3 ListParagraph">
+<h3><span class="header-section-number">7.1.3</span> SDG indicators recommended for refugees and IDPs</h3>
+<ol start="424" style="list-style-type: decimal">
+<li>In the years leading up to 2030, the SDGs will play an important
+role in policy discussions. During the 2020 Comprehensive Review of
+the SDG indicator framework, a specific indicator on refugees was
+included in the framework, but there is no specification for other
+forcibly displaced populations, including IDPs. However, the issue
+cuts across many SDGs, and multiple indicators can be disaggregated
+by migratory status and, more specifically, by displacement status.
+When SDG indicators are collected as part of statistics on forced
+displacement it is recommended that countries use the SDG framework
+and metadata in developing the statistics.</li>
+</ol>
+<p>Table 6.2: Recommended SDG Indicators to be disaggregated by forced
+displacement by priority policy areas (IRIS Table 4.1)</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>Policy Area 1: Basic needs and living conditions</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2.2.1</td>
+<td>Prevalence of stunting (height for age &lt; - 2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age</td>
+</tr>
+<tr class="even">
+<td align="left">3.1.2</td>
+<td>Proportion of births attended by skilled health personnel</td>
+</tr>
+<tr class="odd">
+<td align="left">6.1.1</td>
+<td>Proportion of population using safely managed drinking water services</td>
+</tr>
+<tr class="even">
+<td align="left">11.1.1</td>
+<td>Proportion of urban population living in slums, informal settlements or inadequate housing</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Policy Area 2: Livelihoods and economic self-reliance</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">1.2.1</td>
+<td>Proportion of population living below the national poverty line, by sex and age</td>
+</tr>
+<tr class="odd">
+<td align="left">4.1.1</td>
+<td>Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex</td>
+</tr>
+<tr class="even">
+<td align="left">7.1.1</td>
+<td>Proportion of population with access to electricity</td>
+</tr>
+<tr class="odd">
+<td align="left">8.3.1</td>
+<td>Proportion of informal employment in non‑agriculture employment, by sex</td>
+</tr>
+<tr class="even">
+<td align="left">8.5.2</td>
+<td>Unemployment rate, by sex, age and persons with disabilities</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Policy Area 3: Civil, political and legal rights</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td align="left">1.4.2</td>
+<td>Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure</td>
+</tr>
+<tr class="odd">
+<td align="left">16.1.4</td>
+<td>Proportion of population that feel safe walking alone around the area they live</td>
+</tr>
+<tr class="even">
+<td align="left">16.9.1</td>
+<td>Proportion of children under 5 years of age whose births have been registered with a civil authority, by age</td>
+</tr>
+</tbody>
+</table>
+<ol start="425" style="list-style-type: decimal">
+<li><p>The Inter-Agency and Expert Group on SDG Indicators accepted the
+proposal of EGRIS members to recommend disaggregation by forced
+displacement categories for 12 priority SDG indicators, as well as
+further broken down by age and sex whenever possible.<a href="#fn41" class="footnote-ref" id="fnref41"><sup>41</sup></a> In order
+to ensure availability of minimum quality statistics on refugees and
+IDPs, it is recommended that national statistics providers include
+statistics on these priority indicators in the reporting plans for
+the 2030 Agenda. However, governments should not feel limited to
+this priority list, and data collection on additional indicators is
+encouraged.</p></li>
+<li><p>A second initiative, the Expert Group meeting on Improving
+Migration Data in the Context of the 2030 Agenda,<a href="#fn42" class="footnote-ref" id="fnref42"><sup>42</sup></a> has identified
+another 12 indicators which they recommend be disaggregated by
+migratory status. Both selected lists of SDG indicators are a useful
+resource for identifying indicators to measure the characteristics
+of IDPs within the criteria set forth by the IASC Framework.</p></li>
+<li><p>Matching the collected data with the defined metrics and
+indicators, stocks and flows, can be done in various ways, depending
+on the data collection method used. Stock data can be populated
+based on questions asked within surveys and census, that aim to
+directly determine if and how many people match the selected
+characteristics for each type of stock (e.g. a survey with a
+question such as “have you been forced to leave your place of
+residence in the last x months/years?”), or using data obtained from
+registers of IDPs or refugees (see Phase 2).</p></li>
+</ol>
+</div>
+<div id="more-complex-analysis-and-commentary" class="section level3 ListParagraph">
+<h3><span class="header-section-number">7.1.4</span> More complex analysis and commentary</h3>
+<ol start="428" style="list-style-type: decimal">
+<li>This might include an analysis of the integration of displaced
+people into host communities, the progress made towards overcoming
+key displacement-related vulnerabilities, and other key policy
+issues. The body of literature available is extensive, and guidance
+can be obtained in the IRRS, 2018 and the IRIS, 2020.</li>
+</ol>
+<div id="irrs-recommendations" class="section level4 ListParagraph">
+<h4><span class="header-section-number">7.1.4.1</span> IRRS Recommendations</h4>
+<ol start="429" style="list-style-type: decimal">
+<li><p>From a legal perspective, durable solutions for refugees occur when
+refugees can once again enjoy the protection of a state, either
+through voluntary repatriation to their country of origin,
+integration in their host country, or resettlement to a third
+country. However, given the protracted nature of many conflicts,
+repatriation is not an immediate prospect for most refugees, and
+resettlement and naturalization are solutions for only a small
+minority. In reality, the majority of refugees aspire to, or enjoy,
+de facto integration in their host countries. Rather than a one-off
+event, the integration of refugees involves an incremental process.
+The IRRS focuses on the satisfaction of refugees’ immediate and
+ongoing needs, their access to rights and on their integration.
+Living conditions can serve as a proxy for the satisfaction of these
+needs, and as data about peoples’ living conditions have been
+routinely collected across the world for over 25 years, the results
+for the general population are already widely available. The
+satisfaction of basic needs, and the acquisition of rights is the
+first step in the integration of refugees.</p></li>
+<li><p>Refugees have particular challenges compared to general migrants.
+Due to the forced nature of their migration and the traumatic
+experiences frequently associated with it, they often suffer from
+psychological distress and disabilities. Moreover, unlike labour
+migrants who tend to settle where their skills can be used more
+productively than in their home country, refugees may settle in
+areas with limited or no employment or other livelihood
+opportunities.</p></li>
+<li><p>The IRRS presents recommendations for indicators that can be used
+to measure satisfaction of needs, access to rights and the
+integration of refugees with their host country or original country
+communities. The recommendations are grouped into three levels of
+indicators: priority, second level, and third level indicators.
+Table 5.1 of the IRRS presents the proposed indicators organized by
+the dimension of need and integration that it measures, specifically
+the following: (a) legal; (b) civil-political; (c) demographic and
+migration; (d) education; (e) economic; (f) social inclusion;
+and (g) health. In addition, several core classificatory variables
+are also recommended for the production of comparative analyses.</p></li>
+<li><p>These classificatory variables are cross-referenced to those
+tabulations recommended earlier in Phase 2.1. These include country
+of birth, age, sex, reason for migrating, legal status, citizenship
+and length of time in the host country. Length of residence in the
+host country is especially important for statistics on integration
+because integration is a temporal process that begins when the
+refugee arrives in the host country. The pace of integration is
+usually different for refugee and refugee related groups compared
+with general migrants.</p></li>
+<li><p>The characteristics of age and sex are used to disaggregate
+indicators of refugee living conditions and integration. For
+instance, using the sex variable to look at the difference in
+employment status between male and female refugees can highlight
+gender differences for that indicator. Classificatory variables are
+described in detail <em>in</em> <em>Table 2.9: Variables for refugee
+statistics</em>. As far as possible the proposed indicators correspond
+with those of the SDGs. Where they correspond, the equivalent SDG
+indicators have been noted in IRRS Table 5.1, the correspondence is
+often not direct. Guidance is given on the composition of the
+proposed indicators. Additionally, metadata for the SDG indicators
+are published by the United Nations Statistical Division on their
+website.<a href="#fn43" class="footnote-ref" id="fnref43"><sup>43</sup></a> The last column of Table 5.1 gives the closest SDG
+indicator equivalence, it is not proposed that all these indicators
+are used.</p></li>
+<li><p>The Indicators of integration and the satisfaction of immediate and
+ongoing needs of refugees and refugee related populations are:</p></li>
+</ol>
+<pre><code>17. Legal indicators
+
+18. Civil-political indicators
+
+19. Demographic and migration indicators
+
+20. Education indicators
+
+21. Economic indicators
+
+22. Social inclusion indicators
+
+23. Health indicators</code></pre>
+</div>
+<div id="iris-recommendations" class="section level4 ListParagraph">
+<h4><span class="header-section-number">7.1.4.2</span> IRIS Recommendations</h4>
+<ol start="435" style="list-style-type: decimal">
+<li><p>In 2015, an interagency process was established to operationalise
+the Inter-Agency Standing Committee (IASC) Framework. Under the
+leadership of the Mandate of the UN Special Rapporteur on the Human
+Rights of IDPs, a group of development, humanitarian and
+peacebuilding actors started work on developing and testing
+indicators and guidance for comprehensive durable solutions analysis
+in internal displacement situations and to measure progress over
+time. The work, coordinated by the Joint IDP Profiling Service,
+resulted in a library of standardised indicators and guidance for
+the operationalization of the eight IASC<a href="#fn44" class="footnote-ref" id="fnref44"><sup>44</sup></a> criteria.</p></li>
+<li><p>For a statistical approach for measuring progress towards durable
+solutions and whether key-displacement related vulnerabilities have
+been overcome. Two measures are proposed:</p></li>
+</ol>
+<pre><code>24. The durable solutions progress measure designed to show the
+    change in the share of IDPs who have overcome vulnerabilities
+    linked to the criteria of the IASC Framework on Durable
+    Solutions for IDPs over time. Therefore, this measure will be
+    able to show whether progress is being made in overcoming the
+    different vulnerabilities, and cumulatively, the progress made
+    towards the achievement of durable solutions.
+
+25. The composite measure designed to specify whether all key
+    displacement-related vulnerabilities have been overcome and
+    thus, whether or not persons with displacement-related
+    protection needs and vulnerabilities can be taken out of the
+    total IDP stock.</code></pre>
+<ol start="437" style="list-style-type: decimal">
+<li><p>For the purpose of statistically measuring durable solutions
+progress, displacement-related vulnerabilities, sub-criteria were
+specified for each of the eight IASC criteria as is shown in Table
+6.3 Criteria and sub-criteria included in the composite measure
+(IRIS, Table 4.3) below. The first four criteria of the IASC
+Framework are relevant in all contexts and should therefore always
+be included. The last four should be considered and can be included
+if deemed relevant for the specific displacement context. Therefore,
+all eight criteria are included in recommendations to measure
+progress towards durable solutions (see IRIS, paragraph 146).
+Regarding the development of the composite measure for overcoming
+key displacement-related vulnerabilities, a smaller set of criteria
+are chosen, including the four deemed to always be relevant in
+displacement contexts. Given the prevalence of challenges linked to
+lack of documentation in many displacement settings, it is also
+recommended to include the fifth criteria on access to personal and
+other documentation in any statistical measure that can result in
+taking IDPs out of the stock. This measure therefore prioritises
+five of the eight criteria (see IRIS, paragraph 164).</p></li>
+<li><p>For each sub-criterion, there are many different indicators which
+can be chosen, although a final list has not yet been agreed. The
+indicators selected in each national context should, as far as
+possible, be aligned with already tested and standardized
+indicators. The Durable Solutions indicator library provides a
+thorough overview of potential options (see Durable Solutions
+Library<a href="#fn45" class="footnote-ref" id="fnref45"><sup>45</sup></a>). Where relevant, they should also mirror the SDG
+indicators recommended to be disaggregated by different categories
+of displacement. Indicators selected should be carefully chosen to
+ensure they are relevant for all three sub-stocks of the displaced
+population: IDPs in locations of displacement, IDPs in locations of
+return and IDPs in other settlement locations.</p></li>
+<li><p>A preliminary proposal of indicators for the sub-criteria has been
+developed by the EGRIS’ IDP subgroup (see IRIS for discussion of
+indicator selection), taking into consideration the above listed
+aspects. The aim of this work was to provide a short, manageable
+list of one or two indicators per sub-criteria. However, given the
+limited availability of data, particularly for the sub-criteria
+which experts determined to be displacement-specific, it is too
+preliminary to recommend a final list of indicators for each
+sub-criterion at this stage. Further testing is required to detail
+out this proposal. As this work progresses, information will be
+added to future editions of the Compilers’ Manual, including
+implications for target setting based on different types of
+indicators (see IRIS, paragraph 166). Once finalized an updated
+version of these Recommendations could be considered. In the
+meantime, countries and international organisations should use the
+durable solutions indicator library as a reference and starting
+point for indicator selection and should as far as possible follow
+principles described (see IRIS, paragraphs 135-137).</p></li>
+</ol>
+<p>Table 6.3 Criteria and sub-criteria included in the composite measure
+(IRIS, Table 4.3)</p>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">Criteria</td>
+<td></td>
+<td align="left">Sub-criteria</td>
+</tr>
+<tr class="even">
+<td align="left">1. Safety and security</td>
+<td>1</td>
+<td align="left">1.1 Victims of violence</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td>2</td>
+<td align="left">1.2 Freedom of movement</td>
+</tr>
+<tr class="even">
+<td align="left">2. Adequate standard of living</td>
+<td>3</td>
+<td align="left">2.1 Food security</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td>4</td>
+<td align="left">2.2 Shelter and housing</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td>5</td>
+<td align="left">2.3 Medical services</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td>6</td>
+<td align="left">2.4 Education</td>
+</tr>
+<tr class="even">
+<td align="left">3. Access to livelihoods</td>
+<td>7</td>
+<td align="left">3.1 Employment and livelihoods</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td>8</td>
+<td align="left">3.2 Economic security</td>
+</tr>
+<tr class="even">
+<td align="left">4. Restoration of housing, land and property</td>
+<td>9</td>
+<td align="left">4.1 Property restitution and compensation</td>
+</tr>
+<tr class="odd">
+<td align="left">5. Access to documentation</td>
+<td>10</td>
+<td align="left">5.1 Documentation</td>
+</tr>
+</tbody>
+</table>
+<ol start="440" style="list-style-type: decimal">
+<li><p>The targets for each sub-criterion should be defined. A comparative
+approach against the general/national population is recommended. If
+determined relevant by the national context a sub-set thereof can be
+used for this purpose.</p></li>
+<li><p>The two measures on progress and the composite measure, should be
+used for the production of official statistics on internal
+displacement.</p></li>
+</ol>
+<pre><code>26. The durable solutions progress measure designed to show the
+    change in the share of IDPs who have overcome vulnerabilities
+    linked to the criteria of the IASC Framework on Durable
+    Solutions for IDPs over time; and
+
+27. The composite measure designed to specify whether all key
+    displacement-related vulnerabilities have been overcome and
+    thus, whether or not persons with displacement-related
+    protection needs and vulnerabilities can be taken out of the
+    total IDP stock.</code></pre>
+<ol start="442" style="list-style-type: decimal">
+<li>Over time, as new data are collected and more testing conducted in
+different national contexts, the recommended progress and composite
+measures can be further refined, including a list of agreed
+indicators and other relevant guidance. This will be included in
+future versions of this manual.</li>
+</ol>
+</div>
+<div id="example-colombia" class="section level4">
+<h4><span class="header-section-number">7.1.4.3</span> Example Colombia</h4>
+<ol start="443" style="list-style-type: decimal">
+<li>The example in Part II paragraph 573 of this manual onwards
+describes the <em>Use of administrative records to assess displacement
+related vulnerabilities in Colombia.</em> The Socio Economic
+Re-establishment Index is used to determine the extent of their
+vulnerability, and are assessed as no longer having vulnerabilities
+once the SRI is equal to one.</li>
+</ol>
+<p>Box 6.2: Colombia Social Re-establishment Index</p>
+</div>
+<div id="example-sudan-darfur-measuring-progress-towards-durable-solutions" class="section level4">
+<h4><span class="header-section-number">7.1.4.4</span> Example Sudan Darfur: Measuring Progress Towards Durable Solutions</h4>
+<ol start="444" style="list-style-type: decimal">
+<li><p>The Government of Sudan and the international community are working
+together to jointly support durable solutions for Darfur’s
+internally displaced people. The commitment is rooted in the Doha
+Document for Peace in Darfur (DDPD) from 2011, signed by the
+Government of Sudan, other major parties to the conflict and the
+international community, and which sets out the framework for peace
+in Darfur.</p></li>
+<li><p>A durable solutions process was piloted in El Fasher in North
+Darfur. To reach durable solutions and end displacement, long-term
+planning based on agreed and jointly-owned comprehensive data is
+needed. To establish an agreed evidence base, a collaborative
+profiling approach was adopted that brought actors together to
+ensure trust and ownership of the results of the profiling exercise.
+An important aspect of this durable solutions profiling is that it
+places IDPs centre-stage alongside the two other major
+stakeholders—the Government of Sudan and the international
+community—permitting the profiling results and recommendations to
+be owned and signed off by all parties.</p></li>
+<li><p>The durable solutions profiling exercise in El Fasher specifically
+aims to:</p></li>
+</ol>
+<pre><code>28. Provide a comprehensive profile of IDPs residing in Abu Shouk
+    and El Salaam IDP camps.
+
+29. Develop a better understanding of IDPs&#39; vulnerabilities, coping
+    mechanisms, capacities and provide insight into IDPs&#39;
+    perceptions and their future settlement intentions.
+
+30. Provide a jointly agreed upon data set to help inform durable
+    solutions programming responses.
+
+31. Pilot a profiling exercise of displacement and joint durable
+    solutions planning that could be replicated in other Sudan
+    contexts with displaced populations.</code></pre>
+<ol start="447" style="list-style-type: decimal">
+<li><p>The profiling exercise adopted the Inter-Agency Standing Committee
+(IASC) Framework on Durable Solutions for Internally Displaced
+Persons as an analytical framework. The profiling was designed to
+take into account the displaced persons’ perspectives on durable
+solutions including preferred settlement options and places a strong
+emphasis on understanding the rationale behind these preferences. It
+is also concerned with understanding the progress IDP communities
+have made across the IASC durable solutions criteria and applied an
+area-based comparative approach.</p></li>
+<li><p>This comparative analysis was used to understand whether hardships
+are a result of IDPs’ displacement or development challenges shared
+with non-displaced communities in El Fasher. Finally, it included a
+macrolevel urban analysis. The profiling exercise used mixed
+methods: mapping and enumeration, a household survey, and key
+informant interviews. The profiling applied a gender lens and
+questions for further analysis, which were included in the report
+narrative when significant gender related differences were
+identified. The repost gives details of the indicators used as part
+of the profiling exercise. Link
+<a href="https://www.jips.org/jips-news/selecting-core-durable-solutions-indicators-sudan/" class="uri">https://www.jips.org/jips-news/selecting-core-durable-solutions-indicators-sudan/</a></p></li>
+</ol>
+</div>
+<div id="example-norway-refugee-labour-market-analysis" class="section level4">
+<h4><span class="header-section-number">7.1.4.5</span> Example Norway Refugee Labour Market Analysis</h4>
+<ol start="449" style="list-style-type: decimal">
+<li><p>Statistics Norway publishes a report every year describing the
+labour market situation for the refugee workforce population (15-66
+years old) settled in Norway under its Refugee and the Labour Market
+technical series. The report is based on the register-based
+employment statistics of Norway.</p></li>
+<li><p>It is important to understand the necessity of producing such
+statistical analysis from Statistics Norway’s perspective. The
+participation of the refugees in the labour market is an imperative
+to understand the underlying driving forces for the refugee
+integration in the host countries’ labour market. The result of the
+analysis is pivotal in designing effective policy responses to
+integrate the refugees, asylum seekers in the host communities in
+Norway. The outcome of the analysis will aid the Norwegian policy
+makers as well as the programme planners with a solid baseline /
+starting point to assess the impact of an intended policy or
+programme and at the same time will pave the way for further
+improvement in the policy.</p></li>
+</ol>
+<p>Box 6.3: Analysis of refugees in the labour market, Statistics Norway</p>
+</div>
+<div id="nepal-example-mobile-phone-tracking-of-population-displacement" class="section level4">
+<h4><span class="header-section-number">7.1.4.6</span> Nepal Example – mobile phone tracking of population displacement</h4>
+<ol start="451" style="list-style-type: decimal">
+<li>Using alternative data sources from mobile phone records Flowminder
+and Ncell collaborated with UN OCHA and other disaster relief
+agencies to estimate the number of people displaced. See Part II of
+this Manual <em>Nepal</em>.</li>
+</ol>
+</div>
+<div id="south-sudan-example-poverty-assessment" class="section level4">
+<h4><span class="header-section-number">7.1.4.7</span> South Sudan Example: Poverty Assessment</h4>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><ol start="452" style="list-style-type: decimal">
+<li><p>South Sudan’s National Bureau of Statistics and the World Bank
+conducted the fourth wave of the High Frequency Survey and the
+Crisis Recovery Survey to monitor welfare and perceptions of
+citizens in accessible urban areas and IDP camps across South
+Sudan. The HFS and CRS data contains information on security,
+economic conditions, education, employment, access to services,
+and perceptions. The data combines detailed household
+questionnaire information with displacement-specific information
+including drivers of displacement, access to resettlement
+mechanisms, and return intentions. It also includes comprehensive
+information on assets and consumption, to allow estimation of
+poverty based on the Rapid Consumption methodology as detailed in
+Pape and Mistiaen (2015).</p></li>
+<li><p>More information can be found in Part II of this Manual <em>South
+Sudan Example:</em> Poverty Assessment and the 2017 South Sudan
+Poverty Assessment Report can be found at
+&lt;<a href="https://microdata.worldbank.org/index.php/catalog/3392/related-m" class="uri">https://microdata.worldbank.org/index.php/catalog/3392/related-m</a>
+aterials&gt;.</p></li>
+</ol>
+<h4 id="yemen-displacement-tracer-matrix-example-yemen-displacement-tr"><span class="header-section-number">7.1.4.7</span> Yemen Displacement Tracer matrix Example {#yemen-displacement-tr</h4>
+<p>acer-matrix-example}</p>
+<ol start="454" style="list-style-type: decimal">
+<li><p>The statistical series was started as a result of the dramatic
+increase of displacement in Yemen due to the outbreak of conflict
+in March 2015. In order to better inform the humanitarian
+community about the location and needs of the displaced
+populations. The data was collected using the IOM’s Displacement
+Tracer Matrix
+(&lt;<a href="https://displacement.iom.int/content/methodological-framework-u" class="uri">https://displacement.iom.int/content/methodological-framework-u</a>
+sed-displacement-tracking-matrix-operations-quantifying&gt;).</p></li>
+<li><p>The data collection will seek to identify the local demographic
+profile, displacement dynamics, and to answer the following
+questions;</p></li>
+</ol>
+<pre><code>32. Who and how many people face moderate and severe humanitarian
+    needs?
+
+33. Where are these people located?
+
+34. What do their survival and livelihood problems consist of?
+
+35. How are the needs expected to evolve in the future, based on
+    ongoing/planned responses and other likely events?</code></pre>
+<ol start="456" style="list-style-type: decimal">
+<li><p>For reports see <a href="https://displacement.iom.int/system/tdf/reports/Yemen%20Are%20a%20Assessment%20Round%2037.pdf?file=1&amp;type=node&amp;id=5295">Yemen Area Assessment Round 37 March
+2019</a>
+and <a href="https://displacement.iom.int/Yemen" class="uri">https://displacement.iom.int/Yemen</a>.</p></li>
+<li><p>For more information see Part II of this Manual <em>Yemen IDP
+Example.</em></p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+<div id="references-and-further-examples" class="section level6">
+<h6><span class="header-section-number">7.1.4.7.0.1</span> References and Further Examples</h6>
+<ol start="458" style="list-style-type: decimal">
+<li><p>For more information on the Durable Solutions library, please see:
+<a href="https://www.jips.org/tools-and-guidance/durable-solutions-indicators-guide/" class="uri">https://www.jips.org/tools-and-guidance/durable-solutions-indicators-guide/</a>.
+For results of the work see:
+<a href="http://inform-durablesolutions-idp.org/" class="uri">http://inform-durablesolutions-idp.org/</a></p></li>
+<li><p>European Commission, ’<strong>Using EU Indicators of Immigrant
+Integration, Final Report for Directorate-General for Home
+Affairs’</strong>. This report on the further development and use of EU
+immigrant integration indicators in policy debates is prepared at
+the request of the European Commission by the European Services
+Network (ESN) and the Migration Policy Group (MPG). Link
+<a href="https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf" class="uri">https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf</a>.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="validate-outputs" class="section level2">
+<h2><span class="header-section-number">7.2</span> Validate outputs</h2>
+<ol start="460" style="list-style-type: decimal">
+<li><p>This sub-process is where statisticians validate the quality of the
+outputs produced, in accordance with a general quality framework
+(developed in Phase 2) and with expectations based on local
+knowledge. This sub-process also includes activities involved with
+the gathering of intelligence, with the cumulative effect of
+building up a body of knowledge about a specific statistical domain.
+This knowledge is then applied to the current collection, in the
+current environment, to identify any divergence from expectations
+and to allow informed analyses. Validation activities can include
+checking the population coverage in the sample group and looking for
+content errors.</p></li>
+<li><p>An example is Population Census coverage that can involve two or
+three major problems such as under representation, over
+representation, and selection bias in the study design. The most
+common problem is under-representation of the population in the
+sample group or due to selection bias in the research design.
+Generally, an aggregate undercount of 3 to 6% is considered
+acceptable, but some population groups tend to be disproportionately
+affected, e.g. very young children, young mobile men and
+undocumented migrants. Over-coverage also happens, especially if
+local authorities, with an interest in exaggerating their
+populations, are able to influence the data collection.</p></li>
+<li><p>Content errors might involve non-response bias and response bias
+for some of the key variables in the data collection phase.
+Individual data are often provided by an informant who is either the
+head of household or another responsible adult household member.
+These proxy respondents may not know all the details regarding each
+member of the households, or sometimes may not want to share the
+facts. The household members themselves may be unsure or
+misunderstand the question. They may even hide or distort
+information on purpose (see also under-reporting of
+consumption<a href="#fn46" class="footnote-ref" id="fnref46"><sup>46</sup></a>. As a result, data quality may be poor, despite
+excellent coverage. Therefore, it is necessary to detect those
+errors in the in the analysis phase and select the right analysis
+techniques to eradicate or minimise the content error.</p></li>
+<li><p>There are several methods for quality assessment. Content errors
+can often be detected through internal consistency analysis by
+crosschecking the data across different datasets. Furthermore, the
+analyst can resort to the following mechanisms to validate the
+findings:</p></li>
+</ol>
+<ul>
+<li><p>Comparing the statistics with previous cycles (if applicable and
+&gt; available),</p></li>
+<li><p>Checking that the associated metadata and paradata (process
+&gt; metadata) are present and in line with the expectations,</p></li>
+<li><p>Checking the statistics for consistency against other relevant data
+&gt; (both internal and external), comparing with other national
+&gt; sources, operational and global data,</p></li>
+<li><p>Investigating inconsistencies in the statistics,</p></li>
+<li><p>Agreeing with the accepted threshold level in applying the quality
+&gt; standards and validation processes</p></li>
+<li><p>Performing macro editing, and</p></li>
+<li><p>Validating the statistics against expectations and domain
+&gt; intelligence.</p></li>
+</ul>
+<ol start="464" style="list-style-type: decimal">
+<li><p>The main criteria are: is the data understandable, usable for
+analysis and fit for purpose, particularly the purpose that was
+articulated in the Design phase. Does it respond to the questions
+that were set initially?</p></li>
+<li><p>Comparators are important, either from another dataset relating to
+a similar group or population, or to the same group/population
+across different time periods. Particularly important is coherence
+when comparing datasets are those obtained via different methods
+(e.g. surveys versus registration). Although the figures obtained
+via different methods will not always match, they need to show clear
+relative trends, to allow comparability. The availability of good
+metadata for both datasets will enable judgments to be made about
+the reasons for differences and for a judgement to be made about the
+quality of the data.</p></li>
+<li><p>The <strong><em>analytical framework</em></strong> should include <strong><em>commentary and
+notes</em></strong>, to allow proper understanding of how the data was obtained
+and treated, in order to support the accessibility and credibility
+of the results. This commentary should be accompanied by clear
+explanatory metadata pertaining to how the data were collected,
+processed and analysed (see Phase 7 on metadata)</p></li>
+<li><p>Complement the estimates with <strong><em>contextual updates</em></strong>, to inform
+the reader and to allow for better understanding of trends. If
+numbers go up, does this correspond to greater coverage, or to an
+increase in violence, attacks or incidence of disasters. Try to
+explain what the likely correlates are.</p></li>
+<li><p><strong><em>Triangulation</em></strong>: use operational data for comparison,
+particularly for flow data, as operational data is more likely to
+capture micro-movements, spontaneous movements, short-term
+displacements. It is necessary to make sure the trends match between
+the various datasets without any major deviation. If the variation
+between two stocks is not significant, but operational data
+identifies a high number of smaller, shorter term movements (e.g. in
+the case of preventative evacuations leading to quick returns, or
+mass movements leading to cross border returns), then this should
+allow official statistics to verify/correct their flow data.</p></li>
+<li><p>Linking to cross border data, <strong><em>interoperability</em></strong>: if movements
+lead to significant cross-border flight or returns, the datasets on
+both sides of the border should correspond with each other to ensure
+validity. Refugee data could be compared to third country nationals,
+refugees, migrants in other countries, to validate estimates and
+trends. Example: the stocks of IDPs in South Sudan only increase
+marginally between two data collection periods; however, the number
+of South Sudanese nationals in the Central African Republic increase
+exponentially, then the likelihood is that people were displaced
+over the border. Operational flow data from displacement event
+should reflect that significant variation, even if the stocks do
+not.</p></li>
+<li><p>Even if variations in operational flow data from incidents do not
+match variations in stocks, the differences between the different
+stock types should be proportional. However, an increase in the
+number of displacements does not mean that a similar same increase
+will appear in stocks, as those displacements could relate to the
+same people being displaced on multiple occasions. For example, if
+the numbers of IDPs in an area decreases, the numbers corresponding
+to that decrease should be reflected in another stock, e.g. there
+are 10,000 less IDPs in Borno State in Nigeria, because there are
+10,000 more Nigerian refugees in Cameroon.</p></li>
+</ol>
+<div id="examples-and-references" class="section level6">
+<h6><span class="header-section-number">7.2.0.0.0.1</span> Examples and References</h6>
+</div>
+<div id="example-of-using-several-data-sources-to-validate-data-the-welfare-of-syrian-refugees" class="section level4">
+<h4><span class="header-section-number">7.2.0.1</span> Example of using several data sources to validate data: The Welfare of Syrian Refugees:</h4>
+<ol start="471" style="list-style-type: decimal">
+<li><p><strong>This joint publication</strong> of UNHCR and World Bank on the welfare
+of Syrian Refugees (2016) aimed to increase the understanding and
+ultimately improve the well-being of Syrian refugees. Due to the
+overwhelming humanitarian response, there was an abundance of data
+on the vulnerability, well-being and access to basic services
+aspects of the Syrian refugees. These data had not yet been fully
+explored and utilised for analytical, policy, and planning purposes
+at that time. The report used different sources of data to
+understand the vulnerability and poverty conditions among the Syrian
+refugees.</p></li>
+<li><p><a href="https://www.worldbank.org/en/topic/poverty/publication/the-welfare-of-syrian-refugees-evidence-from-jordan-and-lebanon" class="uri">https://www.worldbank.org/en/topic/poverty/publication/the-welfare-of-syrian-refugees-evidence-from-jordan-and-lebanon</a></p></li>
+</ol>
+<p>Box 6.4: Welfare of Syrian refuges using multiple datasets to resolve
+inconsistencies in consumption data</p>
+</div>
+<div id="section" class="section level3 ListParagraph">
+<h3><span class="header-section-number">7.2.1</span> </h3>
+</div>
+</div>
+<div id="interpret-and-explain-outputs" class="section level2">
+<h2><span class="header-section-number">7.3</span> Interpret and explain outputs</h2>
+<ol start="473" style="list-style-type: decimal">
+<li><p>This sub-process calls upon the in-depth expertise of statisticians
+to understand, interpret and explain the statistics produced by
+assessing how well the findings reflect their initial expectations.
+This involves viewing the statistics from all perspectives using
+different tools and media, and also carrying out in-depth
+statistical analyses.</p></li>
+<li><p>The analyst should check to see if the data respond to the question
+that were initially set and do the outputs match what was determined
+in the Design phase? A basic analysis might ask the following
+questions:</p></li>
+</ol>
+<pre><code>36. What are the variations from one reporting period to another?
+
+37. Are those variations attributed to contextual or methodological
+    considerations or both? (i.e. more to do with displacement
+    trends or to do with the data collection and treatment methods)
+
+38. Are the variations consistent across the entire context in scope
+    of the analysis? Are there different trends within that scope?
+    How can these be explained?
+
+39. How are stocks and flows affected by the changes? Has one
+    indicator changed more than others, i.e. have flows
+    increased/decreased significantly whereas stocks have changed
+    more marginally?
+
+40. Which flows have changed the most, and what does this tell us?
+    E.g. has the number of IDPs increased/decreased much more in
+    comparison with cross-border flight and refugee numbers abroad?
+
+41. Have methodologies changed? If so, why? How does this impact the
+    accuracy and comparability of the analysis?
+
+42. Do the variations in numbers correspond to contextual changes
+    that can explain them?
+
+43. Which groups, as highlighted by the sex and age disaggregated
+    data (SADD) and other forms of disaggregation, are the most
+    impacted? Why? Has that changed since the last reporting period?
+
+44. Do the official statistics vary significantly in relation to
+    other datasets produced by other sources, particularly
+    operational actors? If so, why?
+
+45. Do the variations correlate with specific actions taken to
+    prevent or solve situations of displacement/provision of
+    assistance/interventions/any form of state operation?</code></pre>
+<div id="example-of-interpretation-of-outputs-using-multiple-datasets-humanitarian-shelter" class="section level4">
+<h4><span class="header-section-number">7.3.0.1</span> Example of Interpretation of outputs using multiple datasets: Humanitarian Shelter</h4>
+<ol start="475" style="list-style-type: decimal">
+<li><p>“The State of Humanitarian Shelter and Settlements” report by
+Global Shelter Cluster (GSC) report provided an in-depth review of
+the evidence base of the shelter and settlements sector, and the
+sector’s data collection practices. One of the main difficulties
+encountered when attempting to measure shelter adequacy is obtaining
+accurate data across various contexts. This is due partly to the
+multi-sectoral nature of the criteria, and the wide range of
+environments in which humanitarian agencies work, as well as to
+variations between shelter designs, materials and costs. In
+addition, different adequacy indicators may sometimes conflict with
+each other. Most shelter actors therefore agree that a
+one-size-fits-all definition of adequacy is almost impossible.</p></li>
+<li><p>To compare and analyse the data, GSC created a sub-set of
+information in order to gather data for disasters, conflicts and
+crises between 2013 and 2018 for which a Shelter Cluster (SC)
+response or SC-like response had been activated. The methodology is
+explained in detail in Part 3 of this report
+<a href="https://www.sheltercluster.org/sites/default/files/The%20State%20of%20Humanitarian%20Shelter%20and%20Settlements%202018.pdf">https://www.sheltercluster.org/sites/default/files/The State of
+Humanitarian Shelter and Settlements
+2018.pdf</a></p></li>
+</ol>
+<p>Box 6.5: Example of interpreting outputs from multiple data sources in
+‘The State of the Humanitarian Shelters Settlements 2018’ report</p>
+</div>
+</div>
+<div id="apply-disclosure-control" class="section level2">
+<h2><span class="header-section-number">7.4</span> Apply disclosure control</h2>
+<ol start="477" style="list-style-type: decimal">
+<li><p>At the Design phase, the outputs should be designed with a clear
+understanding of the required information needed from those outputs
+to respond to the agreed questions. This should dictate how much
+information is necessary to collect, and what falls outside of that
+scope.</p></li>
+<li><p>Due consideration should be given to privacy in accordance with
+national and international law, and to any type of information that
+could lead to the respondents being identified or suffering from
+discrimination as a result of their participation or responses in a
+survey/census should not be disclosed.</p></li>
+<li><p>Disclosure should also include considerations of interoperability:
+how datasets on different population types talk to each other, their
+ability to share information on those populations, or even on
+specific individuals, their characteristics and their needs. This
+can enable possibilities for combining datasets to improve coverage
+and quality (see section on <em>Data Source D: Integrated Data</em>). This
+can also help prevent duplication of data. A data protection policy
+should be in place from the start, and Phase 2D discusses the <em>a.
+Legal environment and data protection legislation</em> and the other
+capacity requirements for this.</p></li>
+<li><p>Data integration may be possible where the data being collected by
+various government databases relates to individuals, groups or
+populations who are registered in one or more government databases.
+Inter-agency data sharing protocols can enable this and also help to
+prevent duplication. As the various service needs of the concerned
+populations are likely to be addressed by different entities within
+the government (or even by entities outside of it), data sharing
+between those entities will ensure greater capacity for analysis.</p></li>
+<li><p>There are technical computer languages that allow data sharing more
+effectively, such as tagging, e.g. using HXL, allowing the data
+outputs to be identifiable by various data sharing platforms, and
+for the various elements of the datasets to be identified and shared
+individually as well.</p></li>
+<li><p>For an example of how anonymisation is done by different
+governments and the decision rules that are applied to enforce it.
+See Canadian Example of a secure data enclaves and data use offering
+higher levels of security, IRRS, Box 6.4.</p></li>
+</ol>
+</div>
+<div id="finalise-outputs" class="section level2">
+<h2><span class="header-section-number">7.5</span> Finalise outputs</h2>
+<ol start="483" style="list-style-type: decimal">
+<li><p>Final outputs and datasets must come packaged with all the fields
+or variables fully explained, with good metadata. The metadata
+should explain anything that might have affected the accuracy or
+quality of the data. Data treatments, weighting and any other
+transformations such as derived variables should be fully documented
+and made available to users.</p></li>
+<li><p>It is crucial to account for any caveats/limitations that may
+affect the data and therefore prevent analysis, as well as
+comparability. An example of a caveat would be to specify the
+geographical coverage of the datasets. This should include coverage
+problems which have resulted from difficulty of access in particular
+locations. All caveats must be detailed: specific to each collection
+method, highlighting any potential difference in the collection
+exercises at different times, obstacles met preventing the data to
+be collected according to the parameters set in the Design phase,
+and include calculations of the sampling errors which apply to key
+estimates.</p></li>
+<li><p>The outputs should also specify what quality assurance and quality
+control mechanisms were applied, and the findings of the quality
+assessments should be made available to users.</p></li>
+</ol>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="37">
+<li id="fn37"><p><sup>Ibid para 94</sup><a href="analyse-data.html#fnref37" class="footnote-back">↩︎</a></p></li>
+<li id="fn38"><p>Source IRRS:
+<a href="https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281" class="uri">https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281</a>
+- page 125.<a href="analyse-data.html#fnref38" class="footnote-back">↩︎</a></p></li>
+<li id="fn39"><p>Output system is considered as a dissemination system (data
+portal, platform, database etc.) which is offered to external/end
+users of the statistical information/products.<a href="analyse-data.html#fnref39" class="footnote-back">↩︎</a></p></li>
+<li id="fn40"><p><a href="https://unstats.un.org/unsd/dnss/gp/fundprinciples.aspx" class="uri">https://unstats.un.org/unsd/dnss/gp/fundprinciples.aspx</a><a href="analyse-data.html#fnref40" class="footnote-back">↩︎</a></p></li>
+<li id="fn41"><p>Source: PARIS21 NSDS guidelines on data dissemination:
+<a href="https://nsdsguidelines.paris21.org/node/796" class="uri">https://nsdsguidelines.paris21.org/node/796</a><a href="analyse-data.html#fnref41" class="footnote-back">↩︎</a></p></li>
+<li id="fn42"><p><a href="http://www.unece.org/fileadmin/DAM/stats/publications/2018/ECECESSTAT20182.pdf" class="uri">http://www.unece.org/fileadmin/DAM/stats/publications/2018/ECECESSTAT20182.pdf</a>
+- page 8.<a href="analyse-data.html#fnref42" class="footnote-back">↩︎</a></p></li>
+<li id="fn43"><p><a href="https://nsdsguidelines.paris21.org/node/796" class="uri">https://nsdsguidelines.paris21.org/node/796</a><a href="analyse-data.html#fnref43" class="footnote-back">↩︎</a></p></li>
+<li id="fn44"><p>Source:
+<a href="https://paris21.org/sites/default/files/datapresentation_norway.pdf" class="uri">https://paris21.org/sites/default/files/datapresentation_norway.pdf</a>
+- page 61.<a href="analyse-data.html#fnref44" class="footnote-back">↩︎</a></p></li>
+<li id="fn45"><p>Source:
+<a href="https://www.ssb.no/en/omssb/samarbeid/internasjonalt-utviklingssamarbeid/_attachment/117795?_ts=13f15ca60c0" class="uri">https://www.ssb.no/en/omssb/samarbeid/internasjonalt-utviklingssamarbeid/_attachment/117795?_ts=13f15ca60c0</a>
+page 50.<a href="analyse-data.html#fnref45" class="footnote-back">↩︎</a></p></li>
+<li id="fn46"><p><a href="https://ec.europa.eu/eurostat/documents/10186/9268011/IMPARTIAL_ACCESS_2014_JAN-EN.PDF.pdf" class="uri">https://ec.europa.eu/eurostat/documents/10186/9268011/IMPARTIAL_ACCESS_2014_JAN-EN.PDF.pdf</a><a href="analyse-data.html#fnref46" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="process-data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="dissemination.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/edit/master/06-Analysedata.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/blob/master/06-Analysedata.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
