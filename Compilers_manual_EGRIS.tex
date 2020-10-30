@@ -2545,8 +2545,14 @@ have no plan\strut
 
 Box 2.2: Afghanistan hybrid census
 
+\begin{quote}
+The last population census in Afghanistan was conducted in 1979 and a new census is not foreseen until after 2020.
+To fill this gap, UNFPA, Flowminder/WorldPop and the Afghanistan National Statistical Office have worked together to develop an innovative methodology to estimate subnational population counts.
+By combining survey, GIS and satellite data into a statistical model to predict numbers in areas where no population data were available, it was possible to generate high resolution maps of population estimates disaggregated by age and sex, together with uncertainty metrics. The data will be used to support decision making and the measurement of the 98 SDG indicators that require population data. The collaboration has also contributed to further strengthening capacities of the Central Statistics Office and other related government agencies to generate population estimates based on the integration of geospatial data and ground surveys.
+\end{quote}
+
 \hypertarget{design-frame}{%
-\subsection{Design Frame}\label{design-frame}}
+\subsubsection{Design Frame}\label{design-frame}}
 
 \hypertarget{a.-dynamic-population-mapping}{%
 \paragraph{Dynamic population mapping}\label{a.-dynamic-population-mapping}}
@@ -2874,6 +2880,22 @@ Box 2.3: Jordan: The living conditions of Syrian refugees in Jordan:
 Results from the 2017-2018 survey of Syrian refugees inside and outside
 camps
 
+\begin{quote}
+Drawing on a survey implemented by the Department of Statistics (DoS) between November 2017 and January 2018, the report presents recent statistics on Syrian refugees residing in Jordan. It presents findings for six geographic localities: Amman; Zarqa; Irbid; Mafraq; the other governorates taken together; and the refugee camps.
+\end{quote}
+
+\begin{quote}
+The report is based on information from 7,632 households and 40,950 individuals. Sampling was based on the DoS sampling frame constructed on the 2015 population census. A total of 1,121 clusters (locations) outside camps and 82 clusters inside camps were randomly selected. The sampling design was not geared towards estimating the number of Syrian refugees in the Hashemite Kingdom, but instead aimed for efficiency with regard to describing the Syrian refugee population in accordance with project objectives.
+\end{quote}
+
+\begin{quote}
+A household is defined as a unit that pools its resources together, and whose members usually sleep and eat (most meals) together. Usually, the household members are immediate or more distant relatives, but they do not have to be related. This report defines a refugee household as one where the head of household is a Syrian refugee. It understands a Syrian refugee to be any Syrian individual who fled to Jordan from Syria as a consequence of the crisis and war there and arrived in Jordan after 15 March 2011, and who acknowledges or defines him- or herself as a refugee; any Syrian national who resided in Jordan before 15 March 2011 and became a refugee because he or she could not return to Syria; or any children of these two categories of people born after 15 March 2011. The vast majority of these self-ascribed Syrian refugees, 97 per cent, have formalized their refugee status by registering with the UNHCR.
+\end{quote}
+
+\begin{quote}
+Source: \url{https://reliefweb.int/report/jordan/living-conditions-syrian-refugees-jordan-results-2017-2018-survey-syrian-refugees}
+\end{quote}
+
 \hypertarget{b.2.-idp-survey-questionnaires}{%
 \paragraph{IDP Survey questionnaires}\label{b.2.-idp-survey-questionnaires}}
 
@@ -3071,8 +3093,30 @@ methodology, specified in this sub-process". (UNECE, 2013)
 Box 2.4: Turkey example: Two-Stage Sampling Methodology Combining
 Spatial Survey and Respondent-Driven (Snowball) Sampling
 
+\begin{quote}
+Context: WFP was interested in a vulnerability assessment of the refugee population in Turkey.
+Challenge: Difficult to identify population (in this case, unregistered refugees), that are likely not randomly distributed geographically and have no comprehensive sampling frame.
+Methodology: The study used a two-stage sampling methodology.
+The first stage was a Simple Spatial Survey Method (S3M) that sought to select settlements evenly (rather than randomly) across Turkey's geography. Using R's spatial-sampler function, the researchers superimposed a hexagonal grid over the country, and then selected the refugee settlement that was closest to the nodes of the grid. It also stratified by urban/rural sites, although this stratification was later abandoned due to difficulty of reaching rural respondents. This grid-based sampling method lacks the benefits of true randomness but is acceptable if there is a belief that there are significant differences in geography that might not be adequately captured by a random sample.
+The second stage was Respondent-Driven Sampling, which combined a snowball sample and probability weighting based on network theory. First researchers selected 2-3 seed households close to each of the geographic points (seeds) selected by the S3M model. The seed households were selected based on having strong social networks and willingness to participate, but researchers also tried to select households of different ages, genders, aid eligibility, and socioeconomic status. While this likely resulted in a more diverse set of initial households, if this stratification was conducted by field researchers in an ad hoc manner it may have unwittingly biased the sample. The researchers then used a snowball sampling method -- after interviewing the first round of seed households, they asked each household to identify 2-3 additional refugee households who they could speak to. This process repeated at each subsequent step until the researchers had selected 25 respondent households from each seed. Based on the original 52 sampling sites, this generated a sample size of approximately 1,300 households.
+Researchers then used the RDSAT application to analyse information about the respondent's social network in order to generate an individual weighting value for each respondent that adjusts for their likelihood of being selected. This weighting process uses network theory to adjust for the non-random nature of the households who are more likely to be selected by this sampling method, and to arrive at a post-weighting sample that should be more representative of the general population. Analysis can then be performed on the post-weighting sample.
+Conclusion: While this methodology can be used in situations in which there is no available frame and populations are hidden, it has several sources of bias that make it inferior to true probability sampling. For instance, there is a tendency for respondents to refer households who are similar to them in non-representative ways (e.g.~select households from the same ethnic group). While the RDS application can help correct for some of this bias, it is important to ensure that the original seeds are representative of the population in a rigorous manner, and that this method not be used when more comprehensive sampling frames are available.
+\end{quote}
+
 Box 2.5: Enumeration and Profiling of IDPs, refugees and migrants in
 Hargeisa, Somaliland (December 2015)
+
+\begin{quote}
+Context: Somaliland had developed a policy framework on internal displacement in 2014, but still needed comprehensive and reliable data in order to inform its implementation by stakeholders.
+Challenge: Study was starting from a very low-information baseline, and had difficulties getting access to a representative sample of the population due to resistance within the camp populations and the dispersed nature of the urban population.
+Methodology:
+Given the dearth of information available to researchers at the start of the study, the first stage of sampling was to develop a credible map of the population in the various settlements through information-gathering meetings with community focal points (imams, elders, teachers, community organizations). The next stage, enumeration, sought to reach all households in the camps with a brief 12-question census to establish membership to person of concern group (IDPs from Somaliland, Refugee returnees, Economic migrants, etc.). This census succeeded in reaching nearly 12-thousand households, and provided them each with a barcode that, along with phone numbers, was later used for randomization. Thus, the listing exercise resulted in multiple sampling frames of household as the final sampling units for the different populations of concern.
+From the enumerated list of 11,962 households, 2,510 were selected to be surveyed. The randomization was stratified by person of concern category, so that the selected sample was proportionate to the population totals. Non-probabilistic sampling was applied to groups that did not have a population size large enough to support randomization (asylum seekers and IDPs from South Central Somalia).
+As a result of the population size of some groups being small, as mentioned in the previous paragraph, the study also used non-probabilistic snowball sampling methods for the IDPs from South Central Somalia who lived in urban areas outside the camp, asking each respondent to refer additional households for the study. Due to the non-random nature of this selection mechanism, this cannot be considered a representative sample, although it may give a qualitative sense of overall IDP sentiments.
+Limitations:
+Due to community resistance to being categorized as IDPs, the enumeration stage was asked to conclude before it was able to reach all households living in the settlements. Thus there is a disconnect between the sample frame and the population of interest. There were also challenges with accessing refugees and asylum seekers directly -- many declined to be interviewed, and others had had their enumeration barcodes taken by their landlords. While both of these elements contribute to a higher risk of bias within the sample, they speak more to the logistical difficulties inherent in working with IDP and refugee populations rather than any avoidable methodological problem with the study design. All possible mitigation steps should be taken to avoid these types of issues, but only if they can be addressed without jeopardizing the safety of researchers, the well-being of respondents, and the goodwill of communities.
+There were also some challenges identifying the categories that were most appropriate for households, particularly between economic migrants and IDPs. If possible, it is important to establish clear and consistent guidelines whenever a categorization methodology is to be used.
+\end{quote}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
