@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 6 Process data | Compilers-Manual-EGRIS</title>
-  <meta name="description" content="Chapter 6 Process data | Compilers-Manual-EGRIS" />
+  <title>Chapter 10 Specify needs | Compilers-Manual-EGRIS</title>
+  <meta name="description" content="Chapter 10 Specify needs | Compilers-Manual-EGRIS" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 6 Process data | Compilers-Manual-EGRIS" />
+  <meta property="og:title" content="Chapter 10 Specify needs | Compilers-Manual-EGRIS" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 6 Process data | Compilers-Manual-EGRIS" />
+  <meta name="twitter:title" content="Chapter 10 Specify needs | Compilers-Manual-EGRIS" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data-collection-phase.html"/>
-<link rel="next" href="analyse-data.html"/>
+<link rel="prev" href="international-coordination-1.html"/>
+<link rel="next" href="design-1.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -362,352 +362,639 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="process-data" class="section level1">
-<h1><span class="header-section-number">Chapter 6</span> Process data</h1>
-<p>“This phase describes the cleaning of data and their preparation for
-analysis. It is made up of sub-processes that check, clean, and
-transform input data, so that they can be analysed and disseminated as
-statistical outputs. It may be repeated several times if necessary. For
-statistical outputs produced regularly, this phase occurs in each
-iteration. The sub-processes in this phase can apply to data from both
-statistical and non-statistical sources (with the possible exception of
-sub-process 5.6 (Calculate weights), which is usually specific to survey
-data)”. (UNECE, 2013)</p>
-<ol start="369" style="list-style-type: decimal">
-<li><p>This section of the Compilers’ Manual will cover using the data
-from various sources and will in particular focus on processes for
-integrating and cleaning data from all four data sources.</p></li>
-<li><p>This is the main step for preparing data for analysis. It is the
-step for describing the data and determining the type of variable;
-Numeric or string, length of the variable to cover the categories.
-Moreover, we need to check, clean and code the data, and check the
-consistency between variables. Then after this data is created to
-calculate the weights, if the data is derived from a survey. The
-steps would include;</p></li>
+<div id="specify-needs-1" class="section level1">
+<h1><span class="header-section-number">Chapter 10</span> Specify needs</h1>
+<blockquote>
+<p>‘This phase is triggered when a need for new statistics is identified,
+or feedback about current statistics initiates a review. It includes
+all activities associated with engaging customers to identify their
+detailed statistical needs, proposing high level solution options and
+preparing business cases to meet these needs. In this phase the
+organisation: identifies the need for the statistics; confirms, in
+more detail, the statistical needs of the stakeholders; establishes
+the high level objectives of the statistical outputs; identifies the
+relevant concepts and variables for which data are required; checks
+the extent to which current data sources can meet these needs;
+prepares the business case to get approval to produce the statistics’
+(UNECE, 2013)</p>
+</blockquote>
+<ol start="22" style="list-style-type: decimal">
+<li>A comprehensive approach to understanding and specifying statistical
+needs will help to make national statistical systems meet users’
+needs, or in the case of a new statistical series potential users’
+needs. The development of a roadmap for statistical development can
+be guided by several tools and guidelines developed by PARIS21 based
+at OECD. <em>Figure 1.1: Tools available to support establishing a
+business case</em> shows the sub-processes set out the GSBPM and
+indicates where tools are available for establishing a business
+case. These are discussed below.</li>
 </ol>
-<div id="integrate-data" class="section level2">
-<h2><span class="header-section-number">6.1</span> Integrate data</h2>
-<ol start="371" style="list-style-type: decimal">
-<li><strong>In developing variables for use in the analysis of data, it will
-often prove necessary to recode and classify raw data in order to
-derive the variables which are required for analysis. Or to merge
-data from other relevant data sources. Data Integration is discussed
-in detail in Phase 2,</strong> Data Source D: Integrated Data<strong>. Readers
-should refer to this section for more information.</strong></li>
-</ol>
-</div>
-<div id="classify-and-code" class="section level2">
-<h2><span class="header-section-number">6.2</span> Classify and Code</h2>
-<ol start="372" style="list-style-type: decimal">
-<li>Classification and coding should be carried in accordance with the
-classifications and variable descriptions described in Phase 2.2.
-<em>Design variable descriptions</em>.</li>
-</ol>
-<div id="example-classifying-and-recoding-administrative-data---german-federal-statistical-office" class="section level4">
-<h4><span class="header-section-number">6.2.0.1</span> Example: Classifying and Recoding Administrative Data - German Federal Statistical Office</h4>
-<ol start="373" style="list-style-type: decimal">
-<li><p>This example describes recoding data to produce statistics on
-refugees in accordance to the IRRS. Since 2017 the German Federal
-Statistical Office compiles statistics on foreigners seeking
-humanitarian protection based on the Central Register on Foreigners
-(CRF). In light of the unprecedented inflow of asylum seekers
-between 2014 and 2016, the Federal Statistical Office explored the
-feasibility of complementing existing statistics on the inflow of
-asylum seekers with figures about the stock of foreigners living in
-Germany for humanitarian reasons. The approach relies mainly on
-administrative residence permit data obtained from the CRF. In
-general, administrative residence status data allows for taking a
-comprehensive view on humanitarian immigration that not only
-includes foreigners with a granted protection status, but also those
-with an asylum application still pending, as well as foreigners who
-remain in the host country after having been denied protection.
-Thereby, administrative data allows for producing official
-statistics that follow the International Recommendations for Refugee
-Statistics (IRRS) that were adopted by the United Nations
-Statistical Commission in March 2018.</p></li>
-<li><p>A necessary first step is to understand the scope of the
-administrative data at hand. In Germany, the CRF is the central
-database for all authorities responsible for administrative
-procedures concerning foreigners. It contains basic personal
-information on foreigners from EU member countries; additional
-information on legal residence status for foreigners from Non-EU
-countries; and even more detailed information (e.g. on educational
-background and language skills) on foreigners seeking asylum in
-Germany. Most importantly for classifying refugees and people in
-refugee like situations, the CRF centrally collects all information
-concerning foreigners’ legal residence status (e.g. current
-residence permit) that is locally produced by immigration offices.
-As an important limitation, the register only covers foreigners.
-Once a person receives German citizenship, s/he is immediately
-deleted from the register. Hence, second generation and former
-refugees who acquired German citizenship cannot be identified with
-the data at hand.</p></li>
-<li><p>In many countries, including Germany, residence and asylum law is
-excessively complex. When classifying foreigners seeking protection,
-numerous types of residence permits, and a wide range of additional
-legal statuses must be considered. Accordingly, filtering and
-structuring the relevant legal information that reliably identify
-the target population is key in compiling statistics on refugees and
-people in refugee like situations from administrative data. The data
-usually does not come in a form that is ready for use for
-statistical purposes. Before foreigners seeking protection can be
-identified in the data, the various variables related to the legal
-residence status must be consolidated. In this process the relevant
-legal status for each person in the register is determined. For
-instance, consider a Croatian citizen who fled persecution during
-the war for independence from Yugoslavia in the early 1990s.
-Further, imagine this person receives a permanent humanitarian
-residence permit in Germany. Even three decades later, this
-residence permit is still valid and recorded in the register.
-However, it is no longer relevant for this person, since Croatia
-became a member of the European Union in 2013 and meanwhile Croatian
-citizens enjoy the right of free movement in Germany.</p></li>
-</ol>
-<p>Figure 5.1: Statistics on foreigners seeking protection</p>
+<p>Figure 1.1: Tools available to support establishing a business case</p>
 <div class="figure">
-<img src="media/image1.png" style="width:6.23056in;height:2.09923in" alt="" />
-<p class="caption">A screenshot of a cell phone Description automatically
+<img src="media/image1.png" style="width:6.5in;height:4.06597in" alt="" />
+<p class="caption">A screenshot of a computer Description automatically
 generated</p>
 </div>
-<ol start="376" style="list-style-type: decimal">
-<li><p>Building upon the consolidated legal residence status, the target
-population can be classified. People seeking humanitarian protection
-constitute a sub-group of the foreign population who specifically
-refer to humanitarian reasons for their current stay in Germany.
-This population in turn consists of three distinct sub-groups that
-are distinguished by whether their request for humanitarian
-protection is yet unsettled, granted or denied.</p></li>
-<li><p>A foreigner’s purpose of residence is inferred from his/her legal
-residence status. One necessary precondition for identifying
-foreigners with a granted protection status is that residence
-permits reveal the underlying purpose of residence. In Germany,
-information on the purpose of residence can be deduced from a
-foreigner’s current residence permit since in 2005 the German
-Residence Act became effective. Since then residence permits
-distinguish between residence either for educational purposes, for
-the purpose of economic activity, for family reasons or based on
-humanitarian grounds. Residence permits based on humanitarian
-grounds can either be temporary or permanent.</p></li>
-<li><p>Besides foreigners already holding a humanitarian residence permit,
-asylum-seekers residing in Germany who intend acquiring a
-humanitarian residence permit also belong to the stock of foreigners
-seeking protection. Foreigners with an unsettled protection status
-have either expressed a request for asylum towards German
-authorities (e.g. police or immigration office) or they already
-filed an asylum application at the Federal Office for Migration and
-Refugees.</p></li>
-<li><p>Foreigners whose asylum applications were denied but who still
-reside in Germany constitute the third final sub-group of foreigners
-whose request for humanitarian protection has been denied. The
-sub-group of foreigners with a denied protection status also
-includes foreigners who previously held a temporary humanitarian
-residence permit that was either not prolonged, renounced or
-withdrawn. All foreigners belonging to this category are legally
-obliged to leave the country. However, in many cases this obligation
-cannot be enforced due to practical (e.g. missing passports) or
-legal (e.g. family ties) reasons leading to prolonged durations of
-stay in this status.</p></li>
+<ol start="23" style="list-style-type: decimal">
+<li><p>Advocacy from regional and international authorities can play a
+crucial part in raising the priority given to refugee and IDP
+statistics by governments, planning authorities and chief
+statisticians. Effective advocacy includes explicitly documenting
+and specifying the unaddressed needs, targeting a group within the
+national statistical system that can effect change, proposing a
+detailed business case for closing the data gap, and using hard
+evidence as a basis for the business case. Joint approaches in
+strengthening national statistical systems, whether regional or
+international, have often been more effective than individual
+national efforts in capacity building and fundraising for emerging
+areas of official statistics, such as refugee and IDP statistics.</p></li>
+<li><p>As the international statistical system derives its input from
+national statistical systems, establishing a business case for a new
+statistical series requires substantial planning and co-ordination
+at national and international levels alike. Nationally, the
+production of refugee and IDP statistics can require several
+ministries, departments or agencies to cooperate with the national
+statistics office (NSO) to make the resulting statistics fit for
+purpose and relevant to users (Eurostat, 2018).</p></li>
 </ol>
-<p>Figure 5.2: Statistics on foreigners seeking protection</p>
-<div class="figure">
-<img src="media/image2.png" style="width:6.4503in;height:3.93819in" alt="" />
-<p class="caption">A screenshot of a cell phone Description automatically
-generated</p>
-</div>
-<ol start="380" style="list-style-type: decimal">
-<li><p>By including granted and unsettled cases, the outlined concept
-follows the IRRS. However, the definition of foreigners seeking
-protection deviates from the IRRS in one aspect: The group of
-foreigners with a denied protection status does not include persons
-who entered on tourist, student or work visa but who have
-nonetheless fled persecution, war or violence in their home
-countries (IRRS 2018: pp. 26-29). This group cannot be identified in
-the administrative data at hand.</p></li>
-<li><p>Also see, <strong>UNECE-Eurostat Work Session on Migration Statistics
-October 2018</strong>:
-<a href="https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.10/2018/mtg1/DEU_Asylum_ENG.pdf" class="uri">https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.10/2018/mtg1/DEU_Asylum_ENG.pdf</a></p></li>
-</ol>
-</div>
-</div>
-<div id="review-and-validate" class="section level2">
-<h2><span class="header-section-number">6.3</span> Review and validate</h2>
-<ol start="382" style="list-style-type: decimal">
-<li>This would include reviewing the data and assessing its quality,
-including checking for consistency, outliers and missing values (see
-also Phase 6.2 paragraph 462).</li>
-</ol>
-<div id="example-holoclean-project" class="section level4">
-<h4><span class="header-section-number">6.3.0.1</span> Example: HoloClean project</h4>
-<ol start="383" style="list-style-type: decimal">
-<li>“HoloClean is a statistical inference engine to impute, clean, and
-enrich data. As a weakly supervised machine learning system,
-HoloClean leverages available quality rules, value correlations,
-reference data, and multiple other signals to build a probabilistic
-model that accurately captures the data generation process and uses
-the model in a variety of data curation tasks. HoloClean allows data
-practitioners and scientists to save the enormous time they spend in
-building piecemeal cleaning solutions, and instead, effectively
-communicate their domain knowledge in a declarative way to enable
-accurate analytics, predictions, and insights from noisy,
-incomplete, and erroneous data.” Further information is to be found
-at this <a href="http://www.holoclean.io/">Link</a>.</li>
-</ol>
-</div>
-<div id="example-jips-guidance-on-data-processing" class="section level4">
-<h4><span class="header-section-number">6.3.0.2</span> Example: JIPS guidance on data processing: <span class="underline"></span></h4>
-<ol start="384" style="list-style-type: decimal">
-<li>This guidance includes the following topics. 1) Why processing the
-raw data is so important, 2) Checklist for processing the data, 3)
-Before you start, 4) Preparing the dataset, 5) Cleaning common
-errors, 6) Checking for unexpected values, and 6) Preparing
-variables for analysis. The link to this guidance is : <span class="underline"></span>
-<a href="https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf" class="uri">https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf</a></li>
-</ol>
-</div>
-<div id="example-data-quality-problems-in-administrative-registers-after-a-mass-influx-of-asylum-seekers---federal-statistical-office-of-germany" class="section level4">
-<h4><span class="header-section-number">6.3.0.3</span> Example: <strong>Data quality problems in administrative registers after a mass influx of asylum seekers - Federal Statistical Office of Germany</strong></h4>
-<ol start="385" style="list-style-type: decimal">
-<li><p>Reviewing data quality after a mass influx of asylum seekers
-requires special attention. Data quality issues in administrative
-data occur in particular during periods of mass influx when
-administrative procedures are overburdened with the large numbers of
-incoming asylum-seekers. When the increase in asylum applications is
-sudden and unexpected, it is difficult to scale-up existing
-administrative capacities for registration and refugee status
-determination. As a result, data quality in administrative registers
-is often poorest when the demand for data on refugees is highest.
-Reviewing and validating the available data becomes a crucial task
-for statisticians in those times, since they must judge whether data
-quality is sufficient for the production of official statistics.
-When using administrative data in immediate response to a mass
-influx, statisticians should look out for;</p></li>
-<li><p><strong>Delayed registrations:</strong> In response to humanitarian crises,
-organizing shelter and covering basic needs is a host country’s
-first priority. Refugee status determination comes afterwards.
-During periods of mass influx, asylum seekers may face prolonged
-waiting periods for officially lodging their asylum applications.
-Where asylum seekers are properly registered only after having
-lodged their asylum application, administrative registers will cover
-the newly arrived only with considerable time lack.</p></li>
-<li><p><strong>Incomplete and false registrations:</strong> Intending to assist
-overburdened immigration authorities, governments improvise and
-deviate from traditional workflows during periods of mass influx.
-Registration is then often no longer carried out by trained
-personnel in immigration offices but mobile registration units with
-the support of the armed forces and the police register asylum
-seekers in temporary accommodations or even in improvised reception
-facilities on the road. Considering that untrained staff registers
-displaced people who often lack official documents, incomplete and
-false registrations are hardly surprising.</p></li>
-<li><p><strong>Multiple registrations:</strong> When asylum seekers are distributed
-within the host country for accommodation, small differences in
-spelling or translations often cause double registration. Language
-barriers are especially problematic when translations between
-different alphabets are involved e.g. between the Arabic, Cyrillic
-and Latin alphabet. While taking and comparing fingerprint scans
-would solve most of the problem, the infrastructure is not always in
-place. Once entered in the register, duplicate entries are difficult
-to identify with certainty and can thus be expected to bias results
-for a prolonged period.</p></li>
-</ol>
-</div>
-</div>
-<div id="derive-new-variables-and-units" class="section level2">
-<h2><span class="header-section-number">6.4</span> Derive new variables and units</h2>
-<ol start="389" style="list-style-type: decimal">
-<li>This sub-process derives data for variables and units that are not
-explicitly provided in the collection but are needed to be estimated
-or derived to deliver the required outputs specified in Phase 2
-Build.</li>
+<div id="identify-the-needs-of-users-and-potential-users-1" class="section level2">
+<h2><span class="header-section-number">10.1</span> Identify the Needs of Users and Potential Users</h2>
+<blockquote>
+<p>“1.1 - This sub-process includes the initial investigation and
+identification of what statistics are needed and what is needed of the
+statistics.” (UNECE, 2013)</p>
+</blockquote>
+<ol start="25" style="list-style-type: decimal">
+<li><p>The IRRS and IRIS recommendations propose a list of basic data
+tabulations (IRRS Chapter 3 and IRIS Chapter 5) and indicators (IRRS
+Chapter 5 and IRIS Chapter 4) to be produced at the national level.
+These recommendations serve as the core set of official statistics
+in the displacement domain which includes refugee and related
+persons; and internally displaced persons. However, a country’s
+range of statistics will vary, depending on the national policy
+priorities and the reporting requirements of regional international
+users, and the capacity of the National Statistical System and what
+statistics are possible to produce with a reasonable effort</p></li>
+<li><p>In respect of international reporting obligations, it should be
+noted that the Inter-Agency and Expert Group on SDG Indicators
+accepted the proposal of EGRIS members to recommend disaggregation
+by forced displacement categories for 12 priority SDG indicators, as
+well by age and sex whenever possible.<a href="#fn61" class="footnote-ref" id="fnref61"><sup>61</sup></a> In order to ensure
+availability of minimum quality statistics on refugees and IDPs, it
+is recommended that national statistics providers include statistics
+on these priority indicators in the reporting plans for the 2030
+Agenda. However, governments should not feel limited to this
+priority list, and data collection on additional indicators is
+encouraged (IRIS, paragraph 130).</p></li>
+<li><p>There are several potential users of statistics on displaced
+persons, including governments and national authorities, local
+authorities, international organisations, civil society, NGOs,
+researchers/academia, the media and the general public. They have
+different needs and priorities, requiring statistics for different
+purposes:</p></li>
 </ol>
 <ul>
-<li><p>Computing variables to measure the characteristics of IDPs and
-refugees and refugee related populations. Some examples of this,
-depending on user demands are:</p>
+<li><p>for administrative purposes,</p></li>
+<li><p>for policymaking,</p></li>
+<li><p>for monitoring the implementation of policies,</p></li>
+<li><p>for evaluating policies,</p></li>
+<li><p>to facilitate the allocation of resources,</p></li>
+<li><p>to enable regional/international comparison,</p></li>
+<li><p>to enable comparisons with the wider population,</p></li>
+<li><p>to assess progress towards durable solutions or integration with
+host communities,</p></li>
+<li><p>to inform the general public and enhance public debate.</p></li>
+</ul>
+<ol start="28" style="list-style-type: decimal">
+<li><p>Identifying important “needs gaps” and users’ priorities requires
+research. Which can involve a mixed-methods approach, using a
+combination of qualitative and quantitative research methods. A
+useful source of information on the needs of both displaced people
+and the agencies supporting them may be provided by needs
+assessments undertaken by or on behalf on operational agencies
+supporting refugees and IDPs. Needs assessments not only inform
+humanitarian partners but can inform those considering the data
+needs of those supporting the displaced. The UNHCR Needs Assessment
+Handbook provides guidance on their conduct (see also Phase 4
+references <em>Phase Links and Examples of Training Manuals and Data
+Collection Advice)</em>. These needs assessments were promoted by the
+World Humanitarian Summit in 2016 and established "commitments for
+aid organizations and donors to work together efficiently,
+transparently, and harmoniously in order to better deliver
+protection and assistance to the millions of people facing emergency
+needs. One of these commitments calls for the improvement of needs
+assessments, notably by:</p>
 <ol style="list-style-type: decimal">
-<li><p>Female headed household</p></li>
-<li><p>Family type/household composition</p></li>
-<li><p>Employment or labour market activity rate</p></li>
-<li><p>Total consumption</p></li>
-<li><p>Regional classifications</p></li>
-<li><p>Unaccompanied minors</p></li>
-<li><p>Returned to place of habitual residence</p></li>
-<li><p>Having overcome key displacement-related vulnerabilities (IDPs)</p></li>
-<li><p>Measures of integration (refugees)</p></li>
-<li><p>Durable solutions progress measure</p></li>
-<li><p>Refugee/IDP status</p></li>
-<li><p>Total household consumption/income</p></li>
+<li><p>Providing a single, comprehensive, cross-sectoral,
+methodologically sound, and impartial overall assessment of
+needs for each crisis to inform strategic decisions;</p></li>
+<li><p>Coordinating and streamlining data collection to ensure
+compatibility, quality and comparability, and avoid
+over-assessment and duplication;</p></li>
+<li><p>sharing needs assessment data in a timely manner, with the
+appropriate mitigation of protection and privacy risks; and</p></li>
+<li><p>Prioritizing humanitarian response across sectors based on
+evidence established by the analysis.<a href="#fn62" class="footnote-ref" id="fnref62"><sup>62</sup></a>"</p></li>
 </ol></li>
-</ul>
-<ol start="390" style="list-style-type: decimal">
-<li><p>Computing a variable for measuring progress towards a durable
-solution and identifying those who have overcome key
-displacement-related vulnerabilities is discussed in the IRIS, 2020.
-A set of indicators and related questions will be developed based on
-the 10 identified sub-criteria for overcoming key displacement
-related vulnerabilities (IRIS, Table 4.3) as well as sub-criteria
-related to the three remaining criteria for measuring progress
-towards durable solutions (see IRIS Chapter 4).</p></li>
-<li><p>The methodology for developing these indicators and a progress
-variable will be added to this Manual in future editions, once more
-data becomes available and the methodology agreed.</p></li>
-<li><p>Computing variables for measuring integration and the satisfaction
-of immediate and on-going needs of refugees and refugee related
-populations are set out at length in IRRS, 2018 Chapter 5. Further
-discussion of the indicators used to measure European refugee
-integration can be found at link
-<a href="https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf" class="uri">https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf</a>.</p></li>
-<li><p>Both the IRRS in Chapter 5, and IRIS in Chapter 4 Section B,
-discuss the use of the SDGs indicators for measuring the
-satisfaction of basic and immediate needs of displaced people, and
-measuring their progress towards integration or durable solutions.
-In constructing these indicators the following link to UNSD’s SDG
-metadata repository provides details of constructing the indicators
-concerned, <strong><a href="https://unstats.un.org/sdgs/metadata/">SDG Metadata
-Repository</a>.</strong></p></li>
+</ol>
+<p>Figure 1.2: Data gaps</p>
+<div class="figure">
+<img src="media/image2.png" style="width:3.0115in;height:2.26923in" alt="" />
+<p class="caption">A screenshot of a cell phone Description automatically
+generated</p>
+</div>
+<ol start="29" style="list-style-type: decimal">
+<li><p>PARIS21 has developed the <a href="https://adapt.paris21.org/auth/login">Advanced Data Planning Tool
+(ADAPT)</a><a href="#fn63" class="footnote-ref" id="fnref63"><sup>63</sup></a> for NSOs to adapt
+their data production processes to meet the data needs of users. It
+is a consultative tool, which brings data stakeholders together to
+identify data gaps, and define requirements within an established
+monitoring indicator framework such as the UN Sustainable
+Development Goals (SDGs) indicator framework or the basic statistics
+proposed by the IRIS and IRRS (see also the Sustainable Development
+Goal indicators website<a href="#fn64" class="footnote-ref" id="fnref64"><sup>64</sup></a>.)</p></li>
+<li><p>The results of ADAPT can contribute to the development of
+statistical plans, such as National Strategies for the Development
+of Statistics (NSDSs), and processes to strengthen the coordination
+of statistical planning at the national level. ADAPT offers three
+different options to identify indicators affiliated to a given
+statistical framework or specified topic, applicable to refugee and
+IDP statistics. Further details and an explanation of this tool can
+be found in PART III of the document (paragraph 739). Based on the
+information provided, the ADAPT tool can produce two main reports on
+the status of refugee and IDP statistics and identifies any data
+gaps at national level. The first report is able to summarise the
+status of refugee and IDP statistics in respect of the relevant
+national requirements, which could be based on the IRRS or IRIS
+tabulation indicator frameworks, or a national defined requirement.
+The second report presents the status of refugee and IDP statistics
+as a general domain of statistical production, considering all
+indicators that require a relevant disaggregation variable.</p></li>
 </ol>
 </div>
-<div id="calculate-weights-for-data-derived-from-probability-samples" class="section level2">
-<h2><span class="header-section-number">6.5</span> Calculate weights for data derived from probability samples</h2>
-<ol start="394" style="list-style-type: decimal">
-<li><p>This step involves Calculating weights for displaced populations
-obtained from household surveys based on probability samples to
-derive an estimate for the population (including hidden households,
-frame problems etc.).</p></li>
-<li><p>Utilise contents from tool sponsored by UNHCR and developed by
-Stats4SD
-<a href="https://stats4sd.org/resources/resource-bank/"><strong>https://stats4sd.org/resources/resource-bank/</strong></a></p></li>
+<div id="consult-and-confirm-needs-1" class="section level2">
+<h2><span class="header-section-number">10.2</span> Consult and Confirm Needs</h2>
+<blockquote>
+<p>“1.2 - This sub-process focuses on consulting with the stakeholders
+and confirming in detail the needs for the statistics.” (UNECE, 2013)</p>
+</blockquote>
+<ol start="31" style="list-style-type: decimal">
+<li><p>National collaboration platforms, for example targeted workshops or
+thematic conferences, and regional fora can be an opportunity to
+engage with the identified strategic stakeholders and promote the
+need for refugee and IDP statistics. Connecting the topics with
+policy priorities at international and national levels can attract
+the attendance of high-level political representatives and help to
+gain government support.</p></li>
+<li><p>Many countries are mandated by their statistics law to set out a
+statistical work programme, an example of this is Turkstat whose
+Official Statistics Programme is based on the Statistics Law of
+Turkey No 5429. Many other countries have statistical development
+plans such as the NSDS described below.</p></li>
+<li><p><a href="https://nsdsguidelines.paris21.org/node/717">National Strategies for the Development of Statistics
+(NSDSs)</a> provide a
+framework for structuring support and developing statistical
+capacity in the national statistical system. These multi-annual
+strategies aim at mainstreaming sectors into the national
+statistical system (NSS), engaging with other data producers and
+coordinating the entire NSS, responding to data challenges, and
+building statistical capacity across the “the statistical value
+chain” (PARIS21, 2018). An NSDS can be an integral part of national
+ownership over statistical development, and secure funding at
+national and international level.</p></li>
+<li><p>The implementation of refugee and IDP statistics in these
+statistical development plans, which cover all parts of official
+statistics, can be useful for mainstreaming these statistics into a
+wider national planning process and improving cooperation with the
+data producers involved. This is particularly important with
+displacement statistics as data is likely to be held by many
+agencies including non-traditional sources and the humanitarian
+sector.</p></li>
+<li><p>The NSDS should be firmly linked to national development plans and
+involve several different sectors. Refugee and IDP statistics could
+be considered a sector. The identification of targeted sectors
+varies from country to country depending on national priorities and
+administrative structures. Usually, sectoral strategies correspond
+to line ministries, government departments or agencies with separate
+and well-defined areas of concern, mandate and budget. However, most
+countries do not have a corresponding government ministry or agency
+responsible for monitoring forced migration or displacement, and the
+level political sensitivity within these domains remains at a high
+level.</p></li>
+<li><p>As part of the NSDS process, making the case for developing a
+sectoral strategy for refugee and IDP statistics is important.
+Traditionally in the NSDS process, technical committees are in
+charge of defining sectoral statistical needs, and the number of
+sectors involved is often constrained. Depending on its strategic
+importance to government, refugee and IDP statistics could face
+challenges in being “recognised” as a sectoral statistical area
+within the NSDS process and may require specific advocacy and the
+allocation of a lead government Ministry, Department or Agency.</p></li>
+<li><p>Depending on whether the country has developed a NSDS or not, the
+mid-term evaluation or a new phase of the NSDS can be the right
+moment for integrating a new sectoral strategy related to refugee
+and IDP statistics. Integration of refugee and IDP statistics into
+the NSDS should occur at all stages of the design and implementation
+phases. The process of developing a sectoral strategy for refugee
+and IDP statistics involves the following steps:</p></li>
 </ol>
-<div id="phase-references-and-links-3" class="section level6">
-<h6><span class="header-section-number">6.5.0.0.0.1</span> Phase references and links</h6>
-<ul>
-<li><p>HoloClean<em>:</em> A Machine Learning System for Data Repair and
-Predictions on Structured Data.  It is a statistical inference
-engine to impute, clean, and enrich data. As a weakly supervised
-machine learning system, HoloClean leverages available quality
-rules, value correlations, reference data, and multiple other
-signals to build a probabilistic model that accurately captures the
-data generation process, and uses the model in a variety of data
-curation tasks. HoloClean allows data practitioners and scientists
-to save the enormous time they spend in building piecemeal cleaning
-solutions, and instead, effectively communicate their domain
-knowledge in a declarative way to enable accurate analytics,
-predictions, and insights from noisy, incomplete, and erroneous
-data. Link <a href="http://www.holoclean.io/">http://www.holoclean.io</a></p></li>
-<li><p>The link to JIPS Guidance on Data Processing is : <span class="underline"></span>
-<a href="https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf" class="uri">https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf</a></p></li>
-</ul>
+<div id="establishing-a-sector-statistics-committee-for-displacement-statistics" class="section level3 ListParagraph">
+<h3><span class="header-section-number">10.2.1</span> Establishing a Sector Statistics Committee for Displacement Statistics</h3>
+<ol start="38" style="list-style-type: decimal">
+<li><p>Sector Statistics Committees (SSC) are responsible for defining and
+confirming the statistical needs for sectors. The Refugee and IDP
+Statistics Committee should be constituted by those leading of the
+sector at the request of the NSO, and a sector Coordinator should be
+designated. A large number of departments, ministries and agencies
+could be involved, including migration authorities, social
+development ministries, urban planning authorities, rural
+development authorities, and the humanitarian sector. Experience
+shows that five active members are the ideal number for the
+committee, but the Sector Statistics Committee should involve actors
+from the wider data ecosystem and goes beyond the traditional
+boundaries of the NSS, to humanitarian agencies including UNHCR and
+OCHA.</p></li>
+<li><p>The responsibilities of a potential Refugee and IDP Statistics
+Committee would be similar to those of other sectors, including: a)
+proposing a vision for refugee and IDP statistics for approval, b)
+prioritising statistical activities over the lifespan of the
+Sectoral Strategy for the Development of Statistics, c) identifying
+major agencies currently collecting relevant statistics for refugees
+and IDPs, d) preparing an inventory of existent current data systems
+in existence operated by stakeholders, e) identifying major data
+needs related to the sector, f) developing strategic actions,
+including organisational and HR development, IT strategy,
+dissemination policy and other areas.</p></li>
+<li><p>The role of the NSO is important for statistics coordination and to
+ensure that the potential data sources relevant for refugee and
+displacement statistics are able to be used, and that data
+confidentiality is adequately protected under the relevant
+statistics law.</p></li>
+<li><p>The sector statistics design team should consist of staff from
+several ministries (e.g. Interior and External Relations Ministries,
+Migration agency) to ensure commitment and assurance of staff time
+through a more formal process, including memoranda of understanding
+between the agencies and participating ministries. As NSSs are not
+always able to capture forced migration and displacement within
+officially produced data sources, data may be needed from
+non-traditional data producing institutions, such as civil society
+and humanitarian agencies.</p></li>
+</ol>
+</div>
+<div id="using-operational-data-from-humanitarian-agencies-for-official-statistics" class="section level3 ListParagraph">
+<h3><span class="header-section-number">10.2.2</span> Using operational data from humanitarian agencies for official statistics</h3>
+<ol start="42" style="list-style-type: decimal">
+<li><p>Where there is insufficient data from government sources for
+statistical purposes, operational data from humanitarian agencies
+present a possible resource for establishing or augmenting a new
+statistical series for refugee and IDP statistics. Operational data
+are produced during regular activities of humanitarian agencies are
+intended for internal use in planning operations only and do not
+usually meet the standards set for official statistics, before use
+they should be carefully assessed using a national or international
+statistical data (e.g. UN Statistics <em>Quality Assurance Framework
+quality assessment tool).</em></p></li>
+<li><p>The quality of any operational data identified for use in a new
+statistical series should be assessed focusing on standardisation,
+coverage, accuracy and confidentiality. Ultimately, the statistical
+authority (e.g. NSO, line ministry, specialised statistical unit
+within NSS) in charge will determine the usefulness of operational
+data as input for the new statistical series after assessing crucial
+quality issues and negotiating data sharing agreements (see IRRS,
+Chapter 6 pp 136-140).</p></li>
+<li><p>One source of operational data is the IASC Common Operational
+Datasets, are developed and endorsed by the Inter-agency Standing
+Committee (IASC) and disseminated by OCHA. These are Common
+Operational Data sets (CODs) and fundamental operational datasets
+(FODs) used in humanitarian emergencies to support technical
+standards, improve the quality of data, and strengthen
+interoperability. In the IASC Common Operational Datasets there are
+three levels of accountability: Guardian, Sponsor and Source. For
+more information see the <a href="https://fscluster.org/sites/default/files/documents/IASC_Guidelines_on_Common_Operational_Datasets_in_Disaster_Preparedness_and_Response_1_Nov._2010%5B1%5D.pdf">IASC Guidelines on Common Operational
+Datasets in Disaster Preparedness and
+Response</a>.</p></li>
+<li><p>The Protection Information Management for Quality Protection
+Outcomes (PIM) Initiative<a href="#fn65" class="footnote-ref" id="fnref65"><sup>65</sup></a> is a collaborative project, bringing
+together UN, NGO, and other protection and IM partners working to
+respond to protection needs in situations of displacement. The
+objective of PIM is to provide quality data and information on
+people in displacement situations in a safe, reliable, and
+meaningful way. Data on refugees and IDPs can be extremely sensitive
+and confidentiality and data protection are of paramount importance.
+Data collection should be consistent with national legislation on
+data protection and international obligations related to privacy.
+Data protection considerations may limit the access of statisticians
+to information in administrative systems, unless national laws
+establish the right of access to administrative data for statistical
+purposes. This project identifies three different roles for the use
+of PIM data;</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Guardian:</strong> OCHA is the “Guardian” of the agreed upon datasets
+and will facilitate the distribution of the “best” available
+common operational and fundamental datasets in emergencies while
+managing forums for updates and distribution communication. If
+OCHA is unable to provide this service in a specific country, a
+suitable substitute Guardian should be identified by
+Humanitarian Country Teams or equivalent decision-making body
+during contingency planning. Quality assurance for compliance
+with minimum format and data characteristics in datasets will be
+conducted by OCHA, or the substitute Guardian, prior to
+distribution. This will include assigning a common GLIDE number
+to be associated with the dataset after the onset of a natural
+disaster<a href="#fn66" class="footnote-ref" id="fnref66"><sup>66</sup></a>.</p></li>
+<li><p><strong>Sponsor:</strong> Each dataset has a designated “Sponsor” who is
+responsible for identifying and liaising with relevant “Sources”
+to analyse, collate, clean and achieve consensus around a
+specific operational dataset If possible dataset Sponsors will
+proactively identify and collate information prior to
+emergencies in the data preparedness phase in support of the
+contingency planning process. If this is not possible, Sponsors
+will be identified in relation to their specific dataset early
+in the emergency and will assume responsibilities related to
+their thematic dataset. OCHA will maintain lists of dataset
+Sponsors at the country and global levels and coordinate between
+data Sponsors.</p></li>
+<li><p><strong>Source:</strong> Each dataset will have designated source(s) or
+owner(s), such as: national authority/agency, Cluster, NGO, UN
+agency, International Organization, International Red Cross/Red
+Crescent that agrees to be fully responsible for the
+development, maintenance and metadata associated with a dataset
+and control distribution restrictions.</p></li>
+</ol></li>
+<li><p>In many countries where governments have limited capacity to
+register refugees, the UNHCR collects administrative data on asylum
+seekers and refugees on behalf of governments. Part III of this
+manual includes an example of the data sharing Agreement on the
+Transfer of Personal Data of Refugees and Asylum-seekers to
+governments under certain conditions (see Part III <em>UNHCR Agreements
+and Memoranda of</em> <em>Understand</em>ing). They acknowledge the importance
+of registration as a protection tool and expect States to take
+responsibility for registration as quickly as possible. The sharing
+of data needs to be "<em>subject to the data protection safeguards as
+contained in UNHCR’s Policy on the Protection of Persons of
+Concern</em><a href="#fn67" class="footnote-ref" id="fnref67"><sup>67</sup></a><em>".</em> The agreement allows for the <em>’</em>compiling
+statistical data’ among the allowable purposes for personal data
+transfer. Data may not be transferred to a third party except with
+the prior written authorisation of UNHCR and/or the consent of the
+data subject (the refugee or displaced person). Any third party must
+conform with the conditions set out in the UNHCR data sharing
+agreement. In the case of refugees, the data may not be shared with
+the refugee’s country of origin, except under the circumstances of
+voluntary repatriation under the auspices of UNHCR with the consent
+of the individual refugee.</p></li>
+<li><p>The minimum set of indicators identified in the IRRS and IRIS
+recommendations should be considered as the core statistics to
+monitor internal and international displacement and for reporting to
+the global statistical system. However, it is recognised that most
+countries will not reach this minimum initially, and that time will
+be needed to build the capacity to produce these.</p></li>
+</ol>
+</div>
+</div>
+<div id="establish-output-objectives-1" class="section level2">
+<h2><span class="header-section-number">10.3</span> Establish Output Objectives</h2>
+<blockquote>
+<p>“This sub-process identifies the statistical outputs that are required
+to meet the user needs identified in the previous sub-processes.”
+(UNECE, 2013)</p>
+</blockquote>
+<ol start="48" style="list-style-type: decimal">
+<li><p>Once a need has been established, the practicalities of developing
+the statistical series will have to be defined. Establishing the
+practicalities include the agreement of users on the suitability of
+and quality measures for the proposed statistical outputs, and the
+recommendation of indicators and levels of disaggregation.
+Furthermore, this sub-process can be used to address any special
+concerns of refugees and IDP through the statistical series that
+could be relevant in the national context (trauma, sensitivity,
+confidentiality, migrating children etc.).</p></li>
+<li><p>There are inherent potential risks of producing displacement
+statistics, as data use would include politically sensitive issues
+such as refugee support, population displacement, integration,
+disaster response and crossing borders. Any data collection effort
+in these domains needs to observe people`s rights to consent,
+privacy, security and ownership, and consider legal frameworks
+relating to confidentiality, which are both likely to be constraints
+when defining the output objectives.</p></li>
+</ol>
+</div>
+<div id="identify-concepts-1" class="section level2">
+<h2><span class="header-section-number">10.4</span> Identify Concepts</h2>
+<blockquote>
+<p>"This sub-process clarifies the required concepts to be measured by
+the business process from the point of view of the user</p>
+<p>." (UNECE, 2013)</p>
+</blockquote>
+<ol start="50" style="list-style-type: decimal">
+<li><p>An internationally agreed refugee and related persons classification
+was agreed in the IRRS 2018 (see Chapter 3) and a similar
+classification for IDPs is set out in IRIS 2020 (see Chapter 3).
+When referring to the refugee population within a given country, the
+IRRS include persons who are “primarily classified in legal terms by
+their claim to refugee status, or their descent from those with or
+seeking international protection” (IRRS, 2018). There are three
+major categories; a) Persons in need of international protection
+which includes refugees, asylum seekers and others granted temporary
+or subsidiary forms of protection; b) Persons with a refugee
+background which includes naturalized former refugees, the children
+and other family members of refugees, and c) Persons returned from
+abroad after seeking international protection. (see IRRS Figure 3.1
+page 30).</p></li>
+<li><p>For IDPs and related populations there are four major categories; a)
+Persons who have displacement-related protection needs (subdivided
+into IDPs in locations of displacement, IDPs in location of return,
+and IDPs in other settlement locations); b) IDP-related populations
+who are the children born after displacement to at least one IDP
+parent; c) Other non-displaced family members of IDPs; and d) Those
+who have overcome key displacement-related vulnerabilities. (See
+IRIS Figure 3.1 page 26).</p></li>
+<li><p>From the point of view of the statistics users, nationally and
+internationally, classificatory differences between national laws
+and international recommendations may be identified. These
+differences may reflect the specific needs of data users. If the
+concepts do not align, the stakeholder should agree on a process to
+approach conformity, and any remaining differences need to clearly
+be identified in the accompanying metadata.</p>
+<p>Classificatory differences mainly may arise due to differences in
+national legislation and it may be required to add the reasons for
+granting asylum. The reference metadata for a new statistical series
+on refugee statistics should pay special attention to describing and
+defining these differences to achieve international comparability of
+refugee statistics. The structure of the reference metadata should
+follow established statistical standards, such as Statistical Data
+and Metadata eXchange (SDMX)<a href="#fn68" class="footnote-ref" id="fnref68"><sup>68</sup></a>.</p></li>
+</ol>
+</div>
+<div id="check-data-availability-1" class="section level2">
+<h2><span class="header-section-number">10.5</span> Check Data Availability</h2>
+<blockquote>
+<p>“This sub-process checks whether current data sources could meet user
+requirements, and the conditions under which they would be available,
+including any restrictions on their use.” (UNECE, 2013)</p>
+</blockquote>
+<ol start="53" style="list-style-type: decimal">
+<li><p>The production of refugee and IDP statistics often requires the
+combination of data from several data producers within the national
+statistical system, including line ministries, government
+departments and agencies, and civil society. As national statistical
+systems differ in their level of centralization, the effort needed
+to foster consultation and collaboration between statistical
+producers varies accordingly. Therefore, establishing a statistical
+programme of work, developed jointly by the statistical producers,
+requires an initial mapping of strategic stakeholders to be
+consulted in the consultation for and the confirmation of the
+business case.</p></li>
+<li><p>Accessing data produced by the agencies responsible for displaced
+people for statistical use can be problematic. There are a number of
+reasons why data sharing between agencies for statistical purposes
+can be difficult. These involve legal restrictions and issues of
+trust between officials. While the statistics law is usually clear
+about data confidentiality and the uses to which data can be put,
+the agency collecting the data will also have its own laws and
+regulations which may prohibit data sharing, and the issue becomes
+one of legal precedence. The situation in the European Statistical
+System as at 2015-2017 is set out below in <em>Table 1.2: National
+Legal Framework - Clarity and coverage of legislation; restrictions
+and limitations. (European Statistical System).</em></p></li>
+<li><p>Member States of the European Union and EFTA have statistics laws
+which enables data sharing among government stakeholders. This legal
+framework authorises the NSOs to access administrative sources
+without imposing any restrictions with reference to the provisions
+laid down in the <a href="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:087:0164:0173:En:PDF">Regulation (EC)
+223/2009</a>.
+In this regulation <em>Article 24, Access to administrative records</em>
+states;</p>
+<p><em>“In order to reduce the burden on respondents, the NSIs and other
+national authorities and the Commission (Eurostat) shall have access
+to administrative data sources, from within their respective public
+administrative system, to the extent that these data are necessary
+for the development, production and dissemination of European
+statistics.” </em></p></li>
+<li><p>The <a href="http://ec.europa.eu/eurostat/web/ess/about-us/ess-vision-2020">ESS Vision
+2020</a> highlights
+the importance of cooperation with stakeholders and of developing
+strategic alliances with private and public partners (key area
+"identifying user needs and cooperation with stakeholders"). A
+workshop was organised in 2016 in order to allow the National
+Statistical Institutes to identify and share best practices on
+cooperating with the owners of administrative sources in order to
+access to administrative data sources (<a href="https://ec.europa.eu/eurostat/cros/content/2016-workshop-access-administrative-sources_en">Workshop on Access to
+Administrative Data
+Sources</a>,
+Brussels, 13-14 September 2016). Between 2015 and 2017, information
+was collected on the obstacles that the NSOs still face in accessing
+administrative data and how they have managed to overcome some of
+the difficulties. On this basis, two reports were finalised in 2018:</p>
+<ol start="4" style="list-style-type: decimal">
+<li><p><strong>Report on the legal and institutional environment in Member
+States</strong>: <a href="https://ec.europa.eu/eurostat/cros/system/files/admin-wp1.1_analysis_legal_institutional_environment_final.pdf">Final
+report</a></p></li>
+<li><p><strong>Good practices regarding the relation with data
+providers</strong>: <a href="https://ec.europa.eu/eurostat/cros/system/files/admin-wp1.2_good_practices_final.pdf">Final
+report</a></p></li>
+</ol></li>
+<li><p>The above reports set out the situation in European countries which
+illustrate the differences which exist between member states.</p></li>
+</ol>
+<p>Table 1.1: National Legal framework - Scope and extent of mandate to
+access administrative data (European Statistical System)</p>
+<p><img src="media/image3.tiff" style="width:6.05556in;height:7.42243in" /></p>
+<div class="figure">
+<img src="media/image4.tiff" style="width:6.02222in;height:0.44167in" alt="" />
+<p class="caption">A picture containing screenshot Description automatically
+generated</p>
+</div>
+<p><img src="media/image5.tiff" style="width:5.375in;height:0.15278in" /></p>
+<p>Source: Eurostat: <a href="https://ec.europa.eu/eurostat/cros/system/files/admin-wp1.1_analysis_legal_institutional_environment_final.pdf">Analysis of the Legal and Institutional Environment
+in the
+ESS</a></p>
+<p>Table 1.2: National Legal Framework - Clarity and coverage of
+legislation; restrictions and limitations. (European Statistical System)</p>
+<p><img src="media/image6.tiff" style="width:6.18889in;height:4.31855in" /></p>
+<p>Source: Eurostat: <a href="https://ec.europa.eu/eurostat/cros/system/files/admin-wp1.1_analysis_legal_institutional_environment_final.pdf">Analysis of the Legal and Institutional Environment
+in the
+ESS</a></p>
+<ol start="58" style="list-style-type: decimal">
+<li><p>Examples of other legal provisions for the production of statistics
+about displaced people can be found in Part II Examples and Cases
+studies.</p>
+<ol start="6" style="list-style-type: decimal">
+<li><p><em>The Bosnia and Herzegovina Case Study</em> cites several examples
+of enabling legal and policy frameworks for the production of
+displacement statistics (see paragraph 542).</p></li>
+<li><p><em>The Turkey Case Study</em> cites the ability of Turkstat to access
+administrative data collected under the <em>Foreigners and
+International Protection law</em> by the Ministry of the Interior,
+Director General of Migration Management (see Part II Case
+Studies Turkey) under its legally mandated 5-year statistical
+planning cycle (see paragraph 637 for reference to Law mandating
+statistical planning). The Statistics Law of Turkey No 5429 also
+mandates Turkstat for determining the basic principles and
+standards for national registration systems, and for supporting
+and monitoring the organisations involved in the statistical
+production process.</p></li>
+</ol></li>
+<li><p>Where data is being integrated to combine various sources in order
+to increase the scope and coverage of a statistical series, the
+legal constrains are particularly important. Readers should see also
+<em>Phase 2D</em> <em>a. Legal environment and data protection legislation</em>
+which discusses data availability at length in respect of data
+integration.</p></li>
+</ol>
+<div id="phase-links-and-references-1" class="section level6">
+<h6><span class="header-section-number">10.5.0.0.0.1</span> Phase Links and References</h6>
+<p>Eurostat (2018), “International Recommendations on Refugee Statistics
+(IRRS)”, Eurostat, Brussels,
+<a href="https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281" class="uri">https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281</a>.</p>
+<p>Flowminder (2015), “Nepal Earthquake 2015 Case Study”, Flowminder,
+Stockholm,
+<a href="https://web.flowminder.org/case-studies/nepal-earthquake-2015" class="uri">https://web.flowminder.org/case-studies/nepal-earthquake-2015</a>.PARIS21
+(2018), "NSDS Guidelines", PARIS21, Paris,
+<a href="https://nsdsguidelines.paris21.org/NSDS-GUIDELINES-full-lang-en.pdf" class="uri">https://nsdsguidelines.paris21.org/NSDS-GUIDELINES-full-lang-en.pdf</a>.</p>
+<p>PARIS21 (2018), “Assessing the capacity of national statistical systems:
+a user’s guide”, PARIS21, Paris,
+<a href="https://paris21.org/sites/default/files/2018-08/NSS-Assessment-Guide%20-%20WEB.pdf" class="uri">https://paris21.org/sites/default/files/2018-08/NSS-Assessment-Guide%20-%20WEB.pdf</a>.</p>
+<p>PARIS21 (2019), “The Advanced Data Planning Tool Version 1.2 Manual for
+Users”, PARIS21, Paris,
+<a href="https://paris21.org/sites/default/files/inline-files/ADAPT_Manual_April%202019_Final_v1.2.pdf" class="uri">https://paris21.org/sites/default/files/inline-files/ADAPT_Manual_April%202019_Final_v1.2.pdf</a>.</p>
+<p>UNECE (2013), “Generic Statistical Business Process Model”, UNECE,
+Geneva,
+<a href="https://statswiki.unece.org/display/GSBPM/V._+Descriptions+of+Phases+and+Sub-processes#V._DescriptionsofPhasesandSub-processes-_Toc375051204" class="uri">https://statswiki.unece.org/display/GSBPM/V._+Descriptions+of+Phases+and+Sub-processes#V._DescriptionsofPhasesandSub-processes-_Toc375051204</a>.</p>
+<p>UNHCR (2017), “Global Trends Forced Displacement in 2017”, UNHCR,
+Geneva,
+<a href="https://www.unhcr.org/statistics/unhcrstats/5b27be547/unhcr-global-trends-2017.html" class="uri">https://www.unhcr.org/statistics/unhcrstats/5b27be547/unhcr-global-trends-2017.html</a>.</p>
 
 </div>
 </div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="61">
+<li id="fn61"><p><sup>Ibid para 94</sup><a href="specify-needs-1.html#fnref61" class="footnote-back">↩︎</a></p></li>
+<li id="fn62"><p>Source IRRS:
+<a href="https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281" class="uri">https://ec.europa.eu/eurostat/documents/3859598/9315869/KS-GQ-18-004-EN-N.pdf/d331c9cc-1091-43c2-b589-2c250bccc281</a>
+- page 125.<a href="specify-needs-1.html#fnref62" class="footnote-back">↩︎</a></p></li>
+<li id="fn63"><p>Output system is considered as a dissemination system (data
+portal, platform, database etc.) which is offered to external/end
+users of the statistical information/products.<a href="specify-needs-1.html#fnref63" class="footnote-back">↩︎</a></p></li>
+<li id="fn64"><p><a href="https://unstats.un.org/unsd/dnss/gp/fundprinciples.aspx" class="uri">https://unstats.un.org/unsd/dnss/gp/fundprinciples.aspx</a><a href="specify-needs-1.html#fnref64" class="footnote-back">↩︎</a></p></li>
+<li id="fn65"><p>Source: PARIS21 NSDS guidelines on data dissemination:
+<a href="https://nsdsguidelines.paris21.org/node/796" class="uri">https://nsdsguidelines.paris21.org/node/796</a><a href="specify-needs-1.html#fnref65" class="footnote-back">↩︎</a></p></li>
+<li id="fn66"><p><a href="http://www.unece.org/fileadmin/DAM/stats/publications/2018/ECECESSTAT20182.pdf" class="uri">http://www.unece.org/fileadmin/DAM/stats/publications/2018/ECECESSTAT20182.pdf</a>
+- page 8.<a href="specify-needs-1.html#fnref66" class="footnote-back">↩︎</a></p></li>
+<li id="fn67"><p><a href="https://nsdsguidelines.paris21.org/node/796" class="uri">https://nsdsguidelines.paris21.org/node/796</a><a href="specify-needs-1.html#fnref67" class="footnote-back">↩︎</a></p></li>
+<li id="fn68"><p>Source:
+<a href="https://paris21.org/sites/default/files/datapresentation_norway.pdf" class="uri">https://paris21.org/sites/default/files/datapresentation_norway.pdf</a>
+- page 61.<a href="specify-needs-1.html#fnref68" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="data-collection-phase.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="analyse-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="international-coordination-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="design-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -738,7 +1025,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/edit/master/05-Processdata.Rmd",
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/edit/master/01-SpecifyNeeds.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -746,7 +1033,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/blob/master/05-Processdata.Rmd",
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/blob/master/01-SpecifyNeeds.Rmd",
 "text": null
 },
 "download": ["Compilers_manual_EGRIS.pdf", "Compilers_manual_EGRIS.epub"],

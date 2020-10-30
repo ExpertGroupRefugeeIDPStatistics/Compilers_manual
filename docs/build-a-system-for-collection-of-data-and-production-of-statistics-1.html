@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 6 Process data | Compilers-Manual-EGRIS</title>
-  <meta name="description" content="Chapter 6 Process data | Compilers-Manual-EGRIS" />
+  <title>Chapter 12 Build a system for collection of data and production of statistics | Compilers-Manual-EGRIS</title>
+  <meta name="description" content="Chapter 12 Build a system for collection of data and production of statistics | Compilers-Manual-EGRIS" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 6 Process data | Compilers-Manual-EGRIS" />
+  <meta property="og:title" content="Chapter 12 Build a system for collection of data and production of statistics | Compilers-Manual-EGRIS" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 6 Process data | Compilers-Manual-EGRIS" />
+  <meta name="twitter:title" content="Chapter 12 Build a system for collection of data and production of statistics | Compilers-Manual-EGRIS" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data-collection-phase.html"/>
-<link rel="next" href="analyse-data.html"/>
+<link rel="prev" href="design-1.html"/>
+<link rel="next" href="data-collection-phase-1.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -362,340 +362,360 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="process-data" class="section level1">
-<h1><span class="header-section-number">Chapter 6</span> Process data</h1>
-<p>“This phase describes the cleaning of data and their preparation for
-analysis. It is made up of sub-processes that check, clean, and
-transform input data, so that they can be analysed and disseminated as
-statistical outputs. It may be repeated several times if necessary. For
-statistical outputs produced regularly, this phase occurs in each
-iteration. The sub-processes in this phase can apply to data from both
-statistical and non-statistical sources (with the possible exception of
-sub-process 5.6 (Calculate weights), which is usually specific to survey
-data)”. (UNECE, 2013)</p>
-<ol start="369" style="list-style-type: decimal">
-<li><p>This section of the Compilers’ Manual will cover using the data
-from various sources and will in particular focus on processes for
-integrating and cleaning data from all four data sources.</p></li>
-<li><p>This is the main step for preparing data for analysis. It is the
-step for describing the data and determining the type of variable;
-Numeric or string, length of the variable to cover the categories.
-Moreover, we need to check, clean and code the data, and check the
-consistency between variables. Then after this data is created to
-calculate the weights, if the data is derived from a survey. The
-steps would include;</p></li>
+<div id="build-a-system-for-collection-of-data-and-production-of-statistics-1" class="section level1">
+<h1><span class="header-section-number">Chapter 12</span> Build a system for collection of data and production of statistics</h1>
+<p>“This phase builds and tests the production solution to the point where
+it is ready for use in the "live" environment. The outputs of the
+"Design" phase direct the selection of reusable processes,
+instruments, information, and services that are assembled and configured
+in this phase to create the complete operational environment to run the
+process. New services are built by exception, created in response to
+gaps in the existing catalogue of services sourced from within the
+organisation and externally. These new services are constructed to be
+broadly reusable within the statistical production architecture” (UNECE,
+2013)</p>
+<ol start="293" style="list-style-type: decimal">
+<li>Each type of data source has a defined scope, and the build phase
+must present recommendations to achieve their objectives as
+efficiently and comprehensively as possible. This phase deals with
+the steps needed to build or update the statistical systems that
+capture, in the most efficient way, the data required for producing
+accurate statistics on Refugee and IDP populations. This phase can
+be structured in 7 steps:</li>
 </ol>
-<div id="integrate-data" class="section level2">
-<h2><span class="header-section-number">6.1</span> Integrate data</h2>
-<ol start="371" style="list-style-type: decimal">
-<li><strong>In developing variables for use in the analysis of data, it will
-often prove necessary to recode and classify raw data in order to
-derive the variables which are required for analysis. Or to merge
-data from other relevant data sources. Data Integration is discussed
-in detail in Phase 2,</strong> Data Source D: Integrated Data<strong>. Readers
-should refer to this section for more information.</strong></li>
+<pre><code>3.1 Build collection instruments
+
+3.2 Enhance or build process components
+
+3.3 Build or enhance dissemination components
+
+3.4 Configure workflows
+
+3.5 Test production systems
+
+3.6 Test statistical business process
+
+3.7 Finalise production systems</code></pre>
+<ol start="294" style="list-style-type: decimal">
+<li>This part of the Compilers’ Manual will only cover those parts of
+the Build Phase which apply specifically to refugee or IDP
+statistics. Descriptions of generic activities can be found
+elsewhere.</li>
 </ol>
-</div>
-<div id="classify-and-code" class="section level2">
-<h2><span class="header-section-number">6.2</span> Classify and Code</h2>
-<ol start="372" style="list-style-type: decimal">
-<li>Classification and coding should be carried in accordance with the
-classifications and variable descriptions described in Phase 2.2.
-<em>Design variable descriptions</em>.</li>
+<div id="build-collection-instrument-1" class="section level2">
+<h2><span class="header-section-number">12.1</span> Build collection instrument</h2>
+<p>“The collection instrument is generated or built based on the design
+specifications created during the "Design" phase. Collection
+instruments may be from surveys, or from data extraction routines used
+to gather data from existing statistical or administrative data sets.
+This sub-process also includes preparing and testing the contents and
+functioning of that instrument (e.g. testing the questions in a
+questionnaire). It is recommended to consider the direct connection of
+collection instruments to the statistical metadata system, so that
+metadata can be more easily captured in the collection phase. Connection
+of metadata and data at the point of capture can save work in later
+phases. Capturing the metrics of data collection (paradata) is also an
+important consideration in this sub-process.” (UNECE,2013)</p>
+<ol start="295" style="list-style-type: decimal">
+<li>The internationally recommended variables, tabulations and analyses
+of Refugee and IDP Statistics are described in the previous Phase 2.
+The statistical requirements of any country will have been discussed
+with users or potential users in order to modify the international
+standards to meet national requirements and circumstances (see Phase
+1).</li>
 </ol>
-<div id="example-classifying-and-recoding-administrative-data---german-federal-statistical-office" class="section level4">
-<h4><span class="header-section-number">6.2.0.1</span> Example: Classifying and Recoding Administrative Data - German Federal Statistical Office</h4>
-<ol start="373" style="list-style-type: decimal">
-<li><p>This example describes recoding data to produce statistics on
-refugees in accordance to the IRRS. Since 2017 the German Federal
-Statistical Office compiles statistics on foreigners seeking
-humanitarian protection based on the Central Register on Foreigners
-(CRF). In light of the unprecedented inflow of asylum seekers
-between 2014 and 2016, the Federal Statistical Office explored the
-feasibility of complementing existing statistics on the inflow of
-asylum seekers with figures about the stock of foreigners living in
-Germany for humanitarian reasons. The approach relies mainly on
-administrative residence permit data obtained from the CRF. In
-general, administrative residence status data allows for taking a
-comprehensive view on humanitarian immigration that not only
-includes foreigners with a granted protection status, but also those
-with an asylum application still pending, as well as foreigners who
-remain in the host country after having been denied protection.
-Thereby, administrative data allows for producing official
-statistics that follow the International Recommendations for Refugee
-Statistics (IRRS) that were adopted by the United Nations
-Statistical Commission in March 2018.</p></li>
-<li><p>A necessary first step is to understand the scope of the
-administrative data at hand. In Germany, the CRF is the central
-database for all authorities responsible for administrative
-procedures concerning foreigners. It contains basic personal
-information on foreigners from EU member countries; additional
-information on legal residence status for foreigners from Non-EU
-countries; and even more detailed information (e.g. on educational
-background and language skills) on foreigners seeking asylum in
-Germany. Most importantly for classifying refugees and people in
-refugee like situations, the CRF centrally collects all information
-concerning foreigners’ legal residence status (e.g. current
-residence permit) that is locally produced by immigration offices.
-As an important limitation, the register only covers foreigners.
-Once a person receives German citizenship, s/he is immediately
-deleted from the register. Hence, second generation and former
-refugees who acquired German citizenship cannot be identified with
-the data at hand.</p></li>
-<li><p>In many countries, including Germany, residence and asylum law is
-excessively complex. When classifying foreigners seeking protection,
-numerous types of residence permits, and a wide range of additional
-legal statuses must be considered. Accordingly, filtering and
-structuring the relevant legal information that reliably identify
-the target population is key in compiling statistics on refugees and
-people in refugee like situations from administrative data. The data
-usually does not come in a form that is ready for use for
-statistical purposes. Before foreigners seeking protection can be
-identified in the data, the various variables related to the legal
-residence status must be consolidated. In this process the relevant
-legal status for each person in the register is determined. For
-instance, consider a Croatian citizen who fled persecution during
-the war for independence from Yugoslavia in the early 1990s.
-Further, imagine this person receives a permanent humanitarian
-residence permit in Germany. Even three decades later, this
-residence permit is still valid and recorded in the register.
-However, it is no longer relevant for this person, since Croatia
-became a member of the European Union in 2013 and meanwhile Croatian
-citizens enjoy the right of free movement in Germany.</p></li>
-</ol>
-<p>Figure 5.1: Statistics on foreigners seeking protection</p>
-<div class="figure">
-<img src="media/image1.png" style="width:6.23056in;height:2.09923in" alt="" />
-<p class="caption">A screenshot of a cell phone Description automatically
-generated</p>
-</div>
-<ol start="376" style="list-style-type: decimal">
-<li><p>Building upon the consolidated legal residence status, the target
-population can be classified. People seeking humanitarian protection
-constitute a sub-group of the foreign population who specifically
-refer to humanitarian reasons for their current stay in Germany.
-This population in turn consists of three distinct sub-groups that
-are distinguished by whether their request for humanitarian
-protection is yet unsettled, granted or denied.</p></li>
-<li><p>A foreigner’s purpose of residence is inferred from his/her legal
-residence status. One necessary precondition for identifying
-foreigners with a granted protection status is that residence
-permits reveal the underlying purpose of residence. In Germany,
-information on the purpose of residence can be deduced from a
-foreigner’s current residence permit since in 2005 the German
-Residence Act became effective. Since then residence permits
-distinguish between residence either for educational purposes, for
-the purpose of economic activity, for family reasons or based on
-humanitarian grounds. Residence permits based on humanitarian
-grounds can either be temporary or permanent.</p></li>
-<li><p>Besides foreigners already holding a humanitarian residence permit,
-asylum-seekers residing in Germany who intend acquiring a
-humanitarian residence permit also belong to the stock of foreigners
-seeking protection. Foreigners with an unsettled protection status
-have either expressed a request for asylum towards German
-authorities (e.g. police or immigration office) or they already
-filed an asylum application at the Federal Office for Migration and
-Refugees.</p></li>
-<li><p>Foreigners whose asylum applications were denied but who still
-reside in Germany constitute the third final sub-group of foreigners
-whose request for humanitarian protection has been denied. The
-sub-group of foreigners with a denied protection status also
-includes foreigners who previously held a temporary humanitarian
-residence permit that was either not prolonged, renounced or
-withdrawn. All foreigners belonging to this category are legally
-obliged to leave the country. However, in many cases this obligation
-cannot be enforced due to practical (e.g. missing passports) or
-legal (e.g. family ties) reasons leading to prolonged durations of
-stay in this status.</p></li>
-</ol>
-<p>Figure 5.2: Statistics on foreigners seeking protection</p>
-<div class="figure">
-<img src="media/image2.png" style="width:6.4503in;height:3.93819in" alt="" />
-<p class="caption">A screenshot of a cell phone Description automatically
-generated</p>
-</div>
-<ol start="380" style="list-style-type: decimal">
-<li><p>By including granted and unsettled cases, the outlined concept
-follows the IRRS. However, the definition of foreigners seeking
-protection deviates from the IRRS in one aspect: The group of
-foreigners with a denied protection status does not include persons
-who entered on tourist, student or work visa but who have
-nonetheless fled persecution, war or violence in their home
-countries (IRRS 2018: pp. 26-29). This group cannot be identified in
-the administrative data at hand.</p></li>
-<li><p>Also see, <strong>UNECE-Eurostat Work Session on Migration Statistics
-October 2018</strong>:
-<a href="https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.10/2018/mtg1/DEU_Asylum_ENG.pdf" class="uri">https://www.unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.10/2018/mtg1/DEU_Asylum_ENG.pdf</a></p></li>
+<div id="development-of-questionnaires" class="section level3 ListParagraph">
+<h3><span class="header-section-number">12.1.1</span> Development of questionnaires</h3>
+<ol start="296" style="list-style-type: decimal">
+<li><p>The development of questionnaires for surveys and censuses should
+follow an easy to follow format, which optimises the sequence of the
+questions and the selection of collection tools which meet national
+needs and circumstances. The design and development of the
+questionnaire should follow the best practice experience and
+international recommendations wherever possible</p></li>
+<li><p>Paper questionnaire design must be driven by a planning process
+based upon dialogue between the NSO and the users and potential
+users of the results. The information to be collected must respond
+to user needs both at national and international levels and
+therefore user consultation, or in the case of new statistics
+potential users, is crucial in this regard. The recommendations of
+the IRIS and IRRS should be followed.</p></li>
 </ol>
 </div>
-</div>
-<div id="review-and-validate" class="section level2">
-<h2><span class="header-section-number">6.3</span> Review and validate</h2>
-<ol start="382" style="list-style-type: decimal">
-<li>This would include reviewing the data and assessing its quality,
-including checking for consistency, outliers and missing values (see
-also Phase 6.2 paragraph 462).</li>
+<div id="development-of-the-collection-methodology" class="section level3 ListParagraph">
+<h3><span class="header-section-number">12.1.2</span> Development of the collection methodology</h3>
+<ol start="298" style="list-style-type: decimal">
+<li>In undertaking a survey, the statistician in the build phase is
+faced with a decision about the use of paper or electronic format.
+The advantages and disadvantages of these are briefly discussed, but
+as the decision is not relevant specifically to displaced
+populations, except in so far as technological equipment may face
+particular challenges in areas affected by disaster or conflict.</li>
 </ol>
-<div id="example-holoclean-project" class="section level4">
-<h4><span class="header-section-number">6.3.0.1</span> Example: HoloClean project</h4>
-<ol start="383" style="list-style-type: decimal">
-<li>“HoloClean is a statistical inference engine to impute, clean, and
-enrich data. As a weakly supervised machine learning system,
-HoloClean leverages available quality rules, value correlations,
-reference data, and multiple other signals to build a probabilistic
-model that accurately captures the data generation process and uses
-the model in a variety of data curation tasks. HoloClean allows data
-practitioners and scientists to save the enormous time they spend in
-building piecemeal cleaning solutions, and instead, effectively
-communicate their domain knowledge in a declarative way to enable
-accurate analytics, predictions, and insights from noisy,
-incomplete, and erroneous data.” Further information is to be found
-at this <a href="http://www.holoclean.io/">Link</a>.</li>
+<pre><code>**Questionnaire with face-to-face interview (PAPI) **</code></pre>
+<ol start="299" style="list-style-type: decimal">
+<li><p>The face-to-face interview methods used paper questionnaire in most
+countries historically. However, as a result of advances in
+technology, new ways of enumerating populations have been
+introduced. The traditional method of enumerating the population
+with face-to-face interviews can now be applied with the use of
+handheld electronic devices or the telephone to automatically
+capture data during the interview. These approaches can either
+substitute or complement the traditional face-to-face, pen-and paper
+interviews (PAPI) and can also be used in a variety of combinations
+(multi-mode method).</p></li>
+<li><p>Advantages of the PAPI method: This is the most common method,
+especially in developing countries and in population groups with
+significant illiteracy rates. Data obtained from this method are
+potentially more complete and accurate because of the interaction
+between the enumerator and the respondent, and the opportunity to
+clarify some of the questions and probe for more adequate answers;</p></li>
+<li><p>Disadvantages of the PAPI method: The data collection phase of the
+survey may take longer (or require a larger interviewing force)
+compared to other modes of collection, because in-person
+interviewers typically operate alone with much less supervision and
+control, whereas CAP has some built controls. There may be greater
+interviewer variance in in-person interviews and there are also
+greater opportunities for interviewer falsification of some
+questionnaire items or for entire interviews.</p></li>
 </ol>
-</div>
-<div id="example-jips-guidance-on-data-processing" class="section level4">
-<h4><span class="header-section-number">6.3.0.2</span> Example: JIPS guidance on data processing: <span class="underline"></span></h4>
-<ol start="384" style="list-style-type: decimal">
-<li>This guidance includes the following topics. 1) Why processing the
-raw data is so important, 2) Checklist for processing the data, 3)
-Before you start, 4) Preparing the dataset, 5) Cleaning common
-errors, 6) Checking for unexpected values, and 6) Preparing
-variables for analysis. The link to this guidance is : <span class="underline"></span>
-<a href="https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf" class="uri">https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf</a></li>
+<pre><code>**Computer-assisted personal interviewing (CAPI) **</code></pre>
+<ol start="302" style="list-style-type: decimal">
+<li><p>In computer-assisted personal interviewing (CAPI), the enumerator
+obtains information from one or more household members through an
+interview using an electronic questionnaire (CAPI software
+application) loaded on a tablet or other handheld electronic device
+(e.g. PDAs and laptops). The enumerator asks the respondent
+questions in a face-to-face interview and the responses are recorded
+by the enumerator directly into the electronic device. Following the
+interview, the data are sent to a central computing network
+electronically via internet or other means of data transfer.</p></li>
+<li><p>Advantages of the CAPI method:</p></li>
 </ol>
-</div>
-<div id="example-data-quality-problems-in-administrative-registers-after-a-mass-influx-of-asylum-seekers---federal-statistical-office-of-germany" class="section level4">
-<h4><span class="header-section-number">6.3.0.3</span> Example: <strong>Data quality problems in administrative registers after a mass influx of asylum seekers - Federal Statistical Office of Germany</strong></h4>
-<ol start="385" style="list-style-type: decimal">
-<li><p>Reviewing data quality after a mass influx of asylum seekers
-requires special attention. Data quality issues in administrative
-data occur in particular during periods of mass influx when
-administrative procedures are overburdened with the large numbers of
-incoming asylum-seekers. When the increase in asylum applications is
-sudden and unexpected, it is difficult to scale-up existing
-administrative capacities for registration and refugee status
-determination. As a result, data quality in administrative registers
-is often poorest when the demand for data on refugees is highest.
-Reviewing and validating the available data becomes a crucial task
-for statisticians in those times, since they must judge whether data
-quality is sufficient for the production of official statistics.
-When using administrative data in immediate response to a mass
-influx, statisticians should look out for;</p></li>
-<li><p><strong>Delayed registrations:</strong> In response to humanitarian crises,
-organizing shelter and covering basic needs is a host country’s
-first priority. Refugee status determination comes afterwards.
-During periods of mass influx, asylum seekers may face prolonged
-waiting periods for officially lodging their asylum applications.
-Where asylum seekers are properly registered only after having
-lodged their asylum application, administrative registers will cover
-the newly arrived only with considerable time lack.</p></li>
-<li><p><strong>Incomplete and false registrations:</strong> Intending to assist
-overburdened immigration authorities, governments improvise and
-deviate from traditional workflows during periods of mass influx.
-Registration is then often no longer carried out by trained
-personnel in immigration offices but mobile registration units with
-the support of the armed forces and the police register asylum
-seekers in temporary accommodations or even in improvised reception
-facilities on the road. Considering that untrained staff registers
-displaced people who often lack official documents, incomplete and
-false registrations are hardly surprising.</p></li>
-<li><p><strong>Multiple registrations:</strong> When asylum seekers are distributed
-within the host country for accommodation, small differences in
-spelling or translations often cause double registration. Language
-barriers are especially problematic when translations between
-different alphabets are involved e.g. between the Arabic, Cyrillic
-and Latin alphabet. While taking and comparing fingerprint scans
-would solve most of the problem, the infrastructure is not always in
-place. Once entered in the register, duplicate entries are difficult
-to identify with certainty and can thus be expected to bias results
-for a prolonged period.</p></li>
+<pre><code>1.  Cost savings in data processing;
+
+2.  Improved quality of data mainly due to the possibility of having
+    electronic checks, managed skip patterns are managed and the
+    possibility of tailoring questions.
+
+3.  Shorter timelines for completion of data processing;
+
+4.  Improve monitoring of fieldwork and enables more efficient
+    management of interviewers, i.e. use of CAPI allows for a
+    detailed analysis of the time duration for completing the
+    questionnaire, as well as updating enumerators&#39; assignments and
+    checking of the completed questionnaires by the supervisors.</code></pre>
+<ol start="304" style="list-style-type: decimal">
+<li>Disadvantages of the CAPI method: When considering the CAPI method,
+the cost of providing all interviewers with the electronic device
+used to administer the questionnaire must be incorporated into the
+project budget.</li>
 </ol>
+<pre><code>5.  Each interviewer must have her or his own tablet computer for
+    data collection, which can represent a substantial initial
+    investment.
+
+6.  Cost of access to server hardware, software, server maintenance
+    and technical support.
+
+7.  Development of parameters for monitoring and controlling data
+    collection (paradata)</code></pre>
+<ol start="305" style="list-style-type: decimal">
+<li>While converting a paper questionnaire into an electronic format,
+the following aspects should be kept in mind:</li>
+</ol>
+<pre><code>8.  The wording and structure of some questions may need to be
+    changed to make it easier for the enumerators to work quickly
+    and accurately on the device;
+
+9.  Features which can be added: data validation, edits, and
+    preloaded answers;
+
+10. Questionnaire designers should consider how to take advantage of
+    the added features of an electronic questionnaire, particularly
+    the ability to: preload existing data; implement consistency
+    checks, range checks, and edits; take GPS coordinates; and offer
+    on-screen help features.</code></pre>
 </div>
+<div id="development-of-training-plan-evaluation-and-selection-of-human-resources" class="section level3 ListParagraph">
+<h3><span class="header-section-number">12.1.3</span> Development of training plan, evaluation and selection of human resources</h3>
+<ol start="306" style="list-style-type: decimal">
+<li><p>This part includes the development of materials for data collection
+(reference material for enumerators, logistics, logistics
+management), preparation of the technical document for the
+recruitment of external staff (including quantities), development of
+the human resource allocation plan (based on workload, distances,
+isolation, language spoken, gender, security, etc.).</p></li>
+<li><p>Enumerators and their supervisors should be conversant with
+languages or dialects of the area in which they will be working, and
+in the case of displaced persons there should be provision for
+interviewers who are fluent in the languages and dialects from the
+displaced persons place of origin. If this is not taken account of
+then any field operations may be impacted by poor response rates,
+and inability to collect good quality data.</p></li>
+<li><p>Many field staff are short-term temporary staff and maybe have
+limited experience or training in statistical data collection
+activities. The training should be delivered as close as possible to
+the time at which it is to be used in fieldwork. The training must
+follow a cascade principle: field work coordinator and supervisors
+must be trained by NSO staff and enumerators must be trained by
+supervisors.</p></li>
+<li><p>It is important to be give staff training to understand the
+following, and above all to be motivated to collect good quality
+data:</p></li>
+</ol>
+<pre><code>11. The importance of their duties,
+
+12. Confidentiality issues, particularly when dealing with
+    vulnerable respondents,
+
+13. The definitions and concepts used in statistics about
+    displacement which may be unfamiliar to many experienced field
+    staff (place of habitual residence, classification categories
+    etc,)
+
+14. The way they are expected to undertake those duties,
+
+15. Administrative issues,
+
+16. Definitions, mapping and other concepts,
+
+17. Quality assurance.</code></pre>
 </div>
-<div id="derive-new-variables-and-units" class="section level2">
-<h2><span class="header-section-number">6.4</span> Derive new variables and units</h2>
-<ol start="389" style="list-style-type: decimal">
-<li>This sub-process derives data for variables and units that are not
-explicitly provided in the collection but are needed to be estimated
-or derived to deliver the required outputs specified in Phase 2
-Build.</li>
+<div id="development-of-collaboration-agreements" class="section level3 ListParagraph">
+<h3><span class="header-section-number">12.1.4</span> Development of collaboration agreements</h3>
+<ol start="310" style="list-style-type: decimal">
+<li><strong>A communication plan</strong> must be developed in advance in order to
+explain the purpose of the survey to the respondents. The aim of a
+communication and publicity program is to support the operation of
+the survey and obtain a high-quality result through the following
+measures:</li>
 </ol>
 <ul>
-<li><p>Computing variables to measure the characteristics of IDPs and
-refugees and refugee related populations. Some examples of this,
-depending on user demands are:</p>
-<ol style="list-style-type: decimal">
-<li><p>Female headed household</p></li>
-<li><p>Family type/household composition</p></li>
-<li><p>Employment or labour market activity rate</p></li>
-<li><p>Total consumption</p></li>
-<li><p>Regional classifications</p></li>
-<li><p>Unaccompanied minors</p></li>
-<li><p>Returned to place of habitual residence</p></li>
-<li><p>Having overcome key displacement-related vulnerabilities (IDPs)</p></li>
-<li><p>Measures of integration (refugees)</p></li>
-<li><p>Durable solutions progress measure</p></li>
-<li><p>Refugee/IDP status</p></li>
-<li><p>Total household consumption/income</p></li>
-</ol></li>
+<li><p>Organizing a recruitment campaign for field staff, and in particular
+members of displaced groups to join the field force.</p></li>
+<li><p>Getting information about the reactions to the survey plans and
+activities from displaced people</p></li>
+<li><p>Organizing an awareness campaign to:</p>
+<ul>
+<li><p>Maximize awareness of when the survey will be carried out,</p></li>
+<li><p>Promote awareness of procedures and ways to get assistance with
+the survey topics,</p></li>
+<li><p>Address any issues that need clarification, and in particular
+addressing the needs of displaced people,</p></li>
+</ul></li>
+<li><p>Contacting organisations and community groups relevant to displaced
+people in order to get the full cooperation of respondents, and in
+particular building trust in the data collection activities and the
+uses of the data.</p></li>
+<li><p>Encourage respondents to cooperate to the best of their ability, and
+to ensure the salience of the topics to the displaced people to be
+interviewed.</p></li>
 </ul>
-<ol start="390" style="list-style-type: decimal">
-<li><p>Computing a variable for measuring progress towards a durable
-solution and identifying those who have overcome key
-displacement-related vulnerabilities is discussed in the IRIS, 2020.
-A set of indicators and related questions will be developed based on
-the 10 identified sub-criteria for overcoming key displacement
-related vulnerabilities (IRIS, Table 4.3) as well as sub-criteria
-related to the three remaining criteria for measuring progress
-towards durable solutions (see IRIS Chapter 4).</p></li>
-<li><p>The methodology for developing these indicators and a progress
-variable will be added to this Manual in future editions, once more
-data becomes available and the methodology agreed.</p></li>
-<li><p>Computing variables for measuring integration and the satisfaction
-of immediate and on-going needs of refugees and refugee related
-populations are set out at length in IRRS, 2018 Chapter 5. Further
-discussion of the indicators used to measure European refugee
-integration can be found at link
-<a href="https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf" class="uri">https://ec.europa.eu/home-affairs/sites/homeaffairs/files/e-library/documents/policies/legal-migration/general/docs/final_report_on_using_eu_indicators_of_immigrant_integration_june_2013_en.pdf</a>.</p></li>
-<li><p>Both the IRRS in Chapter 5, and IRIS in Chapter 4 Section B,
-discuss the use of the SDGs indicators for measuring the
-satisfaction of basic and immediate needs of displaced people, and
-measuring their progress towards integration or durable solutions.
-In constructing these indicators the following link to UNSD’s SDG
-metadata repository provides details of constructing the indicators
-concerned, <strong><a href="https://unstats.un.org/sdgs/metadata/">SDG Metadata
-Repository</a>.</strong></p></li>
+<ol start="311" style="list-style-type: decimal">
+<li><strong>Ethical aspects and vulnerable respondents</strong>. Interviewing
+Refugees or IDPs presents sensitivities, as any IDP or Refugee who
+identifies themselves as such could face threats from doing so or be
+stigmatised. The displaced population has special needs or
+conditions of interview, and the ‘no-harm’ principles and UN ethical
+standards on data collection and data protection must be applied.
+All enumerators, coordinators, data managers, and anyone involved in
+the development of the official statistics must be aware and follows
+such principles. (See e.g. <a href="https://publications.iom.int/books/iom-data-protection-manual">IOM data protection
+manual</a>,
+<a href="https://www.iom.int/press-room">IOM Data protection initiative</a>,
+<a href="https://www.icrc.org/en/publication/handbook-data-protection-humanitarian-action">Handbook on Data Protection in Humanitarian
+Action)</a>.</li>
 </ol>
 </div>
-<div id="calculate-weights-for-data-derived-from-probability-samples" class="section level2">
-<h2><span class="header-section-number">6.5</span> Calculate weights for data derived from probability samples</h2>
-<ol start="394" style="list-style-type: decimal">
-<li><p>This step involves Calculating weights for displaced populations
-obtained from household surveys based on probability samples to
-derive an estimate for the population (including hidden households,
-frame problems etc.).</p></li>
-<li><p>Utilise contents from tool sponsored by UNHCR and developed by
-Stats4SD
-<a href="https://stats4sd.org/resources/resource-bank/"><strong>https://stats4sd.org/resources/resource-bank/</strong></a></p></li>
+</div>
+<div id="test-production-system-1" class="section level2">
+<h2><span class="header-section-number">12.2</span> Test production system</h2>
+<ol start="312" style="list-style-type: decimal">
+<li><p>This section includes information on how to test the production
+system and the statistical business process is relevant when
+building new statistics whatever the covered statistical field. For
+example, providing list of the objectives as well as the types of
+tests to be used and best practices, even if it is generic, can be
+useful for compilers’.</p></li>
+<li><p><strong>Test collection tools</strong> on a number of units before the pilot
+survey. In a survey the collection tools consist of questionnaires
+and /or electronic data collection devices. This should be tested on
+a small number of units to make sure that the questions are well
+formulated, coherent and well sequenced. If using CAPI the
+collection program should be tested, and any bugs identified before
+the pilot survey. Some points to consider are:</p></li>
 </ol>
-<div id="phase-references-and-links-3" class="section level6">
-<h6><span class="header-section-number">6.5.0.0.0.1</span> Phase references and links</h6>
+<pre><code>18. How the respondents interpret the questions and are required to
+    think to come up with an answer.
+
+19. Clarity of the questions.
+
+20. The processing capacity of the technology (long questionnaires
+    may require a lot processor capacity and internal memory of the
+    device used, especially as the interview often needs to run
+    applications for maps and interview administration
+    simultaneously).
+
+21. Need to adapt the questions to the country context (i.e. taking
+    into account ethno-cultural characteristics and potentially
+    sensitive topics for vulnerable groups).
+
+22. Sending out the final version of the questionnaire to the
+    experts and line agencies/ministries for further recommendations
+    and their comments.</code></pre>
+<ol start="314" style="list-style-type: decimal">
+<li>Technical issues which can limit the efficiency of the data
+collection process or cause errors, these include;</li>
+</ol>
+<pre><code>23. Size of screen (may affect the ability of the enumerator to
+    record responses correctly);
+
+24. Length of battery life (considering daily workload of the field
+    staff particularly in challenging environments with poor access
+    to electricity);
+
+25. Processing capacity;
+
+26. Storage capacity.</code></pre>
+<ol start="315" style="list-style-type: decimal">
+<li><p>Testing of the data transferring tools for transferring information
+from the data collection instruments to secure storage in databases.
+The transmission of the data must make use of secure channels, using
+IT encryption and state-of-the-art data security standards. This is
+particularly important when dealing with vulnerable respondents
+where data security breaches may impact on their safety and
+security.</p></li>
+<li><p><strong>Testing of data treatment tools:</strong> The data processing involves a
+series of steps to convert the responses to the electronic
+questionnaire from their raw format to a high-quality user-friendly
+database with a comprehensive set of variables for the analysis. The
+processing tools consist mainly of data capture and editing software
+including the SCPRO developed by US Census, SPSS, and of course
+Excel. After collecting and entering data, several test operations
+are performed to remove errors in the files, to check the data to
+assess whether or not errors are of sufficient magnitude to impact
+on the results, to ensure consistency, code open questions, create
+variables useful for the analysis of data. and, finally, systematize
+and document variables to facilitate their use for analytical
+purposes.</p></li>
+<li><p><strong>Testing of dissemination tools:</strong> All information gains value
+through its use. This is to test the media that will be used to
+ensure the dissemination of data. This may be a program designed to
+make the case of Cameroon accessible to the database or to the data
+file, such as ANADOC. Other media to be tested may be the
+capabilities and quality of the CD-room and USB key, the mock-ups of
+the leaflets and brochures as well as the report formats.</p></li>
+</ol>
+<div id="phase-references-and-links-6" class="section level6">
+<h6><span class="header-section-number">12.2.0.0.0.1</span> Phase references and links</h6>
 <ul>
-<li><p>HoloClean<em>:</em> A Machine Learning System for Data Repair and
-Predictions on Structured Data.  It is a statistical inference
-engine to impute, clean, and enrich data. As a weakly supervised
-machine learning system, HoloClean leverages available quality
-rules, value correlations, reference data, and multiple other
-signals to build a probabilistic model that accurately captures the
-data generation process, and uses the model in a variety of data
-curation tasks. HoloClean allows data practitioners and scientists
-to save the enormous time they spend in building piecemeal cleaning
-solutions, and instead, effectively communicate their domain
-knowledge in a declarative way to enable accurate analytics,
-predictions, and insights from noisy, incomplete, and erroneous
-data. Link <a href="http://www.holoclean.io/">http://www.holoclean.io</a></p></li>
-<li><p>The link to JIPS Guidance on Data Processing is : <span class="underline"></span>
-<a href="https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf" class="uri">https://jet.jips.org/wp-content/uploads/Guidance-Data-Processing-Phase5-JET.pdf</a></p></li>
+<li>Reference on protecting respondents and their data; <a href="https://publications.iom.int/books/iom-data-protection-manual">IOM data
+protection
+manual</a>,
+<a href="https://www.iom.int/press-room">IOM Data protection initiative</a>,
+<a href="https://www.icrc.org/en/publication/handbook-data-protection-humanitarian-action">Handbook on Data Protection in Humanitarian
+Action)</a></li>
 </ul>
 
 </div>
@@ -706,8 +726,8 @@ data. Link <a href="http://www.holoclean.io/">http://www.holoclean.io</a></p></l
           </div>
         </div>
       </div>
-<a href="data-collection-phase.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="analyse-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="design-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-collection-phase-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -738,7 +758,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/edit/master/05-Processdata.Rmd",
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/edit/master/03-Buildasystemforcolletionofdataandproductionofstatistics.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -746,7 +766,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/blob/master/05-Processdata.Rmd",
+"link": "https://github.com/ExpertGroupRefugeeIDPStatistics/Compilers_manual/blob/master/03-Buildasystemforcolletionofdataandproductionofstatistics.Rmd",
 "text": null
 },
 "download": ["Compilers_manual_EGRIS.pdf", "Compilers_manual_EGRIS.epub"],
