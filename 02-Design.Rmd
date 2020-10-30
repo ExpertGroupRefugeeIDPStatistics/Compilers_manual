@@ -346,8 +346,8 @@ of overcoming displacement-related vulnerabilities
 Data Source A: Censuses of Population and Housing
 -------------------------------------------------
 
-Design collection
-------------------------
+### Design collection
+
 
 "This sub-process determines the most appropriate collection method(s)
 and instrument(s). The actual activities in this sub-process will vary
@@ -368,7 +368,7 @@ descriptions))". (UNECE, 2013)
     10. How coherent are the results when compared to other sources such
         > as surveys and administrative data?
 
-### EGRIS recommendations {#a.1.-egris-recommendations .ListParagraph}
+#### EGRIS recommendations {#a.1.-egris-recommendations .ListParagraph}
 
 89. The IRRS, 2018 includes a recommendation on identifying refugees in
     the population census, by asking about the main reason for the
@@ -477,7 +477,7 @@ Table 2.13: Census questions for the identification of refugees
 
 -   Where did you move to? (Within country borders/abroad)?
 
-### UNECE Recommendations for the 2020 Census Round {#a.2.-unece-recommendations-for-the-2020-census-round .ListParagraph}
+#### UNECE Recommendations for the 2020 Census Round {#a.2.-unece-recommendations-for-the-2020-census-round .ListParagraph}
 
 96. The UNECE makes recommendations for the 2020 Population Census round
     which cover many of the core variables required to screen the
@@ -530,7 +530,7 @@ Table 2.14: UNECE recommendations in the 2020 Population Census round
     although children with at least one IDP parent are allocated to the
     category 'IDP-related'.
 
-### Country Examples of Census Questions for Identifying Refugees and IDPs {#a.3.-country-examples-of-census-questions-for-identifying-refugees-and-idps .ListParagraph}
+#### Country Examples of Census Questions for Identifying Refugees and IDPs {#a.3.-country-examples-of-census-questions-for-identifying-refugees-and-idps .ListParagraph}
 
 100. Many countries have already taken steps towards identifying
     refugees. In the 2010 census round, there were 14 countries that
@@ -1008,10 +1008,11 @@ Table 2.16: IDP questions in selected censuses of population and housing
 
 Box 2.2: Afghanistan hybrid census
 
-Design Frame
--------------------
 
-### Dynamic population mapping {#a.-dynamic-population-mapping .ListParagraph}
+## Design Frame
+
+
+#### Dynamic population mapping {#a.-dynamic-population-mapping .ListParagraph}
 
 107. In order to ensure coverage of refugee and IDP population in a
     census it is essential to have an image of the places where the
@@ -1024,10 +1025,10 @@ Design Frame
     a picture for the size of the new refugee or IDP settlement which
     can help in planning census operations.
 
-Design Processing and Analysis
--------------------------------------
+### Design Processing and Analysis
 
-### Quality Assessment -- the Post Enumeration Survey {#a.1.-quality-assessment-the-post-enumeration-survey .ListParagraph}
+
+#### Quality Assessment -- the Post Enumeration Survey {#a.1.-quality-assessment-the-post-enumeration-survey .ListParagraph}
 
 108. Assessing the quality of population and housing census data is an
     integral part of the census operation. UNFPA advocates for more
@@ -1085,7 +1086,7 @@ Design Processing and Analysis
     status, or young girls' ages and number of children, etc.) indicate
     poor data quality. But not all errors lead to inconsistencies.
 
-### PES Design {#a.2.-pes-design .ListParagraph}
+#### PES Design {#a.2.-pes-design .ListParagraph}
 
 113. Depending on the design of the PES sample, the household
     identification can be more or less rigorous. The following designs
@@ -1117,7 +1118,7 @@ Design Processing and Analysis
     only viable option and even this may be challenging if the
     conditions listed above are not satisfied.
 
-### PES Analysis {#a.3.-pes-analysis .ListParagraph}
+#### PES Analysis {#a.3.-pes-analysis .ListParagraph}
 
 115. A specific subject that requires planning and attention is how to
     deal with any changes in the situation of the households, that could
@@ -1209,8 +1210,8 @@ Design Processing and Analysis
 Data Source B: Sample Surveys
 -----------------------------
 
-Design Collection
-------------------------
+### Design Collection
+
 
 121. This section includes recommended modules and modes of collecting
     data from probability samples, most often household surveys. The
@@ -1220,7 +1221,7 @@ Design Collection
     displaced, and a displacement module which could be added to surveys
     to collect information specifically about the displaced.
 
-### Refugee questionnaires and methodology {#b.1.-refugee-questionnaires-and-methodology .ListParagraph}
+#### Refugee questionnaires and methodology {#b.1.-refugee-questionnaires-and-methodology .ListParagraph}
 
 122. There are several examples of methodologies for collecting refugee
     statistics from household surveys. There are two possible
@@ -1260,7 +1261,7 @@ Box 2.3: Jordan: The living conditions of Syrian refugees in Jordan:
 Results from the 2017-2018 survey of Syrian refugees inside and outside
 camps
 
-### IDP Survey questionnaires {#b.2.-idp-survey-questionnaires .ListParagraph}
+#### IDP Survey questionnaires {#b.2.-idp-survey-questionnaires .ListParagraph}
 
 125. IRIS, 2020 recommends adding a set of screening questions to
     national household surveys similar to those recommended for
@@ -1303,7 +1304,7 @@ Given this context, light touch adaptations to the design of the survey
 that prime the idea of honesty offer to make big improvements to the
 quality of the data and support provisions the data informs.[^4]
 
-### Country Examples of Questionnaires found in PART II {#b.3.-country-examples-of-questionnaires-found-in-part-ii .ListParagraph}
+#### Country Examples of Questionnaires found in PART II {#b.3.-country-examples-of-questionnaires-found-in-part-ii .ListParagraph}
 
 129. Cameroon example of survey questions for identifying refugees and
     IDPs (See Part II of this Manual paragraph 557)
@@ -1336,8 +1337,8 @@ quality of the data and support provisions the data informs.[^4]
 >
 > MODULE K: Enumerator Feedback - Questions: 12.
 
-Design Frame
--------------------
+### Design Frame
+
 
 "This only applies to processes which involve data collection based on
 sampling, such as statistical surveys. It identifies and specifies the
@@ -1354,7 +1355,7 @@ performed. A sampling plan should be made: The actual sample is created
 in sub-process 4.1 (Create frame and select sample), using the
 methodology, specified in this sub-process". (UNECE, 2013)
 
-### Sampling Frames {#b.1.-sampling-frames .ListParagraph}
+#### Sampling Frames {#b.1.-sampling-frames .ListParagraph}
 
 131. A sample is a subset of units drawn from the target population of
     interest. It is not usually convenient, efficient or possible to
@@ -1565,8 +1566,8 @@ iv. Innovative sampling methodology (e.g. example above of Turkey
 Data Source C: Administrative Data Including Population Registers
 -----------------------------------------------------------------
 
-Design Collection
-------------------------
+### Design Collection
+
 
 146. There are several potential sources of non-survey data on displaced
     people, the first is national population registers, the second is
@@ -1682,14 +1683,14 @@ Design Collection
     applications" and "persons \[covered by these cases or
     applications\]" and consequently to be registered.
 
-### Population Registers {#c.1.-population-registers .ListParagraph}
+#### Population Registers {#c.1.-population-registers .ListParagraph}
 
 158. Part 2 of this Manual provides a number of Case Studies, and
     several case studies of Population Registers as the basis for
     displacement statistics are described briefly below, more
     information can be found in Part II.
 
-#### Hungary (see Part II Hungary)
+##### Hungary (see Part II Hungary)
 
 159. In Hungary both the National Directorate-General For Aliens
     Policing (NDGAP) and the Hungarian Central Statistical Office (HCSO)
@@ -1722,7 +1723,7 @@ Design Collection
     (refugees, subsidiary protected, and persons taken under subsidiary
     protection) on a quarter-year basis.
 
-#### Norway (see also Part II Norway)
+##### Norway (see also Part II Norway)
 
 163. Refugee statistics in Norway are produced from administrative data.
     All asylum seekers must register with the Norwegian immigration
@@ -1759,7 +1760,7 @@ Design Collection
     many case processing tasks can be resolved simply based on case
     documents.
 
-#### Turkey Refugee Statistics (see Part II Turkey)
+##### Turkey Refugee Statistics (see Part II Turkey)
 
 167. All addresses within the boundaries of the country were registered
     in the National Address Database (NAD) in 2006, and by linking
@@ -1830,7 +1831,7 @@ Design Collection
     2014, 2.5 million in 2015, 3.5 million in 2017 and almost 3.6
     million as of June 2018.
 
-### Refugee and IDP Registers {#c.2.-refugee-and-idp-registers .ListParagraph}
+#### Refugee and IDP Registers {#c.2.-refugee-and-idp-registers .ListParagraph}
 
 173. Registration data provides valuable information humanitarian
     agencies about the **overall demographic and other characteristics**
@@ -1851,7 +1852,7 @@ Design Collection
     This section provides examples of registers maintained by both
     governments and the UNHCR registration system.
 
-#### Bosnia and Herzegovina (see Part II Bosnia and Herzegovina)
+##### Bosnia and Herzegovina (see Part II Bosnia and Herzegovina)
 
 175. Statistics on IDPs and refugees are produced by a member of the
     National Statistical System, the Ministry of Human Rights and
@@ -1878,7 +1879,7 @@ Design Collection
     These questions include their habitual place of residence place of
     residence and returns and legal status.
 
-#### Colombia (see Part II Colombia)
+##### Colombia (see Part II Colombia)
 
 178. The National Planning Department and the National Department for
     Social Prosperity collect and produce official statistics on the
@@ -1929,7 +1930,7 @@ Design Collection
 183. For statistical purposes, an IDP is taken out of the stock when
     they overcome displacement related vulnerabilities.
 
-#### Ukraine (see Part II Ukraine)
+##### Ukraine (see Part II Ukraine)
 
 184. The Ministry of Social Policy in Ukraine is responsible for
     ensuring the creation and maintenance of a Unified Information
@@ -1949,7 +1950,7 @@ Design Collection
     characteristics of IDPs and IDP households. One challenge the IOM
     faces, is to have an updated sample for their survey.
 
-#### UNHCR Registration Systems (see Part III for more information and Part II for a specimen data sharing agreement between UNHCR and national governments (page 222)
+##### UNHCR Registration Systems (see Part III for more information and Part II for a specimen data sharing agreement between UNHCR and national governments (page 222)
 
 186. Registration data for 'Operational Planning and Programming' is
     required for designing, planning and delivering suitable programmes
@@ -2048,8 +2049,8 @@ Design Collection
 Data Source D: Integrated Data, Combining Data from Different Sources
 ---------------------------------------------------------------------
 
-Design Collection
-------------------------
+### Design Collection
+
 
 196. Because of the variety and the varying coverage of the possible
     sources containing statistical information on refugee and internally
@@ -2102,7 +2103,7 @@ Design Collection
     statistical processes, such as the quality assessment or the design
     of the process.
 
-### Output objectives of data integration {#d.1.-output-objectives-of-data-integration .ListParagraph}
+#### Output objectives of data integration {#d.1.-output-objectives-of-data-integration .ListParagraph}
 
 201. *The output objectives of data integration* should be defined at
     the very first stage. The feasibility and quality of the foreseen
@@ -2222,7 +2223,7 @@ different data sources
 |           |           |           |           |           | lity      |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
-### Data availability, accessibility and other requirements {#d.2.-data-availability-accessibility-and-other-requirements .ListParagraph}
+#### Data availability, accessibility and other requirements {#d.2.-data-availability-accessibility-and-other-requirements .ListParagraph}
 
 203. The design of the integration methodology constitutes one of the
     main tasks to be realised in data integration. Besides the technical
@@ -2501,7 +2502,7 @@ Table 2.18: Access requirement according to various sources
     Confid*entiality provides a short presentation of data encryption,
     pseudonymisation and anonymisation techniques.
 
-### Possible sources of data for integration  {#d.3.-possible-sources-of-data-for-integration .ListParagraph}
+#### Possible sources of data for integration  {#d.3.-possible-sources-of-data-for-integration .ListParagraph}
 
 214. The possible sources for refugee and IDPs statistics are various
     and extensive. Before considering any kind of data integration, a
@@ -2656,7 +2657,7 @@ integration
     cases, micro and macro data integration, output objectives of the
     foreseen process must be well defined.
 
-### Overview on linking several data sources {#d.4.-overview-on-linking-several-data-sources .ListParagraph}
+#### Overview on linking several data sources {#d.4.-overview-on-linking-several-data-sources .ListParagraph}
 
 217. One of the main challenges in any data integration project is how
     to establish the link between the different data sets, and the fact
@@ -2704,7 +2705,8 @@ height="4.065277777777778in"}
 
 ###  {#section-4 .ListParagraph}
 
-2.5.D. Design, processing and analysis
+
+Design, processing and analysis
 --------------------------------------
 
 219. This section describes the different tasks required by data
